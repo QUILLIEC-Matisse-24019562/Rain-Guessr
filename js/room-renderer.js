@@ -1,12 +1,11 @@
 /**
  * SVG-based Room Renderer for Rain-Guessr
- * Loads room geometry from text files and renders them as canvas images
- * embedded in SVG for performance
+ * Uses precompiled map data for fast loading, with fallback to original method
  */
 
 const RoomRenderer = {
   // Configuration
-  TILE_SIZE: 15, // Size of each tile in pixels (reduced for performance)
+  TILE_SIZE: 15,
   TILE_TYPES: {
     '.': '#1a1a1a',
     '#': '#444',
@@ -22,7 +21,8 @@ const RoomRenderer = {
   roomsCache: {},
   regionPositions: {},
   allRooms: {}, // Store all loaded room data
-  canvasCache: {}, // Cache for rendered canvas images
+  precompiledData: null, // Precompiled map data
+  usePrecompiled: false, // Flag to use precompiled data
 
   /**
    * Initialize the renderer
@@ -30,12 +30,55 @@ const RoomRenderer = {
   async init() {
     console.log('Initializing Room Renderer...');
     try {
+      // Try to load precompiled data first
+      const precompiled = await this.loadPrecompiledData();
+      
+      if (precompiled && precompiled.rooms && Object.keys(precompiled.rooms).length > 0) {
+        console.log('Using precompiled map data');
+        this.usePrecompiled = true;
+        this.precompiledData = precompiled;
+        this.regionPositions = precompiled.regionPositions || {};
+        this.allRooms = precompiled.rooms;
+        console.log(`Precompiled data loaded: ${precompiled.totalRooms} rooms`);
+        console.log(`Regions available: ${Object.keys(this.allRooms).join(', ')}`);
+        return true;
+      } else {
+        console.log('Precompiled data is incomplete or empty');
+      }
+      
+      // Fallback to original loading method
+      console.log('Precompiled data not available, loading from files');
+      this.usePrecompiled = false;
       await this.loadRegionPositions();
       await this.loadAllRoomMetadata();
       return true;
     } catch (error) {
       console.error('Failed to initialize Room Renderer:', error);
       return false;
+    }
+  },
+
+  /**
+   * Load precompiled map data
+   */
+  async loadPrecompiledData() {
+    try {
+      console.log('Attempting to fetch ../json/map-data.json');
+      const response = await fetch('../json/map-data.json');
+      console.log('Fetch response received, status:', response.status);
+      
+      if (!response.ok) {
+        console.log('Precompiled data not found, status:', response.status);
+        return null;
+      }
+
+      const data = await response.json();
+      console.log(`Loaded precompiled data: ${data.totalRooms} rooms`);
+      return data;
+    } catch (error) {
+      console.error('Error loading precompiled data:', error);
+      console.error('Error details:', error.message, error.stack);
+      return null;
     }
   },
 
@@ -221,7 +264,7 @@ const RoomRenderer = {
   },
 
   /**
-   * Render room geometry to a canvas image (outline only for performance)
+   * Render room geometry to a canvas image (room outline only)
    */
   renderRoomToCanvas(roomData) {
     if (!roomData || !roomData.width || !roomData.height) {
@@ -236,55 +279,14 @@ const RoomRenderer = {
     canvas.height = height;
     const ctx = canvas.getContext('2d');
 
-    // Transparent background (no fill, just outline)
+    // Transparent background
     ctx.fillStyle = 'rgba(0, 0, 0, 0)';
     ctx.fillRect(0, 0, width, height);
 
-    // Draw walls/outline only for visible structure
-    for (let y = 0; y < roomData.tileMap.length; y++) {
-      const row = roomData.tileMap[y];
-      for (let x = 0; x < row.length; x++) {
-        const tile = row[x];
-        
-        // Only draw walls and special structures, skip empty spaces
-        if (tile === '#' || tile === 'H' || tile === '=' || tile === '+') {
-          const color = this.TILE_TYPES[tile] || '#444';
-          ctx.fillStyle = color;
-          ctx.fillRect(x * this.TILE_SIZE, y * this.TILE_SIZE, this.TILE_SIZE, this.TILE_SIZE);
-        }
-      }
-    }
-
-    // Draw poles/barriers as thin lines for clarity
-    for (let y = 0; y < roomData.tileMap.length; y++) {
-      const row = roomData.tileMap[y];
-      for (let x = 0; x < row.length; x++) {
-        const tile = row[x];
-        
-        if (tile === '|') {
-          // Vertical pole - draw as vertical line
-          ctx.strokeStyle = '#666';
-          ctx.lineWidth = 2;
-          ctx.beginPath();
-          ctx.moveTo(x * this.TILE_SIZE + this.TILE_SIZE / 2, y * this.TILE_SIZE);
-          ctx.lineTo(x * this.TILE_SIZE + this.TILE_SIZE / 2, (y + 1) * this.TILE_SIZE);
-          ctx.stroke();
-        } else if (tile === '-') {
-          // Horizontal pole - draw as horizontal line
-          ctx.strokeStyle = '#666';
-          ctx.lineWidth = 2;
-          ctx.beginPath();
-          ctx.moveTo(x * this.TILE_SIZE, y * this.TILE_SIZE + this.TILE_SIZE / 2);
-          ctx.lineTo((x + 1) * this.TILE_SIZE, y * this.TILE_SIZE + this.TILE_SIZE / 2);
-          ctx.stroke();
-        }
-      }
-    }
-
-    // Draw room border
+    // Draw only the room border with thicker line
     ctx.strokeStyle = '#0f0';
-    ctx.lineWidth = 2;
-    ctx.strokeRect(0, 0, width, height);
+    ctx.lineWidth = 6;
+    ctx.strokeRect(3, 3, width - 6, height - 6);
 
     return canvas;
   },
@@ -298,15 +300,23 @@ const RoomRenderer = {
       return null;
     }
 
-    const regionPos = this.regionPositions[roomData.regionCode];
-    if (!regionPos) {
-      console.warn(`No position data for region ${roomData.regionCode}`);
-      return null;
+    // Get world position
+    let worldX, worldY;
+    
+    if (this.usePrecompiled && roomData.worldPos) {
+      // Use precompiled world position
+      worldX = roomData.worldPos.x;
+      worldY = roomData.worldPos.y;
+    } else {
+      // Calculate from region position and room position
+      const regionPos = this.regionPositions[roomData.regionCode];
+      if (!regionPos) {
+        console.warn(`No position data for region ${roomData.regionCode}`);
+        return null;
+      }
+      worldX = (regionPos.x + roomData.position.x) * this.TILE_SIZE;
+      worldY = (regionPos.y + roomData.position.y) * this.TILE_SIZE;
     }
-
-    // Calculate world position
-    const worldX = (regionPos.x + roomData.position.x) * this.TILE_SIZE;
-    const worldY = (regionPos.y + roomData.position.y) * this.TILE_SIZE;
 
     // Render to canvas
     const canvas = this.renderRoomToCanvas(roomData);
@@ -356,7 +366,7 @@ const RoomRenderer = {
     label.setAttribute('font-weight', 'bold');
     label.setAttribute('class', 'room-label');
     label.setAttribute('pointer-events', 'none');
-    label.textContent = roomData.name.split('_')[1] || roomData.name;
+    label.textContent = roomData.name || (roomData.fullName && roomData.fullName.split('_')[1]) || '';
     roomGroup.appendChild(label);
 
     // Add to SVG
@@ -372,29 +382,31 @@ const RoomRenderer = {
    */
   async renderRegion(regionCode, svgGroup) {
     console.log(`Rendering region ${regionCode}...`);
-    const roomNames = this.allRooms[regionCode] || [];
     
-    if (roomNames.length === 0) {
+    // Get rooms for this region
+    const roomsData = this.allRooms[regionCode] || [];
+    
+    if (roomsData.length === 0) {
+      console.log(`No rooms found for region ${regionCode}`);
       return 0;
     }
 
     let renderedCount = 0;
-    const batchSize = 5; // Render 5 rooms in parallel at a time
+    const batchSize = 50; // Render 50 rooms at a time (now that rendering is very fast)
 
-    // Process rooms in batches to avoid blocking the UI
-    for (let i = 0; i < roomNames.length; i += batchSize) {
-      const batch = roomNames.slice(i, i + batchSize);
+    // Process rooms in batches
+    for (let i = 0; i < roomsData.length; i += batchSize) {
+      const batch = roomsData.slice(i, i + batchSize);
       
       // Render batch in parallel
-      const renderPromises = batch.map(async (roomName) => {
+      const renderPromises = batch.map(async (roomData) => {
         try {
-          const roomData = await this.loadRoomGeometry(regionCode, roomName);
-          if (roomData) {
+          if (roomData && roomData.width > 0 && roomData.height > 0) {
             this.renderRoomToSVG(roomData, svgGroup);
             return 1;
           }
         } catch (error) {
-          console.warn(`Error rendering ${regionCode}/${roomName}:`, error);
+          console.warn(`Error rendering ${regionCode}/${roomData.name}:`, error);
         }
         return 0;
       });
@@ -402,8 +414,8 @@ const RoomRenderer = {
       const results = await Promise.all(renderPromises);
       renderedCount += results.reduce((sum, val) => sum + val, 0);
       
-      // Allow UI to update between batches
-      await new Promise(resolve => setTimeout(resolve, 10));
+      // Allow UI to update between batches (less frequent now)
+      await new Promise(resolve => setTimeout(resolve, 5));
     }
 
     console.log(`Rendered ${renderedCount} rooms for ${regionCode}`);
@@ -417,22 +429,16 @@ const RoomRenderer = {
     console.log('Rendering all regions...');
     const regions = Object.keys(this.allRooms);
     
-    // Render 3 regions in parallel at a time to prevent blocking
+    // Render all 11 regions in parallel now that data is lightweight
     let totalRooms = 0;
-    const regionBatchSize = 3;
 
-    for (let i = 0; i < regions.length; i += regionBatchSize) {
-      const regionBatch = regions.slice(i, i + regionBatchSize);
-      
-      // Render region batch in parallel
-      const renderPromises = regionBatch.map(region => this.renderRegion(region, svgGroup));
-      const counts = await Promise.all(renderPromises);
-      
-      totalRooms += counts.reduce((sum, count) => sum + count, 0);
-      
-      // Allow UI to update between region batches
-      await new Promise(resolve => setTimeout(resolve, 50));
-    }
+    const regionBatch = regions.slice(0, 11); // All regions at once
+    
+    // Render all regions in parallel
+    const renderPromises = regionBatch.map(region => this.renderRegion(region, svgGroup));
+    const counts = await Promise.all(renderPromises);
+    
+    totalRooms += counts.reduce((sum, count) => sum + count, 0);
 
     console.log(`Total rooms rendered: ${totalRooms}`);
     return totalRooms;
