@@ -1,65 +1,136 @@
+/**
+ * Map Pan & Zoom Script
+ * Handles dragging and zooming for SVG map
+ */
+
 const container = document.getElementById('map-container');
-const map = document.getElementById('map');
+const svg = document.getElementById('map-svg');
 
-let isDragging = false; // État du drag
-let startX = 0, startY = 0; // Position initiale de la souris au clic
-let currentX = 0, currentY = 0; // Décalage actuel de la carte
-let offsetX = 0, offsetY = 0; // Position finale accumulée après drag
-let scale = 1; // Facteur de zoom initial
+let isDragging = false;
+let startX = 0, startY = 0;
+let currentX = 0, currentY = 0;
+let offsetX = 0, offsetY = 0;
+let scale = 1;
 
-// Gestion du zoom avec la molette
+// Make isDragging globally accessible
+window.isDragging = false;
+
+// Ensure container and svg exist
+if (!container || !svg) {
+    console.error('Map container or SVG not found');
+}
+
+/**
+ * Gestion du zoom avec la molette
+ */
 container.addEventListener('wheel', (e) => {
-  e.preventDefault(); // Empêche le comportement par défaut (scroll)
+    e.preventDefault();
 
-  // Intensité du zoom (proportionnelle à l'échelle actuelle)
-  const zoomIntensity = 0.1 * scale; // Plus le zoom est élevé, plus l'effet est amplifié
-  const delta = e.deltaY > 0 ? -zoomIntensity : zoomIntensity; // Zoom avant/arrière
-  scale = Math.min(Math.max(0.5, scale + delta), 10); // Limite le zoom entre 0.5 et 10
+    // Get mouse position relative to SVG
+    const rect = svg.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
 
-  // Appliquer le zoom tout en préservant la position actuelle
-  map.style.transform = `translate(${currentX}px, ${currentY}px) scale(${scale})`;
+    // Calculate zoom
+    const zoomIntensity = 0.1 * scale;
+    const delta = e.deltaY > 0 ? -zoomIntensity : zoomIntensity;
+    const newScale = Math.min(Math.max(0.1, scale + delta), 10);
+
+    // Adjust position to zoom towards mouse
+    const scaleDiff = newScale - scale;
+    offsetX -= mouseX * scaleDiff / scale;
+    offsetY -= mouseY * scaleDiff / scale;
+
+    scale = newScale;
+    currentX = offsetX;
+    currentY = offsetY;
+
+    applyTransform();
 });
 
-// Début du drag au clic gauche
+/**
+ * Début du drag au clic gauche
+ */
 container.addEventListener('mousedown', (e) => {
-  if (e.button !== 0) return; // Ne réagit qu'au clic gauche
-  e.preventDefault(); // Empêche la sélection de texte
-  isDragging = true; // Active l'état de drag
-  container.style.cursor = 'grabbing'; // Change le curseur
+    // Only drag on left click, not on SVG elements
+    if (e.button !== 0) return;
+    
+    // Don't drag if clicking on a room (allow room selection)
+    const target = e.target.closest('.room-group');
+    if (target) return;
 
-  // Sauvegarde de la position initiale de la souris
-  startX = e.pageX - offsetX;
-  startY = e.pageY - offsetY;
+    e.preventDefault();
+    isDragging = true;
+    window.isDragging = true;
+    container.style.cursor = 'grabbing';
+
+    startX = e.pageX - offsetX;
+    startY = e.pageY - offsetY;
 });
 
-// Déplacement pendant le drag
+/**
+ * Déplacement pendant le drag
+ */
 container.addEventListener('mousemove', (e) => {
-  if (!isDragging) return; // Arrête si on ne drag pas
+    if (!isDragging) return;
 
-  // Calcul du déplacement
-  offsetX = e.pageX - startX;
-  offsetY = e.pageY - startY;
+    offsetX = e.pageX - startX;
+    offsetY = e.pageY - startY;
 
-  // Mise à jour de la position actuelle de la carte
-  currentX = offsetX;
-  currentY = offsetY;
+    currentX = offsetX;
+    currentY = offsetY;
 
-  // Appliquer la transformation
-  map.style.transform = `translate(${currentX}px, ${currentY}px) scale(${scale})`;
+    applyTransform();
 });
 
-// Fin du drag au relâchement du bouton de la souris
+/**
+ * Fin du drag
+ */
 container.addEventListener('mouseup', () => {
-  if (isDragging) {
-    isDragging = false; // Désactive le drag
-    container.style.cursor = 'grab'; // Change le curseur
-  }
+    if (isDragging) {
+        isDragging = false;
+        window.isDragging = false;
+        container.style.cursor = 'grab';
+    }
 });
 
-// Annuler le drag si la souris quitte le conteneur
+/**
+ * Annuler le drag si la souris quitte le conteneur
+ */
 container.addEventListener('mouseleave', () => {
-  if (isDragging) {
-    isDragging = false; // Désactive le drag
-    container.style.cursor = 'grab'; // Change le curseur
-  }
+    if (isDragging) {
+        isDragging = false;
+        window.isDragging = false;
+        container.style.cursor = 'grab';
+    }
 });
+
+/**
+ * Apply CSS transform to SVG
+ */
+function applyTransform() {
+    svg.style.transform = `translate(${currentX}px, ${currentY}px) scale(${scale})`;
+}
+
+/**
+ * Reset map view
+ */
+function resetMapView() {
+    scale = 1;
+    offsetX = 0;
+    offsetY = 0;
+    currentX = 0;
+    currentY = 0;
+    applyTransform();
+    console.log('Map view reset');
+}
+
+// Export functions for use in other scripts
+window.mapControls = {
+    getScale: () => scale,
+    setScale: (newScale) => { scale = newScale; applyTransform(); },
+    getOffset: () => ({ x: offsetX, y: offsetY }),
+    setOffset: (x, y) => { offsetX = x; offsetY = y; applyTransform(); },
+    reset: resetMapView
+};
+

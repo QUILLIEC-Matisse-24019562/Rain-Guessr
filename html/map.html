@@ -5,15 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Let's play Rain Guessr.">
-    <title>Rain Guessr</title>
+    <title>Rain Guessr - Map</title>
     <link id="stylesheet" rel="stylesheet" href='../css/style-map.css'>
-    <!--<script src="../js/script.js" defer></script>-->
     <link rel="icon" href="../pictures/ico/survivor_head1.ico"> 
 </head>
 <body>
-    <button><a href="../index.html">RETURN</a></button>
-    <div id="map-container">
-        <div id="map"></div>
+    <div id="ui-container">
+        <button id="return-btn"><a href="../index.html">RETURN</a></button>
+        <div id="room-info" class="hidden">
+            <span id="room-name">Room Name</span>
+        </div>
+        <div id="score-info">
+            <p>Click a room to select it</p>
+        </div>
     </div>
+    
+    <div id="map-container">
+        <svg id="map-svg" width="20000" height="20000">
+            <!-- Background grid -->
+            <defs>
+                <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+                    <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+                </pattern>
+            </defs>
+            <rect width="20000" height="20000" fill="#0a0a0a"/>
+            <rect width="20000" height="20000" fill="url(#grid)"/>
+            
+            <!-- Rooms will be rendered here -->
+            <g id="rooms-group"></g>
+            
+            <!-- Selected point will be drawn here -->
+            <g id="selection-group"></g>
+        </svg>
+    </div>
+
+    <script src="../js/room-renderer.js" defer></script>
+    <script src="../js/map-init.js" defer></script>
+    <script src="../js/moving_map_script.js" defer></script>
 </body>
 </html>
