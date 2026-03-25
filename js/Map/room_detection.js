@@ -1,83 +1,77 @@
-let gl;
-let geometry;
-const roomBoundaries = {};
+// room_detection.js
+// Relies on: canvas, roomBoundaries — both defined in render.js
+// Load order in HTML: render.js first, then room_detection.js
 
-// Wait until the DOM (HTML Document) is loaded
 window.addEventListener("DOMContentLoaded", () => {
-    console.log("Initialisation of WebGL...");
-    
-    //try yo load the canvas to draw (the line) on the page
-    let canvas = document.querySelector("#canvas");
-    if (!canvas) {
-        console.error("Error : Impossible to find the canvas");
-        return;
-    }
-    //try to get the webgl context
-    gl = canvas.getContext("webgl");
-    if (!gl) {
-        console.error("Error : Impossible to initialize Webgl");
-        return;
-    }
+    const tooltip = document.getElementById("room-tooltip");
 
-    gl.enable(gl.BLEND); //enable transparent color
-    gl.blendFuncSeparate(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA, gl.SRC_ALPHA, gl.ONE);
-    console.log("WebGL initialize with success !");
+    canvas.addEventListener("mousemove", (event) => {
+        const rect = canvas.getBoundingClientRect();
+
+        // --- Convert mouse pixel position to raw map space ---
+        //
+        // renderRoom() maps raw map coords to WebGL NDC via:
+        //   ndcX = (mapX / canvas.width)  * 2      → range [-1, 1]
+        //   ndcY = (mapY / canvas.height) * 2      → range [-1, 1]
+        //
+        // WebGL NDC (0,0) = canvas center, X right, Y up.
+        // Mouse pixels: (0,0) = top-left, Y grows downward.
+        //
+        // Step 1 — pixel → NDC:
+        //   ndcX =  (mousePixelX / canvas.width)  * 2 - 1
+        //   ndcY = -((mousePixelY / canvas.height) * 2 - 1)   ← flip Y
+        //
+        // Step 2 — NDC → map space (inverse of renderRoom transform):
+        //   mapX = ndcX * canvas.width  / 2
+        //   mapY = ndcY * canvas.height / 2
+
+        const mousePixelX = event.clientX - rect.left;
+        const mousePixelY = event.clientY - rect.top;
+
+        const ndcX =  (mousePixelX / canvas.width)  * 2 - 1;
+        const ndcY = -((mousePixelY / canvas.height) * 2 - 1);
+
+        const mapX = ndcX * canvas.width  / 2;
+        const mapY = ndcY * canvas.height / 2;
+
+        const roomName = detectRoomCollision(mapX, mapY);
+
+        if (roomName) {
+            renderBoundaryHighlight(roomName);
+            if (tooltip) {
+                tooltip.textContent = roomName;
+                tooltip.style.display = "block";
+                tooltip.style.left = (event.clientX + 14) + "px";
+                tooltip.style.top  = (event.clientY - 28) + "px";
+            }
+        } else {
+            clearHighlight();
+            if (tooltip) tooltip.style.display = "none";
+        }
+    });
+
+    canvas.addEventListener("mouseleave", () => {
+        clearHighlight();
+        if (tooltip) tooltip.style.display = "none";
+    });
 });
 
-let map_path = "../map/World/Regions/Rooms";
-let rooms = {}; // Store the rooms by region
+/**
+ * Returns the room key (e.g. "SU/SU_A01") if the map-space point
+ * (mapX, mapY) falls inside any room boundary, otherwise null.
+ */
+function detectRoomCollision(mapX, mapY) {
+    for (const [roomKey, { x1, y1, x2, y2 }] of Object.entries(roomBoundaries)) {
+        // roomBoundaries uses raw map space, same space as mapX/mapY
+        const minX = Math.min(x1, x2);
+        const maxX = Math.max(x1, x2);
+        const minY = Math.min(y1, y2);
+        const maxY = Math.max(y1, y2);
 
-console.log("Starting to load rooms map from :", map_path);
-
-// get the list of regions
-fetch(map_path + "/regions.txt")
-    .then(response => response.text())
-    .then(async function(data) {
-        let region_abbrs = data.replaceAll("\r", "").split("\n").map(region => region.trim()).filter(region => region !== "");
-
-        let fetchPromises = region_abbrs.map(region =>
-            fetch(map_path + "/" + region + "/cf-" + region + ".txt")
-                .then(response => response.text())
-                .then(data => {
-                    rooms[region] = data.split("\n").map(room => room.trim()); // store the list of rooms by region
-                })
-                .catch(error => console.error("Error while loading rooms for region " + region, error))
-        );
-
-        // Wait until all room lists are loaded
-        await Promise.all(fetchPromises);
-        initRender();
-
-        // Load all room geometries
-        let loadRegionPromises = Object.keys(rooms).map(region => loadRegion(region));
-        let geometryArray = await Promise.all(loadRegionPromises);
-
-        geometryArray.forEach(geometry => {
-            if (geometry.length > 0) renderRoom(geometry);
-        });
-    })
-    .catch(error => console.error("Error while loading rooms:", error));
-
-canvas.addEventListener("mousemove", (event) => {
-    const rect = canvas.getBoundingClientRect(); // Get the canvas position on the page (relative to the viewport, the scroll)
-    //const mouseX = ((event.clientX - rect.left) / canvas.width) * 2 - 1;
-    //const mouseY = ((rect.bottom - event.clientY) / canvas.height) * 2 - 1;
-    const mouseX = event.clientX - rect.left - (canvas.width / 2);
-    const mouseY = rect.bottom - event.clientY - (canvas.height / 2);
-    //console.log("Mouse X:", mouseX, " event.clientX:", event.clientX, " rect.left:", rect.left, " canvas.width:", canvas.width)
-    //console.log("Mouse Y:", mouseY, " event.clientY:", event.clientY, " rect.top:", rect.top, " rect.bottom:", rect.bottom, " canvas.height:", canvas.height)
-    //correct pos = event.clientX - rect.left
-
-    detectRoomCollision(mouseX, mouseY);
-});
-
-function detectRoomCollision(mouseX, mouseY) {
-    for (const [room, { x1, y1, x2, y2 }] of Object.entries(roomBoundaries)) {
-        //console.log("Checking boundaries:", x1, y1, x2, y2, "Mouse coordinates:", mouseX, mouseY);
-        if (mouseX >= x1 && mouseX <= x2 && mouseY >= y1 && mouseY <= y2) {
-            console.log("Mouse is inside room:", roomBoundaries[room]);
-            return;
+        if (mapX >= minX && mapX <= maxX && mapY >= minY && mapY <= maxY) {
+            console.log("Hovering room:", roomKey);
+            return roomKey;
         }
     }
-    //console.log("Mouse is not inside any room.");
+    return null;
 }

@@ -7,10 +7,59 @@
     <meta name="description" content="Rain Guessr map">
     <title>Rain Guessr Map</title>
     <link id="stylesheet" rel="stylesheet" href='../css/map.css'>
+
+    <!-- render.js must load first: defines canvas, gl, roomBoundaries -->
     <script src="../js/Map/render.js" defer></script>
-    <link rel="icon" href="../pictures/ico/survivor_head1.ico"> 
+    <!-- room_detection.js reads roomBoundaries populated by render.js -->
+    <script src="../js/Map/room_detection.js" defer></script>
+
+    <link rel="icon" href="../pictures/ico/survivor_head1.ico">
+
+    <style>
+        body { margin: 0; background: #000; }
+
+        /* Stack both canvases on top of each other */
+        #canvas-wrapper {
+            position: relative;
+            width: 10000px;
+            height: 6000px;
+        }
+        #canvas, #canvas-overlay {
+            position: absolute;
+            top: 0; left: 0;
+        }
+        /* The overlay sits on top but never captures mouse events */
+        #canvas-overlay {
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* Tooltip — fixed so it follows the cursor regardless of scroll */
+        #room-tooltip {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            background: rgba(0, 0, 0, 0.75);
+            color: #00ff00;
+            font-family: monospace;
+            font-size: 13px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            border: 1px solid #00ff00;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+    </style>
 </head>
 <body>
-    <canvas id="canvas" width="10000" height="6000"></canvas>
+    <div id="canvas-wrapper">
+        <!-- WebGL canvas: draws room geometry in red -->
+        <canvas id="canvas"         width="10000" height="6000"></canvas>
+        <!-- 2D overlay canvas: draws the green boundary highlight -->
+        <canvas id="canvas-overlay" width="10000" height="6000"></canvas>
+    </div>
+
+    <!-- Tooltip: shown/hidden by room_detection.js -->
+    <div id="room-tooltip"></div>
 </body>
 </html>
