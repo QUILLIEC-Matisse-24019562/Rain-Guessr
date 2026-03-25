@@ -1,65 +1,84 @@
-const container = document.getElementById('map-container');
-const map = document.getElementById('map');
+// moving_map_script.js — pan + zoom for map-room.html
+// Controls:
+//   Scroll wheel  → zoom in/out
+//   Right click   → pan (drag)
+//   Arrow keys    → pan
 
-let isDragging = false; // État du drag
-let startX = 0, startY = 0; // Position initiale de la souris au clic
-let currentX = 0, currentY = 0; // Décalage actuel de la carte
-let offsetX = 0, offsetY = 0; // Position finale accumulée après drag
-let scale = 1; // Facteur de zoom initial
+const container = document.getElementById('canvas-wrapper');
+const canvas    = document.getElementById('canvas');
 
-// Gestion du zoom avec la molette
-container.addEventListener('wheel', (e) => {
-  e.preventDefault(); // Empêche le comportement par défaut (scroll)
+let isDragging = false;
+let startX = 0, startY = 0;
+let offsetX = 0, offsetY = 0;
+let scale = 1;
 
-  // Intensité du zoom (proportionnelle à l'échelle actuelle)
-  const zoomIntensity = 0.1 * scale; // Plus le zoom est élevé, plus l'effet est amplifié
-  const delta = e.deltaY > 0 ? -zoomIntensity : zoomIntensity; // Zoom avant/arrière
-  scale = Math.min(Math.max(0.5, scale + delta), 10); // Limite le zoom entre 0.5 et 10
+function applyTransform() {
+    container.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
+}
 
-  // Appliquer le zoom tout en préservant la position actuelle
-  map.style.transform = `translate(${currentX}px, ${currentY}px) scale(${scale})`;
+// --- Scroll wheel: zoom ---
+// Must be on window with passive:false to intercept before the page scrolls
+window.addEventListener('wheel', (e) => {
+    e.preventDefault();
+
+    const zoomIntensity = 0.1 * scale;
+    const delta = e.deltaY > 0 ? -zoomIntensity : zoomIntensity;
+    scale = Math.min(Math.max(0.5, scale + delta), 10);
+
+    applyTransform();
+}, { passive: false });
+
+// --- Right click drag: pan ---
+window.addEventListener('mousedown', (e) => {
+    if (e.button !== 2) return;
+    e.preventDefault();
+    isDragging = true;
+    document.body.style.cursor = 'grabbing';
+
+    startX = e.pageX - offsetX;
+    startY = e.pageY - offsetY;
 });
 
-// Début du drag au clic gauche
-container.addEventListener('mousedown', (e) => {
-  if (e.button !== 0) return; // Ne réagit qu'au clic gauche
-  e.preventDefault(); // Empêche la sélection de texte
-  isDragging = true; // Active l'état de drag
-  container.style.cursor = 'grabbing'; // Change le curseur
+window.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
 
-  // Sauvegarde de la position initiale de la souris
-  startX = e.pageX - offsetX;
-  startY = e.pageY - offsetY;
+    offsetX = e.pageX - startX;
+    offsetY = e.pageY - startY;
+
+    applyTransform();
 });
 
-// Déplacement pendant le drag
-container.addEventListener('mousemove', (e) => {
-  if (!isDragging) return; // Arrête si on ne drag pas
-
-  // Calcul du déplacement
-  offsetX = e.pageX - startX;
-  offsetY = e.pageY - startY;
-
-  // Mise à jour de la position actuelle de la carte
-  currentX = offsetX;
-  currentY = offsetY;
-
-  // Appliquer la transformation
-  map.style.transform = `translate(${currentX}px, ${currentY}px) scale(${scale})`;
+window.addEventListener('mouseup', (e) => {
+    if (e.button !== 2) return;
+    if (isDragging) {
+        isDragging = false;
+        document.body.style.cursor = '';
+    }
 });
 
-// Fin du drag au relâchement du bouton de la souris
-container.addEventListener('mouseup', () => {
-  if (isDragging) {
-    isDragging = false; // Désactive le drag
-    container.style.cursor = 'grab'; // Change le curseur
-  }
+// Suppress context menu everywhere on this page
+window.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
 });
 
-// Annuler le drag si la souris quitte le conteneur
-container.addEventListener('mouseleave', () => {
-  if (isDragging) {
-    isDragging = false; // Désactive le drag
-    container.style.cursor = 'grab'; // Change le curseur
-  }
+// --- Arrow keys: pan ---
+const keyPanStep = 40;
+
+window.addEventListener('keydown', (e) => {
+    if (document.activeElement.tagName === 'INPUT' ||
+        document.activeElement.tagName === 'TEXTAREA') return;
+
+    let moved = true;
+    switch (e.key) {
+        case 'ArrowLeft':  offsetX += keyPanStep; break;
+        case 'ArrowRight': offsetX -= keyPanStep; break;
+        case 'ArrowUp':    offsetY += keyPanStep; break;
+        case 'ArrowDown':  offsetY -= keyPanStep; break;
+        default: moved = false;
+    }
+
+    if (moved) {
+        e.preventDefault();
+        applyTransform();
+    }
 });
