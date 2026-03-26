@@ -39,3 +39,17 @@ html, body {
     pointer-events: none;
     white-space: nowrap;
 }
+
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  width: 80%;
+  height: 15%;
+  border-radius: 20px;
+  border: 6px solid;
+  border-color: #fff;
+  background-color: transparent;
+}
