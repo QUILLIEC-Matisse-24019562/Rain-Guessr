@@ -9,11 +9,22 @@ window.addEventListener("DOMContentLoaded", () => {
     canvas.addEventListener("mousemove", (event) => {
         const rect = canvas.getBoundingClientRect();
 
-        // Mouse pixel → map space (inverse of renderRoom's NDC transform)
+        // Get pan/zoom from moving_map_script.js (if it exists)
+        // Default to no transform if script hasn't loaded yet
+        const offsetX = window.offsetX || 0;
+        const offsetY = window.offsetY || 0;
+        const scale = window.scale || 1;
+
+        // Mouse pixel → map space, accounting for pan/zoom transform
+        // The canvas is transformed by: translate(offsetX, offsetY) scale(scale)
+        // To reverse: (visualCoord - offset) / scale
+        const px_visual = event.clientX - rect.left;
+        const py_visual = event.clientY - rect.top;
+        const px   = (px_visual - offsetX) / scale;
+        const py   = (py_visual - offsetY) / scale;
+
         // pixel → NDC:  ndcX = (px / canvas.width) * 2 - 1,  ndcY flips Y
         // NDC  → map:   mapX = ndcX * canvas.width / 2
-        const px   = event.clientX - rect.left;
-        const py   = event.clientY - rect.top;
         const ndcX =  (px / canvas.width)  * 2 - 1;
         const ndcY = -((py / canvas.height) * 2 - 1);
         const mapX = ndcX * canvas.width  / 2;
