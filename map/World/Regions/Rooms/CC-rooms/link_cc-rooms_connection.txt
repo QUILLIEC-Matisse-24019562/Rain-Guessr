@@ -3,10 +3,13 @@ cc_a06|4|cc_c07|29x27|cc_c09|26x8|cc_c12|5x27|cc_h01|26x43
 cc_a07|2|cc_c08|23x4|cc_c11|30x33
 cc_a10|1|cc_b01|29x16
 cc_a12|2|cc_s01|15x11|cc_a02|16x36
-cc_a15
+cc_a15|3|cc_b08|19x25|cc_c07|17x25|cc_c13|15x25
 cc_a16|2|gate_hi_cc|35x15|cc_a02|3x17
 cc_a17|1|cc_c03|28x3
+cc_b01|2|cc_a10|12x33|cc_b06|62x24
 cc_b04|3|cc_c04|67x39|cc_s05|21x25|cc_d01|68x11
+cc_b05|2|cc_b06|23x14|cc_b08|5x90
+cc_b06|3|cc_b01|2x24|cc_b05|25x27|cc_c08|67x27
 cc_b08|2|cc_a15|5x10|cc_b05|73x20
 cc_b10|2|cc_c05|25x27|cc_b14|67x27
 cc_b11|2|cc_c03|23x7|cc_c11|28x101
