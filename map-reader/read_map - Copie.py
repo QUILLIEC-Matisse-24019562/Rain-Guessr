@@ -639,7 +639,7 @@ room_pos = pos_room(data_path)
 
 for root, dirs, files in os.walk(file_path):
     for file in files:
-        if file.endswith(".txt") and file != "regions.txt":
+        if file.endswith(".txt") and file != "regions.txt" and not file.__contains__("ignore"):
             with open(os.path.join(root, file), 'r') as fp:
                 for count, line in enumerate(fp):
                     pass
