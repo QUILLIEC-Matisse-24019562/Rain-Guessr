@@ -126,3 +126,47 @@ function clearHighlight() {
     if (!overlay) return;
     overlay.getContext("2d").clearRect(0, 0, overlay.width, overlay.height);
 }
+
+// Draw connection lines between rooms in yellow.
+// Uses the same NDC transform as renderRoom() but with a separate shader color.
+function renderConnections(segments) {
+    if (!shaderProgram) { console.error("renderConnections called before initRender"); return; }
+
+    const flatVertices = new Float32Array(
+        segments.flatMap(s => [s.x1, s.y1, s.x2, s.y2])
+                .map((v, i) => i % 2 === 0
+                    ? (v / canvas.width)  * 2
+                    : (v / canvas.height) * 2)
+    );
+
+    // Compile a separate yellow shader for connections
+    if (!renderConnections._program) {
+        const vs = gl.createShader(gl.VERTEX_SHADER);
+        gl.shaderSource(vs, `attribute vec2 a_position; void main() { gl_Position = vec4(a_position, 0, 1); }`);
+        gl.compileShader(vs);
+
+        const fs = gl.createShader(gl.FRAGMENT_SHADER);
+        gl.shaderSource(fs, `void main() { gl_FragColor = vec4(1, 1, 0, 1); }`); // yellow
+        gl.compileShader(fs);
+
+        const prog = gl.createProgram();
+        gl.attachShader(prog, vs);
+        gl.attachShader(prog, fs);
+        gl.linkProgram(prog);
+
+        renderConnections._program  = prog;
+        renderConnections._attrib   = gl.getAttribLocation(prog, "a_position");
+    }
+
+    const buf = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+    gl.bufferData(gl.ARRAY_BUFFER, flatVertices, gl.STATIC_DRAW);
+
+    gl.useProgram(renderConnections._program);
+    gl.enableVertexAttribArray(renderConnections._attrib);
+    gl.vertexAttribPointer(renderConnections._attrib, 2, gl.FLOAT, false, 0, 0);
+    gl.drawArrays(gl.LINES, 0, flatVertices.length / 2);
+
+    // Restore the main room shader
+    gl.useProgram(shaderProgram);
+}

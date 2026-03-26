@@ -43,6 +43,9 @@ async function loadMap() {
         const geometryArrays = await Promise.all(Object.keys(rooms).map(region => loadRegion(region)));
         geometryArrays.forEach(geom => { if (geom.length > 0) renderRoom(geom); });
 
+        // 6. Load and draw connection lines for each region
+        await Promise.all(Object.keys(rooms).map(region => loadConnections(region, regionPosCache)));
+
     } catch (err) {
         console.error("Error loading map:", err);
     }
