@@ -1,30 +1,25 @@
 // room_detection.js — mouse hover detection, boundary highlight, tooltip
 // Depends on: canvas (render.js), roomBoundaries (map_loader.js),
 //             renderBoundaryHighlight(), clearHighlight() (render.js)
-// Load order: render.js → map_loader.js → room_detection.js
+// Load order: render.js → map_loader.js → room_detection.js → moving_map_script.js
 
 window.addEventListener("DOMContentLoaded", () => {
     const tooltip = document.getElementById("room-tooltip");
 
     canvas.addEventListener("mousemove", (event) => {
+        // getBoundingClientRect() already accounts for any CSS transform
+        // (pan/zoom applied to #canvas-wrapper), so we do NOT need to
+        // manually reverse offsetX/offsetY/scale — that would apply it twice.
         const rect = canvas.getBoundingClientRect();
 
-        // Get pan/zoom from moving_map_script.js (if it exists)
-        // Default to no transform if script hasn't loaded yet
-        const offsetX = window.offsetX || 0;
-        const offsetY = window.offsetY || 0;
-        const scale = window.scale || 1;
+        // Mouse position in canvas pixel space (0..canvas.width, 0..canvas.height)
+        // rect.width reflects the visually scaled size, so we scale back to
+        // the canvas's actual resolution
+        const px = (event.clientX - rect.left) * (canvas.width  / rect.width);
+        const py = (event.clientY - rect.top)  * (canvas.height / rect.height);
 
-        // Mouse pixel → map space, accounting for pan/zoom transform
-        // The canvas is transformed by: translate(offsetX, offsetY) scale(scale)
-        // To reverse: (visualCoord - offset) / scale
-        const px_visual = event.clientX - rect.left;
-        const py_visual = event.clientY - rect.top;
-        const px   = (px_visual - offsetX) / scale;
-        const py   = (py_visual - offsetY) / scale;
-
-        // pixel → NDC:  ndcX = (px / canvas.width) * 2 - 1,  ndcY flips Y
-        // NDC  → map:   mapX = ndcX * canvas.width / 2
+        // Canvas pixel → NDC: ndcX = (px / canvas.width) * 2 - 1, ndcY flips Y
+        // NDC → map space:    mapX = ndcX * canvas.width / 2
         const ndcX =  (px / canvas.width)  * 2 - 1;
         const ndcY = -((py / canvas.height) * 2 - 1);
         const mapX = ndcX * canvas.width  / 2;
@@ -52,8 +47,6 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// Returns the room key (e.g. "SU/SU_A01") if (mapX, mapY) is inside any
-// room boundary, otherwise null.
 function detectRoomCollision(mapX, mapY) {
     for (const [roomKey, { x1, y1, x2, y2 }] of Object.entries(roomBoundaries)) {
         if (mapX >= Math.min(x1, x2) && mapX <= Math.max(x1, x2) &&

@@ -1,57 +1,57 @@
 // moving_map_script.js — pan + zoom for map-room.html
 // Controls:
-//   Scroll wheel  → zoom in/out
+//   Scroll wheel  → zoom in/out (centered on cursor)
 //   Right click   → pan (drag)
 //   Arrow keys    → pan
 
-// Note: canvas and gl are already declared globally by render.js
-let container, isDragging = false;
+let container;
+let isDragging = false;
 let startX = 0, startY = 0;
 
-// Expose these globally so room_detection.js can read them
 window.offsetX = 0;
 window.offsetY = 0;
-window.scale = 1;
+window.scale   = 1;
 
 function applyTransform() {
     container.style.transform = `translate(${window.offsetX}px, ${window.offsetY}px) scale(${window.scale})`;
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    console.log('moving_map_script.js initializing...');
-    
     container = document.getElementById('canvas-wrapper');
-    canvas    = document.getElementById('canvas');
-    overlay   = document.getElementById('canvas-overlay');
+    const canvasEl = document.getElementById('canvas');
+    const overlay  = document.getElementById('canvas-overlay');
 
-    if (!container || !canvas) {
-        console.error('Canvas elements not found!');
-        return;
-    }
-
-    // Ensure overlay doesn't block events
+    if (!container || !canvasEl) { console.error('Canvas elements not found!'); return; }
     if (overlay) overlay.style.pointerEvents = 'none';
 
-    // --- Scroll wheel: zoom ---
-    // Listen on canvas directly to intercept wheel before browser zoom
-    canvas.addEventListener('wheel', (e) => {
+    // Center the canvas in the viewport on load
+    window.offsetX = (window.innerWidth  - canvasEl.width)  / 2;
+    window.offsetY = (window.innerHeight - canvasEl.height) / 2;
+    applyTransform();
+
+    // --- Scroll wheel: zoom centered on cursor ---
+    canvasEl.addEventListener('wheel', (e) => {
         e.preventDefault();
         e.stopPropagation();
-        console.log('Wheel event: deltaY =', e.deltaY);
 
-        const zoomIntensity = 0.1 * window.scale;
+        const oldScale = window.scale;
+        const zoomIntensity = 0.1 * oldScale;
         const delta = e.deltaY > 0 ? -zoomIntensity : zoomIntensity;
-        window.scale = Math.min(Math.max(0.5, window.scale + delta), 10);
+        const newScale = Math.min(Math.max(0.5, oldScale + delta), 10);
+
+        const cursorX = e.clientX;
+        const cursorY = e.clientY;
+
+        window.offsetX = cursorX - (cursorX - window.offsetX) * (newScale / oldScale);
+        window.offsetY = cursorY - (cursorY - window.offsetY) * (newScale / oldScale);
+        window.scale   = newScale;
 
         applyTransform();
     }, { passive: false });
 
     // --- Right click drag: pan ---
-    canvas.addEventListener('mousedown', (e) => {
+    canvasEl.addEventListener('mousedown', (e) => {
         if (e.button !== 2) return;
-
-        console.log('Right mouse button down - start dragging');
-
         e.preventDefault();
         e.stopPropagation();
         isDragging = true;
@@ -63,10 +63,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('mousemove', (e) => {
         if (!isDragging) return;
-
         window.offsetX = e.pageX - startX;
         window.offsetY = e.pageY - startY;
-
         applyTransform();
     });
 
@@ -78,9 +76,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Suppress context menu on canvas
-    canvas.addEventListener('contextmenu', (e) => {
-        console.log('Context menu suppressed');
+    canvasEl.addEventListener('contextmenu', (e) => {
         e.preventDefault();
         e.stopPropagation();
     });
@@ -106,6 +102,4 @@ window.addEventListener('DOMContentLoaded', () => {
             applyTransform();
         }
     });
-
-    console.log('moving_map_script.js ready');
 });
