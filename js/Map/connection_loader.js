@@ -67,15 +67,17 @@ async function loadConnections(region, regionPosCache) {
                 continue;
             }
 
-            // Convert tile coord within roomA to map space
-            // roomBoundaries stores: x1 = pos_x/2 + region_pos[0], y1 = pos_y/2 + region_pos[1]
-            // So map coord of a tile (tx, ty) inside roomA is:
-            //   mapX = x1_origin + tx   (x1 already includes pos_x/2 + region_pos[0])
-            //   mapY = y1_origin - ty   (Y is flipped)
-            const originAX = boundaryA.x1; // = pos_x/2 + region_pos[0]
-            const originAY = boundaryA.y1; // = pos_y/2 + region_pos[1]
-            const mapAX = originAX + tileX;
-            const mapAY = originAY - tileY;
+            // Tile coord within roomA → map space.
+            // The connection file stores (tileX, tileY) but the coordinate system
+            // is rotated 90° clockwise then flipped vertically relative to map space,
+            // which is equivalent to simply swapping X and Y: mapTileX = tileY, mapTileY = tileX
+            const mapTileX = tileY;
+            const mapTileY = tileX;
+
+            const originAX = boundaryA.x1;
+            const originAY = boundaryA.y1;
+            const mapAX = originAX + mapTileX;
+            const mapAY = originAY - mapTileY;
 
             // For roomB's end, use the center of its bounding box as the target
             // (we don't have roomB's exact exit tile in this direction without parsing again)

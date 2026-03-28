@@ -23,10 +23,12 @@
     <button type="button"><a href="../index.html">BACK</a> </button>
             
     <div id="canvas-wrapper">
-        <!-- WebGL canvas: draws room geometry lines in red -->
-        <canvas id="canvas"         width="10000" height="6000"></canvas>
-        <!-- 2D overlay canvas: draws the green boundary highlight on hover -->
-        <canvas id="canvas-overlay" width="10000" height="6000"></canvas>
+        <!-- Layer 0 — WebGL: room geometry lines in red -->
+        <canvas id="canvas"             width="10000" height="6000"></canvas>
+        <!-- Layer 1 — 2D: connection lines between rooms -->
+        <canvas id="canvas-connections" width="10000" height="6000" style="pointer-events:none; position:absolute; top:0; left:0; z-index:1;"></canvas>
+        <!-- Layer 2 — 2D: green boundary highlight on hover -->
+        <canvas id="canvas-overlay"     width="10000" height="6000" style="pointer-events:none; position:absolute; top:0; left:0; z-index:2;"></canvas>
     </div>
 
     <!-- Tooltip: positioned and shown/hidden by room_detection.js -->

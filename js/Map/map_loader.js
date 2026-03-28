@@ -39,11 +39,11 @@ async function loadMap() {
         // 4. Compile shader now that gl is ready (render.js DOMContentLoaded ran first)
         initRender();
 
-        // 5. Load all room geometries, then render each region's batch
+        // 5. Load and draw room geometry
         const geometryArrays = await Promise.all(Object.keys(rooms).map(region => loadRegion(region)));
         geometryArrays.forEach(geom => { if (geom.length > 0) renderRoom(geom); });
 
-        // 6. Load and draw connection lines for each region
+        // 6. Load and draw connection lines (on a separate 2D canvas, so draw order doesn't matter)
         await Promise.all(Object.keys(rooms).map(region => loadConnections(region, regionPosCache)));
 
     } catch (err) {

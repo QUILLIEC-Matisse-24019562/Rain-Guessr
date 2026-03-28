@@ -127,46 +127,30 @@ function clearHighlight() {
     overlay.getContext("2d").clearRect(0, 0, overlay.width, overlay.height);
 }
 
-// Draw connection lines between rooms in yellow.
-// Uses the same NDC transform as renderRoom() but with a separate shader color.
+// Draw connection lines between rooms on the dedicated 2D connections canvas.
 function renderConnections(segments) {
-    if (!shaderProgram) { console.error("renderConnections called before initRender"); return; }
+    const connCanvas = document.getElementById("canvas-connections");
+    if (!connCanvas) return;
+    const ctx = connCanvas.getContext("2d");
 
-    const flatVertices = new Float32Array(
-        segments.flatMap(s => [s.x1, s.y1, s.x2, s.y2])
-                .map((v, i) => i % 2 === 0
-                    ? (v / canvas.width)  * 2
-                    : (v / canvas.height) * 2)
-    );
+    ctx.strokeStyle = "#ffff00";
+    ctx.lineWidth   = 2;
 
-    // Compile a separate yellow shader for connections
-    if (!renderConnections._program) {
-        const vs = gl.createShader(gl.VERTEX_SHADER);
-        gl.shaderSource(vs, `attribute vec2 a_position; void main() { gl_Position = vec4(a_position, 0, 1); }`);
-        gl.compileShader(vs);
-
-        const fs = gl.createShader(gl.FRAGMENT_SHADER);
-        gl.shaderSource(fs, `void main() { gl_FragColor = vec4(1, 1, 0, 1); }`); // yellow
-        gl.compileShader(fs);
-
-        const prog = gl.createProgram();
-        gl.attachShader(prog, vs);
-        gl.attachShader(prog, fs);
-        gl.linkProgram(prog);
-
-        renderConnections._program  = prog;
-        renderConnections._attrib   = gl.getAttribLocation(prog, "a_position");
+    function mapToPixel(mx, my) {
+        const ndcX = (mx / canvas.width)  * 2;
+        const ndcY = (my / canvas.height) * 2;
+        return {
+            px: (ndcX + 1) / 2 * connCanvas.width,
+            py: (1 - ndcY)  / 2 * connCanvas.height
+        };
     }
 
-    const buf = gl.createBuffer();
-    gl.bindBuffer(gl.ARRAY_BUFFER, buf);
-    gl.bufferData(gl.ARRAY_BUFFER, flatVertices, gl.STATIC_DRAW);
-
-    gl.useProgram(renderConnections._program);
-    gl.enableVertexAttribArray(renderConnections._attrib);
-    gl.vertexAttribPointer(renderConnections._attrib, 2, gl.FLOAT, false, 0, 0);
-    gl.drawArrays(gl.LINES, 0, flatVertices.length / 2);
-
-    // Restore the main room shader
-    gl.useProgram(shaderProgram);
+    for (const s of segments) {
+        const p1 = mapToPixel(s.x1, s.y1);
+        const p2 = mapToPixel(s.x2, s.y2);
+        ctx.beginPath();
+        ctx.moveTo(p1.px, p1.py);
+        ctx.lineTo(p2.px, p2.py);
+        ctx.stroke();
+    }
 }
