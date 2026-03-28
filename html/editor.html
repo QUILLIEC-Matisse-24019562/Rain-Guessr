@@ -293,6 +293,7 @@
         <input type="number" id="inp-y" placeholder="—" oninput="applyCoordInput()">
       </div>
       <button class="btn" onclick="centerSelected()">Center view on selection</button>
+      <button class="btn primary" id="btn-edit-rooms" style="display:none" onclick="enterRoomEditor(selectedRegion)">Edit rooms →</button>
     </div>
   </div>
 </div>
@@ -463,8 +464,25 @@ function parseRoom(data, regionKey, roomName) {
   const lines = data.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
   if (lines.length < 3) return null;
 
-  const [width, height] = lines[1].split('x').map(Number);
-  const [pos_x, pos_y]  = lines[2].split('x').map(Number);
+  // Normalise line 1: strip "taille : " prefix, replace * with x, take only first segment
+  // Handles: "54x35", "taille : 54x35", "54*35|-1|0"
+  let dimLine = lines[1]
+    .replace(/^taille\s*:\s*/i, '')  // strip French prefix
+    .replace('*', 'x')               // normalise * separator
+    .split('|')[0]                   // take only first segment (ignore extra fields)
+    .trim();
+
+  const [width, height] = dimLine.split('x').map(Number);
+
+  // Line 2 must look like "NUMxNUM" — skip files where it's ASCII art or raw game data
+  let posLine = lines[2].split('x');
+  const pos_x = parseFloat(posLine[0]);
+  const pos_y = parseFloat(posLine[1]);
+
+  if (isNaN(width) || isNaN(height) || isNaN(pos_x) || isNaN(pos_y)) {
+    console.warn(`Bad header in ${regionKey}/${roomName} — line1: "${lines[1]}" line2: "${lines[2]}"`);
+    return null;
+  }
 
   // Parse geometry segments (last 6 lines before end)
   const segs = lines.slice(-7,-1).flatMap(line =>
@@ -671,6 +689,13 @@ function drawStep2() {
 // STEP MANAGEMENT
 // ============================================================
 function setStep(s) {
+  // Entering step 2: use currently selected region, or first region if none selected
+  if (s === 2) {
+    const target = selectedRegion || step2Region || Object.keys(regionPos).sort()[0];
+    if (!target) return;
+    step2Region = target;
+  }
+
   step = s;
   document.getElementById('step1-btn').classList.toggle('active', s===1);
   document.getElementById('step2-btn').classList.toggle('active', s===2);
@@ -679,14 +704,22 @@ function setStep(s) {
 
   if (s === 1) {
     document.getElementById('panel-header').textContent = 'Regions';
+    document.getElementById('btn-edit-rooms').style.display = 'none';
     buildPanelList(Object.keys(regionPos).sort(), key => selectRegion(key), () => selectedRegion);
   } else {
-    document.getElementById('panel-header').textContent = 'Rooms — ' + (step2Region || '?');
+    document.getElementById('panel-header').textContent = 'Rooms — ' + step2Region;
     const rooms = (regionRooms[step2Region] || []).map(r => r.key).sort();
     buildPanelList(rooms, key => selectRoom(key), () => selectedRoom, k => k.split('/')[1]);
+    fitRegion(step2Region);
   }
   updateCoordInputs();
   draw();
+}
+
+// Enter step 2 for a specific region (called from double-click or selectRegion button)
+function enterRoomEditor(regionKey) {
+  step2Region = regionKey;
+  setStep(2);
 }
 
 function buildPanelList(keys, onSelect, getSelected, labelFn) {
@@ -717,6 +750,7 @@ function selectRegion(key) {
   selectedRegion = key;
   selectedRoom   = null;
   document.getElementById('sel-label').textContent = `Region: ${key}`;
+  document.getElementById('btn-edit-rooms').style.display = 'block';
   updateCoordInputs();
   refreshPanelSelection();
   draw();
