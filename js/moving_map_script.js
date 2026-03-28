@@ -8,6 +8,10 @@ let container;
 let isDragging = false;
 let startX = 0, startY = 0;
 
+// Small value = far away, Big value = very close
+const min_scale = 10
+const max_scale = 0.2
+
 window.offsetX = 0;
 window.offsetY = 0;
 window.scale   = 1;
@@ -37,7 +41,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const oldScale = window.scale;
         const zoomIntensity = 0.1 * oldScale;
         const delta = e.deltaY > 0 ? -zoomIntensity : zoomIntensity;
-        const newScale = Math.min(Math.max(0.5, oldScale + delta), 10);
+        const newScale = Math.min(Math.max(max_scale, oldScale + delta), min_scale);
 
         const cursorX = e.clientX;
         const cursorY = e.clientY;
