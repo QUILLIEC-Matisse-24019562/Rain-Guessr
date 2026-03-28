@@ -127,15 +127,20 @@ function clearHighlight() {
     overlay.getContext("2d").clearRect(0, 0, overlay.width, overlay.height);
 }
 
-// Draw connection lines between rooms on the dedicated 2D connections canvas.
-function renderConnections(segments) {
+// Draw connection curves between rooms on the dedicated 2D connections canvas.
+// Each connection: { x1, y1, dir1, x2, y2, dir2 }
+// dir values: N / S / E / W — the exit direction at each endpoint.
+// Curves are cubic beziers with control points offset in the exit direction.
+function renderConnections(connections) {
     const connCanvas = document.getElementById("canvas-connections");
     if (!connCanvas) return;
     const ctx = connCanvas.getContext("2d");
 
     ctx.strokeStyle = "#ffff00";
     ctx.lineWidth   = 2;
+    ctx.setLineDash([12, 8]); // dashed line
 
+    // Map space → canvas pixel (same formula as renderBoundaryHighlight)
     function mapToPixel(mx, my) {
         const ndcX = (mx / canvas.width)  * 2;
         const ndcY = (my / canvas.height) * 2;
@@ -145,12 +150,37 @@ function renderConnections(segments) {
         };
     }
 
-    for (const s of segments) {
-        const p1 = mapToPixel(s.x1, s.y1);
-        const p2 = mapToPixel(s.x2, s.y2);
+    // Direction → unit vector in pixel space (Y is flipped: N = up = negative py)
+    const DIR = {
+        N: [ 0, -1],
+        S: [ 0,  1],
+        E: [ 1,  0],
+        W: [-1,  0],
+    };
+
+    for (const c of connections) {
+        const p1 = mapToPixel(c.x1, c.y1);
+        const p2 = mapToPixel(c.x2, c.y2);
+
+        // Control point distance: 1/3 of straight-line distance, min 80px
+        const dist = Math.hypot(p2.px - p1.px, p2.py - p1.py);
+        const cpDist = Math.max(20, dist / 3);
+
+        // Control point for p1: offset in exit direction dir1
+        const d1 = DIR[c.dir1] || [0, 0];
+        const cp1x = p1.px + d1[0] * cpDist;
+        const cp1y = p1.py + d1[1] * cpDist;
+
+        // Control point for p2: offset in exit direction dir2
+        const d2 = DIR[c.dir2] || [0, 0];
+        const cp2x = p2.px + d2[0] * cpDist;
+        const cp2y = p2.py + d2[1] * cpDist;
+
         ctx.beginPath();
         ctx.moveTo(p1.px, p1.py);
-        ctx.lineTo(p2.px, p2.py);
+        ctx.bezierCurveTo(cp1x, cp1y, cp2x, cp2y, p2.px, p2.py);
         ctx.stroke();
     }
+
+    ctx.setLineDash([]); // reset dash for other drawing ops
 }
