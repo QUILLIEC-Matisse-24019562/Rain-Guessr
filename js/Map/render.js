@@ -1,4 +1,4 @@
-// render.js — WebGL initialisation and drawing
+renderRoom// render.js — WebGL initialisation and drawing
 // Exposes: initRender(), renderRoom(segments), renderBoundaryHighlight(roomKey), clearHighlight()
 // Depends on: roomBoundaries (defined in map_loader.js)
 // Load order: render.js → map_loader.js → room_detection.js

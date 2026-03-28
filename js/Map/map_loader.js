@@ -21,6 +21,7 @@ async function loadMap() {
     try {
         // 1. Load region list
         const regionsText = await fetch(map_path + "/regions.txt").then(r => r.text());
+        console.log(regionsText);
         const region_abbrs = regionsText.replaceAll("\r", "").split("\n")
             .map(r => r.trim()).filter(r => r !== "");
 
