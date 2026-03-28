@@ -13,7 +13,7 @@ html, body {
     margin: 0;
     overflow: hidden;
     width: 100%; height: 100%;
-    background: #650754;
+    background: #000000;
 }
 
 #canvas-wrapper {
@@ -22,7 +22,7 @@ html, body {
     width: 10000px;
     height: 6000px;
     transform-origin: top left;
-    background: #664674;
+    background: #181818;
 }
 
 #canvas, #canvas-overlay {
