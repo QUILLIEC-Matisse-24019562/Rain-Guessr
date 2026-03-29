@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
 		return;
 	}
 
-	const blinkDuration = 200;
+	const blinkDuration = 235;
 	const blinkIntervals = new WeakMap();
 	const baseBorderColor = "#fff";
-	const blinkBorderColor = "#ffffff00";
-	const baseBackgroundColor = "rgba(0, 0, 0, 0.7)";
-	const blinkBackgroundColor = "rgba(0, 0, 0, 0.3)";
+	const blinkBorderColor = "#ffffff03";
+	const baseBackgroundColor = "rgba(0, 0, 0, 0.5)";
+	const blinkBackgroundColor = "rgba(0, 0, 0, 0.5)";
 
 	textButtons.forEach(function (button) {
 		let isDimmed = false;
