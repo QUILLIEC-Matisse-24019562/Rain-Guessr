@@ -7,23 +7,25 @@ window.addEventListener("DOMContentLoaded", () => {
     const tooltip = document.getElementById("room-tooltip");
 
     canvas.addEventListener("mousemove", (event) => {
-        // getBoundingClientRect() already accounts for any CSS transform
-        // (pan/zoom applied to #canvas-wrapper), so we do NOT need to
-        // manually reverse offsetX/offsetY/scale — that would apply it twice.
         const rect = canvas.getBoundingClientRect();
+        const dpr  = window.devicePixelRatio || 1;
 
-        // Mouse position in canvas pixel space (0..canvas.width, 0..canvas.height)
-        // rect.width reflects the visually scaled size, so we scale back to
-        // the canvas's actual resolution
-        const px = (event.clientX - rect.left) * (canvas.width  / rect.width);
-        const py = (event.clientY - rect.top)  * (canvas.height / rect.height);
+        // Mouse position in physical canvas pixels
+        const cx = (event.clientX - rect.left) * dpr;
+        const cy = (event.clientY - rect.top)  * dpr;
 
-        // Canvas pixel → NDC: ndcX = (px / canvas.width) * 2 - 1, ndcY flips Y
-        // NDC → map space:    mapX = ndcX * canvas.width / 2
-        const ndcX =  (px / canvas.width)  * 2 - 1;
-        const ndcY = -((py / canvas.height) * 2 - 1);
-        const mapX = ndcX * canvas.width  / 2;
-        const mapY = ndcY * canvas.height / 2;
+        // Physical canvas pixels → map space
+        // Shader transform: ndc = (mapPos + translate) * scale / (viewport/2)
+        // Inverse: mapPos = (cx - cw/2) / scale - panX
+        //          mapY is Y-flipped
+        const cw   = canvas.width;
+        const ch   = canvas.height;
+        const s    = window.scale  || 1;
+        const panX = window.mapPanX || 0;
+        const panY = window.mapPanY || 0;
+
+        const mapX =  (cx - cw/2) / s - panX;
+        const mapY = -(cy - ch/2) / s - panY;
 
         const roomKey = detectRoomCollision(mapX, mapY);
 
