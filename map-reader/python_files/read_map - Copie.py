@@ -1,13 +1,16 @@
 import os
 from collections import defaultdict
 
-path = os.path.dirname(os.path.abspath(__file__))
+#path = os.path.dirname(os.path.abspath(__file__))
 
-file = "..\World\Regions\Rooms"
+path = os.path.abspath(os.path.join(os.path.dirname(__file__),".."))
+
+
+file = "World\Regions\Rooms"
 file_path = os.path.join(path, file)
-file2 = "..\World-vector\Regions\Rooms"
+file2 = "World-vector\Regions\Rooms"
 file2_path = os.path.join(path, file2)
-data = "..\World\Regions\Data"
+data = "World\Regions\Data"
 data_path = os.path.join(path, data)
 
 strange_values = []
