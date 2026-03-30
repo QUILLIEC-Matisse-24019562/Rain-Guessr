@@ -1,0 +1,337 @@
+/*fonts import*/
+@font-face {
+  font-family: 'Rodondo';
+  src: url('../font/Rodondo.otf');
+}
+@font-face {
+  font-family: 'rain_world_menu_font_Webfont';
+  src: url('../font/rain-world-menu-font-webfont/rain-world-menu-font-webfont.ttf');
+}
+
+/*Main balise*/
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+    display: flex;
+    margin: 0%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 5px;
+    width: 100%;
+    height: 100%;
+    align-content: stretch;
+}
+footer {
+  width: 100%;
+  height: 7%;
+  background: #bababa8c;
+}
+
+/*Communs balise*/
+h1{
+  font-family: Rodondo;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  line-height: 200px;
+  height: fit-content;
+  width: auto;
+}
+
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+a {
+  color: #fff;;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 3%;
+  vertical-align: top;
+  text-decoration: none;
+  font-family: rain_world_menu_font_Webfont;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  width: 400px;
+  height: 100px;
+  border-radius: 20px;
+  border: 3.8px solid;
+  border-color: #df151500;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+button:hover {
+  width: 400px;
+  height: 15%;
+  border: 3.8px solid;
+  border-color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+aside{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img{
+  width: 100px;
+  
+}
+
+/*list carrousel animation*/
+
+ul {
+  display: flex;
+  gap: 1vw;
+  padding-left: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+li {
+  list-style-type: none;
+  background-color: #000;
+  flex: 0 0 100%;
+  height: 100%;
+  padding-top: 20px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+ul {
+  anchor-name: --mon-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --mon-carousel;
+}
+ul::scroll-button(*) {
+  align-self: anchor-center;
+}
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 45px);
+}
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 45px);
+}
+
+
+/*Class balise*/
+.background {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title {
+  height: fit-content;
+  max-width: 600px;
+}
+
+.title-text {
+  font-size: 10vw;
+  line-height: 8vw;
+}
+
+.button-contain {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+}
+
+.game-mode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+}
+
+#circle-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 1%;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 3px solid;
+  border-color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+@media screen and (orientation: portrait) {
+  .title {
+    width: 100%;
+  }
+  .title-text {
+    font-size: 20vw;
+    line-height: 18vw;
+  }
+  h1 {
+    font-size: 1vw;
+    line-height: 20vw;
+  }
+  .button-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 60%;
+  }
+
+  button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    min-width: 35%;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: #fff;
+  }
+
+  a {
+    font-size: 4vw;
+  }
+}
+
+/* Responsive layout for smaller screens */
+/*
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 90%;
+    letter-spacing: 3px;
+  }
+
+  .button-contain {
+    width: 90%;
+    height: auto;
+    gap: 8px;
+  }
+
+  button {
+    width: 100%;
+    min-height: 50px;
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 5vw;
+  }
+
+  h1 {
+    font-size: 10vw;
+    line-height: 11vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .title h1 {
+    margin: 1rem 0;
+  }
+
+  .button-contain {
+    width: 95%;
+    justify-content: center;
+  }
+
+  button {
+    margin: 6px 0;
+    border-width: 4px;
+  }
+
+  h1 {
+    font-size: 12vw;
+    line-height: 13vw;
+  }
+}*/
+
+/*
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+  
+@keyframes clignoter {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+  
+@media screen and (max-width: 600px) */
