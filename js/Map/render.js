@@ -218,7 +218,7 @@ function redrawConnections() {
 
     ctx.clearRect(0, 0, connCanvas.width, connCanvas.height);
     ctx.strokeStyle = "#ffff00";
-    ctx.lineWidth   = 2 * dpr;
+    ctx.lineWidth   = 0.5 * dpr;  // 4x thinner
     ctx.setLineDash([12 * dpr, 8 * dpr]);
 
     const DIR = { N:[0,-1], S:[0,1], E:[1,0], W:[-1,0] };
@@ -227,7 +227,7 @@ function redrawConnections() {
         const p1 = mapToCanvas(c.x1, c.y1, connCanvas);
         const p2 = mapToCanvas(c.x2, c.y2, connCanvas);
         const dist   = Math.hypot(p2.px - p1.px, p2.py - p1.py);
-        const cpDist = Math.max(80 * dpr, dist / 3);
+        const cpDist = Math.max(20 * dpr, dist / 8);  // much less curve
         const d1 = DIR[c.dir1] || [0,0];
         const d2 = DIR[c.dir2] || [0,0];
         ctx.beginPath();
