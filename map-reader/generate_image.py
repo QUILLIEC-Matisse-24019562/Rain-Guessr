@@ -37,16 +37,14 @@ def rename_screens():
     skipped = 0
 
     for region_dir in SCREENS_DIR.iterdir():
-        print(region_dir)
         if not region_dir.is_dir():
             continue
 
         for filepath in region_dir.glob("*.png"):
-            print(f"Processing: {filepath.name}")
             stem = filepath.stem  # filename without .png
 
             # Match and strip any trailing _DATE or _DATETIME suffix
-            # Patterns: _2024-03-15  or  _20240315  or  _20240315_123456
+            # Patterns: _2024-03-15  or  _20240315  or  _20240315_123456 or _2024-03-15_12-34-56
             new_stem = re.sub(
                 #r'_\d{4}-?\d{2}-?\d{2}(_\d{6})?$',
                 r'_\d{4}-?\d{2}-?\d{2}(_\d{2}-?\d{2}-?\d{2})?$',
