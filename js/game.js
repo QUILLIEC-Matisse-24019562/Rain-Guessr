@@ -4,8 +4,8 @@
 //   - Pick a random room
 //   - Crop a random square from that room's screenshot using Canvas API
 //   - Expose startGame() for use by the game UI
-
-const SCREENS_PATH = "../map-reader/Screens";
+//C:\Users\matis\Documents\GitHub\Rain-Guessr\generate_game_picture\Screens\screens.txt
+const SCREENS_PATH = "../../generate_game_picture/Screens";
 const SCREENS_TXT  = `${SCREENS_PATH}/screens.txt`;
 const CROP_SIZE    = 256; // side length of the challenge image in pixels
 
@@ -114,7 +114,8 @@ async function startGame(cropSize = CROP_SIZE) {
     // 2. Pick random room
     const roomEntry = pickRandomRoom(screenList); // "SU/SU_A01"
     const [region, roomName] = roomEntry.split("/");
-    window.currentRoom = roomEntry;
+    //window.currentRoom = roomEntry; //Region and room
+    window.currentRoom = roomName; //just room
 
     // 3. Build image path and load
     const imgUrl = `${SCREENS_PATH}/${region}/${roomName}.png`;
@@ -136,5 +137,6 @@ async function startGame(cropSize = CROP_SIZE) {
  */
 function checkAnswer(playerAnswer) {
     if (!window.currentRoom) return false;
-    return playerAnswer.toLowerCase() === window.currentRoom.toLowerCase();
+    console.log(`Player Answer ${(playerAnswer.toLowerCase().split("/"))[1]}, good answer ${window.currentRoom.toLowerCase()}`);
+    return (playerAnswer.toLowerCase().split("/"))[1] === window.currentRoom.toLowerCase();
 }
