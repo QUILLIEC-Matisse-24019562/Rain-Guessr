@@ -1,211 +1,123 @@
-/**
- * Map Pan & Zoom Script
- * Handles dragging and zooming for SVG map using viewBox
- */
-
-const container = document.getElementById('map-container');
-const svg = document.getElementById('map-svg');
+// moving_map_script.js — pan + zoom for map-room.html
+// Controls:
+//   Scroll wheel  → zoom in/out (centered on cursor)
+//   Right click   → pan (drag)
+//   Arrow keys    → pan
+//
+// Instead of CSS transform on #canvas-wrapper, pan/zoom is applied via
+// WebGL uniforms (setRenderTransform) so the canvas renders at native
+// screen resolution and stays sharp at any zoom level.
 
 let isDragging = false;
 let startX = 0, startY = 0;
-let startViewBox = { x: 0, y: 0, width: 0, height: 0 };
 
-// Current viewBox values
-let viewBoxX = 0;
-let viewBoxY = 0;
-let viewBoxWidth = 10000;
-let viewBoxHeight = 10000;
+// Pan in map-space units, zoom is a scale factor
+window.mapPanX = 0;
+window.mapPanY = 0;
+window.scale   = 1;
 
-// Make isDragging globally accessible
-window.isDragging = false;
+// Legacy CSS offset aliases (used by room_detection.js for coordinate math)
+Object.defineProperty(window, 'offsetX', { get: () => 0 });
+Object.defineProperty(window, 'offsetY', { get: () => 0 });
 
-// Ensure container and svg exist
-if (!container || !svg) {
-    console.error('Map container or SVG not found');
-}
-
-/**
- * Get current viewBox values from SVG
- */
-function getViewBox() {
-    const vb = svg.getAttribute('viewBox');
-    if (vb) {
-        const parts = vb.split(' ').map(Number);
-        viewBoxX = parts[0] || 0;
-        viewBoxY = parts[1] || 0;
-        viewBoxWidth = parts[2] || 10000;
-        viewBoxHeight = parts[3] || 10000;
+function applyTransform() {
+    // Push pan/zoom into the WebGL shader
+    if (typeof setRenderTransform === 'function') {
+        setRenderTransform(window.mapPanX, window.mapPanY, window.scale);
     }
-    return { x: viewBoxX, y: viewBoxY, width: viewBoxWidth, height: viewBoxHeight };
+    if (typeof redraw === 'function') redraw();
 }
 
-/**
- * Set viewBox on SVG
- */
-function setViewBox(x, y, width, height) {
-    viewBoxX = x;
-    viewBoxY = y;
-    viewBoxWidth = width;
-    viewBoxHeight = height;
-    svg.setAttribute('viewBox', `${x} ${y} ${width} ${height}`);
-}
+window.addEventListener('DOMContentLoaded', () => {
+    const canvasEl = document.getElementById('canvas');
+    if (!canvasEl) { console.error('Canvas not found'); return; }
 
-/**
- * Initialize viewBox from SVG
- */
-window.addEventListener('load', () => {
-    getViewBox();
-    console.log('Initial viewBox:', { viewBoxX, viewBoxY, viewBoxWidth, viewBoxHeight });
-});
+    // Center map on load — canvas is now viewport-sized
+    // Map coordinate (0,0) maps to canvas center at scale 1
+    // No initial offset needed; map data is centred by its own coordinates
+    applyTransform();
 
-/**
- * Zoom with mouse wheel
- */
-container.addEventListener('wheel', (e) => {
-    e.preventDefault();
+    // --- Scroll wheel: zoom centered on cursor ---
+    canvasEl.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
 
-    // Get current viewBox
-    getViewBox();
+        const oldScale = window.scale;
+        const zoomIntensity = 0.1 * oldScale;
+        const delta    = e.deltaY > 0 ? -zoomIntensity : zoomIntensity;
+        const newScale = Math.min(Math.max(0.01, oldScale + delta), 50);
 
-    // Get mouse position relative to container
-    const rect = container.getBoundingClientRect();
-    const mouseX = e.clientX - rect.left;
-    const mouseY = e.clientY - rect.top;
+        // Cursor position in canvas physical pixels
+        const dpr  = window.devicePixelRatio || 1;
+        const rect = canvasEl.getBoundingClientRect();
+        const cx   = (e.clientX - rect.left)  * dpr;
+        const cy   = (e.clientY - rect.top)   * dpr;
 
-    // Convert screen coordinates to world coordinates
-    const worldX = viewBoxX + (mouseX / rect.width) * viewBoxWidth;
-    const worldY = viewBoxY + (mouseY / rect.height) * viewBoxHeight;
+        // Convert cursor physical px → map space at current transform
+        // Inverse of shader: mapX = (cx - cw/2) / scale - panX
+        const cw = canvasEl.width, ch = canvasEl.height;
+        const mapCursorX =  (cx - cw/2) / oldScale - window.mapPanX;
+        const mapCursorY = -(cy - ch/2) / oldScale - window.mapPanY;
 
-    // Calculate zoom factor
-    const zoomFactor = e.deltaY > 0 ? 1.2 : 0.8; // Zoom out or zoom in
-    const newWidth = Math.max(500, Math.min(50000, viewBoxWidth * zoomFactor));
-    const newHeight = Math.max(500, Math.min(50000, viewBoxHeight * zoomFactor));
+        // After scale change, keep the same map point under the cursor:
+        // mapCursorX = (cx - cw/2) / newScale - newPanX
+        // → newPanX = (cx - cw/2) / newScale - mapCursorX
+        window.mapPanX =  (cx - cw/2) / newScale - mapCursorX;
+        window.mapPanY = -(cy - ch/2) / newScale - mapCursorY;
+        window.scale   = newScale;
 
-    // Maintain aspect ratio
-    const aspectRatio = viewBoxWidth / viewBoxHeight;
-    const newAspect = newWidth / newHeight;
+        applyTransform();
+    }, { passive: false });
 
-    let finalWidth = newWidth;
-    let finalHeight = newHeight;
+    // --- Right click drag: pan ---
+    canvasEl.addEventListener('mousedown', (e) => {
+        if (e.button !== 2) return;
+        e.preventDefault();
+        isDragging = true;
+        document.body.style.cursor = 'grabbing';
+        startX = e.clientX;
+        startY = e.clientY;
+    });
 
-    if (newAspect > aspectRatio) {
-        finalHeight = newWidth / aspectRatio;
-    } else {
-        finalWidth = newHeight * aspectRatio;
-    }
+    document.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        const dpr = window.devicePixelRatio || 1;
+        // Convert CSS pixel drag to map-space delta
+        const dx =  (e.clientX - startX) * dpr / window.scale;
+        const dy = -(e.clientY - startY) * dpr / window.scale; // Y flipped
+        window.mapPanX += dx;
+        window.mapPanY += dy;
+        startX = e.clientX;
+        startY = e.clientY;
+        applyTransform();
+    });
 
-    // Calculate new viewBox position to zoom towards mouse
-    const newX = worldX - (mouseX / rect.width) * finalWidth;
-    const newY = worldY - (mouseY / rect.height) * finalHeight;
-
-    setViewBox(newX, newY, finalWidth, finalHeight);
-});
-
-/**
- * Start dragging
- */
-container.addEventListener('mousedown', (e) => {
-    if (e.button !== 0) return; // Only left click
-
-    // Don't drag if clicking on a room
-    const target = e.target.closest('.room-group');
-    if (target) return;
-
-    e.preventDefault();
-    isDragging = true;
-    window.isDragging = true;
-    container.style.cursor = 'grabbing';
-
-    // Store starting position and viewBox
-    startX = e.clientX;
-    startY = e.clientY;
-    getViewBox();
-    startViewBox = { x: viewBoxX, y: viewBoxY, width: viewBoxWidth, height: viewBoxHeight };
-});
-
-/**
- * Handle dragging
- */
-container.addEventListener('mousemove', (e) => {
-    if (!isDragging) return;
-
-    // Calculate how much the mouse moved
-    const rect = container.getBoundingClientRect();
-    const deltaX = (e.clientX - startX) / rect.width * startViewBox.width;
-    const deltaY = (e.clientY - startY) / rect.height * startViewBox.height;
-
-    // Update viewBox based on drag
-    setViewBox(
-        startViewBox.x - deltaX,
-        startViewBox.y - deltaY,
-        startViewBox.width,
-        startViewBox.height
-    );
-});
-
-/**
- * End dragging
- */
-container.addEventListener('mouseup', () => {
-    if (isDragging) {
+    document.addEventListener('mouseup', (e) => {
+        if (e.button !== 2) return;
         isDragging = false;
-        window.isDragging = false;
-        container.style.cursor = 'grab';
-    }
+        document.body.style.cursor = '';
+    });
+
+    canvasEl.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+    });
+
+    // --- Arrow keys: pan ---
+    const keyPanStep = 20; // map-space units per keypress
+
+    window.addEventListener('keydown', (e) => {
+        if (document.activeElement.tagName === 'INPUT' ||
+            document.activeElement.tagName === 'TEXTAREA') return;
+
+        let moved = true;
+        switch (e.key) {
+            case 'ArrowLeft':  window.mapPanX -= keyPanStep; break;
+            case 'ArrowRight': window.mapPanX += keyPanStep; break;
+            case 'ArrowUp':    window.mapPanY += keyPanStep; break;
+            case 'ArrowDown':  window.mapPanY -= keyPanStep; break;
+            default: moved = false;
+        }
+        if (moved) { e.preventDefault(); applyTransform(); }
+    });
 });
-
-/**
- * Cancel drag if mouse leaves
- */
-container.addEventListener('mouseleave', () => {
-    if (isDragging) {
-        isDragging = false;
-        window.isDragging = false;
-        container.style.cursor = 'grab';
-    }
-});
-
-/**
- * Reset map view
- */
-function resetMapView() {
-    // Get world bounds from rooms
-    const roomsGroup = document.getElementById('rooms-group');
-    const rooms = roomsGroup.querySelectorAll('.room-group');
-    
-    if (rooms.length === 0) {
-        setViewBox(0, 0, 10000, 10000);
-        return;
-    }
-
-    let minX = Infinity, maxX = -Infinity;
-    let minY = Infinity, maxY = -Infinity;
-
-    for (const room of rooms) {
-        const x = parseInt(room.getAttribute('data-pos-x')) || 0;
-        const y = parseInt(room.getAttribute('data-pos-y')) || 0;
-        const w = parseInt(room.getAttribute('data-width')) || 0;
-        const h = parseInt(room.getAttribute('data-height')) || 0;
-
-        minX = Math.min(minX, x);
-        minY = Math.min(minY, y);
-        maxX = Math.max(maxX, x + w);
-        maxY = Math.max(maxY, y + h);
-    }
-
-    const padding = 200;
-    const width = maxX - minX + padding * 2;
-    const height = maxY - minY + padding * 2;
-
-    setViewBox(minX - padding, minY - padding, width, height);
-    console.log('Map view reset');
-}
-
-// Export functions for use in other scripts
-window.mapControls = {
-    getViewBox: () => ({ x: viewBoxX, y: viewBoxY, width: viewBoxWidth, height: viewBoxHeight }),
-    setViewBox: setViewBox,
-    reset: resetMapView
-};
-
-

@@ -8,6 +8,7 @@ sb_a07.txt
 sb_a08.txt
 sb_a09.txt
 sb_a10.txt
+sb_a11.txt
 sb_a12.txt
 sb_a13.txt
 sb_a14.txt
@@ -16,6 +17,7 @@ sb_b02.txt
 sb_b03.txt
 sb_c01.txt
 sb_c05.txt
+sb_c06.txt
 sb_c07.txt
 sb_c08.txt
 sb_c09.txt
@@ -47,6 +49,7 @@ sb_j04.txt
 sb_l01.txt
 sb_s01.txt
 sb_s02.txt
+sb_s03.txt
 sb_s04.txt
 sb_s05.txt
 sb_s06.txt

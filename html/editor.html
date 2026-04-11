@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rain Guessr — Map Editor</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700&display=swap');
+
+  :root {
+    --bg:        #0a0c0f;
+    --panel:     #111418;
+    --border:    #2a2f38;
+    --accent:    #e8c84a;
+    --accent2:   #4ae8c8;
+    --danger:    #e84a4a;
+    --text:      #c8d0dc;
+    --dim:       #5a6070;
+    --region-fill:   rgba(232,200,74,0.08);
+    --region-stroke: rgba(232,200,74,0.6);
+    --room-fill:     rgba(74,232,200,0.06);
+    --room-stroke:   rgba(74,232,200,0.5);
+    --sel-fill:      rgba(232,200,74,0.25);
+    --sel-stroke:    #e8c84a;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Share Tech Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* ── Top bar ── */
+  #topbar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 16px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+    z-index: 10;
+  }
+
+  #topbar h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: var(--accent);
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .step-indicator {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .step {
+    padding: 4px 14px;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: var(--dim);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .step.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(232,200,74,0.08);
+  }
+  .step:hover:not(.active) { border-color: var(--dim); color: var(--text); }
+
+  .sep { width: 1px; height: 20px; background: var(--border); }
+
+  #info-bar {
+    font-size: 11px;
+    color: var(--dim);
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #sel-label {
+    font-size: 11px;
+    color: var(--accent2);
+    white-space: nowrap;
+  }
+
+  button.btn {
+    padding: 5px 14px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  button.btn:hover { border-color: var(--accent2); color: var(--accent2); }
+  button.btn.primary { border-color: var(--accent); color: var(--accent); }
+  button.btn.primary:hover { background: rgba(232,200,74,0.12); }
+  button.btn.danger { border-color: var(--danger); color: var(--danger); }
+  button.btn.danger:hover { background: rgba(232,74,74,0.12); }
+  button.btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+  /* ── Main layout ── */
+  #main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  /* ── Canvas area ── */
+  #canvas-wrap {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    background: var(--bg);
+    cursor: crosshair;
+  }
+
+  #editor-canvas {
+    position: absolute;
+    top: 0; left: 0;
+    image-rendering: pixelated;
+  }
+
+  /* ── Side panel ── */
+  #panel {
+    width: 220px;
+    flex-shrink: 0;
+    background: var(--panel);
+    border-left: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  #panel-header {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--dim);
+    text-transform: uppercase;
+  }
+
+  #panel-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 6px 0;
+  }
+
+  #panel-list::-webkit-scrollbar { width: 4px; }
+  #panel-list::-webkit-scrollbar-track { background: transparent; }
+  #panel-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  .list-item {
+    padding: 5px 14px;
+    font-size: 11px;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+    transition: all 0.1s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .list-item:hover { background: rgba(255,255,255,0.03); color: var(--text); }
+  .list-item.selected {
+    border-left-color: var(--accent);
+    color: var(--accent);
+    background: rgba(232,200,74,0.06);
+  }
+
+  #panel-footer {
+    padding: 10px 14px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .coord-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+  }
+  .coord-row label { color: var(--dim); width: 14px; }
+  .coord-row input {
+    flex: 1;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    padding: 3px 6px;
+    border-radius: 2px;
+    width: 0;
+  }
+  .coord-row input:focus { outline: none; border-color: var(--accent2); }
+
+  /* ── Status bar ── */
+  #statusbar {
+    padding: 4px 14px;
+    background: var(--panel);
+    border-top: 1px solid var(--border);
+    font-size: 10px;
+    color: var(--dim);
+    display: flex;
+    gap: 20px;
+    flex-shrink: 0;
+  }
+
+  /* ── Loading overlay ── */
+  #loading {
+    position: fixed; inset: 0;
+    background: var(--bg);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 16px;
+    z-index: 100;
+    transition: opacity 0.4s;
+  }
+  #loading.hidden { opacity: 0; pointer-events: none; }
+  #loading h2 { font-family: 'Orbitron', sans-serif; color: var(--accent); letter-spacing: 4px; font-size: 14px; }
+  #loading-msg { font-size: 11px; color: var(--dim); }
+  .spinner {
+    width: 32px; height: 32px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<!-- Loading overlay -->
+<div id="loading">
+  <div class="spinner"></div>
+  <h2>RAIN GUESSR</h2>
+  <div id="loading-msg">Initialising...</div>
+</div>
+
+<!-- Top bar -->
+<div id="topbar">
+  <h1>Map Editor</h1>
+  <div class="sep"></div>
+  <div class="step-indicator">
+    <div class="step active" id="step1-btn" onclick="setStep(1)">① Regions</div>
+    <div class="step"        id="step2-btn" onclick="setStep(2)">② Rooms</div>
+  </div>
+  <div class="sep"></div>
+  <div id="info-bar">Scroll to zoom · Right-drag to pan · Click to select · Drag selected to move</div>
+  <div id="sel-label">—</div>
+  <div class="sep"></div>
+  <button class="btn" onclick="resetSelected()">Reset pos</button>
+  <button class="btn danger" onclick="resetAll()">Reset all</button>
+  <button class="btn primary" onclick="exportFiles()">Export ↓</button>
+</div>
+
+<!-- Main -->
+<div id="main">
+  <div id="canvas-wrap">
+    <canvas id="editor-canvas"></canvas>
+  </div>
+  <div id="panel">
+    <div id="panel-header" id="panel-title">Regions</div>
+    <div id="panel-list"></div>
+    <div id="panel-footer">
+      <div class="coord-row">
+        <label>X</label>
+        <input type="number" id="inp-x" placeholder="—" oninput="applyCoordInput()">
+      </div>
+      <div class="coord-row">
+        <label>Y</label>
+        <input type="number" id="inp-y" placeholder="—" oninput="applyCoordInput()">
+      </div>
+      <button class="btn" onclick="centerSelected()">Center view on selection</button>
+      <button class="btn primary" id="btn-edit-rooms" style="display:none" onclick="enterRoomEditor(selectedRegion)">Edit rooms →</button>
+    </div>
+  </div>
+</div>
+
+<div id="statusbar">
+  <span id="status-zoom">zoom: 1.00</span>
+  <span id="status-mouse">mouse: —</span>
+  <span id="status-count">regions: 0 · rooms: 0</span>
+</div>
+
+<script>
+// ============================================================
+// CONFIG — adjust path if your editor lives elsewhere
+// ============================================================
+const MAP_PATH = '../map/World/Regions/Rooms';
+
+// ============================================================
+// STATE
+// ============================================================
+const canvas = document.getElementById('editor-canvas');
+const ctx    = canvas.getContext('2d');
+
+let step = 1; // 1 = region editor, 2 = room editor
+
+// Pan/zoom
+let panX = 0, panY = 0, zoom = 1;
+let isPanning = false, panStartX = 0, panStartY = 0;
+
+// Data
+let regionPos    = {};   // { CC: [x,y], ... }  — original from file
+let regionOffset = {};   // { CC: [dx,dy], ... } — editor adjustments
+let roomOffset   = {};   // { "CC/cc_a01": [dx,dy], ... }
+
+let regionRooms  = {};   // { CC: [ {key,pos_x,pos_y,width,height,segs}, ... ] }
+let regionBounds = {};   // { CC: {minX,minY,maxX,maxY} } in map space (before offset)
+let allRoomData  = {};   // key → {pos_x,pos_y,width,height,segs,region}
+
+// Selection
+let selectedRegion = null; // region abbr string
+let selectedRoom   = null; // room key string
+let step2Region    = null; // which region we're editing in step 2
+
+// Drag
+let isDragging = false;
+let dragStartMapX = 0, dragStartMapY = 0;
+let dragOrigOffset = null;
+
+// ============================================================
+// INIT
+// ============================================================
+window.addEventListener('DOMContentLoaded', async () => {
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+  attachEvents();
+  await loadData();
+  setStep(1);
+  fitAll();
+  hideLoading();
+});
+
+function resizeCanvas() {
+  const wrap = document.getElementById('canvas-wrap');
+  canvas.width  = wrap.clientWidth;
+  canvas.height = wrap.clientHeight;
+  draw();
+}
+
+function hideLoading() {
+  document.getElementById('loading').classList.add('hidden');
+}
+
+function setLoadMsg(msg) {
+  document.getElementById('loading-msg').textContent = msg;
+}
+
+// ============================================================
+// DATA LOADING
+// ============================================================
+async function loadData() {
+  setLoadMsg('Loading region list...');
+  const regText = await fetch(MAP_PATH + '/regions.txt').then(r => r.text());
+  const regions = regText.replaceAll('\r','').split('\n').map(r=>r.trim()).filter(Boolean);
+
+  setLoadMsg('Loading region positions...');
+  const posText = await fetch(MAP_PATH + '/region_pos.txt').then(r => r.text());
+  posText.split('\n').map(l=>l.trim()).filter(Boolean).forEach(line => {
+    const [k,v] = line.split(':');
+    if (k && v) regionPos[k.trim()] = v.split('x').map(Number);
+  });
+
+  // Init offsets to zero
+  regions.forEach(r => {
+    const key = r.split('-')[0];
+    if (!regionOffset[key]) regionOffset[key] = [0, 0];
+    regionRooms[key] = [];
+  });
+
+  setLoadMsg('Loading room lists...');
+  await Promise.all(regions.map(async region => {
+    const key = region.split('-')[0]; // e.g. "CC-rooms" → "CC"
+
+    // Try both filename conventions: cf-CC-rooms.txt and cf-CC.txt
+    const attempts = [
+      `${MAP_PATH}/${region}/cf-${region}.txt`,
+      `${MAP_PATH}/${region}/cf-${key}.txt`,
+    ];
+
+    let loaded = false;
+    for (const url of attempts) {
+      try {
+        const r = await fetch(url);
+        if (!r.ok) continue;
+        const data = await r.text();
+        const roomNames = data.split('\n').map(r=>r.trim()).filter(Boolean);
+        if (roomNames.length) roomNames.pop();
+        regionRooms[key] = regionRooms[key] || [];
+        regionRooms[key]._names = roomNames;
+        regionRooms[key]._region = region;
+        console.log(`Loaded room list for ${key} from ${url} (${roomNames.length} rooms)`);
+        loaded = true;
+        break;
+      } catch(e) {}
+    }
+    if (!loaded) console.warn(`Could not load room list for ${region} (tried: ${attempts.join(', ')})`);
+  }));
+
+  setLoadMsg('Loading room geometry...');
+  let loaded = 0, total = 0;
+  const allRegionKeys = Object.keys(regionRooms);
+
+  // Count total rooms
+  allRegionKeys.forEach(key => {
+    total += (regionRooms[key]._names || []).length;
+  });
+
+  await Promise.all(allRegionKeys.map(async key => {
+    const region = regionRooms[key]._region;
+    if (!region) return;
+    const names  = regionRooms[key]._names || [];
+    regionRooms[key] = []; // reset to array of parsed rooms
+
+    for (let roomName of names) {
+      if (roomName.endsWith('.txt')) roomName = roomName.slice(0,-4);
+      if (!roomName) continue;
+      try {
+        const resp = await fetch(`${MAP_PATH}/${region}/${roomName}.txt`);
+        if (!resp.ok) continue;
+        const data = await resp.text();
+        const parsed = parseRoom(data, key, roomName);
+        if (parsed) {
+          regionRooms[key].push(parsed);
+          allRoomData[`${key}/${roomName}`] = parsed;
+          if (!roomOffset[`${key}/${roomName}`]) roomOffset[`${key}/${roomName}`] = [0,0];
+        }
+      } catch(e) {}
+      loaded++;
+      if (loaded % 20 === 0) setLoadMsg(`Loading rooms... ${loaded}/${total}`);
+    }
+  }));
+
+  // Compute region bounding boxes
+  computeRegionBounds();
+  document.getElementById('status-count').textContent =
+    `regions: ${Object.keys(regionPos).length} · rooms: ${Object.keys(allRoomData).length}`;
+}
+
+function parseRoom(data, regionKey, roomName) {
+  const lines = data.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+  if (lines.length < 3) return null;
+
+  // Normalise line 1: strip "taille : " prefix, replace * with x, take only first segment
+  // Handles: "54x35", "taille : 54x35", "54*35|-1|0"
+  let dimLine = lines[1]
+    .replace(/^taille\s*:\s*/i, '')  // strip French prefix
+    .replace('*', 'x')               // normalise * separator
+    .split('|')[0]                   // take only first segment (ignore extra fields)
+    .trim();
+
+  const [width, height] = dimLine.split('x').map(Number);
+
+  // Line 2 must look like "NUMxNUM" — skip files where it's ASCII art or raw game data
+  let posLine = lines[2].split('x');
+  const pos_x = parseFloat(posLine[0]);
+  const pos_y = parseFloat(posLine[1]);
+
+  if (isNaN(width) || isNaN(height) || isNaN(pos_x) || isNaN(pos_y)) {
+    console.warn(`Bad header in ${regionKey}/${roomName} — line1: "${lines[1]}" line2: "${lines[2]}"`);
+    return null;
+  }
+
+  // Parse geometry segments (last 6 lines before end)
+  const segs = lines.slice(-7,-1).flatMap(line =>
+    line === 'None|' ? [] :
+    line.split('|').map(p=>p.trim()).filter(Boolean).map(pair => {
+      const [lx1,ly1,lx2,ly2] = pair.replace(/[()]/g,'').split(',').map(Number);
+      return { lx1, ly1, lx2, ly2 };
+    })
+  );
+
+  return { regionKey, roomName, key: `${regionKey}/${roomName}`, pos_x, pos_y, width, height, segs };
+}
+
+function computeRegionBounds() {
+  Object.keys(regionRooms).forEach(key => {
+    const rpos = regionPos[key];
+    if (!rpos) { console.warn(`No region_pos entry for ${key}`); return; }
+    const rooms = regionRooms[key];
+    if (!rooms.length) { console.warn(`No rooms loaded for ${key}`); return; }
+    let minX=Infinity, minY=Infinity, maxX=-Infinity, maxY=-Infinity;
+    rooms.forEach(room => {
+      const x1 = room.pos_x/2 + rpos[0];
+      const y1 = room.pos_y/2 + rpos[1];
+      minX = Math.min(minX, x1);
+      minY = Math.min(minY, y1 - room.height);
+      maxX = Math.max(maxX, x1 + room.width);
+      maxY = Math.max(maxY, y1);
+    });
+    regionBounds[key] = { minX, minY, maxX, maxY };
+    console.log(`Bounds for ${key}:`, regionBounds[key]);
+  });
+}
+
+// ============================================================
+// COORDINATE HELPERS
+// ============================================================
+// Map space → screen space
+function mToS(mx, my) {
+  return {
+    sx: (mx - panX) * zoom + canvas.width/2,
+    sy: -(my - panY) * zoom + canvas.height/2  // Y flipped: map Y up = screen Y down
+  };
+}
+// Screen space → map space
+function sToM(sx, sy) {
+  return {
+    mx:  (sx - canvas.width/2)  / zoom + panX,
+    my: -(sy - canvas.height/2) / zoom + panY  // Y flipped
+  };
+}
+
+function getRoomMapPos(room) {
+  const roff = regionOffset[room.regionKey] || [0,0];
+  const rpos = regionPos[room.regionKey];
+  if (!rpos) return null;
+  const roff2 = roomOffset[room.key] || [0,0];
+  const x1 = room.pos_x/2 + rpos[0] + roff[0] + roff2[0];
+  const y1 = room.pos_y/2 + rpos[1] + roff[1] + roff2[1];
+  return { x1, y1, x2: x1+room.width, y2: y1-room.height };
+}
+
+function getRegionScreenBounds(key) {
+  const roff = regionOffset[key] || [0,0];
+  const b    = regionBounds[key];
+  if (!b) return null;
+  const p1 = mToS(b.minX + roff[0], b.minY + roff[1]);
+  const p2 = mToS(b.maxX + roff[0], b.maxY + roff[1]);
+  return { x: p1.sx, y: p1.sy, w: p2.sx-p1.sx, h: p2.sy-p1.sy };
+}
+
+// ============================================================
+// DRAWING
+// ============================================================
+function draw() {
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+
+  // Grid
+  drawGrid();
+
+  if (step === 1) drawStep1();
+  else            drawStep2();
+}
+
+function drawGrid() {
+  const gridSize = 100 * zoom;
+  if (gridSize < 8) return;
+  ctx.strokeStyle = 'rgba(255,255,255,0.03)';
+  ctx.lineWidth = 1;
+  const startX = ((canvas.width/2 - panX*zoom) % gridSize + gridSize) % gridSize;
+  const startY = ((canvas.height/2 - panY*zoom) % gridSize + gridSize) % gridSize;
+  for (let x = startX; x < canvas.width; x += gridSize) {
+    ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x,canvas.height); ctx.stroke();
+  }
+  for (let y = startY; y < canvas.height; y += gridSize) {
+    ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(canvas.width,y); ctx.stroke();
+  }
+}
+
+function drawStep1() {
+  // Draw ALL regions from regionPos, not just those with parsed bounds
+  Object.keys(regionPos).forEach(key => {
+    const rpos = regionPos[key];
+    const roff = regionOffset[key] || [0,0];
+    const isSel = selectedRegion === key;
+    const b = regionBounds[key];
+
+    let p1, p2;
+    if (b) {
+      p1 = mToS(b.minX + roff[0], b.minY + roff[1]);
+      p2 = mToS(b.maxX + roff[0], b.maxY + roff[1]);
+    } else {
+      // No rooms loaded — draw a placeholder box around the region origin
+      const placeholderSize = 50;
+      p1 = mToS(rpos[0] + roff[0] - placeholderSize, rpos[1] + roff[1] - placeholderSize);
+      p2 = mToS(rpos[0] + roff[0] + placeholderSize, rpos[1] + roff[1] + placeholderSize);
+    }
+
+    const w = p2.sx - p1.sx;
+    const h = p2.sy - p1.sy;
+
+    // Region fill
+    ctx.fillStyle = isSel ? 'rgba(232,200,74,0.15)' : 'rgba(232,200,74,0.05)';
+    ctx.fillRect(p1.sx, p1.sy, w, h);
+
+    // Room boundaries (only if rooms are loaded)
+    if (b) {
+      (regionRooms[key] || []).forEach(room => {
+        const rp = getRoomMapPos(room);
+        if (!rp) return;
+        const sp1 = mToS(rp.x1, rp.y2);
+        const sp2 = mToS(rp.x2, rp.y1);
+        ctx.strokeStyle = isSel ? 'rgba(74,232,200,0.4)' : 'rgba(74,232,200,0.15)';
+        ctx.lineWidth = 0.5;
+        ctx.strokeRect(sp1.sx, sp1.sy, sp2.sx-sp1.sx, sp2.sy-sp1.sy);
+      });
+    }
+
+    // Region border — dashed if placeholder, solid-ish if real
+    ctx.strokeStyle = isSel ? '#e8c84a' : b ? 'rgba(232,200,74,0.4)' : 'rgba(232,200,74,0.2)';
+    ctx.lineWidth = isSel ? 2 : 1;
+    ctx.setLineDash(isSel ? [] : b ? [6,4] : [3,6]);
+    ctx.strokeRect(p1.sx, p1.sy, w, h);
+    ctx.setLineDash([]);
+
+    // Label
+    if (zoom > 0.02) {
+      ctx.fillStyle = isSel ? '#e8c84a' : b ? 'rgba(232,200,74,0.7)' : 'rgba(232,200,74,0.35)';
+      ctx.font = `bold ${Math.max(10, Math.min(18, zoom*200))}px "Share Tech Mono", monospace`;
+      ctx.textAlign = 'center';
+      ctx.fillText(key, (p1.sx+p2.sx)/2, (p1.sy+p2.sy)/2);
+    }
+  });
+}
+
+function drawStep2() {
+  if (!step2Region) return;
+  const key  = step2Region;
+  const rpos = regionPos[key];
+  if (!rpos) return;
+  const roff = regionOffset[key] || [0,0];
+
+  regionRooms[key].forEach(room => {
+    const roff2 = roomOffset[room.key] || [0,0];
+    const isSel = selectedRoom === room.key;
+
+    const baseX = room.pos_x/2 + rpos[0] + roff[0];
+    const baseY = room.pos_y/2 + rpos[1] + roff[1];
+    const ox = roff2[0], oy = roff2[1];
+
+    // Draw geometry segments
+    ctx.strokeStyle = isSel ? '#4ae8c8' : 'rgba(74,232,200,0.5)';
+    ctx.lineWidth   = isSel ? 1.5 : 0.8;
+    room.segs.forEach(s => {
+      const p1 = mToS(baseX + s.lx1 + ox, baseY - s.ly1 + oy);
+      const p2 = mToS(baseX + s.lx2 + ox, baseY - s.ly2 + oy);
+      ctx.beginPath();
+      ctx.moveTo(p1.sx, p1.sy);
+      ctx.lineTo(p2.sx, p2.sy);
+      ctx.stroke();
+    });
+
+    // Bounding box
+    const bx1 = baseX + ox, by1 = baseY + oy;
+    const sp1  = mToS(bx1, by1 - room.height);
+    const sp2  = mToS(bx1 + room.width, by1);
+    ctx.strokeStyle = isSel ? '#e8c84a' : 'rgba(232,200,74,0.25)';
+    ctx.lineWidth   = isSel ? 1.5 : 0.5;
+    ctx.setLineDash(isSel ? [] : [4,4]);
+    ctx.strokeRect(sp1.sx, sp1.sy, sp2.sx-sp1.sx, sp2.sy-sp1.sy);
+    ctx.setLineDash([]);
+
+    // Room label
+    if (zoom > 0.3) {
+      ctx.fillStyle = isSel ? '#e8c84a' : 'rgba(200,208,220,0.5)';
+      ctx.font = `${Math.max(8, Math.min(13, zoom*40))}px "Share Tech Mono", monospace`;
+      ctx.textAlign = 'center';
+      const mid = mToS(bx1 + room.width/2, by1 - room.height/2);
+      ctx.fillText(room.roomName, mid.sx, mid.sy);
+    }
+  });
+}
+
+// ============================================================
+// STEP MANAGEMENT
+// ============================================================
+function setStep(s) {
+  // Entering step 2: use currently selected region, or first region if none selected
+  if (s === 2) {
+    const target = selectedRegion || step2Region || Object.keys(regionPos).sort()[0];
+    if (!target) return;
+    step2Region = target;
+  }
+
+  step = s;
+  document.getElementById('step1-btn').classList.toggle('active', s===1);
+  document.getElementById('step2-btn').classList.toggle('active', s===2);
+  selectedRegion = null;
+  selectedRoom   = null;
+
+  if (s === 1) {
+    document.getElementById('panel-header').textContent = 'Regions';
+    document.getElementById('btn-edit-rooms').style.display = 'none';
+    buildPanelList(Object.keys(regionPos).sort(), key => selectRegion(key), () => selectedRegion);
+  } else {
+    document.getElementById('panel-header').textContent = 'Rooms — ' + step2Region;
+    const rooms = (regionRooms[step2Region] || []).map(r => r.key).sort();
+    buildPanelList(rooms, key => selectRoom(key), () => selectedRoom, k => k.split('/')[1]);
+    fitRegion(step2Region);
+  }
+  updateCoordInputs();
+  draw();
+}
+
+// Enter step 2 for a specific region (called from double-click or selectRegion button)
+function enterRoomEditor(regionKey) {
+  step2Region = regionKey;
+  setStep(2);
+}
+
+function buildPanelList(keys, onSelect, getSelected, labelFn) {
+  const list = document.getElementById('panel-list');
+  list.innerHTML = '';
+  keys.forEach(key => {
+    const div = document.createElement('div');
+    div.className = 'list-item' + (getSelected() === key ? ' selected' : '');
+    div.textContent = labelFn ? labelFn(key) : key;
+    div.title = key;
+    div.onclick = () => { onSelect(key); };
+    list.appendChild(div);
+  });
+}
+
+function refreshPanelSelection() {
+  document.querySelectorAll('.list-item').forEach(el => {
+    const key = el.title;
+    const isSel = step===1 ? key===selectedRegion : key===selectedRoom;
+    el.classList.toggle('selected', isSel);
+  });
+}
+
+// ============================================================
+// SELECTION
+// ============================================================
+function selectRegion(key) {
+  selectedRegion = key;
+  selectedRoom   = null;
+  document.getElementById('sel-label').textContent = `Region: ${key}`;
+  document.getElementById('btn-edit-rooms').style.display = 'block';
+  updateCoordInputs();
+  refreshPanelSelection();
+  draw();
+}
+
+function selectRoom(key) {
+  selectedRoom   = key;
+  selectedRegion = null;
+  document.getElementById('sel-label').textContent = `Room: ${key.split('/')[1]}`;
+  updateCoordInputs();
+  refreshPanelSelection();
+  draw();
+}
+
+function updateCoordInputs() {
+  const xi = document.getElementById('inp-x');
+  const yi = document.getElementById('inp-y');
+  if (step===1 && selectedRegion) {
+    const off = regionOffset[selectedRegion] || [0,0];
+    const base = regionPos[selectedRegion] || [0,0];
+    xi.value = base[0] + off[0];
+    yi.value = base[1] + off[1];
+  } else if (step===2 && selectedRoom) {
+    const off = roomOffset[selectedRoom] || [0,0];
+    xi.value = off[0];
+    yi.value = off[1];
+  } else {
+    xi.value = '';
+    yi.value = '';
+  }
+}
+
+function applyCoordInput() {
+  const x = parseFloat(document.getElementById('inp-x').value);
+  const y = parseFloat(document.getElementById('inp-y').value);
+  if (isNaN(x) || isNaN(y)) return;
+
+  if (step===1 && selectedRegion) {
+    const base = regionPos[selectedRegion] || [0,0];
+    regionOffset[selectedRegion] = [x - base[0], y - base[1]];
+  } else if (step===2 && selectedRoom) {
+    roomOffset[selectedRoom] = [x, y];
+  }
+  draw();
+}
+
+function centerSelected() {
+  if (step===1 && selectedRegion) {
+    const roff = regionOffset[selectedRegion] || [0,0];
+    const b    = regionBounds[selectedRegion];
+    if (!b) return;
+    panX = (b.minX + b.maxX)/2 + roff[0];
+    panY = (b.minY + b.maxY)/2 + roff[1];
+  } else if (step===2 && selectedRoom) {
+    const room = allRoomData[selectedRoom];
+    if (!room) return;
+    const rp = getRoomMapPos(room);
+    if (!rp) return;
+    panX = (rp.x1 + rp.x2)/2;
+    panY = (rp.y1 + rp.y2)/2;
+  }
+  draw();
+}
+
+// ============================================================
+// RESET / EXPORT
+// ============================================================
+function resetSelected() {
+  if (step===1 && selectedRegion) {
+    regionOffset[selectedRegion] = [0,0];
+    updateCoordInputs();
+  } else if (step===2 && selectedRoom) {
+    roomOffset[selectedRoom] = [0,0];
+    updateCoordInputs();
+  }
+  draw();
+}
+
+function resetAll() {
+  if (!confirm('Reset ALL positions to original?')) return;
+  Object.keys(regionOffset).forEach(k => regionOffset[k] = [0,0]);
+  Object.keys(roomOffset).forEach(k   => roomOffset[k]   = [0,0]);
+  updateCoordInputs();
+  draw();
+}
+
+function exportFiles() {
+  // 1. region_pos.txt — absolute positions (base + offset)
+  let regionPosOut = '';
+  Object.keys(regionPos).sort().forEach(key => {
+    const base = regionPos[key];
+    const off  = regionOffset[key] || [0,0];
+    regionPosOut += `${key}:${base[0]+off[0]}x${base[1]+off[1]}\n`;
+  });
+  downloadFile('region_pos.txt', regionPosOut);
+
+  // 2. room_offsets.txt — per-room dx/dy offsets (only non-zero)
+  const nonZero = Object.entries(roomOffset).filter(([,v]) => v[0]!==0 || v[1]!==0);
+  if (nonZero.length > 0) {
+    let roomOffOut = '';
+    nonZero.forEach(([key,[dx,dy]]) => { roomOffOut += `${key}:${dx}x${dy}\n`; });
+    downloadFile('room_offsets.txt', roomOffOut);
+  }
+}
+
+function downloadFile(name, content) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([content], { type: 'text/plain' }));
+  a.download = name;
+  a.click();
+}
+
+// ============================================================
+// FIT VIEW
+// ============================================================
+function fitAll() {
+  let minX=Infinity, minY=Infinity, maxX=-Infinity, maxY=-Infinity;
+  Object.keys(regionPos).forEach(key => {
+    const roff = regionOffset[key] || [0,0];
+    const b    = regionBounds[key];
+    const rpos = regionPos[key];
+    if (b) {
+      minX = Math.min(minX, b.minX+roff[0]); minY = Math.min(minY, b.minY+roff[1]);
+      maxX = Math.max(maxX, b.maxX+roff[0]); maxY = Math.max(maxY, b.maxY+roff[1]);
+    } else {
+      minX = Math.min(minX, rpos[0]+roff[0]-50); minY = Math.min(minY, rpos[1]+roff[1]-50);
+      maxX = Math.max(maxX, rpos[0]+roff[0]+50); maxY = Math.max(maxY, rpos[1]+roff[1]+50);
+    }
+  });
+  if (!isFinite(minX)) return;
+  panX = (minX + maxX) / 2;
+  panY = (minY + maxY) / 2;
+  zoom = Math.min(
+    canvas.width  / (maxX - minX + 200),
+    canvas.height / (maxY - minY + 200)
+  ) * 0.85;
+  draw();
+}
+
+// ============================================================
+// HIT TESTING
+// ============================================================
+function hitTestStep1(mx, my) {
+  let best = null, bestArea = Infinity;
+  Object.keys(regionPos).forEach(key => {
+    const roff = regionOffset[key] || [0,0];
+    const b    = regionBounds[key];
+    const rpos = regionPos[key];
+
+    let minX, minY, maxX, maxY;
+    if (b) {
+      minX = b.minX + roff[0]; minY = b.minY + roff[1];
+      maxX = b.maxX + roff[0]; maxY = b.maxY + roff[1];
+    } else {
+      const s = 50;
+      minX = rpos[0] + roff[0] - s; minY = rpos[1] + roff[1] - s;
+      maxX = rpos[0] + roff[0] + s; maxY = rpos[1] + roff[1] + s;
+    }
+
+    if (mx >= minX && mx <= maxX && my >= minY && my <= maxY) {
+      const area = (maxX - minX) * (maxY - minY);
+      if (area < bestArea) { bestArea = area; best = key; }
+    }
+  });
+  return best;
+}
+
+function hitTestStep2(mx, my) {
+  if (!step2Region) return null;
+  let best = null, bestArea = Infinity;
+  (regionRooms[step2Region] || []).forEach(room => {
+    const rp = getRoomMapPos(room);
+    if (!rp) return;
+    if (mx >= rp.x1 && mx <= rp.x2 && my >= rp.y2 && my <= rp.y1) {
+      const area = room.width * room.height;
+      if (area < bestArea) { bestArea = area; best = room.key; }
+    }
+  });
+  return best;
+}
+
+// ============================================================
+// EVENTS
+// ============================================================
+function attachEvents() {
+  const wrap = document.getElementById('canvas-wrap');
+
+  // Wheel zoom
+  wrap.addEventListener('wheel', e => {
+    e.preventDefault();
+    const factor = e.deltaY > 0 ? 0.85 : 1/0.85;
+    const mx0 =  (e.clientX - canvas.width/2)  / zoom + panX;
+    const my0 = -(e.clientY - canvas.height/2) / zoom + panY;  // Y flipped
+    zoom = Math.min(Math.max(0.01, zoom * factor), 50);
+    panX =  mx0 - (e.clientX - canvas.width/2)  / zoom;
+    panY =  my0 + (e.clientY - canvas.height/2) / zoom;  // Y flipped
+    document.getElementById('status-zoom').textContent = `zoom: ${zoom.toFixed(2)}`;
+    draw();
+  }, { passive: false });
+
+  // Right-drag pan
+  wrap.addEventListener('mousedown', e => {
+    if (e.button === 2) {
+      isPanning = true;
+      panStartX = e.clientX;
+      panStartY = e.clientY;
+      canvas.style.cursor = 'grabbing';
+      return;
+    }
+    if (e.button !== 0) return;
+
+    const { mx, my } = sToM(e.clientX, e.clientY);
+
+    if (step === 1) {
+      const hit = hitTestStep1(mx, my);
+      if (hit) {
+        selectRegion(hit);
+        // Start drag
+        isDragging    = true;
+        dragStartMapX = mx;
+        dragStartMapY = my;
+        dragOrigOffset = [...(regionOffset[hit] || [0,0])];
+      } else {
+        selectedRegion = null;
+        document.getElementById('sel-label').textContent = '—';
+        updateCoordInputs();
+        refreshPanelSelection();
+        draw();
+      }
+    } else {
+      const hit = hitTestStep2(mx, my);
+      if (hit) {
+        // Double-click region label to enter step2 for that region is handled below
+        selectRoom(hit);
+        isDragging    = true;
+        dragStartMapX = mx;
+        dragStartMapY = my;
+        dragOrigOffset = [...(roomOffset[hit] || [0,0])];
+      } else {
+        selectedRoom = null;
+        document.getElementById('sel-label').textContent = '—';
+        updateCoordInputs();
+        refreshPanelSelection();
+        draw();
+      }
+    }
+  });
+
+  wrap.addEventListener('dblclick', e => {
+    if (step !== 1) return;
+    const { mx, my } = sToM(e.clientX, e.clientY);
+    const hit = hitTestStep1(mx, my);
+    if (hit) {
+      step2Region = hit;
+      setStep(2);
+      fitRegion(hit);
+    }
+  });
+
+  window.addEventListener('mousemove', e => {
+    const { mx, my } = sToM(e.clientX, e.clientY);
+    document.getElementById('status-mouse').textContent =
+      `map: ${Math.round(mx)}, ${Math.round(my)}`;
+
+    if (isPanning) {
+      panX -= (e.clientX - panStartX) / zoom;
+      panY += (e.clientY - panStartY) / zoom;  // Y flipped: screen down = map up
+      panStartX = e.clientX;
+      panStartY = e.clientY;
+      draw();
+      return;
+    }
+    if (!isDragging) return;
+
+    const dx = mx - dragStartMapX;
+    const dy = my - dragStartMapY;
+
+    if (step===1 && selectedRegion) {
+      regionOffset[selectedRegion] = [
+        Math.round(dragOrigOffset[0] + dx),
+        Math.round(dragOrigOffset[1] + dy)
+      ];
+      updateCoordInputs();
+      draw();
+    } else if (step===2 && selectedRoom) {
+      roomOffset[selectedRoom] = [
+        Math.round(dragOrigOffset[0] + dx),
+        Math.round(dragOrigOffset[1] + dy)
+      ];
+      updateCoordInputs();
+      draw();
+    }
+  });
+
+  window.addEventListener('mouseup', e => {
+    if (e.button === 2) { isPanning = false; canvas.style.cursor = 'crosshair'; }
+    if (e.button === 0) isDragging = false;
+  });
+
+  wrap.addEventListener('contextmenu', e => e.preventDefault());
+
+  // Arrow keys for fine-tuning
+  window.addEventListener('keydown', e => {
+    if (document.activeElement.tagName === 'INPUT') return;
+    const step_size = e.shiftKey ? 10 : 1;
+    let dx=0, dy=0;
+    if (e.key==='ArrowLeft')  dx=-step_size;
+    if (e.key==='ArrowRight') dx= step_size;
+    if (e.key==='ArrowUp')    dy= step_size;  // map Y up = positive
+    if (e.key==='ArrowDown')  dy=-step_size;
+    if (!dx && !dy) return;
+    e.preventDefault();
+
+    if (step===1 && selectedRegion) {
+      const off = regionOffset[selectedRegion] || [0,0];
+      regionOffset[selectedRegion] = [off[0]+dx, off[1]+dy];
+      updateCoordInputs();
+      draw();
+    } else if (step===2 && selectedRoom) {
+      const off = roomOffset[selectedRoom] || [0,0];
+      roomOffset[selectedRoom] = [off[0]+dx, off[1]+dy];
+      updateCoordInputs();
+      draw();
+    }
+  });
+
+  // Back to step 1 with Escape
+  window.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && step === 2) setStep(1);
+  });
+}
+
+function fitRegion(key) {
+  const b    = regionBounds[key];
+  const roff = regionOffset[key] || [0,0];
+  if (!b) return;
+  panX = (b.minX + b.maxX)/2 + roff[0];
+  panY = (b.minY + b.maxY)/2 + roff[1];
+  zoom = Math.min(
+    canvas.width  / (b.maxX - b.minX + 100),
+    canvas.height / (b.maxY - b.minY + 100)
+  ) * 0.85;
+  draw();
+}
+</script>
+</body>
+</html>

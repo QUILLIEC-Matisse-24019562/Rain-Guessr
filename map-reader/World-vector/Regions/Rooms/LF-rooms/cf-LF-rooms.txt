@@ -29,6 +29,7 @@ lf_d06.txt
 lf_d07.txt
 lf_d08.txt
 lf_e01.txt
+lf_e02.txt
 lf_e03.txt
 lf_e04.txt
 lf_e05.txt
@@ -42,4 +43,5 @@ lf_s02.txt
 lf_s03.txt
 lf_s04.txt
 lf_s05.txt
+lf_s06.txt
 lf_s07.txt

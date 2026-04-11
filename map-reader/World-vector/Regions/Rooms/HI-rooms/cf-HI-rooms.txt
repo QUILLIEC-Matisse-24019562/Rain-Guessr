@@ -1,4 +1,5 @@
 hi_a04.txt
+hi_a06.txt
 hi_a07.txt
 hi_a10.txt
 hi_a11.txt
@@ -16,6 +17,7 @@ hi_a24.txt
 hi_a25.txt
 hi_a26.txt
 hi_a27.txt
+hi_b02.txt
 hi_b03.txt
 hi_b04.txt
 hi_b05.txt
@@ -30,6 +32,8 @@ hi_b15.txt
 hi_c01.txt
 hi_c02.txt
 hi_c03.txt
+hi_c04.txt
+hi_c05.txt
 hi_c11.txt
 hi_c13.txt
 hi_c14.txt

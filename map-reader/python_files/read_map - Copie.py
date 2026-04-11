@@ -1,7 +1,10 @@
 import os
 from collections import defaultdict
 
-path = os.path.dirname(os.path.abspath(__file__))
+#path = os.path.dirname(os.path.abspath(__file__))
+
+path = os.path.abspath(os.path.join(os.path.dirname(__file__),".."))
+
 
 file = "World\Regions\Rooms"
 file_path = os.path.join(path, file)
@@ -550,20 +553,23 @@ def run(root, file, room_pos):
         room_name, width, height, geometry_data = parse_room(spe_file_path)
     except Exception as e:
         print("parse room error : ", e)
-    if room_name:
-        ascii_art, list_error = render_ascii_art(width, height, geometry_data)
-        pos_x, pos_y = room_pos[file[:-4]]
+    try:
+        if room_name:
+            ascii_art, list_error = render_ascii_art(width, height, geometry_data)
+            pos_x, pos_y = room_pos[file[:-4]]
 
-        with open(output_file, 'a') as f:
-            f.write(f"{room_name}\n")
-            f.write(f"{width}x{height}\n")
-            for i in range(len(list_error)): #list_error:
-                f.write(list_error[i] + "\n")
-            f.write(ascii_art + "\n")
-    else:
-        print("Erreur dans le fichier ou les dimensions.")
-        with open(output_file, 'a') as f:
+            with open(output_file, 'a') as f:
+                f.write(f"{room_name}\n")
+                f.write(f"{width}x{height}\n")
+                for i in range(len(list_error)): #list_error:
+                    f.write(list_error[i] + "\n")
+                f.write(ascii_art + "\n")
+        else:
             print("Erreur dans le fichier ou les dimensions.")
+            with open(output_file, 'a') as f:
+                print("Erreur dans le fichier ou les dimensions.")
+    except Exception as e:
+        print("render ascii art error : ", e, " room name : ", room_name, " width : ", width, " height : ", height)
     try:
         points_list_w = ascii_to_vector_wall(width, height, ascii_art)
     except:
@@ -639,7 +645,7 @@ room_pos = pos_room(data_path)
 
 for root, dirs, files in os.walk(file_path):
     for file in files:
-        if file.endswith(".txt") and file != "regions.txt":
+        if file.endswith(".txt") and file != "regions.txt" and not file.__contains__("ignore"):
             with open(os.path.join(root, file), 'r') as fp:
                 for count, line in enumerate(fp):
                     pass

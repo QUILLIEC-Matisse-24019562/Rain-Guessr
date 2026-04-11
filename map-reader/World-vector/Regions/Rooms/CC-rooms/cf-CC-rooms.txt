@@ -18,7 +18,6 @@ cc_c05.txt
 cc_c07.txt
 cc_c08.txt
 cc_c09.txt
-cc_c10.txt
 cc_c11.txt
 cc_c12.txt
 cc_c13.txt

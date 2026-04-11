@@ -3,9 +3,13 @@ cc_a06.txt
 cc_a07.txt
 cc_a10.txt
 cc_a12.txt
+cc_a15.txt
 cc_a16.txt
 cc_a17.txt
+cc_b01.txt
 cc_b04.txt
+cc_b05.txt
+cc_b06.txt
 cc_b08.txt
 cc_b10.txt
 cc_b11.txt
