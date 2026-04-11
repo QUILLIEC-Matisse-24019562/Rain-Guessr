@@ -41,6 +41,34 @@
         }
         #canvas-overlay { z-index: 2; }
 
+        /* ── Toggle button ── */
+        #btn-toggle-game {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 101;
+            pointer-events: all;
+            cursor: pointer;
+            padding: 6px 14px;
+            background: rgba(0,0,0,0.8);
+            border: 1px solid rgba(255,255,255,0.25);
+            color: rgba(255,255,255,0.5);
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 2px;
+            border-radius: 4px;
+            transition: all 0.15s;
+        }
+        #btn-toggle-game:hover {
+            border-color: #ff8800;
+            color: #ff8800;
+        }
+        #btn-toggle-game.active {
+            border-color: #ff8800;
+            color: #ff8800;
+            background: rgba(255,136,0,0.08);
+        }
+
         /* ── Game UI panel ── */
         #game-panel {
             position: fixed;
@@ -48,7 +76,7 @@
             left: 90%;
             transform: translateX(-50%);
             z-index: 100;
-            display: flex;
+            display: none; /* hidden by default — shown when game is active */
             flex-direction: column;
             align-items: center;
             gap: 10px;
@@ -57,8 +85,11 @@
             border-radius: 8px;
             padding: 14px 18px;
             font-family: 'Share Tech Mono', monospace;
-            pointer-events: none; /* children opt back in individually */
+            pointer-events: none;
             min-width: 280px;
+        }
+        #game-panel.visible {
+            display: flex;
         }
 
         #challenge-image {
@@ -70,7 +101,6 @@
             background: #111;
             pointer-events: none;
         }
-
         #challenge-image.loading {
             opacity: 0.3;
         }
@@ -81,14 +111,12 @@
             gap: 10px;
             width: 100%;
         }
-
         #selection-label {
             color: rgba(255,255,255,0.4);
             font-size: 11px;
             letter-spacing: 1px;
             white-space: nowrap;
         }
-
         #selected-room-name {
             flex: 1;
             color: #ff8800;
@@ -127,7 +155,7 @@
             display: none;
             position: fixed;
             z-index: 999;
-            background: rgba(0, 0, 0, 0.75);
+            background: rgba(0,0,0,0.75);
             color: #00ff00;
             font-family: 'Share Tech Mono', monospace;
             font-size: 12px;
@@ -179,31 +207,78 @@
         <button id="btn-validate" disabled onclick="onValidate()">VALIDER</button>
     </div>
 
+    <!-- Toggle button — always visible -->
+    <button id="btn-toggle-game" onclick="toggleGame()">▶ JOUER</button>
+
     <!-- Hover tooltip -->
     <div id="room-tooltip"></div>
 
-    <!-- Loading overlay -->
+    <!-- Loading overlay (map load only, not game) -->
     <div id="loading-overlay">CHARGEMENT...</div>
 
     <script>
-        // Start game once the map is loaded
-        // map_loader.js fires a custom event when all rooms are ready
-        window.addEventListener("mapLoaded", async () => {
-            const overlay = document.getElementById("loading-overlay");
+        window.gameActive = false;
+        let mapReady = false;
+
+        // Map signals it's done loading
+        window.addEventListener("mapLoaded", () => {
+            mapReady = true;
+            document.getElementById("loading-overlay").classList.add("hidden");
+        });
+
+        async function toggleGame() {
+            const btn   = document.getElementById("btn-toggle-game");
+            const panel = document.getElementById("game-panel");
+
+            if (window.gameActive) {
+                // Deactivate
+                window.gameActive = false;
+                panel.classList.remove("visible");
+                btn.classList.remove("active");
+                btn.textContent = "▶ JOUER";
+
+                // Clear any selection left on the map
+                if (typeof clearSelection === "function") clearSelection();
+                document.getElementById("selected-room-name").textContent = "—";
+            } else {
+                // Activate — start a new round
+                if (!mapReady) return; // map not loaded yet, ignore
+                window.gameActive = true;
+                panel.classList.add("visible");
+                btn.classList.add("active");
+                btn.textContent = "■ STOP";
+
+                await newRound();
+            }
+        }
+
+        async function newRound() {
+            // Reset UI state for a fresh round
+            const img       = document.getElementById("challenge-image");
+            const validateBtn = document.getElementById("btn-validate");
+            const selName   = document.getElementById("selected-room-name");
+
+            img.classList.add("loading");
+            img.src = "";
+            validateBtn.disabled  = true;
+            validateBtn.textContent = "VALIDER";
+            validateBtn.style.borderColor = "";
+            validateBtn.style.color       = "";
+            selName.textContent = "—";
+
+            if (typeof clearSelection === "function") clearSelection();
+
             try {
                 const { roomKey, imageDataUrl } = await startGame();
-                const img = document.getElementById("challenge-image");
                 img.src = imageDataUrl;
                 img.classList.remove("loading");
             } catch (e) {
                 console.error("Failed to start game:", e);
-            } finally {
-                overlay.classList.add("hidden");
             }
-        });
+        }
 
         function onValidate() {
-            if (!window.selectedRoom) return;
+            if (!window.selectedRoom || !window.gameActive) return;
             const correct = checkAnswer(window.selectedRoom);
             const btn = document.getElementById("btn-validate");
 
