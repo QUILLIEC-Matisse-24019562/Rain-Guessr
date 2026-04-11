@@ -49,24 +49,7 @@
             z-index: 101;
             pointer-events: all;
             cursor: pointer;
-            padding: 6px 14px;
-            background: rgba(0,0,0,0.8);
-            border: 1px solid rgba(255,255,255,0.25);
-            color: rgba(255,255,255,0.5);
-            font-family: 'Share Tech Mono', monospace;
             font-size: 11px;
-            letter-spacing: 2px;
-            border-radius: 4px;
-            transition: all 0.15s;
-        }
-        #btn-toggle-game:hover {
-            border-color: #ff8800;
-            color: #ff8800;
-        }
-        #btn-toggle-game.active {
-            border-color: #ff8800;
-            color: #ff8800;
-            background: rgba(255,136,0,0.08);
         }
 
         /* ── Game UI panel ── */
@@ -81,6 +64,7 @@
             align-items: center;
             gap: 10px;
             background: rgba(0, 0, 0, 0.82);
+            color: rgba(255,255,255,0.4);
             border: 1px solid rgba(255,255,255,0.15);
             border-radius: 8px;
             padding: 14px 18px;
@@ -96,9 +80,7 @@
             width: 256px;
             height: 256px;
             object-fit: cover;
-            border: 2px solid rgba(255,255,255,0.2);
             border-radius: 4px;
-            background: #111;
             pointer-events: none;
         }
         #challenge-image.loading {
@@ -119,9 +101,7 @@
         }
         #selected-room-name {
             flex: 1;
-            color: #ff8800;
             font-size: 13px;
-            letter-spacing: 1px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -132,21 +112,13 @@
             cursor: pointer;
             padding: 7px 20px;
             background: transparent;
-            border: 1px solid #ff8800;
-            color: #ff8800;
-            font-family: 'Share Tech Mono', monospace;
+            border: 1px solid #9b9a99;
             font-size: 12px;
             letter-spacing: 2px;
             border-radius: 4px;
-            transition: all 0.15s;
             width: 100%;
         }
-        #btn-validate:hover:not(:disabled) {
-            background: rgba(255,136,0,0.15);
-        }
         #btn-validate:disabled {
-            border-color: rgba(255,255,255,0.15);
-            color: rgba(255,255,255,0.2);
             cursor: not-allowed;
         }
 
