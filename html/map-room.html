@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rain Guessr map">
-    <title>Rain Guessr Map</title>
+    <meta name="description" content="Rain Guessr">
+    <title>Rain Guessr</title>
     <link id="stylesheet" rel="stylesheet" href='../css/map.css'>
 
-    <!-- Load order: render first (gl, canvas), map_loader (data),
-         room_detection (hover), connection_loader (lines), moving_map (pan/zoom) -->
     <script src="../js/Map/render.js"              defer></script>
     <script src="../js/Map/map_loader.js"          defer></script>
     <script src="../js/Map/room_detection.js"      defer></script>
     <script src="../js/Map/connection_loader.js"   defer></script>
     <script src="../js/moving_map_script.js"       defer></script>
+    <script src="../js/game.js"                    defer></script>
 
     <link rel="icon" href="../pictures/ico/survivor_head1.ico">
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
         html, body {
             margin: 0;
             overflow: hidden;
@@ -25,7 +26,6 @@
             background: #000;
         }
 
-        /* All canvases are viewport-sized and stacked */
         #canvas-wrapper {
             position: relative;
             width: 100vw;
@@ -34,7 +34,6 @@
         #canvas, #canvas-connections, #canvas-overlay {
             position: absolute;
             top: 0; left: 0;
-            /* width/height set dynamically by render.js resizeCanvas() */
         }
         #canvas-connections, #canvas-overlay {
             pointer-events: none;
@@ -42,33 +41,183 @@
         }
         #canvas-overlay { z-index: 2; }
 
+        /* ── Game UI panel ── */
+        #game-panel {
+            position: fixed;
+            top: 20px;
+            left: 90%;
+            transform: translateX(-50%);
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            background: rgba(0, 0, 0, 0.82);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 8px;
+            padding: 14px 18px;
+            font-family: 'Share Tech Mono', monospace;
+            pointer-events: none; /* children opt back in individually */
+            min-width: 280px;
+        }
+
+        #challenge-image {
+            width: 256px;
+            height: 256px;
+            object-fit: cover;
+            border: 2px solid rgba(255,255,255,0.2);
+            border-radius: 4px;
+            background: #111;
+            pointer-events: none;
+        }
+
+        #challenge-image.loading {
+            opacity: 0.3;
+        }
+
+        #selection-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+        }
+
+        #selection-label {
+            color: rgba(255,255,255,0.4);
+            font-size: 11px;
+            letter-spacing: 1px;
+            white-space: nowrap;
+        }
+
+        #selected-room-name {
+            flex: 1;
+            color: #ff8800;
+            font-size: 13px;
+            letter-spacing: 1px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        #btn-validate {
+            pointer-events: all;
+            cursor: pointer;
+            padding: 7px 20px;
+            background: transparent;
+            border: 1px solid #ff8800;
+            color: #ff8800;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 2px;
+            border-radius: 4px;
+            transition: all 0.15s;
+            width: 100%;
+        }
+        #btn-validate:hover:not(:disabled) {
+            background: rgba(255,136,0,0.15);
+        }
+        #btn-validate:disabled {
+            border-color: rgba(255,255,255,0.15);
+            color: rgba(255,255,255,0.2);
+            cursor: not-allowed;
+        }
+
+        /* ── Tooltip ── */
         #room-tooltip {
             display: none;
             position: fixed;
             z-index: 999;
             background: rgba(0, 0, 0, 0.75);
             color: #00ff00;
-            font-family: monospace;
-            font-size: 13px;
-            padding: 4px 10px;
-            border-radius: 6px;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 4px;
             border: 1px solid #00ff00;
             pointer-events: none;
             white-space: nowrap;
         }
+
+        /* ── Loading overlay ── */
+        #loading-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 200;
+            font-family: 'Share Tech Mono', monospace;
+            color: rgba(255,255,255,0.6);
+            font-size: 13px;
+            letter-spacing: 2px;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+        #loading-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
     </style>
 </head>
 <body>
-    <button type="button"><a href="../index.html">BACK</a> </button>
+
+    <!-- Map canvases -->
     <div id="canvas-wrapper">
-        <!-- Layer 0: WebGL room geometry -->
         <canvas id="canvas"></canvas>
-        <!-- Layer 1: 2D connection lines -->
         <canvas id="canvas-connections"></canvas>
-        <!-- Layer 2: 2D hover highlight -->
         <canvas id="canvas-overlay"></canvas>
     </div>
 
+    <!-- Game UI -->
+    <div id="game-panel">
+        <img id="challenge-image" class="loading" alt="Challenge" src="">
+        <div id="selection-row">
+            <span id="selection-label">ROOM :</span>
+            <span id="selected-room-name">—</span>
+        </div>
+        <button id="btn-validate" disabled onclick="onValidate()">VALIDER</button>
+    </div>
+
+    <!-- Hover tooltip -->
     <div id="room-tooltip"></div>
+
+    <!-- Loading overlay -->
+    <div id="loading-overlay">CHARGEMENT...</div>
+
+    <script>
+        // Start game once the map is loaded
+        // map_loader.js fires a custom event when all rooms are ready
+        window.addEventListener("mapLoaded", async () => {
+            const overlay = document.getElementById("loading-overlay");
+            try {
+                const { roomKey, imageDataUrl } = await startGame();
+                const img = document.getElementById("challenge-image");
+                img.src = imageDataUrl;
+                img.classList.remove("loading");
+            } catch (e) {
+                console.error("Failed to start game:", e);
+            } finally {
+                overlay.classList.add("hidden");
+            }
+        });
+
+        function onValidate() {
+            if (!window.selectedRoom) return;
+            const correct = checkAnswer(window.selectedRoom);
+            const btn = document.getElementById("btn-validate");
+
+            if (correct) {
+                btn.textContent = "✓ CORRECT !";
+                btn.style.borderColor = "#00ff00";
+                btn.style.color       = "#00ff00";
+            } else {
+                btn.textContent = "✗ INCORRECT";
+                btn.style.borderColor = "#ff4444";
+                btn.style.color       = "#ff4444";
+            }
+            btn.disabled = true;
+        }
+    </script>
 </body>
 </html>

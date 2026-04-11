@@ -47,6 +47,9 @@ async function loadMap() {
         // 6. Load and draw connection lines (on a separate 2D canvas, so draw order doesn't matter)
         await Promise.all(Object.keys(rooms).map(region => loadConnections(region, regionPosCache)));
 
+        // Signal that the map is fully loaded — game.js listens for this
+        window.dispatchEvent(new Event("mapLoaded"));
+
     } catch (err) {
         console.error("Error loading map:", err);
     }
