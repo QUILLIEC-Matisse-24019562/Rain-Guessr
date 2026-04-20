@@ -1,5 +1,3 @@
-room name :  SL_C02 
-room name :  SL_C03 
 room name :  SL_C04 
 room name :  SL_C09 
 room name :  SL_D02 
