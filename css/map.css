@@ -7,8 +7,9 @@
   font-family: 'rain_world_menu_font_Webfont';
   src: url('../font/rain-world-menu-font-webfont/rain-world-menu-font-webfont.ttf');
 }
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-/* Hide scrollbars — navigation is via right click drag, arrow keys, scroll wheel */
+
 html, body {
     margin: 0;
     overflow: hidden;
@@ -17,38 +18,140 @@ html, body {
 }
 
 #canvas-wrapper {
-    position: absolute; /* out of flow so it never causes scrollbars */
-    top: 0; left: 0;
-    width: 10000px;
-    height: 6000px;
-    transform-origin: top left;
-    background: #181818;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
-#canvas, #canvas-overlay {
+#canvas, #canvas-connections, #canvas-overlay {
     position: absolute;
     top: 0; left: 0;
 }
-
-/* Overlay never captures mouse events — WebGL canvas handles them */
-#canvas-overlay {
+#canvas-connections, #canvas-overlay {
     pointer-events: none;
     z-index: 1;
+}
+
+#canvas-overlay { z-index: 2; }
+
+#btn-toggle-game {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 101;
+    pointer-events: all;
+    cursor: pointer;
+    font-size: 11px;
 }
 
 #room-tooltip {
     display: none;
     position: fixed;
     z-index: 999;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0,0,0,0.75);
     color: #00ff00;
-    font-family: monospace;
-    font-size: 13px;
-    padding: 4px 10px;
-    border-radius: 6px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 4px;
     border: 1px solid #00ff00;
     pointer-events: none;
     white-space: nowrap;
+}
+
+#game-panel {
+    position: fixed;
+    top: 20px;
+    left: 90%;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.82);
+    color: rgba(255,255,255,0.4);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-family: 'Share Tech Mono', monospace;
+    pointer-events: none;
+    min-width: 280px;
+}
+
+#game-panel.visible {
+    display: flex;
+}
+
+#challenge-image {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+#challenge-image.loading {
+    opacity: 0.3;
+}
+
+#selection-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+#selection-label {
+    color: rgba(255,255,255,0.4);
+    font-size: 11px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+#selected-room-name {
+    flex: 1;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#btn-validate {
+    pointer-events: all;
+    cursor: pointer;
+    padding: 7px 20px;
+    background: transparent;
+    border: 1px solid #9b9a99;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#btn-validate:disabled {
+    cursor: not-allowed;
+}
+
+#loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgba(255,255,255,0.6);
+    font-size: 13px;
+    letter-spacing: 2px;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+#loading-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .top-bar {
