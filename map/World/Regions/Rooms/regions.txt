@@ -1,6 +1,5 @@
 CC-rooms
 DS-rooms
-GW-rooms
 HI-rooms
 LF-rooms
 SB-rooms
