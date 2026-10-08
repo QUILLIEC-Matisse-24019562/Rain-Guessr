@@ -1,0 +1,290 @@
+{
+ "vanilla/su_b04": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/wara_p06": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/wara_p07": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/wara_p09": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warc_a05": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warc_b03": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warc_b12": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warc_c06": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ward_b40": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ward_e09": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ward_e22": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ward_e25": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ward_e30": {
+  "status": "A VERIFIER",
+  "problems": [
+   "3 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ward_e31": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ward_e32": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ward_r05": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ware_i04": {
+  "status": "A VERIFIER",
+  "problems": [
+   "8 pente(s) sans orientation"
+  ]
+ },
+ "watcher/ware_i09": {
+  "status": "A VERIFIER",
+  "problems": [
+   "4 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warf_b07": {
+  "status": "A VERIFIER",
+  "problems": [
+   "4 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warf_b20": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warf_d25": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warg_a01_future": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warg_a05_future": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/warg_w12": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/wsur_b04": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "watcher/wvwa_h02": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "watcher/wvwb_h02": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "downpour/hr_a07": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "downpour/hr_ap01": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "downpour/hr_b02": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "downpour/hr_b03": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "downpour/hr_br1": {
+  "status": "A VERIFIER",
+  "problems": [
+   "5 pente(s) sans orientation"
+  ]
+ },
+ "downpour/hr_hrce": {
+  "status": "A VERIFIER",
+  "problems": [
+   "4 pente(s) sans orientation"
+  ]
+ },
+ "downpour/hr_ocean": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_02a": {
+  "status": "A VERIFIER",
+  "problems": [
+   "4 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_02b": {
+  "status": "A VERIFIER",
+  "problems": [
+   "6 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_a03": {
+  "status": "A VERIFIER",
+  "problems": [
+   "13 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_a04": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_c04": {
+  "status": "A VERIFIER",
+  "problems": [
+   "7 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_highp": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_s06": {
+  "status": "A VERIFIER",
+  "problems": [
+   "4 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_subway": {
+  "status": "A VERIFIER",
+  "problems": [
+   "50 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_subway01": {
+  "status": "A VERIFIER",
+  "problems": [
+   "48 pente(s) sans orientation"
+  ]
+ },
+ "downpour/lc_subway02": {
+  "status": "A VERIFIER",
+  "problems": [
+   "14 pente(s) sans orientation"
+  ]
+ },
+ "downpour/oe_ruin09": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "downpour/oe_ruin24": {
+  "status": "A VERIFIER",
+  "problems": [
+   "4 pente(s) sans orientation"
+  ]
+ },
+ "downpour/rm_construct": {
+  "status": "A VERIFIER",
+  "problems": [
+   "2 pente(s) sans orientation"
+  ]
+ },
+ "downpour/rm_ls2": {
+  "status": "A VERIFIER",
+  "problems": [
+   "1 pente(s) sans orientation"
+  ]
+ }
+}

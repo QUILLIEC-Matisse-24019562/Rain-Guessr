@@ -1,0 +1,3956 @@
+{
+"cc_a06w": {
+"region": "CC"
+},
+"cc_b10w": {
+"region": "CC"
+},
+"cc_sump03w": {
+"region": "CC"
+},
+"hi_a17w": {
+"region": "HI"
+},
+"hi_b04w": {
+"region": "HI"
+},
+"hi_c15w": {
+"region": "HI"
+},
+"hi_w01": {
+"region": "HI"
+},
+"hi_w02": {
+"region": "HI"
+},
+"hi_w03": {
+"region": "HI"
+},
+"hi_w04": {
+"region": "HI"
+},
+"hi_w05": {
+"region": "HI"
+},
+"hi_w06": {
+"region": "HI"
+},
+"hi_w07": {
+"region": "HI"
+},
+"hi_w09": {
+"region": "HI"
+},
+"hi_w11": {
+"region": "HI"
+},
+"hi_w12": {
+"region": "HI"
+},
+"hi_w13": {
+"region": "HI"
+},
+"hi_w14": {
+"region": "HI"
+},
+"hi_w15": {
+"region": "HI"
+},
+"hi_w16": {
+"region": "HI"
+},
+"hi_w17": {
+"region": "HI"
+},
+"hi_w18": {
+"region": "HI"
+},
+"hi_w19": {
+"region": "HI"
+},
+"hi_ws01": {
+"region": "HI"
+},
+"lf_a13w": {
+"region": "LF"
+},
+"lf_b01w": {
+"region": "LF"
+},
+"lf_b05w": {
+"region": "LF"
+},
+"sh_b12w": {
+"region": "SH"
+},
+"sh_e05w": {
+"region": "SH"
+},
+"sh_overheadw": {
+"region": "SH"
+},
+"su_b09w": {
+"region": "SU"
+},
+"wara_p24": {
+"region": "WARA"
+},
+"wara_p26": {
+"region": "WARA"
+},
+"wara_e08": {
+"region": "WARA"
+},
+"wara_p01": {
+"region": "WARA"
+},
+"wara_p02": {
+"region": "WARA"
+},
+"wara_p03": {
+"region": "WARA"
+},
+"wara_p04": {
+"region": "WARA"
+},
+"wara_p05": {
+"region": "WARA"
+},
+"wara_p06": {
+"region": "WARA"
+},
+"wara_p07": {
+"region": "WARA"
+},
+"wara_p08": {
+"region": "WARA"
+},
+"wara_p09": {
+"region": "WARA"
+},
+"wara_p10": {
+"region": "WARA"
+},
+"wara_p11": {
+"region": "WARA"
+},
+"wara_p12": {
+"region": "WARA"
+},
+"wara_p14": {
+"region": "WARA"
+},
+"wara_p15": {
+"region": "WARA"
+},
+"wara_p16": {
+"region": "WARA"
+},
+"wara_p17": {
+"region": "WARA"
+},
+"wara_p18": {
+"region": "WARA"
+},
+"wara_p19": {
+"region": "WARA"
+},
+"wara_p20": {
+"region": "WARA"
+},
+"wara_p21": {
+"region": "WARA"
+},
+"wara_p22": {
+"region": "WARA"
+},
+"wara_p23": {
+"region": "WARA"
+},
+"wara_s22": {
+"region": "WARA"
+},
+"wara_s23": {
+"region": "WARA"
+},
+"wara_s24": {
+"region": "WARA"
+},
+"warb_b41": {
+"region": "WARB"
+},
+"warb_f01": {
+"region": "WARB"
+},
+"warb_f02": {
+"region": "WARB"
+},
+"warb_f03": {
+"region": "WARB"
+},
+"warb_f04": {
+"region": "WARB"
+},
+"warb_f05": {
+"region": "WARB"
+},
+"warb_f06": {
+"region": "WARB"
+},
+"warb_f07": {
+"region": "WARB"
+},
+"warb_f08": {
+"region": "WARB"
+},
+"warb_f09": {
+"region": "WARB"
+},
+"warb_f10": {
+"region": "WARB"
+},
+"warb_f11": {
+"region": "WARB"
+},
+"warb_f12": {
+"region": "WARB"
+},
+"warb_f13": {
+"region": "WARB"
+},
+"warb_f14": {
+"region": "WARB"
+},
+"warb_f15": {
+"region": "WARB"
+},
+"warb_f16": {
+"region": "WARB"
+},
+"warb_f17": {
+"region": "WARB"
+},
+"warb_f18": {
+"region": "WARB"
+},
+"warb_f19": {
+"region": "WARB"
+},
+"warb_f20": {
+"region": "WARB"
+},
+"warb_f21": {
+"region": "WARB"
+},
+"warb_f22": {
+"region": "WARB"
+},
+"warb_f23": {
+"region": "WARB"
+},
+"warb_f24": {
+"region": "WARB"
+},
+"warb_f26": {
+"region": "WARB"
+},
+"warb_f27": {
+"region": "WARB"
+},
+"warb_g23": {
+"region": "WARB"
+},
+"warb_g24": {
+"region": "WARB"
+},
+"warb_g25": {
+"region": "WARB"
+},
+"warb_g26": {
+"region": "WARB"
+},
+"warb_g27": {
+"region": "WARB"
+},
+"warb_g30": {
+"region": "WARB"
+},
+"warb_h13": {
+"region": "WARB"
+},
+"warb_j01": {
+"region": "WARB"
+},
+"warb_j02": {
+"region": "WARB"
+},
+"warb_j03": {
+"region": "WARB"
+},
+"warb_j04": {
+"region": "WARB"
+},
+"warb_j05": {
+"region": "WARB"
+},
+"warb_j06": {
+"region": "WARB"
+},
+"warb_j07": {
+"region": "WARB"
+},
+"warb_j08": {
+"region": "WARB"
+},
+"warb_s11": {
+"region": "WARB"
+},
+"warb_s15": {
+"region": "WARB"
+},
+"warb_s17": {
+"region": "WARB"
+},
+"warb_s29": {
+"region": "WARB"
+},
+"warb_s31": {
+"region": "WARB"
+},
+"warc_a01": {
+"region": "WARC"
+},
+"warc_a02": {
+"region": "WARC"
+},
+"warc_a03": {
+"region": "WARC"
+},
+"warc_a04": {
+"region": "WARC"
+},
+"warc_a05": {
+"region": "WARC"
+},
+"warc_a06": {
+"region": "WARC"
+},
+"warc_a07": {
+"region": "WARC"
+},
+"warc_a08": {
+"region": "WARC"
+},
+"warc_a09": {
+"region": "WARC"
+},
+"warc_b01": {
+"region": "WARC"
+},
+"warc_b02": {
+"region": "WARC"
+},
+"warc_b03": {
+"region": "WARC"
+},
+"warc_b04": {
+"region": "WARC"
+},
+"warc_b05": {
+"region": "WARC"
+},
+"warc_b06": {
+"region": "WARC"
+},
+"warc_b07": {
+"region": "WARC"
+},
+"warc_b08": {
+"region": "WARC"
+},
+"warc_b09": {
+"region": "WARC"
+},
+"warc_b10": {
+"region": "WARC"
+},
+"warc_b11": {
+"region": "WARC"
+},
+"warc_b12": {
+"region": "WARC"
+},
+"warc_b13": {
+"region": "WARC"
+},
+"warc_c01": {
+"region": "WARC"
+},
+"warc_c02": {
+"region": "WARC"
+},
+"warc_c03": {
+"region": "WARC"
+},
+"warc_c04": {
+"region": "WARC"
+},
+"warc_c05": {
+"region": "WARC"
+},
+"warc_c06": {
+"region": "WARC"
+},
+"warc_c07": {
+"region": "WARC"
+},
+"warc_c08": {
+"region": "WARC"
+},
+"warc_c09": {
+"region": "WARC"
+},
+"warc_c10": {
+"region": "WARC"
+},
+"warc_c11": {
+"region": "WARC"
+},
+"warc_c12": {
+"region": "WARC"
+},
+"warc_e01": {
+"region": "WARC"
+},
+"warc_e02": {
+"region": "WARC"
+},
+"warc_e03": {
+"region": "WARC"
+},
+"warc_e04": {
+"region": "WARC"
+},
+"warc_e05": {
+"region": "WARC"
+},
+"warc_e06": {
+"region": "WARC"
+},
+"warc_e07": {
+"region": "WARC"
+},
+"warc_e08": {
+"region": "WARC"
+},
+"warc_e09": {
+"region": "WARC"
+},
+"warc_e10": {
+"region": "WARC"
+},
+"warc_e11": {
+"region": "WARC"
+},
+"warc_e12": {
+"region": "WARC"
+},
+"warc_e13": {
+"region": "WARC"
+},
+"warc_e14": {
+"region": "WARC"
+},
+"warc_f01": {
+"region": "WARC"
+},
+"warc_f02": {
+"region": "WARC"
+},
+"warc_f03": {
+"region": "WARC"
+},
+"warc_f05": {
+"region": "WARC"
+},
+"warc_f09": {
+"region": "WARC"
+},
+"warc_f10": {
+"region": "WARC"
+},
+"warc_f11": {
+"region": "WARC"
+},
+"warc_f12": {
+"region": "WARC"
+},
+"warc_f13": {
+"region": "WARC"
+},
+"warc_f15": {
+"region": "WARC"
+},
+"warc_f22": {
+"region": "WARC"
+},
+"warc_f23": {
+"region": "WARC"
+},
+"warc_s01": {
+"region": "WARC"
+},
+"warc_s02": {
+"region": "WARC"
+},
+"warc_s03": {
+"region": "WARC"
+},
+"warc_s04": {
+"region": "WARC"
+},
+"warc_s05": {
+"region": "WARC"
+},
+"warc_s06": {
+"region": "WARC"
+},
+"warc_s07": {
+"region": "WARC"
+},
+"ward_b39": {
+"region": "WARD"
+},
+"ward_b40": {
+"region": "WARD"
+},
+"ward_b41": {
+"region": "WARD"
+},
+"ward_d20": {
+"region": "WARD"
+},
+"ward_d27": {
+"region": "WARD"
+},
+"ward_d28": {
+"region": "WARD"
+},
+"ward_d36": {
+"region": "WARD"
+},
+"ward_e01": {
+"region": "WARD"
+},
+"ward_e02": {
+"region": "WARD"
+},
+"ward_e03": {
+"region": "WARD"
+},
+"ward_e04": {
+"region": "WARD"
+},
+"ward_e05": {
+"region": "WARD"
+},
+"ward_e06": {
+"region": "WARD"
+},
+"ward_e07": {
+"region": "WARD"
+},
+"ward_e09": {
+"region": "WARD"
+},
+"ward_e10": {
+"region": "WARD"
+},
+"ward_e11": {
+"region": "WARD"
+},
+"ward_e12": {
+"region": "WARD"
+},
+"ward_e13": {
+"region": "WARD"
+},
+"ward_e14": {
+"region": "WARD"
+},
+"ward_e15": {
+"region": "WARD"
+},
+"ward_e16": {
+"region": "WARD"
+},
+"ward_e17": {
+"region": "WARD"
+},
+"ward_e18": {
+"region": "WARD"
+},
+"ward_e19": {
+"region": "WARD"
+},
+"ward_e20": {
+"region": "WARD"
+},
+"ward_e21": {
+"region": "WARD"
+},
+"ward_e22": {
+"region": "WARD"
+},
+"ward_e23": {
+"region": "WARD"
+},
+"ward_e24": {
+"region": "WARD"
+},
+"ward_e25": {
+"region": "WARD"
+},
+"ward_e26": {
+"region": "WARD"
+},
+"ward_e27": {
+"region": "WARD"
+},
+"ward_e28": {
+"region": "WARD"
+},
+"ward_e29": {
+"region": "WARD"
+},
+"ward_e30": {
+"region": "WARD"
+},
+"ward_e31": {
+"region": "WARD"
+},
+"ward_e32": {
+"region": "WARD"
+},
+"ward_e33": {
+"region": "WARD"
+},
+"ward_e34": {
+"region": "WARD"
+},
+"ward_r01": {
+"region": "WARD"
+},
+"ward_r02": {
+"region": "WARD"
+},
+"ward_r03": {
+"region": "WARD"
+},
+"ward_r04": {
+"region": "WARD"
+},
+"ward_r05": {
+"region": "WARD"
+},
+"ward_r06": {
+"region": "WARD"
+},
+"ward_r07": {
+"region": "WARD"
+},
+"ward_r08": {
+"region": "WARD"
+},
+"ward_r09": {
+"region": "WARD"
+},
+"ward_r10": {
+"region": "WARD"
+},
+"ward_r11": {
+"region": "WARD"
+},
+"ward_r12": {
+"region": "WARD"
+},
+"ward_r13": {
+"region": "WARD"
+},
+"ward_r14": {
+"region": "WARD"
+},
+"ward_r15": {
+"region": "WARD"
+},
+"ward_r16": {
+"region": "WARD"
+},
+"ward_r17": {
+"region": "WARD"
+},
+"ward_r18": {
+"region": "WARD"
+},
+"ward_r19": {
+"region": "WARD"
+},
+"ward_r20": {
+"region": "WARD"
+},
+"ward_r21": {
+"region": "WARD"
+},
+"ward_r22": {
+"region": "WARD"
+},
+"ward_s07": {
+"region": "WARD"
+},
+"ward_s09": {
+"region": "WARD"
+},
+"ward_s13": {
+"region": "WARD"
+},
+"ward_s19": {
+"region": "WARD"
+},
+"ward_s23": {
+"region": "WARD"
+},
+"ware_b29": {
+"region": "WARE"
+},
+"ware_g15": {
+"region": "WARE"
+},
+"ware_h01": {
+"region": "WARE"
+},
+"ware_h02": {
+"region": "WARE"
+},
+"ware_h03": {
+"region": "WARE"
+},
+"ware_h04": {
+"region": "WARE"
+},
+"ware_h05": {
+"region": "WARE"
+},
+"ware_h06": {
+"region": "WARE"
+},
+"ware_h07": {
+"region": "WARE"
+},
+"ware_h08": {
+"region": "WARE"
+},
+"ware_h09": {
+"region": "WARE"
+},
+"ware_h10": {
+"region": "WARE"
+},
+"ware_h11": {
+"region": "WARE"
+},
+"ware_h12": {
+"region": "WARE"
+},
+"ware_h14": {
+"region": "WARE"
+},
+"ware_h15": {
+"region": "WARE"
+},
+"ware_h16": {
+"region": "WARE"
+},
+"ware_h17": {
+"region": "WARE"
+},
+"ware_h18": {
+"region": "WARE"
+},
+"ware_h19": {
+"region": "WARE"
+},
+"ware_h21": {
+"region": "WARE"
+},
+"ware_h22": {
+"region": "WARE"
+},
+"ware_h23": {
+"region": "WARE"
+},
+"ware_h24": {
+"region": "WARE"
+},
+"ware_i01x": {
+"region": "WARE"
+},
+"ware_i02": {
+"region": "WARE"
+},
+"ware_i03": {
+"region": "WARE"
+},
+"ware_i04": {
+"region": "WARE"
+},
+"ware_i05": {
+"region": "WARE"
+},
+"ware_i06": {
+"region": "WARE"
+},
+"ware_i07": {
+"region": "WARE"
+},
+"ware_i08": {
+"region": "WARE"
+},
+"ware_i09": {
+"region": "WARE"
+},
+"ware_i10": {
+"region": "WARE"
+},
+"ware_i11": {
+"region": "WARE"
+},
+"ware_i12": {
+"region": "WARE"
+},
+"ware_i13": {
+"region": "WARE"
+},
+"ware_i14": {
+"region": "WARE"
+},
+"ware_i15": {
+"region": "WARE"
+},
+"ware_i16": {
+"region": "WARE"
+},
+"ware_s05": {
+"region": "WARE"
+},
+"ware_s12": {
+"region": "WARE"
+},
+"ware_s25": {
+"region": "WARE"
+},
+"ware_s28": {
+"region": "WARE"
+},
+"ware_s30": {
+"region": "WARE"
+},
+"warf_a01": {
+"region": "WARF"
+},
+"warf_a02": {
+"region": "WARF"
+},
+"warf_a03": {
+"region": "WARF"
+},
+"warf_a04": {
+"region": "WARF"
+},
+"warf_a05": {
+"region": "WARF"
+},
+"warf_a06": {
+"region": "WARF"
+},
+"warf_a07": {
+"region": "WARF"
+},
+"warf_a08": {
+"region": "WARF"
+},
+"warf_a09": {
+"region": "WARF"
+},
+"warf_b01": {
+"region": "WARF"
+},
+"warf_b01_future": {
+"region": "WARF"
+},
+"warf_b02": {
+"region": "WARF"
+},
+"warf_b03": {
+"region": "WARF"
+},
+"warf_b04": {
+"region": "WARF"
+},
+"warf_b05": {
+"region": "WARF"
+},
+"warf_b06": {
+"region": "WARF"
+},
+"warf_b07": {
+"region": "WARF"
+},
+"warf_b08": {
+"region": "WARF"
+},
+"warf_b09": {
+"region": "WARF"
+},
+"warf_b10": {
+"region": "WARF"
+},
+"warf_b11": {
+"region": "WARF"
+},
+"warf_b12": {
+"region": "WARF"
+},
+"warf_b13": {
+"region": "WARF"
+},
+"warf_b14": {
+"region": "WARF"
+},
+"warf_b15": {
+"region": "WARF"
+},
+"warf_b16": {
+"region": "WARF"
+},
+"warf_b17": {
+"region": "WARF"
+},
+"warf_b18": {
+"region": "WARF"
+},
+"warf_b19": {
+"region": "WARF"
+},
+"warf_b20": {
+"region": "WARF"
+},
+"warf_b21": {
+"region": "WARF"
+},
+"warf_b22": {
+"region": "WARF"
+},
+"warf_b23": {
+"region": "WARF"
+},
+"warf_b24": {
+"region": "WARF"
+},
+"warf_b25": {
+"region": "WARF"
+},
+"warf_b26": {
+"region": "WARF"
+},
+"warf_b27": {
+"region": "WARF"
+},
+"warf_b28": {
+"region": "WARF"
+},
+"warf_b30": {
+"region": "WARF"
+},
+"warf_b33": {
+"region": "WARF"
+},
+"warf_b34": {
+"region": "WARF"
+},
+"warf_b42": {
+"region": "WARF"
+},
+"warf_b43": {
+"region": "WARF"
+},
+"warf_c01": {
+"region": "WARF"
+},
+"warf_c02": {
+"region": "WARF"
+},
+"warf_c03": {
+"region": "WARF"
+},
+"warf_c04": {
+"region": "WARF"
+},
+"warf_c05": {
+"region": "WARF"
+},
+"warf_c06": {
+"region": "WARF"
+},
+"warf_c07": {
+"region": "WARF"
+},
+"warf_d01": {
+"region": "WARF"
+},
+"warf_d02": {
+"region": "WARF"
+},
+"warf_d03": {
+"region": "WARF"
+},
+"warf_d04": {
+"region": "WARF"
+},
+"warf_d05": {
+"region": "WARF"
+},
+"warf_d06": {
+"region": "WARF"
+},
+"warf_d07": {
+"region": "WARF"
+},
+"warf_d08": {
+"region": "WARF"
+},
+"warf_d09": {
+"region": "WARF"
+},
+"warf_d10": {
+"region": "WARF"
+},
+"warf_d11": {
+"region": "WARF"
+},
+"warf_d12": {
+"region": "WARF"
+},
+"warf_d13": {
+"region": "WARF"
+},
+"warf_d14": {
+"region": "WARF"
+},
+"warf_d15": {
+"region": "WARF"
+},
+"warf_d16": {
+"region": "WARF"
+},
+"warf_d17": {
+"region": "WARF"
+},
+"warf_d18": {
+"region": "WARF"
+},
+"warf_d19": {
+"region": "WARF"
+},
+"warf_d21": {
+"region": "WARF"
+},
+"warf_d22": {
+"region": "WARF"
+},
+"warf_d23": {
+"region": "WARF"
+},
+"warf_d24": {
+"region": "WARF"
+},
+"warf_d25": {
+"region": "WARF"
+},
+"warf_d26": {
+"region": "WARF"
+},
+"warf_d29": {
+"region": "WARF"
+},
+"warf_d30": {
+"region": "WARF"
+},
+"warf_d31": {
+"region": "WARF"
+},
+"warf_d32": {
+"region": "WARF"
+},
+"warf_d33": {
+"region": "WARF"
+},
+"warf_d34": {
+"region": "WARF"
+},
+"warf_d35": {
+"region": "WARF"
+},
+"warf_d38": {
+"region": "WARF"
+},
+"warf_g01": {
+"region": "WARF"
+},
+"warf_g02": {
+"region": "WARF"
+},
+"warf_g03": {
+"region": "WARF"
+},
+"warf_g04": {
+"region": "WARF"
+},
+"warf_s01": {
+"region": "WARF"
+},
+"warf_s02": {
+"region": "WARF"
+},
+"warf_s03": {
+"region": "WARF"
+},
+"warf_s04": {
+"region": "WARF"
+},
+"warf_s06": {
+"region": "WARF"
+},
+"warf_s08": {
+"region": "WARF"
+},
+"warf_s14": {
+"region": "WARF"
+},
+"warf_s18": {
+"region": "WARF"
+},
+"warf_s32": {
+"region": "WARF"
+},
+"warg_a01_future": {
+"region": "WARG"
+},
+"warg_a02_future": {
+"region": "WARG"
+},
+"warg_a03_future": {
+"region": "WARG"
+},
+"warg_a05_future": {
+"region": "WARG"
+},
+"warg_a06_future": {
+"region": "WARG"
+},
+"warg_a08_future": {
+"region": "WARG"
+},
+"warg_b01_future": {
+"region": "WARG"
+},
+"warg_b29_future": {
+"region": "WARG"
+},
+"warg_b31": {
+"region": "WARG"
+},
+"warg_b32": {
+"region": "WARG"
+},
+"warg_b35": {
+"region": "WARG"
+},
+"warg_b36": {
+"region": "WARG"
+},
+"warg_b37": {
+"region": "WARG"
+},
+"warg_b38": {
+"region": "WARG"
+},
+"warg_d06_future": {
+"region": "WARG"
+},
+"warg_g05": {
+"region": "WARG"
+},
+"warg_g06": {
+"region": "WARG"
+},
+"warg_g07": {
+"region": "WARG"
+},
+"warg_g08": {
+"region": "WARG"
+},
+"warg_g09": {
+"region": "WARG"
+},
+"warg_g10": {
+"region": "WARG"
+},
+"warg_g11": {
+"region": "WARG"
+},
+"warg_g12": {
+"region": "WARG"
+},
+"warg_g13": {
+"region": "WARG"
+},
+"warg_g14": {
+"region": "WARG"
+},
+"warg_g16": {
+"region": "WARG"
+},
+"warg_g17": {
+"region": "WARG"
+},
+"warg_g18": {
+"region": "WARG"
+},
+"warg_g19": {
+"region": "WARG"
+},
+"warg_g20": {
+"region": "WARG"
+},
+"warg_g21": {
+"region": "WARG"
+},
+"warg_g22": {
+"region": "WARG"
+},
+"warg_g28": {
+"region": "WARG"
+},
+"warg_g29": {
+"region": "WARG"
+},
+"warg_g30": {
+"region": "WARG"
+},
+"warg_g31": {
+"region": "WARG"
+},
+"warg_g32": {
+"region": "WARG"
+},
+"warg_h20": {
+"region": "WARG"
+},
+"warg_i10_future": {
+"region": "WARG"
+},
+"warg_i11_future": {
+"region": "WARG"
+},
+"warg_i12_future": {
+"region": "WARG"
+},
+"warg_i13_future": {
+"region": "WARG"
+},
+"warg_o02_future": {
+"region": "WARG"
+},
+"warg_o03_future": {
+"region": "WARG"
+},
+"warg_o04_future": {
+"region": "WARG"
+},
+"warg_o05_future": {
+"region": "WARG"
+},
+"warg_o06_future": {
+"region": "WARG"
+},
+"warg_o09_future": {
+"region": "WARG"
+},
+"warg_o10_future": {
+"region": "WARG"
+},
+"warg_o11_future": {
+"region": "WARG"
+},
+"warg_o13_future": {
+"region": "WARG"
+},
+"warg_o14_future": {
+"region": "WARG"
+},
+"warg_s10": {
+"region": "WARG"
+},
+"warg_s16": {
+"region": "WARG"
+},
+"warg_s20": {
+"region": "WARG"
+},
+"warg_s21": {
+"region": "WARG"
+},
+"warg_s26": {
+"region": "WARG"
+},
+"warg_s27": {
+"region": "WARG"
+},
+"warg_w01": {
+"region": "WARG"
+},
+"warg_w02": {
+"region": "WARG"
+},
+"warg_w03": {
+"region": "WARG"
+},
+"warg_w04": {
+"region": "WARG"
+},
+"warg_w05": {
+"region": "WARG"
+},
+"warg_w06": {
+"region": "WARG"
+},
+"warg_w07": {
+"region": "WARG"
+},
+"warg_w08": {
+"region": "WARG"
+},
+"warg_w09": {
+"region": "WARG"
+},
+"warg_w10": {
+"region": "WARG"
+},
+"warg_w11": {
+"region": "WARG"
+},
+"warg_w12": {
+"region": "WARG"
+},
+"warg_w13": {
+"region": "WARG"
+},
+"warg_w14": {
+"region": "WARG"
+},
+"waua_a01": {
+"region": "WAUA"
+},
+"waua_a01b": {
+"region": "WAUA"
+},
+"waua_a02": {
+"region": "WAUA"
+},
+"waua_a02b": {
+"region": "WAUA"
+},
+"waua_a03": {
+"region": "WAUA"
+},
+"waua_a03b": {
+"region": "WAUA"
+},
+"waua_a04b": {
+"region": "WAUA"
+},
+"waua_a05b": {
+"region": "WAUA"
+},
+"waua_a06b": {
+"region": "WAUA"
+},
+"waua_a07b": {
+"region": "WAUA"
+},
+"waua_a08b": {
+"region": "WAUA"
+},
+"waua_a09b": {
+"region": "WAUA"
+},
+"waua_a10b": {
+"region": "WAUA"
+},
+"waua_a11b": {
+"region": "WAUA"
+},
+"waua_b01": {
+"region": "WAUA"
+},
+"waua_b01b": {
+"region": "WAUA"
+},
+"waua_b02b": {
+"region": "WAUA"
+},
+"waua_b03b": {
+"region": "WAUA"
+},
+"waua_b04b": {
+"region": "WAUA"
+},
+"waua_b05b": {
+"region": "WAUA"
+},
+"waua_b06b": {
+"region": "WAUA"
+},
+"waua_b07b": {
+"region": "WAUA"
+},
+"waua_bath": {
+"region": "WAUA"
+},
+"waua_c01": {
+"region": "WAUA"
+},
+"waua_c01b": {
+"region": "WAUA"
+},
+"waua_c02": {
+"region": "WAUA"
+},
+"waua_c02b": {
+"region": "WAUA"
+},
+"waua_d01": {
+"region": "WAUA"
+},
+"waua_d01b": {
+"region": "WAUA"
+},
+"waua_d02": {
+"region": "WAUA"
+},
+"waua_d02b": {
+"region": "WAUA"
+},
+"waua_e01": {
+"region": "WAUA"
+},
+"waua_e01b": {
+"region": "WAUA"
+},
+"waua_e02": {
+"region": "WAUA"
+},
+"waua_e02b": {
+"region": "WAUA"
+},
+"waua_e03": {
+"region": "WAUA"
+},
+"waua_f01": {
+"region": "WAUA"
+},
+"waua_g01b": {
+"region": "WAUA"
+},
+"waua_h01b": {
+"region": "WAUA"
+},
+"waua_i01": {
+"region": "WAUA"
+},
+"waua_pearl": {
+"region": "WAUA"
+},
+"waua_s01": {
+"region": "WAUA"
+},
+"waua_s01b": {
+"region": "WAUA"
+},
+"waua_s02b": {
+"region": "WAUA"
+},
+"waua_sewertest": {
+"region": "WAUA"
+},
+"waua_sewertest2": {
+"region": "WAUA"
+},
+"waua_shop": {
+"region": "WAUA"
+},
+"waua_toys": {
+"region": "WAUA"
+},
+"waua_toysb": {
+"region": "WAUA"
+},
+"wbla_a01": {
+"region": "WBLA"
+},
+"wbla_a02": {
+"region": "WBLA"
+},
+"wbla_a03": {
+"region": "WBLA"
+},
+"wbla_a04": {
+"region": "WBLA"
+},
+"wbla_a05": {
+"region": "WBLA"
+},
+"wbla_a06": {
+"region": "WBLA"
+},
+"wbla_a07": {
+"region": "WBLA"
+},
+"wbla_a08": {
+"region": "WBLA"
+},
+"wbla_a09": {
+"region": "WBLA"
+},
+"wbla_a10": {
+"region": "WBLA"
+},
+"wbla_b01": {
+"region": "WBLA"
+},
+"wbla_b02": {
+"region": "WBLA"
+},
+"wbla_b03": {
+"region": "WBLA"
+},
+"wbla_b04": {
+"region": "WBLA"
+},
+"wbla_b05": {
+"region": "WBLA"
+},
+"wbla_b06": {
+"region": "WBLA"
+},
+"wbla_b07": {
+"region": "WBLA"
+},
+"wbla_b08": {
+"region": "WBLA"
+},
+"wbla_b09": {
+"region": "WBLA"
+},
+"wbla_c01": {
+"region": "WBLA"
+},
+"wbla_c02": {
+"region": "WBLA"
+},
+"wbla_c03": {
+"region": "WBLA"
+},
+"wbla_c04": {
+"region": "WBLA"
+},
+"wbla_c05": {
+"region": "WBLA"
+},
+"wbla_d01": {
+"region": "WBLA"
+},
+"wbla_d02": {
+"region": "WBLA"
+},
+"wbla_d03": {
+"region": "WBLA"
+},
+"wbla_e01": {
+"region": "WBLA"
+},
+"wbla_e02": {
+"region": "WBLA"
+},
+"wbla_f01": {
+"region": "WBLA"
+},
+"wbla_f02": {
+"region": "WBLA"
+},
+"wbla_f03": {
+"region": "WBLA"
+},
+"wbla_f04": {
+"region": "WBLA"
+},
+"wbla_h01": {
+"region": "WBLA"
+},
+"wbla_j01": {
+"region": "WBLA"
+},
+"wbla_s01": {
+"region": "WBLA"
+},
+"wbla_s02": {
+"region": "WBLA"
+},
+"wbla_s03": {
+"region": "WBLA"
+},
+"wdsr_a07": {
+"region": "WDSR"
+},
+"wdsr_a08": {
+"region": "WDSR"
+},
+"wdsr_a11": {
+"region": "WDSR"
+},
+"wdsr_a14": {
+"region": "WDSR"
+},
+"wdsr_a16": {
+"region": "WDSR"
+},
+"wdsr_a17": {
+"region": "WDSR"
+},
+"wdsr_a19": {
+"region": "WDSR"
+},
+"wdsr_a24": {
+"region": "WDSR"
+},
+"wdsr_a25": {
+"region": "WDSR"
+},
+"wdsr_b01": {
+"region": "WDSR"
+},
+"wdsr_b03": {
+"region": "WDSR"
+},
+"wdsr_b04": {
+"region": "WDSR"
+},
+"wdsr_b07": {
+"region": "WDSR"
+},
+"wdsr_b08": {
+"region": "WDSR"
+},
+"wdsr_c04": {
+"region": "WDSR"
+},
+"wdsr_s04": {
+"region": "WDSR"
+},
+"wgwr_a01": {
+"region": "WGWR"
+},
+"wgwr_a04": {
+"region": "WGWR"
+},
+"wgwr_a05": {
+"region": "WGWR"
+},
+"wgwr_a06": {
+"region": "WGWR"
+},
+"wgwr_a07": {
+"region": "WGWR"
+},
+"wgwr_a08": {
+"region": "WGWR"
+},
+"wgwr_a10": {
+"region": "WGWR"
+},
+"wgwr_a11": {
+"region": "WGWR"
+},
+"wgwr_a12": {
+"region": "WGWR"
+},
+"wgwr_a13": {
+"region": "WGWR"
+},
+"wgwr_a14": {
+"region": "WGWR"
+},
+"wgwr_b03": {
+"region": "WGWR"
+},
+"wgwr_b04": {
+"region": "WGWR"
+},
+"wgwr_b06": {
+"region": "WGWR"
+},
+"wgwr_b07": {
+"region": "WGWR"
+},
+"wgwr_c01": {
+"region": "WGWR"
+},
+"wgwr_c02": {
+"region": "WGWR"
+},
+"wgwr_c07": {
+"region": "WGWR"
+},
+"wgwr_c08": {
+"region": "WGWR"
+},
+"wgwr_c09": {
+"region": "WGWR"
+},
+"wgwr_c10": {
+"region": "WGWR"
+},
+"wgwr_d01": {
+"region": "WGWR"
+},
+"wgwr_d02": {
+"region": "WGWR"
+},
+"wgwr_disposal": {
+"region": "WGWR"
+},
+"wgwr_e01": {
+"region": "WGWR"
+},
+"wgwr_s01": {
+"region": "WGWR"
+},
+"wgwr_s06": {
+"region": "WGWR"
+},
+"wgwr_s08": {
+"region": "WGWR"
+},
+"whir_a04": {
+"region": "WHIR"
+},
+"whir_a06": {
+"region": "WHIR"
+},
+"whir_a07": {
+"region": "WHIR"
+},
+"whir_a10": {
+"region": "WHIR"
+},
+"whir_a11": {
+"region": "WHIR"
+},
+"whir_a14": {
+"region": "WHIR"
+},
+"whir_a15": {
+"region": "WHIR"
+},
+"whir_a16": {
+"region": "WHIR"
+},
+"whir_a17": {
+"region": "WHIR"
+},
+"whir_a18": {
+"region": "WHIR"
+},
+"whir_a19": {
+"region": "WHIR"
+},
+"whir_a20": {
+"region": "WHIR"
+},
+"whir_a21": {
+"region": "WHIR"
+},
+"whir_a22": {
+"region": "WHIR"
+},
+"whir_a23": {
+"region": "WHIR"
+},
+"whir_a24": {
+"region": "WHIR"
+},
+"whir_a25": {
+"region": "WHIR"
+},
+"whir_a26": {
+"region": "WHIR"
+},
+"whir_a27": {
+"region": "WHIR"
+},
+"whir_b02": {
+"region": "WHIR"
+},
+"whir_b03": {
+"region": "WHIR"
+},
+"whir_b04": {
+"region": "WHIR"
+},
+"whir_b05": {
+"region": "WHIR"
+},
+"whir_b06": {
+"region": "WHIR"
+},
+"whir_b07": {
+"region": "WHIR"
+},
+"whir_b08": {
+"region": "WHIR"
+},
+"whir_b09": {
+"region": "WHIR"
+},
+"whir_b12": {
+"region": "WHIR"
+},
+"whir_b13": {
+"region": "WHIR"
+},
+"whir_b14": {
+"region": "WHIR"
+},
+"whir_b15": {
+"region": "WHIR"
+},
+"whir_c01": {
+"region": "WHIR"
+},
+"whir_c02": {
+"region": "WHIR"
+},
+"whir_c03": {
+"region": "WHIR"
+},
+"whir_c04": {
+"region": "WHIR"
+},
+"whir_c05": {
+"region": "WHIR"
+},
+"whir_c11": {
+"region": "WHIR"
+},
+"whir_c14": {
+"region": "WHIR"
+},
+"whir_gate": {
+"region": "WHIR"
+},
+"whir_s01": {
+"region": "WHIR"
+},
+"whir_s02": {
+"region": "WHIR"
+},
+"whir_s03": {
+"region": "WHIR"
+},
+"whir_s04": {
+"region": "WHIR"
+},
+"whir_s05": {
+"region": "WHIR"
+},
+"wmpa_a01": {
+"region": "WMPA"
+},
+"wmpa_a02": {
+"region": "WMPA"
+},
+"wmpa_a03": {
+"region": "WMPA"
+},
+"wmpa_a04": {
+"region": "WMPA"
+},
+"wmpa_a05": {
+"region": "WMPA"
+},
+"wmpa_a06": {
+"region": "WMPA"
+},
+"wmpa_a07": {
+"region": "WMPA"
+},
+"wmpa_a08": {
+"region": "WMPA"
+},
+"wmpa_a09": {
+"region": "WMPA"
+},
+"wmpa_b01": {
+"region": "WMPA"
+},
+"wmpa_b02": {
+"region": "WMPA"
+},
+"wmpa_b03": {
+"region": "WMPA"
+},
+"wmpa_b04": {
+"region": "WMPA"
+},
+"wmpa_b05": {
+"region": "WMPA"
+},
+"wmpa_b06": {
+"region": "WMPA"
+},
+"wmpa_b07": {
+"region": "WMPA"
+},
+"wmpa_b08": {
+"region": "WMPA"
+},
+"wmpa_c01": {
+"region": "WMPA"
+},
+"wmpa_c02": {
+"region": "WMPA"
+},
+"wmpa_c03": {
+"region": "WMPA"
+},
+"wmpa_c04": {
+"region": "WMPA"
+},
+"wmpa_c06": {
+"region": "WMPA"
+},
+"wmpa_c07": {
+"region": "WMPA"
+},
+"wmpa_d01": {
+"region": "WMPA"
+},
+"wmpa_d02": {
+"region": "WMPA"
+},
+"wmpa_d03": {
+"region": "WMPA"
+},
+"wmpa_d04": {
+"region": "WMPA"
+},
+"wmpa_d05": {
+"region": "WMPA"
+},
+"wmpa_d06": {
+"region": "WMPA"
+},
+"wmpa_d07": {
+"region": "WMPA"
+},
+"wmpa_d08": {
+"region": "WMPA"
+},
+"wmpa_d09": {
+"region": "WMPA"
+},
+"wmpa_s01": {
+"region": "WMPA"
+},
+"wmpa_s02": {
+"region": "WMPA"
+},
+"wmpa_s03": {
+"region": "WMPA"
+},
+"wmpa_s04": {
+"region": "WMPA"
+},
+"wmpa_s05": {
+"region": "WMPA"
+},
+"wora_a02": {
+"region": "WORA"
+},
+"wora_a04": {
+"region": "WORA"
+},
+"wora_ai": {
+"region": "WORA"
+},
+"wora_alfesque": {
+"region": "WORA"
+},
+"wora_b03": {
+"region": "WORA"
+},
+"wora_bridgewall": {
+"region": "WORA"
+},
+"wora_city04x": {
+"region": "WORA"
+},
+"wora_city1": {
+"region": "WORA"
+},
+"wora_city10": {
+"region": "WORA"
+},
+"wora_city10x": {
+"region": "WORA"
+},
+"wora_city11": {
+"region": "WORA"
+},
+"wora_city12": {
+"region": "WORA"
+},
+"wora_city13": {
+"region": "WORA"
+},
+"wora_city14": {
+"region": "WORA"
+},
+"wora_city14x": {
+"region": "WORA"
+},
+"wora_city15": {
+"region": "WORA"
+},
+"wora_city16": {
+"region": "WORA"
+},
+"wora_city17": {
+"region": "WORA"
+},
+"wora_city18": {
+"region": "WORA"
+},
+"wora_city19": {
+"region": "WORA"
+},
+"wora_city1x": {
+"region": "WORA"
+},
+"wora_city2": {
+"region": "WORA"
+},
+"wora_city20": {
+"region": "WORA"
+},
+"wora_city21": {
+"region": "WORA"
+},
+"wora_city22": {
+"region": "WORA"
+},
+"wora_city23": {
+"region": "WORA"
+},
+"wora_city24": {
+"region": "WORA"
+},
+"wora_city2x": {
+"region": "WORA"
+},
+"wora_city3": {
+"region": "WORA"
+},
+"wora_city4": {
+"region": "WORA"
+},
+"wora_city5": {
+"region": "WORA"
+},
+"wora_city6": {
+"region": "WORA"
+},
+"wora_city7": {
+"region": "WORA"
+},
+"wora_city8": {
+"region": "WORA"
+},
+"wora_city9": {
+"region": "WORA"
+},
+"wora_colbridge": {
+"region": "WORA"
+},
+"wora_compressor": {
+"region": "WORA"
+},
+"wora_d01": {
+"region": "WORA"
+},
+"wora_desert1": {
+"region": "WORA"
+},
+"wora_desert10": {
+"region": "WORA"
+},
+"wora_desert11": {
+"region": "WORA"
+},
+"wora_desert2": {
+"region": "WORA"
+},
+"wora_desert2x": {
+"region": "WORA"
+},
+"wora_desert3": {
+"region": "WORA"
+},
+"wora_desert3x": {
+"region": "WORA"
+},
+"wora_desert4": {
+"region": "WORA"
+},
+"wora_desert4x": {
+"region": "WORA"
+},
+"wora_desert5": {
+"region": "WORA"
+},
+"wora_desert6": {
+"region": "WORA"
+},
+"wora_desert7": {
+"region": "WORA"
+},
+"wora_desert8": {
+"region": "WORA"
+},
+"wora_desert9": {
+"region": "WORA"
+},
+"wora_dial": {
+"region": "WORA"
+},
+"wora_egg": {
+"region": "WORA"
+},
+"wora_egg02x": {
+"region": "WORA"
+},
+"wora_egg03": {
+"region": "WORA"
+},
+"wora_egg04": {
+"region": "WORA"
+},
+"wora_elev": {
+"region": "WORA"
+},
+"wora_fans": {
+"region": "WORA"
+},
+"wora_hangingroom": {
+"region": "WORA"
+},
+"wora_interstice": {
+"region": "WORA"
+},
+"wora_s01": {
+"region": "WORA"
+},
+"wora_s02": {
+"region": "WORA"
+},
+"wora_s03": {
+"region": "WORA"
+},
+"wora_s04": {
+"region": "WORA"
+},
+"wora_s05": {
+"region": "WORA"
+},
+"wora_star1": {
+"region": "WORA"
+},
+"wora_starcatcher": {
+"region": "WORA"
+},
+"wora_starcatcher01": {
+"region": "WORA"
+},
+"wora_starcatcher02": {
+"region": "WORA"
+},
+"wora_starcatcher03": {
+"region": "WORA"
+},
+"wora_starcatcher04": {
+"region": "WORA"
+},
+"wora_starcatcher05": {
+"region": "WORA"
+},
+"wora_starcatcher06": {
+"region": "WORA"
+},
+"wora_starcatcher07": {
+"region": "WORA"
+},
+"wora_starcatcher08": {
+"region": "WORA"
+},
+"wora_starcatcher09": {
+"region": "WORA"
+},
+"wora_starcatcher10": {
+"region": "WORA"
+},
+"wora_start": {
+"region": "WORA"
+},
+"wora_throne02": {
+"region": "WORA"
+},
+"wora_throne03": {
+"region": "WORA"
+},
+"wora_throne04": {
+"region": "WORA"
+},
+"wora_throne05": {
+"region": "WORA"
+},
+"wora_throne06": {
+"region": "WORA"
+},
+"wora_throne07": {
+"region": "WORA"
+},
+"wora_throne08": {
+"region": "WORA"
+},
+"wora_throne09": {
+"region": "WORA"
+},
+"wora_throne1": {
+"region": "WORA"
+},
+"wora_throne10": {
+"region": "WORA"
+},
+"wora_throne11": {
+"region": "WORA"
+},
+"wora_throne12": {
+"region": "WORA"
+},
+"wora_thronehall": {
+"region": "WORA"
+},
+"wora_thrones01": {
+"region": "WORA"
+},
+"wora_tickpool": {
+"region": "WORA"
+},
+"wora_ticktut": {
+"region": "WORA"
+},
+"wpga_a01": {
+"region": "WPGA"
+},
+"wpga_a02": {
+"region": "WPGA"
+},
+"wpga_a03": {
+"region": "WPGA"
+},
+"wpga_a04": {
+"region": "WPGA"
+},
+"wpga_a05": {
+"region": "WPGA"
+},
+"wpga_a06": {
+"region": "WPGA"
+},
+"wpga_a07": {
+"region": "WPGA"
+},
+"wpga_a08": {
+"region": "WPGA"
+},
+"wpga_a09": {
+"region": "WPGA"
+},
+"wpga_a10": {
+"region": "WPGA"
+},
+"wpga_a11": {
+"region": "WPGA"
+},
+"wpga_a12": {
+"region": "WPGA"
+},
+"wpga_a13": {
+"region": "WPGA"
+},
+"wpga_a14": {
+"region": "WPGA"
+},
+"wpga_a16": {
+"region": "WPGA"
+},
+"wpga_a17": {
+"region": "WPGA"
+},
+"wpga_a18": {
+"region": "WPGA"
+},
+"wpga_a19": {
+"region": "WPGA"
+},
+"wpga_a20": {
+"region": "WPGA"
+},
+"wpga_a21": {
+"region": "WPGA"
+},
+"wpga_a22": {
+"region": "WPGA"
+},
+"wpga_a23": {
+"region": "WPGA"
+},
+"wpga_a24": {
+"region": "WPGA"
+},
+"wpga_a25": {
+"region": "WPGA"
+},
+"wpga_a26": {
+"region": "WPGA"
+},
+"wpga_a27": {
+"region": "WPGA"
+},
+"wpga_a28": {
+"region": "WPGA"
+},
+"wpga_a29": {
+"region": "WPGA"
+},
+"wpga_a30": {
+"region": "WPGA"
+},
+"wpga_b01": {
+"region": "WPGA"
+},
+"wpga_b02": {
+"region": "WPGA"
+},
+"wpga_b03": {
+"region": "WPGA"
+},
+"wpga_b04": {
+"region": "WPGA"
+},
+"wpga_b05": {
+"region": "WPGA"
+},
+"wpga_b06": {
+"region": "WPGA"
+},
+"wpga_b07": {
+"region": "WPGA"
+},
+"wpga_b08": {
+"region": "WPGA"
+},
+"wpga_b09": {
+"region": "WPGA"
+},
+"wpga_b10": {
+"region": "WPGA"
+},
+"wpga_b11": {
+"region": "WPGA"
+},
+"wpga_b12": {
+"region": "WPGA"
+},
+"wpga_c01": {
+"region": "WPGA"
+},
+"wpga_c02": {
+"region": "WPGA"
+},
+"wpga_c03": {
+"region": "WPGA"
+},
+"wpga_c04": {
+"region": "WPGA"
+},
+"wpga_c05": {
+"region": "WPGA"
+},
+"wpga_c06": {
+"region": "WPGA"
+},
+"wpga_d01": {
+"region": "WPGA"
+},
+"wpga_d02": {
+"region": "WPGA"
+},
+"wpga_e01": {
+"region": "WPGA"
+},
+"wpga_s01": {
+"region": "WPGA"
+},
+"wpga_s02": {
+"region": "WPGA"
+},
+"wpga_s03": {
+"region": "WPGA"
+},
+"wpga_s04": {
+"region": "WPGA"
+},
+"wpga_smiley": {
+"region": "WPGA"
+},
+"wpta_a01": {
+"region": "WPTA"
+},
+"wpta_a02": {
+"region": "WPTA"
+},
+"wpta_a03": {
+"region": "WPTA"
+},
+"wpta_a04": {
+"region": "WPTA"
+},
+"wpta_a05": {
+"region": "WPTA"
+},
+"wpta_b02": {
+"region": "WPTA"
+},
+"wpta_b03": {
+"region": "WPTA"
+},
+"wpta_b04": {
+"region": "WPTA"
+},
+"wpta_b05": {
+"region": "WPTA"
+},
+"wpta_b06": {
+"region": "WPTA"
+},
+"wpta_b07": {
+"region": "WPTA"
+},
+"wpta_b08": {
+"region": "WPTA"
+},
+"wpta_b09": {
+"region": "WPTA"
+},
+"wpta_b10": {
+"region": "WPTA"
+},
+"wpta_c01": {
+"region": "WPTA"
+},
+"wpta_c02": {
+"region": "WPTA"
+},
+"wpta_c03": {
+"region": "WPTA"
+},
+"wpta_c04": {
+"region": "WPTA"
+},
+"wpta_c05": {
+"region": "WPTA"
+},
+"wpta_c06": {
+"region": "WPTA"
+},
+"wpta_c07": {
+"region": "WPTA"
+},
+"wpta_d01": {
+"region": "WPTA"
+},
+"wpta_d02": {
+"region": "WPTA"
+},
+"wpta_d03": {
+"region": "WPTA"
+},
+"wpta_d04": {
+"region": "WPTA"
+},
+"wpta_e01": {
+"region": "WPTA"
+},
+"wpta_f01": {
+"region": "WPTA"
+},
+"wpta_f02": {
+"region": "WPTA"
+},
+"wpta_f03": {
+"region": "WPTA"
+},
+"wpta_g01": {
+"region": "WPTA"
+},
+"wpta_s01": {
+"region": "WPTA"
+},
+"wpta_s02": {
+"region": "WPTA"
+},
+"wpta_s03": {
+"region": "WPTA"
+},
+"wrfa_a01": {
+"region": "WRFA"
+},
+"wrfa_a03": {
+"region": "WRFA"
+},
+"wrfa_a04": {
+"region": "WRFA"
+},
+"wrfa_a05": {
+"region": "WRFA"
+},
+"wrfa_a06": {
+"region": "WRFA"
+},
+"wrfa_a07": {
+"region": "WRFA"
+},
+"wrfa_a08": {
+"region": "WRFA"
+},
+"wrfa_a09": {
+"region": "WRFA"
+},
+"wrfa_a12": {
+"region": "WRFA"
+},
+"wrfa_a20": {
+"region": "WRFA"
+},
+"wrfa_a21": {
+"region": "WRFA"
+},
+"wrfa_b02": {
+"region": "WRFA"
+},
+"wrfa_b03": {
+"region": "WRFA"
+},
+"wrfa_b04": {
+"region": "WRFA"
+},
+"wrfa_b09": {
+"region": "WRFA"
+},
+"wrfa_b10": {
+"region": "WRFA"
+},
+"wrfa_c02": {
+"region": "WRFA"
+},
+"wrfa_c03": {
+"region": "WRFA"
+},
+"wrfa_c04": {
+"region": "WRFA"
+},
+"wrfa_c05": {
+"region": "WRFA"
+},
+"wrfa_c06": {
+"region": "WRFA"
+},
+"wrfa_c11": {
+"region": "WRFA"
+},
+"wrfa_c14": {
+"region": "WRFA"
+},
+"wrfa_d06": {
+"region": "WRFA"
+},
+"wrfa_d07": {
+"region": "WRFA"
+},
+"wrfa_d08": {
+"region": "WRFA"
+},
+"wrfa_e01": {
+"region": "WRFA"
+},
+"wrfa_e02": {
+"region": "WRFA"
+},
+"wrfa_e04": {
+"region": "WRFA"
+},
+"wrfa_f01": {
+"region": "WRFA"
+},
+"wrfa_f02": {
+"region": "WRFA"
+},
+"wrfa_f05": {
+"region": "WRFA"
+},
+"wrfa_f06": {
+"region": "WRFA"
+},
+"wrfa_h01": {
+"region": "WRFA"
+},
+"wrfa_i01": {
+"region": "WRFA"
+},
+"wrfa_s01": {
+"region": "WRFA"
+},
+"wrfa_s02": {
+"region": "WRFA"
+},
+"wrfa_s07": {
+"region": "WRFA"
+},
+"wrfa_s08": {
+"region": "WRFA"
+},
+"wrfa_sk01": {
+"region": "WRFA"
+},
+"wrfa_sk02": {
+"region": "WRFA"
+},
+"wrfa_sk03": {
+"region": "WRFA"
+},
+"wrfa_sk04": {
+"region": "WRFA"
+},
+"wrfb_a10": {
+"region": "WRFB"
+},
+"wrfb_a11": {
+"region": "WRFB"
+},
+"wrfb_a16": {
+"region": "WRFB"
+},
+"wrfb_a19": {
+"region": "WRFB"
+},
+"wrfb_a22": {
+"region": "WRFB"
+},
+"wrfb_a23": {
+"region": "WRFB"
+},
+"wrfb_b01": {
+"region": "WRFB"
+},
+"wrfb_b05": {
+"region": "WRFB"
+},
+"wrfb_b06": {
+"region": "WRFB"
+},
+"wrfb_b08": {
+"region": "WRFB"
+},
+"wrfb_b11": {
+"region": "WRFB"
+},
+"wrfb_b12": {
+"region": "WRFB"
+},
+"wrfb_b13": {
+"region": "WRFB"
+},
+"wrfb_c01": {
+"region": "WRFB"
+},
+"wrfb_c07": {
+"region": "WRFB"
+},
+"wrfb_c08": {
+"region": "WRFB"
+},
+"wrfb_c10": {
+"region": "WRFB"
+},
+"wrfb_c13": {
+"region": "WRFB"
+},
+"wrfb_d01": {
+"region": "WRFB"
+},
+"wrfb_d02": {
+"region": "WRFB"
+},
+"wrfb_d03": {
+"region": "WRFB"
+},
+"wrfb_d04": {
+"region": "WRFB"
+},
+"wrfb_d09": {
+"region": "WRFB"
+},
+"wrfb_d10": {
+"region": "WRFB"
+},
+"wrfb_f03": {
+"region": "WRFB"
+},
+"wrfb_f04": {
+"region": "WRFB"
+},
+"wrfb_s03": {
+"region": "WRFB"
+},
+"wrfb_s04": {
+"region": "WRFB"
+},
+"wrfb_s06": {
+"region": "WRFB"
+},
+"wrra_a01": {
+"region": "WRRA"
+},
+"wrra_a02": {
+"region": "WRRA"
+},
+"wrra_a03": {
+"region": "WRRA"
+},
+"wrra_a04": {
+"region": "WRRA"
+},
+"wrra_a05": {
+"region": "WRRA"
+},
+"wrra_a06": {
+"region": "WRRA"
+},
+"wrra_a07": {
+"region": "WRRA"
+},
+"wrra_a08": {
+"region": "WRRA"
+},
+"wrra_a09": {
+"region": "WRRA"
+},
+"wrra_a10": {
+"region": "WRRA"
+},
+"wrra_a11": {
+"region": "WRRA"
+},
+"wrra_a12": {
+"region": "WRRA"
+},
+"wrra_a13": {
+"region": "WRRA"
+},
+"wrra_a14": {
+"region": "WRRA"
+},
+"wrra_a15": {
+"region": "WRRA"
+},
+"wrra_a16": {
+"region": "WRRA"
+},
+"wrra_a17": {
+"region": "WRRA"
+},
+"wrra_a18": {
+"region": "WRRA"
+},
+"wrra_a19": {
+"region": "WRRA"
+},
+"wrra_a20": {
+"region": "WRRA"
+},
+"wrra_a21": {
+"region": "WRRA"
+},
+"wrra_a22": {
+"region": "WRRA"
+},
+"wrra_a23": {
+"region": "WRRA"
+},
+"wrra_a24": {
+"region": "WRRA"
+},
+"wrra_a25": {
+"region": "WRRA"
+},
+"wrra_a26": {
+"region": "WRRA"
+},
+"wrra_a27": {
+"region": "WRRA"
+},
+"wrra_a28": {
+"region": "WRRA"
+},
+"wrra_a29": {
+"region": "WRRA"
+},
+"wrra_a30": {
+"region": "WRRA"
+},
+"wrra_a31": {
+"region": "WRRA"
+},
+"wrra_b01": {
+"region": "WRRA"
+},
+"wrra_b02": {
+"region": "WRRA"
+},
+"wrra_b03": {
+"region": "WRRA"
+},
+"wrra_b04": {
+"region": "WRRA"
+},
+"wrra_b05": {
+"region": "WRRA"
+},
+"wrra_b06": {
+"region": "WRRA"
+},
+"wrra_b07": {
+"region": "WRRA"
+},
+"wrra_b08": {
+"region": "WRRA"
+},
+"wrra_b09": {
+"region": "WRRA"
+},
+"wrra_b10": {
+"region": "WRRA"
+},
+"wrra_b11": {
+"region": "WRRA"
+},
+"wrra_b12": {
+"region": "WRRA"
+},
+"wrra_b13": {
+"region": "WRRA"
+},
+"wrra_c01": {
+"region": "WRRA"
+},
+"wrra_c02": {
+"region": "WRRA"
+},
+"wrra_c03": {
+"region": "WRRA"
+},
+"wrra_c04": {
+"region": "WRRA"
+},
+"wrra_c05": {
+"region": "WRRA"
+},
+"wrra_c06": {
+"region": "WRRA"
+},
+"wrra_d01": {
+"region": "WRRA"
+},
+"wrra_d02": {
+"region": "WRRA"
+},
+"wrra_d03": {
+"region": "WRRA"
+},
+"wrra_d04": {
+"region": "WRRA"
+},
+"wrra_d05": {
+"region": "WRRA"
+},
+"wrra_l01": {
+"region": "WRRA"
+},
+"wrra_s01": {
+"region": "WRRA"
+},
+"wrra_s02": {
+"region": "WRRA"
+},
+"wrra_s03": {
+"region": "WRRA"
+},
+"wrra_s04": {
+"region": "WRRA"
+},
+"wrra_s05": {
+"region": "WRRA"
+},
+"wrra_s06": {
+"region": "WRRA"
+},
+"wrsa_c01": {
+"region": "WRSA"
+},
+"wrsa_d01": {
+"region": "WRSA"
+},
+"wrsa_j01": {
+"region": "WRSA"
+},
+"wrsa_l01": {
+"region": "WRSA"
+},
+"wrsa_prince01": {
+"region": "WRSA"
+},
+"wrsa_prince02": {
+"region": "WRSA"
+},
+"wrsa_prince03": {
+"region": "WRSA"
+},
+"wrsa_tree01": {
+"region": "WRSA"
+},
+"wrsa_tree02": {
+"region": "WRSA"
+},
+"wrsa_tree03": {
+"region": "WRSA"
+},
+"wrsa_tree04": {
+"region": "WRSA"
+},
+"wrsa_tree05": {
+"region": "WRSA"
+},
+"wrsa_tree06": {
+"region": "WRSA"
+},
+"wrsa_weaver": {
+"region": "WRSA"
+},
+"wrsa_weaver02": {
+"region": "WRSA"
+},
+"wrsa_weaver03": {
+"region": "WRSA"
+},
+"wska_d01": {
+"region": "WSKA"
+},
+"wska_d02": {
+"region": "WSKA"
+},
+"wska_d03": {
+"region": "WSKA"
+},
+"wska_d04": {
+"region": "WSKA"
+},
+"wska_d05": {
+"region": "WSKA"
+},
+"wska_d06": {
+"region": "WSKA"
+},
+"wska_d07": {
+"region": "WSKA"
+},
+"wska_d08": {
+"region": "WSKA"
+},
+"wska_d09": {
+"region": "WSKA"
+},
+"wska_d10": {
+"region": "WSKA"
+},
+"wska_d11": {
+"region": "WSKA"
+},
+"wska_d12": {
+"region": "WSKA"
+},
+"wska_d13": {
+"region": "WSKA"
+},
+"wska_d14": {
+"region": "WSKA"
+},
+"wska_d15": {
+"region": "WSKA"
+},
+"wska_d16": {
+"region": "WSKA"
+},
+"wska_d17": {
+"region": "WSKA"
+},
+"wska_d18": {
+"region": "WSKA"
+},
+"wska_d19": {
+"region": "WSKA"
+},
+"wska_d20": {
+"region": "WSKA"
+},
+"wska_d21": {
+"region": "WSKA"
+},
+"wska_d22": {
+"region": "WSKA"
+},
+"wska_d25": {
+"region": "WSKA"
+},
+"wska_d26": {
+"region": "WSKA"
+},
+"wska_d27": {
+"region": "WSKA"
+},
+"wska_n01": {
+"region": "WSKA"
+},
+"wska_n02": {
+"region": "WSKA"
+},
+"wska_n03": {
+"region": "WSKA"
+},
+"wska_n04": {
+"region": "WSKA"
+},
+"wska_s07": {
+"region": "WSKA"
+},
+"wska_s08": {
+"region": "WSKA"
+},
+"wska_s09": {
+"region": "WSKA"
+},
+"wska_s0n": {
+"region": "WSKA"
+},
+"wskb_c01": {
+"region": "WSKB"
+},
+"wskb_c03": {
+"region": "WSKB"
+},
+"wskb_c04": {
+"region": "WSKB"
+},
+"wskb_c05": {
+"region": "WSKB"
+},
+"wskb_c06": {
+"region": "WSKB"
+},
+"wskb_c07": {
+"region": "WSKB"
+},
+"wskb_c08": {
+"region": "WSKB"
+},
+"wskb_c09": {
+"region": "WSKB"
+},
+"wskb_c10": {
+"region": "WSKB"
+},
+"wskb_c11": {
+"region": "WSKB"
+},
+"wskb_c12": {
+"region": "WSKB"
+},
+"wskb_c13": {
+"region": "WSKB"
+},
+"wskb_c15": {
+"region": "WSKB"
+},
+"wskb_c16": {
+"region": "WSKB"
+},
+"wskb_c17": {
+"region": "WSKB"
+},
+"wskb_c18": {
+"region": "WSKB"
+},
+"wskb_n01": {
+"region": "WSKB"
+},
+"wskb_n02": {
+"region": "WSKB"
+},
+"wskb_n03": {
+"region": "WSKB"
+},
+"wskb_n04": {
+"region": "WSKB"
+},
+"wskb_n05": {
+"region": "WSKB"
+},
+"wskb_n06": {
+"region": "WSKB"
+},
+"wskb_n07": {
+"region": "WSKB"
+},
+"wskb_n08": {
+"region": "WSKB"
+},
+"wskb_n09": {
+"region": "WSKB"
+},
+"wskb_n10": {
+"region": "WSKB"
+},
+"wskb_n11": {
+"region": "WSKB"
+},
+"wskb_n12": {
+"region": "WSKB"
+},
+"wskb_n13": {
+"region": "WSKB"
+},
+"wskb_n14": {
+"region": "WSKB"
+},
+"wskb_n15": {
+"region": "WSKB"
+},
+"wskb_n16": {
+"region": "WSKB"
+},
+"wskb_n17": {
+"region": "WSKB"
+},
+"wskb_s06": {
+"region": "WSKB"
+},
+"wskb_s0n": {
+"region": "WSKB"
+},
+"wskc_a01": {
+"region": "WSKC"
+},
+"wskc_a02": {
+"region": "WSKC"
+},
+"wskc_a03": {
+"region": "WSKC"
+},
+"wskc_a04": {
+"region": "WSKC"
+},
+"wskc_a05": {
+"region": "WSKC"
+},
+"wskc_a06": {
+"region": "WSKC"
+},
+"wskc_a07": {
+"region": "WSKC"
+},
+"wskc_a08": {
+"region": "WSKC"
+},
+"wskc_a09": {
+"region": "WSKC"
+},
+"wskc_a10": {
+"region": "WSKC"
+},
+"wskc_a11": {
+"region": "WSKC"
+},
+"wskc_a12": {
+"region": "WSKC"
+},
+"wskc_a13": {
+"region": "WSKC"
+},
+"wskc_a14": {
+"region": "WSKC"
+},
+"wskc_a15": {
+"region": "WSKC"
+},
+"wskc_a16": {
+"region": "WSKC"
+},
+"wskc_a17": {
+"region": "WSKC"
+},
+"wskc_a18": {
+"region": "WSKC"
+},
+"wskc_a19": {
+"region": "WSKC"
+},
+"wskc_a20": {
+"region": "WSKC"
+},
+"wskc_a21": {
+"region": "WSKC"
+},
+"wskc_a22": {
+"region": "WSKC"
+},
+"wskc_a23": {
+"region": "WSKC"
+},
+"wskc_a24": {
+"region": "WSKC"
+},
+"wskc_a25": {
+"region": "WSKC"
+},
+"wskc_a27": {
+"region": "WSKC"
+},
+"wskc_a28": {
+"region": "WSKC"
+},
+"wskc_a29": {
+"region": "WSKC"
+},
+"wskc_a30": {
+"region": "WSKC"
+},
+"wskc_s01": {
+"region": "WSKC"
+},
+"wskc_s02": {
+"region": "WSKC"
+},
+"wskd_a26": {
+"region": "WSKD"
+},
+"wskd_b01": {
+"region": "WSKD"
+},
+"wskd_b02": {
+"region": "WSKD"
+},
+"wskd_b03": {
+"region": "WSKD"
+},
+"wskd_b04": {
+"region": "WSKD"
+},
+"wskd_b05": {
+"region": "WSKD"
+},
+"wskd_b06": {
+"region": "WSKD"
+},
+"wskd_b07": {
+"region": "WSKD"
+},
+"wskd_b08": {
+"region": "WSKD"
+},
+"wskd_b09": {
+"region": "WSKD"
+},
+"wskd_b10": {
+"region": "WSKD"
+},
+"wskd_b11": {
+"region": "WSKD"
+},
+"wskd_b12": {
+"region": "WSKD"
+},
+"wskd_b13": {
+"region": "WSKD"
+},
+"wskd_b14": {
+"region": "WSKD"
+},
+"wskd_b15": {
+"region": "WSKD"
+},
+"wskd_b16": {
+"region": "WSKD"
+},
+"wskd_b17": {
+"region": "WSKD"
+},
+"wskd_b18": {
+"region": "WSKD"
+},
+"wskd_b19": {
+"region": "WSKD"
+},
+"wskd_b20": {
+"region": "WSKD"
+},
+"wskd_b21": {
+"region": "WSKD"
+},
+"wskd_b22": {
+"region": "WSKD"
+},
+"wskd_b23": {
+"region": "WSKD"
+},
+"wskd_b24": {
+"region": "WSKD"
+},
+"wskd_b25": {
+"region": "WSKD"
+},
+"wskd_b26": {
+"region": "WSKD"
+},
+"wskd_b27": {
+"region": "WSKD"
+},
+"wskd_b28": {
+"region": "WSKD"
+},
+"wskd_b29": {
+"region": "WSKD"
+},
+"wskd_b30": {
+"region": "WSKD"
+},
+"wskd_b31": {
+"region": "WSKD"
+},
+"wskd_b32": {
+"region": "WSKD"
+},
+"wskd_b33": {
+"region": "WSKD"
+},
+"wskd_b34": {
+"region": "WSKD"
+},
+"wskd_b35": {
+"region": "WSKD"
+},
+"wskd_b36": {
+"region": "WSKD"
+},
+"wskd_b37": {
+"region": "WSKD"
+},
+"wskd_b38": {
+"region": "WSKD"
+},
+"wskd_b39": {
+"region": "WSKD"
+},
+"wskd_b40": {
+"region": "WSKD"
+},
+"wskd_b41": {
+"region": "WSKD"
+},
+"wskd_b42": {
+"region": "WSKD"
+},
+"wskd_s03": {
+"region": "WSKD"
+},
+"wskd_s04": {
+"region": "WSKD"
+},
+"wskd_s05": {
+"region": "WSKD"
+},
+"wssr_a13": {
+"region": "WSSR"
+},
+"wssr_abyss": {
+"region": "WSSR"
+},
+"wssr_b04": {
+"region": "WSSR"
+},
+"wssr_cramped": {
+"region": "WSSR"
+},
+"wssr_d05": {
+"region": "WSSR"
+},
+"wssr_f03": {
+"region": "WSSR"
+},
+"wssr_lab2": {
+"region": "WSSR"
+},
+"wssr_lab6": {
+"region": "WSSR"
+},
+"wssr_labbig": {
+"region": "WSSR"
+},
+"wssr_portholes": {
+"region": "WSSR"
+},
+"wssr_s03": {
+"region": "WSSR"
+},
+"wsur_a02": {
+"region": "WSUR"
+},
+"wsur_a06": {
+"region": "WSUR"
+},
+"wsur_a17": {
+"region": "WSUR"
+},
+"wsur_a20": {
+"region": "WSUR"
+},
+"wsur_a33": {
+"region": "WSUR"
+},
+"wsur_a34": {
+"region": "WSUR"
+},
+"wsur_a35": {
+"region": "WSUR"
+},
+"wsur_a36": {
+"region": "WSUR"
+},
+"wsur_a37": {
+"region": "WSUR"
+},
+"wsur_a38": {
+"region": "WSUR"
+},
+"wsur_a39": {
+"region": "WSUR"
+},
+"wsur_a40": {
+"region": "WSUR"
+},
+"wsur_a53": {
+"region": "WSUR"
+},
+"wsur_a63": {
+"region": "WSUR"
+},
+"wsur_b04": {
+"region": "WSUR"
+},
+"wsur_b07": {
+"region": "WSUR"
+},
+"wsur_b08": {
+"region": "WSUR"
+},
+"wsur_b09": {
+"region": "WSUR"
+},
+"wsur_b12": {
+"region": "WSUR"
+},
+"wsur_b13": {
+"region": "WSUR"
+},
+"wsur_s04": {
+"region": "WSUR"
+},
+"wsur_s06": {
+"region": "WSUR"
+},
+"wtda_a13": {
+"region": "WTDA"
+},
+"wtda_a14": {
+"region": "WTDA"
+},
+"wtda_b01": {
+"region": "WTDA"
+},
+"wtda_b02": {
+"region": "WTDA"
+},
+"wtda_b03": {
+"region": "WTDA"
+},
+"wtda_b04": {
+"region": "WTDA"
+},
+"wtda_b05": {
+"region": "WTDA"
+},
+"wtda_b06": {
+"region": "WTDA"
+},
+"wtda_b07": {
+"region": "WTDA"
+},
+"wtda_b08": {
+"region": "WTDA"
+},
+"wtda_b09": {
+"region": "WTDA"
+},
+"wtda_b10": {
+"region": "WTDA"
+},
+"wtda_b11": {
+"region": "WTDA"
+},
+"wtda_b12": {
+"region": "WTDA"
+},
+"wtda_b13": {
+"region": "WTDA"
+},
+"wtda_b14": {
+"region": "WTDA"
+},
+"wtda_b15": {
+"region": "WTDA"
+},
+"wtda_b16": {
+"region": "WTDA"
+},
+"wtda_b17": {
+"region": "WTDA"
+},
+"wtda_s02": {
+"region": "WTDA"
+},
+"wtda_s03": {
+"region": "WTDA"
+},
+"wtda_s04": {
+"region": "WTDA"
+},
+"wtda_z01": {
+"region": "WTDA"
+},
+"wtda_z02": {
+"region": "WTDA"
+},
+"wtda_z03": {
+"region": "WTDA"
+},
+"wtda_z04": {
+"region": "WTDA"
+},
+"wtda_z05": {
+"region": "WTDA"
+},
+"wtda_z06": {
+"region": "WTDA"
+},
+"wtda_z07": {
+"region": "WTDA"
+},
+"wtda_z08": {
+"region": "WTDA"
+},
+"wtda_z09": {
+"region": "WTDA"
+},
+"wtda_z10": {
+"region": "WTDA"
+},
+"wtda_z11": {
+"region": "WTDA"
+},
+"wtda_z12": {
+"region": "WTDA"
+},
+"wtda_z13": {
+"region": "WTDA"
+},
+"wtda_z14": {
+"region": "WTDA"
+},
+"wtda_z15": {
+"region": "WTDA"
+},
+"wtda_z16": {
+"region": "WTDA"
+},
+"wtdb_a01": {
+"region": "WTDB"
+},
+"wtdb_a02": {
+"region": "WTDB"
+},
+"wtdb_a03": {
+"region": "WTDB"
+},
+"wtdb_a04": {
+"region": "WTDB"
+},
+"wtdb_a05": {
+"region": "WTDB"
+},
+"wtdb_a06": {
+"region": "WTDB"
+},
+"wtdb_a07": {
+"region": "WTDB"
+},
+"wtdb_a08": {
+"region": "WTDB"
+},
+"wtdb_a09": {
+"region": "WTDB"
+},
+"wtdb_a10": {
+"region": "WTDB"
+},
+"wtdb_a11": {
+"region": "WTDB"
+},
+"wtdb_a12": {
+"region": "WTDB"
+},
+"wtdb_a13": {
+"region": "WTDB"
+},
+"wtdb_a14": {
+"region": "WTDB"
+},
+"wtdb_a15": {
+"region": "WTDB"
+},
+"wtdb_a16": {
+"region": "WTDB"
+},
+"wtdb_a17": {
+"region": "WTDB"
+},
+"wtdb_a18": {
+"region": "WTDB"
+},
+"wtdb_a19": {
+"region": "WTDB"
+},
+"wtdb_a20": {
+"region": "WTDB"
+},
+"wtdb_a21": {
+"region": "WTDB"
+},
+"wtdb_a22": {
+"region": "WTDB"
+},
+"wtdb_a23": {
+"region": "WTDB"
+},
+"wtdb_a24": {
+"region": "WTDB"
+},
+"wtdb_a25": {
+"region": "WTDB"
+},
+"wtdb_a26": {
+"region": "WTDB"
+},
+"wtdb_a27": {
+"region": "WTDB"
+},
+"wtdb_a28": {
+"region": "WTDB"
+},
+"wtdb_a29": {
+"region": "WTDB"
+},
+"wtdb_a30": {
+"region": "WTDB"
+},
+"wtdb_a31": {
+"region": "WTDB"
+},
+"wtdb_a32": {
+"region": "WTDB"
+},
+"wtdb_a33": {
+"region": "WTDB"
+},
+"wtdb_a34": {
+"region": "WTDB"
+},
+"wtdb_a35": {
+"region": "WTDB"
+},
+"wtdb_a36": {
+"region": "WTDB"
+},
+"wtdb_a37": {
+"region": "WTDB"
+},
+"wtdb_a38": {
+"region": "WTDB"
+},
+"wtdb_a39": {
+"region": "WTDB"
+},
+"wtdb_a40": {
+"region": "WTDB"
+},
+"wtdb_s01": {
+"region": "WTDB"
+},
+"wtdb_s02": {
+"region": "WTDB"
+},
+"wtdb_s03": {
+"region": "WTDB"
+},
+"wtdb_s04": {
+"region": "WTDB"
+},
+"wvwa_a01": {
+"region": "WVWA"
+},
+"wvwa_a02": {
+"region": "WVWA"
+},
+"wvwa_a03": {
+"region": "WVWA"
+},
+"wvwa_a04": {
+"region": "WVWA"
+},
+"wvwa_a05": {
+"region": "WVWA"
+},
+"wvwa_a06": {
+"region": "WVWA"
+},
+"wvwa_a07": {
+"region": "WVWA"
+},
+"wvwa_a08": {
+"region": "WVWA"
+},
+"wvwa_a09": {
+"region": "WVWA"
+},
+"wvwa_a10": {
+"region": "WVWA"
+},
+"wvwa_a11": {
+"region": "WVWA"
+},
+"wvwa_a12": {
+"region": "WVWA"
+},
+"wvwa_b01": {
+"region": "WVWA"
+},
+"wvwa_b02": {
+"region": "WVWA"
+},
+"wvwa_b03": {
+"region": "WVWA"
+},
+"wvwa_b04": {
+"region": "WVWA"
+},
+"wvwa_b05": {
+"region": "WVWA"
+},
+"wvwa_b06": {
+"region": "WVWA"
+},
+"wvwa_b07": {
+"region": "WVWA"
+},
+"wvwa_b08": {
+"region": "WVWA"
+},
+"wvwa_b09": {
+"region": "WVWA"
+},
+"wvwa_b10": {
+"region": "WVWA"
+},
+"wvwa_b11": {
+"region": "WVWA"
+},
+"wvwa_c01": {
+"region": "WVWA"
+},
+"wvwa_c02": {
+"region": "WVWA"
+},
+"wvwa_c03": {
+"region": "WVWA"
+},
+"wvwa_d01": {
+"region": "WVWA"
+},
+"wvwa_e01": {
+"region": "WVWA"
+},
+"wvwa_e02": {
+"region": "WVWA"
+},
+"wvwa_f01": {
+"region": "WVWA"
+},
+"wvwa_f02": {
+"region": "WVWA"
+},
+"wvwa_f03": {
+"region": "WVWA"
+},
+"wvwa_h01": {
+"region": "WVWA"
+},
+"wvwa_h02": {
+"region": "WVWA"
+},
+"wvwa_s01": {
+"region": "WVWA"
+},
+"wvwa_s02": {
+"region": "WVWA"
+},
+"wvwa_s03": {
+"region": "WVWA"
+},
+"wvwb_a01": {
+"region": "WVWB"
+},
+"wvwb_a02": {
+"region": "WVWB"
+},
+"wvwb_a03": {
+"region": "WVWB"
+},
+"wvwb_a04": {
+"region": "WVWB"
+},
+"wvwb_a05": {
+"region": "WVWB"
+},
+"wvwb_a06": {
+"region": "WVWB"
+},
+"wvwb_b01": {
+"region": "WVWB"
+},
+"wvwb_b02": {
+"region": "WVWB"
+},
+"wvwb_b03": {
+"region": "WVWB"
+},
+"wvwb_b04": {
+"region": "WVWB"
+},
+"wvwb_b05": {
+"region": "WVWB"
+},
+"wvwb_c01": {
+"region": "WVWB"
+},
+"wvwb_d01": {
+"region": "WVWB"
+},
+"wvwb_d02": {
+"region": "WVWB"
+},
+"wvwb_d03": {
+"region": "WVWB"
+},
+"wvwb_e01": {
+"region": "WVWB"
+},
+"wvwb_e02": {
+"region": "WVWB"
+},
+"wvwb_f01": {
+"region": "WVWB"
+},
+"wvwb_h01": {
+"region": "WVWB"
+},
+"wvwb_h02": {
+"region": "WVWB"
+},
+"wvwb_j01": {
+"region": "WVWB"
+},
+"wvwb_s01": {
+"region": "WVWB"
+},
+"wvwb_s02": {
+"region": "WVWB"
+}
+}

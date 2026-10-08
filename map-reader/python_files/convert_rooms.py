@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 """
-convert_rooms.py : remplace read_map.py
-
-Lit les fichiers de rooms Rain World (versions "5 lignes" de Rain-Guessr),
-décode la géométrie par RÈGLES (plus de table de chaînes), valide les données,
-puis produit des contours vectoriels exacts par traçage d'arêtes.
+convert_rooms.py : extrait la géométrie des rooms Rain World depuis les fichiers
+bruts du jeu (vanilla, Downpour, Watcher).
 
 Usage :
-    python convert_rooms.py <dossier_rooms> <dossier_sortie> [--pos map_XX.txt] [--only-mapped]
+    python convert_rooms.py <dossier_worlds> <dossier_sortie>
+
+    <dossier_worlds> contient les dossiers 'world', 'world downpour', 'world Watcher'
+    (chacun avec un sous-dossier 'world' contenant les <region>-rooms).
 
 Sortie :
-    <sortie>/<REGION>/<room>.json   géométrie vectorielle de chaque room
-    <sortie>/report.json            rooms douteuses (à regarder), avec la raison
+    <sortie>/<jeu>/<REGION>/<room>.json   géométrie vectorielle de la room
+    <sortie>/<jeu>/index.json             room -> région (+ 'overrides' si elle remplace une room vanilla)
+    <sortie>/report.json                  rooms douteuses, avec la raison
 """
 import json, os, sys
 from collections import defaultdict
@@ -47,7 +48,7 @@ def read_room(path):
     try:
         w, h = (int(v) for v in lines[1].split("|")[0].split("*"))
     except ValueError:
-        return None, [f"ligne 2 illisible ({lines[1][:30]!r}) : ce n'est pas un fichier de room"]
+        return None, ["IGNOREE : pas une room (settings, world_xx, gates...)"]
     # Fichier brut du jeu : les tuiles sont à la ligne 12 (les lignes 6 à 9 sont
     # vides, donc on compte sur le fichier non filtré). Version réduite : dernière ligne.
     tile_line = raw[11] if len(raw) >= 12 else lines[-1]
@@ -246,65 +247,69 @@ def selfcheck(room, data):
 
 
 # ── 6. Programme principal ────────────────────────────────────────────────
-def read_map(path):
-    """map_XX.txt -> {room: {dev, canvas, layer, subregion}}.
-    Ligne : ROOM: canvasX><canvasY><devX><devY><layer><sous-région>...
-    La carte interactive utilise les coordonnées 'dev' (3e et 4e valeurs)."""
-    out = {}
-    for line in open(path, errors="replace").read().replace("\r", "").split("\n"):
-        if ":" not in line:
-            continue
-        name, rest = line.split(": ", 1)
-        if name.lower().startswith(("connection", "offscreen")):
-            continue
-        v = rest.split("><")
-        try:
-            out[name.lower()] = {"canvas": [float(v[0]), float(v[1])],
-                                 "dev": [float(v[2]), float(v[3])],
-                                 "layer": int(v[4]),
-                                 "subregion": v[5] if len(v) > 5 else ""}
-        except (ValueError, IndexError):
-            pass
-    return out
+def collect(tree):
+    """Toutes les rooms d'un dossier : {nom: (chemin, région)}.
+    Une room = un fichier dont la ligne 2 ressemble à '54*35|-1|0'."""
+    import re
+    found = {}
+    for root, _, files in sorted(os.walk(tree)):
+        folder = os.path.basename(root).lower()
+        region = folder[:-6] if folder.endswith("-rooms") else folder
+        for f in sorted(files):
+            if not f.endswith(".txt") or "settings" in f:
+                continue
+            path = os.path.join(root, f)
+            with open(path, errors="replace") as fh:
+                head = [fh.readline() for _ in range(2)]
+            if not re.fullmatch(r"\d+\*\d+\|.*", head[1].strip()):
+                continue
+            key = f[:-4].lower()
+            # doublon (ex: ss_ai présent dans 2 dossiers) : on garde le dossier '-rooms'
+            if key not in found or (folder.endswith("-rooms") and not found[key][2]):
+                found[key] = (path, region, folder.endswith("-rooms"))
+    return {k: (v[0], v[1]) for k, v in found.items()}
+
+
+def game_name(folder):
+    n = folder.lower()
+    return "downpour" if "downpour" in n else "watcher" if "watcher" in n else "vanilla"
 
 
 def main():
     src, dst = sys.argv[1], sys.argv[2]
-    positions = {}
-    if "--pos" in sys.argv:
-        positions = read_map(sys.argv[sys.argv.index("--pos") + 1])
-    only_mapped = "--only-mapped" in sys.argv
-    report = {}
-    done = 0
-    for root, _, files in os.walk(src):
-        for f in sorted(files):
-            if (not f.endswith(".txt") or f in ("regions.txt", "region_pos.txt")
-                    or f.startswith("cf-") or f.endswith("_settings.txt")):
-                continue
-            room, problems = read_room(os.path.join(root, f))
-            key = f[:-4]
-            if only_mapped and positions and key.lower() not in positions:
-                continue  # room absente de la carte (variantes 'x', brouillons...)
+    report, trees = {}, {}
+    for entry in sorted(os.scandir(src), key=lambda e: e.name):
+        if entry.is_dir():
+            trees[game_name(entry.name)] = collect(entry.path)
+    for game, rooms in trees.items():
+        index, done = {}, 0
+        for key, (path, region) in rooms.items():
+            room, problems = read_room(path)
             if room is None:
-                st = "IGNOREE" if problems[0].startswith("IGNOREE") else "ECHEC"
-                report[key] = {"status": st, "problems": problems}
+                if not problems[0].startswith("IGNOREE"):
+                    report[f"{game}/{key}"] = {"status": "ECHEC", "problems": problems}
                 continue
             data = extract(room)
-            data["pos"] = positions.get(key)
             if data["broken_slopes"]:
                 problems.append(f"{len(data['broken_slopes'])} pente(s) sans orientation")
             if not selfcheck(room, data):
                 problems.append("contours incohérents avec la grille (aire différente)")
             if problems:
-                report[key] = {"status": "A VERIFIER", "problems": problems}
-            region = key.split("_")[0].upper()
-            os.makedirs(os.path.join(dst, region), exist_ok=True)
-            with open(os.path.join(dst, region, key + ".json"), "w") as out:
+                report[f"{game}/{key}"] = {"status": "A VERIFIER", "problems": problems}
+            reg = region.upper()
+            os.makedirs(os.path.join(dst, game, reg), exist_ok=True)
+            with open(os.path.join(dst, game, reg, key + ".json"), "w") as out:
                 json.dump(data, out, separators=(",", ":"))
+            index[key] = {"region": reg}
+            if game != "vanilla" and key in trees.get("vanilla", {}):
+                index[key]["overrides"] = True
             done += 1
+        with open(os.path.join(dst, game, "index.json"), "w") as out:
+            json.dump(index, out, indent=0)
+        print(f"{game:9s}: {done} rooms converties")
     with open(os.path.join(dst, "report.json"), "w") as out:
         json.dump(report, out, indent=1, ensure_ascii=False)
-    print(f"{done} rooms converties, {len(report)} signalées -> {dst}/report.json")
+    print(f"{len(report)} signalée(s) -> {dst}/report.json")
 
 
 if __name__ == "__main__":
