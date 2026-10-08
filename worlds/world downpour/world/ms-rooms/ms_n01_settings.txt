@@ -1,0 +1,8 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 1
+Clouds: 0
+Grime: 0
+Palette: 53
+Effects: ElectricDeath-0-30-30, 
+FadePalette: 45, 0

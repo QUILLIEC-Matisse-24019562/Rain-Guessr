@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: Blizzard
+WaveSpeed: 0.6982898
+WaveLength: 0.9008551
+WaveAmplitude: 7.415208E-06
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+Palette: 455
+Effects: Flies-0.1521739-20-20, Fog-0.8043478-278-21, Coldness-0.1073574-23.20963-75.06327, 
+PlacedObjects: LightSource><455.9343><358.4389><0.05434782~Environment~531~415~50~86.60254~1~0~None~0~0, CustomDecal><275.8467><102.1284><-118~577~510~498~307~-87~-408~-37~0~1~0~greybones~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, KarmaFlower><469.6855><182.9253><0~0~5~7, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><120.9403><23.18857><0.08695652><1, OMNI><AM_ENV-LightWind.ogg><554.4349><31.07629><0.1413043><1, OMNI><AM_ENV-Outside.ogg><311.5834><25.11072><0.2065217><1, 
+FadePalette: 14, 0.4084675

@@ -1,0 +1,9 @@
+DangerType: None
+Clouds: 0
+Grime: 0.04347826
+Palette: 30
+EffectColorA: 13
+Effects: DayNight-0.4347826-274-7, RoofTopView-1-13-51, 
+PlacedObjects: LightSource><521.4208><468.3541><0.8478261~Environment~238~-342~-451~15.60254~1~0~None~0~0, LightSource><713.5993><3190.119><1~Environment~265~-102~-298~-74.39752~1~0~None~0~0, LightSource><369.6658><1620.639><0.5108696~Environment~281~12~50~86.60254~1~0~None~0~0, LightSource><375.88><1429.411><0.7826087~Environment~259~-41~50~86.60254~1~0~None~0~0, LightSource><293.5691><1215.438><0.7825981~Environment~340~23~50~86.60254~1~0~None~0~0, LightSource><605.5692><810.6647><0.5432888~Environment~-208~129~-377~-3.411926~1~0~None~0~0, LightSource><510.9954><1078.462><0.7608696~Environment~-167~63~-173~-249.3975~1~0~None~0~0, LightSource><589.0523><1102.969><1~Environment~-150~-46~-374~-148.3975~1~0~None~0~0, ReliableSpear><791.1276><2625.904><, SeedCob><775.5814><2728.892><-429~-34~7~10, DayNightSettings><510.3625><2961.915><5~8.660254~35~10, CustomDecal><238.9331><1219.907><0~585~449~584~452~-12~-428~2~0.3260883~1~0~nightglobe~0.4456522~0~0.5434783~0~0.3804348~0~0.6195652~0, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><731.881><518.3489><0.3478261><1, OMNI><Mech Multiactive Highpass.wav><788.1259><370.5946><0.2608696><1, 
+FadePalette: 42, 0.08695652, 0.09782609, 0.08695652, 0.07608695, 0.09782609

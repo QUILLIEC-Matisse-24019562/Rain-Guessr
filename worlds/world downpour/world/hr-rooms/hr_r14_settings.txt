@@ -1,0 +1,12 @@
+Template: HR_SettingsTemplate_HellUpper
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8578259
+PlacedObjects: FairyParticleSettings><-8.234253><83.94937><30~-66.33981~1~7.065217~37.5~0~1.525091~2.828388~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, LightBeam><-107.8811><715.901><-306~-743~4268~-712~4268~50~1376~-583~0.1282607~0~0~0~Fade~0.6847826~0, LightSource><1887.481><9.199097><0.1847826~EffectColor1~-2051~650~50~86.60254~0~1~None~0~0, LightSource><3077.014><70.69952><0.1304348~EffectColor1~1028~632~50~86.60254~0~1~None~0~0, LightSource><1007.117><36.10089><0.1521739~EffectColor1~-896~566~-465~79.60254~0~1~None~0~0, HRGuard><2624.341><585.6782><0~0~2~3, KarmaShrine><1562.945><300.5593><-6~18, 
+AmbientSounds: OMNI><AM_WAT-Shoreline.ogg><833.7825><641.4473><0.5><0.6086956, OMNI><AM_WIN-HowlingWnd.ogg><835.1513><571.174><0.25><0.4913043, 
+FadePalette: 75, 0.3043478, 0.3152174, 0.2934783, 0.2934783
+WetTerrain: OFF

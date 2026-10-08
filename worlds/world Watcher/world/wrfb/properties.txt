@@ -1,0 +1,32 @@
+safariStartRoom: WRFB_S06
+kelpColor: 0.04,0.33,0.26
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+Subregion: Turbulent Pump
+rippleSpiderThreshold: 15
+playerGuideOverseerSpawnChance: 0.0
+proceduralMusicBank: wrfa
+pupSpawnChance: 0.10
+Room_Attr: WRFB_B01: BlueLizard-Forbidden,Scavenger-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WRFB_D01: Scavenger-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WRFB_D02: PeachLizard-Avoid,
+Room_Attr: WRFB_C01: Snail-Forbidden,Scavenger-Forbidden,
+Room_Attr: WRFB_A10: Scavenger-Forbidden,
+Room_Attr: WRFB_A11: Scavenger-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WRFB_D03: Scavenger-Forbidden,
+Room_Attr: WRFB_F03: PeachLizard-Like,
+Room_Attr: WRFB_C07: Scavenger-Forbidden,
+Room_Attr: WRFB_D04: Scavenger-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WRFB_C08: YellowLizard-Forbidden,Scavenger-Forbidden,
+Room_Attr: WRFB_B06: Salamander-Stay,Scavenger-Forbidden,PeachLizard-Like,
+Room_Attr: WRFB_A16: Scavenger-Forbidden,
+Room_Attr: WRFB_C10: BigEel-Avoid,Scavenger-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WRFB_B08: Scavenger-Forbidden,
+Room_Attr: WRFB_D09: PeachLizard-Forbidden,
+Room_Attr: WRFB_B11: PeachLizard-Forbidden,
+Room_Attr: WRFB_A22: BigEel-Forbidden,

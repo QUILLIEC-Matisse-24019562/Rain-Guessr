@@ -1,0 +1,3 @@
+Template: warc_settingstemplate_cistern
+PlacedObjects: BubbleGrass><813.4229><285.5902><0~0~4~9, BubbleGrass><718.4274><307.6981><0~0~4~9, WaterNut><1980.025><260.5267><0~0~2~3, WaterNut><1760.35><289.5737><0~0~2~3, RippleTree><551.0696><478.1624><0~73.75~0.4347826~0.6086956~right, RippleSpawnEgg><1425.349><378.8044><, RippleSpawnEgg><1553.479><377.506><, RippleStalk><664.1968><428.7894><6.25~28.75~left~depth|9.782595, RippleStalk><612.8454><376.2394><3.75~27.5~right, RippleStalk><683.2719><367.5518><5~26.25~right, RippleEggDestination><1488.062><400.5338><0~100~0~0~warc_e11~1, 
+FadePalette: 539, 0.7193707, 0.7059509, 0.7188519, 0.7054321

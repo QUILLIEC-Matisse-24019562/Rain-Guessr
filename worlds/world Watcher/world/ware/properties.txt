@@ -1,0 +1,50 @@
+safariStartRoom: WARE_S05
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+batsPerActiveSwarmRoom: 6
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0
+rippleSpiderThreshold: 15
+fuseSize: 20
+proceduralMusicBank: wara
+Subregion: Heat Ducts
+Subregion: Thermal Relay
+Room_Attr: WARE_B29: Vulture-Forbidden,
+Room_Attr: WARE_I02: Vulture-Forbidden,
+Room_Attr: WARE_I03: Vulture-Forbidden,
+Room_Attr: WARE_I04: Vulture-Forbidden,
+Room_Attr: WARE_I05: Vulture-Forbidden,
+Room_Attr: WARE_I06: Vulture-Forbidden,
+Room_Attr: WARE_I07: Vulture-Forbidden,
+Room_Attr: WARE_I08: Vulture-Forbidden,
+Room_Attr: WARE_I09: Vulture-Forbidden,
+Room_Attr: WARE_I10: Vulture-Forbidden,
+Room_Attr: WARE_I11: Vulture-Forbidden,
+Room_Attr: WARE_I12: Vulture-Forbidden,
+Room_Attr: WARE_I13: Vulture-Forbidden,
+Room_Attr: WARE_S12: StandardGroundCreature-Forbidden,Slugcat-Forbidden,LizardTemplate-Forbidden,PinkLizard-Forbidden,GreenLizard-Forbidden,BlueLizard-Forbidden,YellowLizard-Forbidden,WhiteLizard-Forbidden,RedLizard-Forbidden,BlackLizard-Forbidden,Salamander-Forbidden,CyanLizard-Forbidden,Fly-Forbidden,Leech-Forbidden,SeaLeech-Forbidden,Snail-Forbidden,Vulture-Forbidden,GarbageWorm-Forbidden,LanternMouse-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Spider-Forbidden,JetFish-Forbidden,BigEel-Forbidden,Deer-Forbidden,TubeWorm-Forbidden,DaddyLongLegs-Forbidden,BrotherLongLegs-Forbidden,TentaclePlant-Forbidden,PoleMimic-Forbidden,MirosBird-Forbidden,TempleGuard-Forbidden,Centipede-Forbidden,RedCentipede-Forbidden,Centiwing-Forbidden,SmallCentipede-Forbidden,Scavenger-Forbidden,Overseer-Forbidden,VultureGrub-Forbidden,EggBug-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DropBug-Forbidden,KingVulture-Forbidden,Hazer-Forbidden,
+Room_Attr: WARE_G15: Vulture-Forbidden,Scavenger-Forbidden,
+Room_Attr: WARE_H01: YellowLizard-Forbidden,Vulture-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: WARE_H02: Vulture-Forbidden,SmallCentipede-Forbidden,
+Room_Attr: WARE_H03: YellowLizard-Forbidden,Vulture-Forbidden,
+Room_Attr: WARE_H04: YellowLizard-Like,Vulture-Forbidden,
+Room_Attr: WARE_H05: YellowLizard-Forbidden,Vulture-Forbidden,SmallCentipede-Forbidden,
+Room_Attr: WARE_H06: YellowLizard-Stay,Vulture-Forbidden,Centipede-Stay,SmallCentipede-Like,
+Room_Attr: WARE_H07: Vulture-Forbidden,Centipede-Forbidden,
+Room_Attr: WARE_H08: Vulture-Forbidden,
+Room_Attr: WARE_H09: Vulture-Forbidden,
+Room_Attr: WARE_H10: YellowLizard-Like,Vulture-Forbidden,Centipede-Stay,SmallCentipede-Like,
+Room_Attr: WARE_H11: YellowLizard-Like,Vulture-Forbidden,
+Room_Attr: WARE_H12: YellowLizard-Like,Vulture-Forbidden,
+Room_Attr: WARE_H14: Vulture-Forbidden,Centipede-Forbidden,BigNeedleWorm-Avoid,
+Room_Attr: WARE_H15: YellowLizard-Avoid,Vulture-Forbidden,Centipede-Avoid,RedCentipede-Forbidden,
+Room_Attr: WARE_H16: YellowLizard-Avoid,Vulture-Forbidden,Centipede-Stay,RedCentipede-Stay,SmallCentipede-Like,
+Room_Attr: WARE_H17: Vulture-Forbidden,
+Room_Attr: WARE_H18: Vulture-Forbidden,
+Room_Attr: WARE_H19: Salamander-Forbidden,Vulture-Forbidden,
+Room_Attr: WARE_H21: YellowLizard-Stay,
+Room_Attr: WARE_S05: StandardGroundCreature-Forbidden,Slugcat-Forbidden,LizardTemplate-Forbidden,PinkLizard-Forbidden,GreenLizard-Forbidden,BlueLizard-Forbidden,YellowLizard-Forbidden,WhiteLizard-Forbidden,RedLizard-Forbidden,BlackLizard-Forbidden,Salamander-Forbidden,CyanLizard-Forbidden,Fly-Forbidden,Leech-Forbidden,SeaLeech-Forbidden,Snail-Forbidden,Vulture-Forbidden,GarbageWorm-Forbidden,LanternMouse-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Spider-Forbidden,JetFish-Forbidden,BigEel-Forbidden,Deer-Forbidden,TubeWorm-Forbidden,DaddyLongLegs-Forbidden,BrotherLongLegs-Forbidden,TentaclePlant-Forbidden,PoleMimic-Forbidden,MirosBird-Forbidden,TempleGuard-Forbidden,Centipede-Forbidden,RedCentipede-Forbidden,Centiwing-Forbidden,SmallCentipede-Forbidden,Scavenger-Forbidden,Overseer-Forbidden,VultureGrub-Forbidden,EggBug-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DropBug-Forbidden,KingVulture-Forbidden,Hazer-Forbidden,

@@ -1,0 +1,9 @@
+Template: wpta_settingstemplate_spireinside
+Grime: 0.1521739
+Palette: 300
+EffectColorA: 0
+EffectColorB: 0
+Effects: LightBurn-0.2065217-20-20, 
+PlacedObjects: LightSource><401.5902><114.603><1~Environment~412~-32~442~142.6025~0~0~None~0~0, CustomDecal><-19.04996><682.9437><18~-691~1016~-686~888~-10~-97~-411~0~1~1~rustb2~0.326087~1~0.326087~1~0.326087~1~0.326087~1, LightSource><726.2711><109.9849><1~Environment~100~39~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><724.0546><433.9219><0.2584209><1, SPOT><AM_ENV-NatWind.ogg><484.7005><549.8546><0.2491296><1><45.77063><115.739><-35.35534><-35.35534><0><0.3137048, SPOT><AM_IND-Utility03.ogg><288.3808><498.52><0.2770037><1><387.1318><189.1295><-48.17767><-55.85811><0><0.1, 
+FadePalette: 3, 0.25

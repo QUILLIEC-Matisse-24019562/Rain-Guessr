@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.4719177
+WaveLength: 0.9859589
+WaveAmplitude: 1.859702E-12
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.3043478
+Grime: 0
+RandomItemDensity: 0.3043478
+RandomItemSpearChance: 0
+Palette: 455
+EffectColorA: 9
+EffectColorB: 10
+Effects: Fog-0.8043478-20-20, Flies-0.1086956-299-23, Coldness-0.1073574-25.06155-76.91518, 
+PlacedObjects: Mushroom><198.9456><124.0576><-25~-150~2~3, Mushroom><63.8295><135.1455><199~-155~2~3, Mushroom><321.8002><153.259><253~-231~2~3, Mushroom><96.69775><104.2799><-183~-128~2~3, CustomDecal><-17.74371><37.58794><62~334~895~512~972~15~-334~256~0~1~0~blackrust1~0.6630435~1~0.6630435~1~0.6630435~1~0.6630435~1, CustomDecal><10.02917><32.55212><38~333~853~516~830~1~-82~268~0~1~0~greybones~0.1086956~1~0.1086956~1~0.1086956~1~0.1086956~1, LightSource><266.4506><263.6938><0.05434782~Environment~549~213~-45.00003~285.6025~1~0~None~0~0, NoSpearStickZone><711.3268><330.6499><0~100, NoSpearStickZone><410.5391><345.5539><0~100, RippleSpawnEgg><262.7515><211.2326><, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><326.27><46.30103><0.1521739><1, OMNI><AM_ENV-Outside.ogg><134.6531><48.37125><0.2065217><1, OMNI><AM_ENV-SubTerr.ogg><524.067><50.58063><0.05434782><1, SPOT><RWTW_AR_Heater.ogg><47.0661><168.3286><0.1086956><0.7065217><656.0661><466.3286><-35.35534><-35.35534><0><0.1, SPOT><RWTW_AR_Heater.ogg><22.25525><315.1999><0.1413043><0.7065217><452.2552><474.2><-35.35534><-35.35534><0><0.1, SPOT><RWTW_AR_Heater.ogg><787.8461><235.8777><0.05434782><1.254348><153.8461><203.8777><-27.35535><-30.35535><0><0.1217393, 
+FadePalette: 14, 0.509115

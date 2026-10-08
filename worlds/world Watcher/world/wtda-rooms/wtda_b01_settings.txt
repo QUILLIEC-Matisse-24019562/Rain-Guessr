@@ -1,0 +1,11 @@
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 1
+RumbleIntensity: 0
+Clouds: 0.1521739
+Grime: 0.09782609
+Palette: 335
+EffectColorA: 14
+PlacedObjects: LightSource><-0.6808472><724.4146><0.4678212~Environment~453~-369~218.2972~-182.3975~1~1~None~0~0, LightSource><989.4948><710.3><0.5652174~Environment~-279~-481~6~-348.3975~1~1~None~0~0, LightSource><1066.65><417.3672><0.5652174~Environment~-518~-59~50~86.60254~1~1~None~0~0, LightSource><1142.994><93.51649><0.5652174~Environment~-565~-53~50~86.60254~1~1~None~0~0, LightSource><-174.129><77.6936><0.4678206~Environment~481~-73~39~-42.39746~1~1~None~0~0, LightSource><-92.61578><397.6631><0.3816279~Environment~451~-270~50~86.60254~1~1~None~0~0, LightSource><449.4498><390.7422><0.1962731~Environment~44~198~50~86.60254~1~1~None~0~0, LightSource><529.3993><470.8831><0.1416387~Environment~238~146~222~-476.3975~1~1~None~0~0, LightSource><311.1111><701.6061><0.2936698~Environment~173~-325~-206.0747~-356.3975~1~1~None~0~0, LightSource><631.378><711.9037><0.2503821~Environment~-260~-362~72~-255.3975~1~1~None~0~0, CustomDecal><-94.91357><197.1349><-204~526~1372~601~1451~-132~-317.0966~-325~0~1~0~greybones~0.2717391~1~0.2717391~1~0.2717391~1~0.2717391~1, DynamicWarpTarget><682.1833><416.6702><26~-100~2.5~false~false, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><610.366><474.0503><0.2619211><0.7662479, SPOT><AM_ENV-WallHum.ogg><713.7904><430.9257><0.305207><0.6688518><271.8578><264.9257><-35.35534><-35.35534><0><0.1541091, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>BM_RWTW_TAG_17<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>90.90311<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>1008.347<tB>484.4705<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>485.7701<tB>448.4705<tA>handlePos<tB>13.42944<tB>-520.3553, 

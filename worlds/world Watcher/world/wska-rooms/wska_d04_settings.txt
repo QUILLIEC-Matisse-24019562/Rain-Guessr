@@ -1,0 +1,6 @@
+Template: wska_settingstemplate_inside
+Palette: 457
+Effects: BkgOnlyLightning-1-20-20, 
+PlacedObjects: CustomDecal><68.71825><168.271><5~293~871~279~863~-50~-267.2302~149.6342~0~1~0~greybones~0.1413349~1~0.1413349~1~0.1413349~1~0.1413349~1, LightSource><362.8156><314.561><0.06521739~Environment~44~134~-294~201.6025~1~1~None~0~0, LightSource><594.876><303.3431><0.06521739~Environment~7~160~82~196.6025~1~1~None~0~0, SlimeMold><306.9428><254.1969><-246~-210~2~3, SlimeMold><333.8171><240.6689><-198~-227~2~3, SlimeMold><625.0995><234.3265><111~-173~2~3, SlimeMold><599.9681><243.6974><82~-252~2~3, CosmeticSlimeMold><322.698><207.0282><0~100, CosmeticSlimeMold2><634.9757><178.8015><0~100, LightFixture><318.3086><236.0588><SlimeMoldLight~13.32051~-61~54, LightFixture><614.3942><237.1113><SlimeMoldLight~-125.0514~-237~19, GoldToken><560.8903><314.825><16.92529~84~-647.1449~-163~0~WSKA~~0, DeadTokenStalk><500.1017><328.9279><29.86823~70, DeadTokenStalk><623.3158><322.6809><-15.92975~84, 
+AmbientSounds: OMNI><am_ind-warehouse01.ogg><722.5974><338.6292><0><1, OMNI><AM_IND-Warehouse01.ogg><571.8149><332.5759><0><1, 
+FadePalette: 458, 0.7826087

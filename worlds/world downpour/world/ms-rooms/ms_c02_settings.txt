@@ -1,0 +1,6 @@
+Template: MS_SettingsTemplate_Array
+DangerType: Rain
+EffectColorA: 18
+EffectColorB: 1
+Effects: LightRain-0.326087-30-30, Fog-0.7608696-41-89, 
+FadePalette: 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.4782609

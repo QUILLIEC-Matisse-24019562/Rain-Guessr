@@ -1,0 +1,14 @@
+Template: NONE
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0
+Grime: 0
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+Palette: 81
+EffectColorA: 10
+EffectColorB: 13
+Effects: Fog-1-20-20, Flies-0.25-292-20, 
+PlacedObjects: LanternOnStick><470.9141><225.1503><-8~-61, LanternOnStick><296.1479><270.7397><-55~-116, LanternOnStick><217.6513><218.213><-27~-52, LanternOnStick><634.1942><217.5991><-11~-37, CustomDecal><515.3718><74.36333><-15~129~90~144~157~9~232.0001~-359~0~1~0~ScavMark Stonehead~0.3478261~0~0.3478261~0~0.3478261~0~0.3478261~0, CustomDecal><643.4482><339.7772><0~40~40~40~40~0~-1066~-370~0~1~0~ScavMark Cross~0.2065217~0~0.2065217~0~0.2065217~0~0.2065217~0, CustomDecal><610.4442><327.7017><-3~55~108~82~94~-2~-145~-621~0~1~0~ScavMark Circle~0.2934783~0~0.2934783~0~0.2934783~0~0.2934783~0, CustomDecal><128.9014><119.674><49~57~354~85~384~-17~-211~151~0~0.02173913~0~Scav Wedges~0.4673913~0~0.4673913~0~0.4673913~0~0.4673913~0, CustomDecal><-16.34656><75.62177><67~519~853~528~916~-5~-145~-365~0~1~0~GreyBones~0.07608695~1~0.07608695~1~0.07608695~1~0.07608695~1, ReliableSpear><233.8046><185.2927><, ReliableSpear><329.3389><170.8209><, DataPearl><125.2007><209.6938><0~0~0~0~Misc~0, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><149.8214><38.0899><0.2065217><1, OMNI><SO_NAT-Fire.ogg><523.9273><43.43631><0.1521739><1, OMNI><SO_SFX-Morse.ogg><328.9406><35.18939><0.0326087><1.9, SPOT><AM_WIN-HowlingWnd.ogg><629.7802><481.3022><0.1630435><1.9><997.3734><222.3622><-83.35535><-62.35535><0><0.1, 
+FadePalette: 83, 0.8043478

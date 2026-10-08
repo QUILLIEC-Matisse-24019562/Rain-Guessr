@@ -1,0 +1,4 @@
+BkgDroneVolume: 0.2769565
+Effects: Sentient Rot Spores-0-30-30, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><60.07574><506.1518><0.1857376><0.4738017><493.0757><306.1518><-83.35535><-75.35535><0><0.2086958, 
+FadePalette: 10, 0.2272583

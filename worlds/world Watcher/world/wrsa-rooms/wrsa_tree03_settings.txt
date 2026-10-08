@@ -1,0 +1,22 @@
+Template: NONE
+DangerType: None
+Clouds: 0.1579557
+Grime: 0
+Palette: 473
+TerrainLight: 0.5
+TerrainStainAmount: 0.2566807
+TerrainStainBrightness: 0.5
+TerrainStainHeight: 1
+TerrainWaves: 1
+TerrainEdgeRadius: 100.8824
+TerrainGooHeight: 0.1265975
+TerrainGrain: 1
+TerrainDepth: 2.107969
+TerrainSkyFade: 0
+TerrainPalette: treemoss
+Effects: ModifyEffectColorA-0.1579553,0.4256682,0.6579556-287.3004-22.31146, ModifyEffectColorB-0.09291492,0.5092915,0.2584209-20-20, Bloom-0.4053438-32.56445-116.2825, Beetle-0.2044131-286.4456-219.6507, RockFlea-0.2137046-290.7197-111.1568, 
+PlacedObjects: LightSource><440.4964><219.4955><0.6190464~EffectColor1~306.88~-205.8332~251.7372~238.6649~0~0~None~0~0, BlackSpot><203.3074><473.1801><8.548157~256.9877~333.2027~256.1334~356.2829~182.8165, 
+AmbientSounds: OMNI><AM_ENV-WinterTrees.ogg><66.15694><526.6532><0.3327531><1, OMNI><AM_ENV-Outside.ogg><64.07564><447.1451><0.3792108><1, SPOT><AM_ENV-Woods.ogg><724.6813><369.935><0.5><1><456.7151><429.3432><-115.7083><-120.7836><0><0.2579558, SPOT><waterGurgleLOOP1.wav><597.4491><473.8238><0.388502><1><834.6807><222.2733><-132.8046><-86.6123><0><0.3787457, 
+FadePalette: 10, 0.3252028
+RoomSpecificScriptActive: ON
+WetTerrain: OFF

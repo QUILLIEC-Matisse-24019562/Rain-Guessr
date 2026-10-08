@@ -1,0 +1,10 @@
+Clouds: 0.2717391
+Grime: 0.4021739
+BkgDroneVolume: 0.2608696
+Palette: 3
+EffectColorA: 11
+EffectColorB: 12
+Effects: SkyDandelions-0.6956522-20-20, BrokenZeroG-1-30-95, RoomWrap-1-317-22, 
+PlacedObjects: DataPearl><848.6318><635.6005><0~0~0~0~Misc~0, SSLightRod><462.5053><586.45><-81.87585~-180.0007~0.1258897~90~377.3913~0.5, SSLightRod><306.4519><109.0559><-321.6795~-106~0.1195652~90~443.4505~0.5, SSLightRod><107.9183><327.8431><-157.6795~-177~0.1308043~90~592.1739~0.5, Corruption><794.8962><127.9549><0~100, Corruption><379.269><320.216><0~100, Corruption><66.10976><355.3675><0~100, Corruption><857.9128><573.3455><0~100, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><748.3058><516.058><0.2065217><0.7847826, 
+FadePalette: 33, 0.7826087

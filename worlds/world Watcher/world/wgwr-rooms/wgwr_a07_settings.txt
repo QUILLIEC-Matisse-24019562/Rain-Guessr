@@ -1,0 +1,7 @@
+BkgDroneVolume: 0.2769565
+Palette: 469
+EffectColorA: 16
+EffectColorB: 16
+PlacedObjects: InsectGroup><299.7532><405.7><3~53~0~0~Ant~0.7173913, InsectGroup><595.2607><129.6997><-233~216~0~0~RockFlea~1, ReliableSpear><537.1844><76.92256><, PassiveCorruption><576.492><125.6494><-155~187~0~0~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1~0~1~0~1, KarmaFlowerPatch><596.4784><40.63606><-7~165~0.5~0~0~0.25~0.5, PrinceFilter><589.3204><27.55756><-14~44~0~0~3~1~1, 
+AmbientSounds: SPOT><SO_WAT-LilDrips.ogg><64.61206><507.3948><0.1849735><0.5519766><407.6121><215.3948><-155.3553><-34.35535><0><0.4478262, SPOT><SO_WAT-MoreDrips.ogg><64.25018><392.3><0.2612038><0.5714559><807.2502><244.3><-117.3553><-88.35535><0><0.3826087, 
+FadePalette: 10, 0.1839711

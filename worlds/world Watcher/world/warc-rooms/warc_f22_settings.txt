@@ -1,0 +1,8 @@
+Template: NONE
+Palette: 98
+EffectColorA: 6
+EffectColorB: 12
+Effects: Darkness-0.3043478-22-90, Fog-0.2075474-29-16, 
+PlacedObjects: InsectGroup><394.9445><266.5466><0~100~0~0~RockFlea~0.5, 
+AmbientSounds: OMNI><so_sfx-morana.ogg><776.5575><504.1957><0.1521739><1, OMNI><am_env-outside.ogg><760.2841><262.1971><0.25><1, OMNI><am_ind-warehouse01.ogg><750.5275><204.0519><0.3043478><1, 
+FadePalette: 10, 0.6556644

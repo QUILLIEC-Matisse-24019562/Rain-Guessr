@@ -1,0 +1,8 @@
+Clouds: 0.1847826
+Grime: 0.4021739
+BkgDroneVolume: 0.2769565
+EffectColorA: 9
+Effects: BrokenPalette-1-30-30, 
+PlacedObjects: InsectGroup><204.0921><579.1775><-105~121~0~0~StandardFly~0.173913, InsectGroup><904.204><117.5554><-186~125~16~-128~RockFlea~0.1195652, CustomDecal><859.5142><106.0505><-5~62~107~78~90~-14~55.19189~-422.6127~0.3043478~1~0~goblinCrude~0.7065217~0~1~0~0.5326087~0.5543478~0.75~0.6739131, DandelionPeach><404.5169><403.5784><0~0~1~1, DandelionPeach><191.8638><289.2925><0~0~1~1, DandelionPeach><264.0871><147.5854><22.90033~-174.4458~1~1, DandelionPeach><333.1641><136.3683><-340.8489~-169.5859~1~1, DandelionPeach><564.7847><155.0567><4.684753~-179.4133~1~1, DandelionPeach><683.0073><404.9215><-110~-339~1~1, DandelionPeach><488.6757><150.5776><-173~-427~1~1, DandelionPeach><843.4956><419.2534><-492~-407~1~1, DandelionPeach><799.6747><436.7318><-236~-488~1~1, DandelionPeach><195.8851><561.3975><-61~-172~1~1, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><533.5511><454.2712><0.3586957><0.8043478, 
+FadePalette: 8, 0.08695652

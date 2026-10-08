@@ -1,0 +1,10 @@
+Template: LM_SettingsTemplate_Wall
+RainIntensity: 0.8913044
+RumbleIntensity: 0.7173913
+Clouds: 0.6413044
+Grime: 0.3586957
+RandomItemDensity: 0.4347826
+Effects: ElectricDeath-0-280-86, BrokenZeroG-0.01086957-280-137, 
+PlacedObjects: DeathFallFocus><514.3309><350.3171><, DeathFallFocus><1582.048><328.4187><, 
+AmbientSounds: SPOT><MSC-StructureStrain.ogg><745.6876><49.44><0.4673913><0.1><2280.687><67.44><-392.3553><276.6447><0><1, SPOT><MSC-UnrelentingBreakage.ogg><746.6283><167.6534><0.1630435><0.3152174><2277.628><365.6534><-337.3553><89.64465><0><1, SPOT><MSC-HeavyCreaking.ogg><756.4668><325.1972><0.173913><0.4913043><2205.467><750.1972><-459.3553><-168.3553><0><1, 
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>NO SONG<eA>prio<eB>1<eA>type<eB>AllSongs<eA>fadeOut<eB>200<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>1018.83<tB>499.106<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>2015.831<tB>373.3766<tA>handlePos<tB>102.6447<tB>-25.35535, Spot<tA>event<tB>MusicEvent<eA>songName<eB>BM_UW_UPPERWALL<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>714.6626<tB>443.4299<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1670.484<tB>376.4245<tA>handlePos<tB>-67.35535<tB>-87.35535, 

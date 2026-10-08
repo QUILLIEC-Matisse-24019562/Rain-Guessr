@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Sandstorm
+Clouds: 0.1304348
+Grime: 0
+Palette: 46
+TerrainLight: 0.1298616
+TerrainStainAmount: 0.3074022
+TerrainStainBrightness: 1
+TerrainStainHeight: 0.7619205
+TerrainWaves: 0.2597245
+TerrainEdgeRadius: 200
+TerrainGooHeight: 0.1558971
+TerrainGrain: 0
+TerrainDepth: -0.4548514
+TerrainPalette: outerrim
+Effects: LightBurn-0.05410916-20-20, 
+PlacedObjects: CustomDecal><-193.0478><-38.8759><-15.92972~783~1572.24~379~1341.259~1~102.5476~35.99998~0~1~0~rust1~0.3052075~1~0.3052075~1~0.3052075~1~0.3052075~1, CustomDecal><974.436><46.52411><-191.1566~794~1364.158~605~1291.479~-100~94.58276~-330~0~1~0~rust3~0.3917817~1~0.2078108~1~0.3917817~1~0.3052073~1, CustomDecal><526.8775><281.6605><-28.87262~561~526.8521~444~369.5461~-81~-682.9868~-540~0~1~0~rust3~0.4350689~1~0.4350689~1~0.4350689~1~0.4350689~1, TerrainHandle><1315.451><74.1991><-40~0~40~0~45, TerrainHandle><1329.384><275.5538><-40~0~40~0~93, TerrainHandle><1542.35><266.575><-116.6618~1~171.4202~6~50, TerrainHandle><1865.755><322.2726><-40~0~40~0~76, TerrainHandle><991.2339><86.65457><-107.7013~0~78.82861~0~135, TerrainHandle><1229.797><104.7015><-40~0~40~0~258, TerrainHandle><715.8224><111.2329><-55.92969~4~40~0~186, TerrainHandle><351.201><250.702><-74.84628~1~99.73645~5~126, TerrainHandle><597.5701><156.6799><-40~0~40~0~20, TerrainHandle><551.0993><263.4639><-40~0~40~0~20, TerrainHandle><160.7879><279.5053><-40~0~40~0~114, TerrainHandle><39.79028><288.1862><-40~0~40~0~20, TerrainHandle><-163.4288><557.8633><-40~0~326.735~-32~36, TerrainHandle><1941.469><321.2809><-40~0~40.99561~33~53, TerrainHandle><2075.417><544.694><-155.4905~-36~220.205~15~59, NoSpearStickZone><1906.554><494.6788><-33.85071~119, NoSpearStickZone><104.039><518.9939><0~168, 
+AmbientSounds: OMNI><AM_WIN-SubWnd.ogg><763.2039><489.0104><0.2402762><0.5324971, 
+FadePalette: 35, 0.4673913, 0.4891304

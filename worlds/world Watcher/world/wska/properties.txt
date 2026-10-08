@@ -1,0 +1,23 @@
+safariStartRoom: WSKA_S07
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+proceduralMusicBank: wska
+playerGuideOverseerSpawnChance: 0.0
+rippleSpiderThreshold: 18
+Subregion: Torrential Railways
+Room Setting Templates: Outside, Inside
+Room_Attr: WSKA_D03: Snail-Like,
+Room_Attr: WSKA_D04: Snail-Like,
+Room_Attr: WSKA_D05: Snail-Like,
+Room_Attr: WSKA_D08: Snail-Like,
+Room_Attr: WSKA_D12: Snail-Like,
+Room_Attr: WSKA_D17: Snail-Like,
+Room_Attr: WSKA_D20: Snail-Avoid,
+Room_Attr: WSKA_D21: Snail-Like,
+Room_Attr: WSKA_D25: Snail-Like,
+Room_Attr: WSKA_D26: Salamander-Avoid,Snail-Like,
+Room_Attr: WSKA_D27: Salamander-Avoid,Snail-Like,
+Room_Attr: WSKA_N01: Snail-Forbidden,
+Room_Attr: WSKA_N02: Snail-Stay,
+Room_Attr: WSKA_N04: Snail-Stay,

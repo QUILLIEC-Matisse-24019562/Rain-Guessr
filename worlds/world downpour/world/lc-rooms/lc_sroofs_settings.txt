@@ -1,0 +1,11 @@
+Template: LC_SettingsTemplate_Inside
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 28
+PlacedObjects: FairyParticleSettings><12.82651><308.0995><5~8.660254~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, DayNightSettings><621.6829><411.8309><5~8.660254~35~10, 
+FadePalette: 42, 0.1304348
+WetTerrain: OFF

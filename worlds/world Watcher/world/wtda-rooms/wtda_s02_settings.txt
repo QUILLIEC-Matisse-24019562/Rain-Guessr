@@ -1,0 +1,6 @@
+Template: WTDA_SettingsTemplate_Tower
+DangerType: None
+EffectColorA: 11
+Effects: SkyAndLightBloom-0-20-20, LightBurn-0.3246546-30-30, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><725.6128><488.7071><0.2619204><0.7662491><453.929><746.707><-35.35534><-35.35534><0><0.5021966, SPOT><AM_IND-Utility02.ogg><873.942><284.0312><0.2727416><0.7857271><566.4164><473.0312><-35.35534><-35.35534><0><0.197397, 
+FadePalette: 337, 0.3138328

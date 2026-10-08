@@ -1,0 +1,12 @@
+Template: HR_SettingsTemplate_HellNew
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8804348
+Effects: WaterFluxMinLevel-0-40-40, WaterFluxMaxLevel-0-401-251, FairyParticles-0.04347826-606-336, 
+PlacedObjects: FairyParticleSettings><970.9159><548.1117><-282~-702.3398~1~7.065217~37.5~0~1~2.09349~60~180~40~100~0~19.56522~0~23.47826~0~0.1847826~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~77.82593~0.5217391~0.6521739, LightSource><345.7476><552.3><0.4130435~EffectColor1~-46~113~-286~63.60248~0~0~None~0~0, LightSource><324.139><738.9163><0.2282609~EffectColor1~108~-10~-31~-413.3975~0~0~None~0~0, LightSource><912.162><366.8204><0.2282609~EffectColor1~-14~151~-297~23.60254~0~0~None~0~0, LightSource><896.7625><574.8004><0.4021739~EffectColor1~2~112~-361~-25.39746~0~0~None~0~0, LightSource><301.1653><243.8626><0~EffectColor1~0~100~65~-67.39746~1~0~None~0~0, LightSource><617.5503><493.5106><0.5326087~EffectColor1~-645~-418~-67~175.6025~0~0~None~0~0, 
+FadePalette: 75, 0.2608696
+WetTerrain: OFF

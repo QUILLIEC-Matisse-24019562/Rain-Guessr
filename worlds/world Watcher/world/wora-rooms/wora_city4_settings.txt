@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Sandstorm
+Clouds: 0.2391304
+Grime: 0
+Palette: 69
+TerrainLight: 0.618992
+TerrainStainAmount: 0.6226196
+TerrainStainBrightness: 1
+TerrainStainHeight: 0.7619205
+TerrainWaves: 0.1630435
+TerrainEdgeRadius: 200
+TerrainGooHeight: 0.1558971
+TerrainGrain: 1
+TerrainDepth: -0.4548514
+TerrainSkyFade: 0.3586957
+TerrainPalette: outerrim
+Effects: LightBurn-0.05410899-20-20, 
+PlacedObjects: TerrainHandle><275.271><199.4602><-42.98682~10~50.95169~-8~20, TerrainHandle><490.3468><169.2505><-40.99561~12~56.92535~-8~42, TerrainHandle><812.2822><127.4055><-40~0~40~0~81, TerrainHandle><1307.299><93.298><-73.85068~19~94.75848~-23~59, TerrainHandle><1458.593><49.25465><-28.05267~14~75.66608~-30~20, TerrainHandle><119.3305><223.5592><-40~0~40~0~20, BlackSpot><-169.5326><11.40993><-104.5388~256~249.0776~268~413.3528~11, BlackSpot><1258.944><4.540909><-11.9473~-109~545.7687~-117~545.7687~19, TerrainHandle><1057.247><188.0743><-48.93408~-20~31.94739~-32~30, CustomDecal><-16.0629><-13.65271><-164.2753~924~2173.587~885~2229.341~-64~0~0~0~1~0~Megarust~0.3160291~1~0.2424724~1~0.3160291~1~0.445891~1, CustomDecal><1373.959><-31.05386><-39.82431~947~1095.344~919~1416.925~-48~247.9063~247~0~1~0~Megarust~0.391782~1~0.4567128~1~0.251098~1~0.4783564~1, CustomDecal><2018.642><-39.95383><2.986816~897~715.022~949~1197.892~7~0~0~0~1~0~Megarust~0.1104146~1~0.3809599~1~0.2510983~1~0.7056145~1, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><754.1644><564.063><0.2186326><0.668853, OMNI><AM_ENV-LightWind.ogg><743.5532><374.4955><0.196989><0.5519764, 
+FadePalette: 22, 0.3041569, 0.2173913, 0.2606787

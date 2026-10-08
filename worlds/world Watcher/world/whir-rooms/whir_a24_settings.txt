@@ -1,0 +1,5 @@
+DangerType: FloodAndRain
+BkgDroneVolume: 0.2469565
+Palette: 466
+PlacedObjects: LightSource><473.0585><658.1921><0.230218~Environment~70~-113~-243~-204.3975~1~0~None~0~0, Corruption><865.9758><503.1168><-184~147, PassiveCorruption><296.5672><347.8085><18~258~401~-86~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1, PassiveCorruption><621.4946><531.3484><0~100~0~0~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1, KarmaFlowerPatch><713.1875><489.9446><-25~199~0.7201561~12~-138~0.3586957~0.7065217, PrinceFilter><732.7558><481.7238><-19~36~0~0~3~1~1, 
+FadePalette: 10, 0.3151698

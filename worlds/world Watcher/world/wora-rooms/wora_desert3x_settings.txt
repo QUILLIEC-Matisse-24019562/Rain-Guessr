@@ -1,0 +1,30 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RumbleIntensity: 0.1086956
+WaveSpeed: 0.4714597
+WaveLength: 0.9857299
+WaveAmplitude: 0.01745846
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.04347826
+Grime: 0
+BkgDroneVolume: 0
+Palette: 69
+TerrainLight: 0.3037746
+TerrainStainAmount: 1
+TerrainStainBrightness: 0.5
+TerrainStainHeight: 0.3043478
+TerrainWaves: 0.2488549
+TerrainEdgeRadius: 200
+TerrainGooHeight: 0.0326087
+TerrainGrain: 1
+TerrainDepth: -0.1287645
+TerrainSkyFade: 1
+TerrainPalette: outerrim
+Effects: LightBurn-0-20-20, SandPuffs-1-273-20, SurfaceSandstorm-0.3369565-356-85, 
+PlacedObjects: TerrainHandle><-3.910492><398.1307><-69~-21~36~-45~33, TerrainHandle><2508.601><44.9151><-71~4~65~-2~266, TerrainHandle><2657.352><96.12614><-48~-17~52~-18~112, TerrainHandle><2234.923><157.5447><-63~-8~57~-49~287, TerrainHandle><2950.645><562.4069><-40~0~40~0~20, TerrainHandle><3332.91><881.848><-50~10~42~-3~183, TerrainHandle><2999.465><913.5533><-42~-3~110~24~126, TerrainHandle><2947.124><369.5944><-57~-93~16~55~107, TerrainHandle><3172.828><975.1755><-46~-17~36~-44~125, BlackSpot><2879.143><130.3898><-44~211~23~262~119~260, BlackSpot><2918.45><354.503><13~223~117~239~95~5, BlackSpot><2937.627><547.0952><-7~252~105~264~85~2, BlackSpot><2944.093><783.9271><27~152~153~136~133~0, TerrainHandle><2764.343><103.3758><-40~-17~34~18~320, TerrainHandle><2855.553><203.9642><-39~-48~30~55~381, TerrainHandle><2360.556><72.70236><-39~20~41~-9~316, TerrainHandle><3448.103><918.0786><-22~-16~45~-10~194, TerrainHandle><3568.367><896.8511><-45~10~103~-25~182, TerrainHandle><4078.596><876.9257><-59~9~61~8~140, TerrainHandle><4853.386><962.6031><-70~-35~65~27~170, TerrainHandle><4475.573><968.6578><-98~-34~97~-41~161, TerrainHandle><4671.841><916.072><-96~10~87~5~158, TerrainHandle><4946.36><1032.667><-31~-31~49~21~200, TerrainHandle><5044.974><1313.052><-38~-23~61~14~56, TerrainHandle><5042.428><1071.842><-43~-3~56~-9~244, TerrainHandle><5235.941><1413.441><-56~-37~54~-7~61, TerrainHandle><4275.244><949.5503><-61~-38~118~-36~85, TerrainHandle><3767.825><913.9027><-53~-27~47~-21~204, TerrainHandle><3874.576><896.1849><-42~-19~104~-40~168, BlackSpot><4980.25><967.8><48~369~160~346~172~-6, TerrainRubble><4630.898><954.1722><-147~160, TerrainRubble><4277.102><969.8844><-237~155, TerrainRubble><3642.1><917.3267><-125~171, TerrainHandle><1582.145><210.3299><-52~-38~96~-29~123, TerrainHandle><1945.664><371.385><-39~-66~46~8~135, TerrainHandle><2122.692><300.5586><-58~-40~37~-56~113, TerrainHandle><1779.427><207.3139><-79~-26~79~38~125, TerrainHandle><1416.835><172.8187><-46~-37~46~-23~160, BlackSpot><1932.385><221.6027><-3~196~221~160~216~-23, TerrainHandle><363.2178><165.6993><-46~-18~37~-37~113, TerrainHandle><1061.7><138.0068><-131~-34~69~-21~158, TerrainHandle><1186.802><178.2754><-53~-35~39~-41~214, TerrainHandle><869.3562><123.1736><-126~-38~77~-18~89, TerrainHandle><687.0897><124.1196><-67~-14~112~-50~65, TerrainHandle><562.949><147.5203><-35~-30~45~-16~61, TerrainHandle><206.9229><185.6494><-91~-11~73~-42~139, BlackSpot><-174.4151><168.8629><-116~131~238~191~227~-8, TerrainHandle><-169.3777><362.0917><-50~-11~40~0~77, CustomDecal><1943.644><862.8177><-227~992~965~917~886~-191~119~-349~0~1~1~runningwhite~0.25~1~0.25~1~0.25~1~0.25~1, FloatingDebris><2041.369><1176.661><50~50~796727710~0~30~0.6237189~1.336957~52~-12|1688|2912.741~30|176|326.0936~2.149999|1.57|1.32~-0.7299999|-0.5628088|-0.94~-1.1|-0.19|-0.54~Stardust~0.5~-0.0489888v3.97v0v0|0.4892133v1.86v0v0|0.04696655v2.69v0v0~0, FloatingDebris><21.01819><533.4492><105~-376~1358255345~0~25~1.432585~1.869565~32~-163|224|538|933|1488|1870~143|101|-49|-51|-52|217~0.34|0.9403369|1.491236|1.65|1.512584|1.97~-2.06|0|0|0|0|0.4899999~-0.6|0|0|-0.15|-0.45|-0.59~Stardust~0.5~-0.42v4.02v0v0|0.68v4.43v0v0|0.04v3.35v0v0|0.11v3.63v0v0|-0.07v1.92v0v0|-2.77v1.29v0v0~0, SlimeMold><4243.423><975.0656><0~0~2~3, SlimeMold><4804.847><995.8253><22~-103~2~3, SlimeMold><4779.801><975.0566><0~0~2~3, SlimeMold><4914.981><1109.699><0~0~2~3, SlimeMold><4894.316><1111.172><0~0~2~3, CosmeticSlimeMold><4937.801><1092.271><1~89, CosmeticSlimeMold2><4850.814><991.425><0~100, CosmeticSlimeMold><4265.322><976.4097><-1~73, FloatingDebris><2317.517><375.6681><385~95~1718716190~2~29~0.4673926~0.6956535~7~96~71~1.3~0.05~-2.68~Rot Islands~0.2717391~0v0v0v0~0, PrinceFilter><2333.184><370.1919><-4~56~0~0~1~1~0, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><786.3113><476.8086><0.2065217><1, OMNI><RWTW_DustStorm_Gusting.ogg><785.3664><404.0376><0.4130435><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_159 - Roadkill<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>13.04347<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>111.5516<tB>396.4747<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1500.552<tB>543.462<tA>handlePos<tB>-458.3553<tB>-222.3553, 
+FadePalette: 35, 0.1413043, 0.173913, 0.1521739, 0.2065217, 0.1847826, 0.2391304, 0.25, 0.3152174
+WetTerrain: OFF

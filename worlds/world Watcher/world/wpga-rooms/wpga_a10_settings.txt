@@ -1,0 +1,5 @@
+Template: wpga_settingstemplate_inside
+Effects: LightBurn-0.3895856-30-30, 
+PlacedObjects: CustomDecal><123.1248><223.5829><-21.90335~363~705.0659~314~754.8462~21~-56.74963~-542~0~1~0~greybones~0.05630526~1~0.05630526~1~0.05630526~1~0.05630526~1, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><780.0352><578.1661><0.3593166><1><384.8962><534.1661><-35.35534><-35.35534><0><0.2190406, 
+FadePalette: 471, 0.5952002

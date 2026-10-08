@@ -1,0 +1,12 @@
+WaveSpeed: 0.4988444
+WaveLength: 0.9994222
+WaveAmplitude: 0.04736541
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+BkgDroneVolume: 0.2239131
+Palette: 456
+Effects: LightRain-1-20-20, Lightning-1-78-109, SKLightning-0.4021739,0.2065217,0.1086956-311-15, SKLightningHue-0.1086956-360.5417-101, Ripple Settings-0-1035.009-15.22581-Watcher-WARE-ware_i14-0-1-83-0.6933806, 
+PlacedObjects: CustomDecal><43.45641><-145.9736><-131~1028~1029~897~969~1~-140.0056~189.9909~0~1~0~greybones~0.3910775~1~0.3910775~1~0.3910775~1~0.3910775~1, CustomDecal><232.0292><4.629814><0~255~502~256~502~-3~-315.0221~288.0155~0~0.6521726~1~bluerectangle~0.3041193~0~0.3041193~0~0.3041193~0~0.3041193~0, LightSource><454.3163><438.8389><0.1848788~Environment~764~-309~-307.342~-297.1576~1~1~None~0~0, LightSource><247.9642><317.3987><0.08730017~Environment~413~111~-58~170.6025~1~1~None~0~0, LightSource><509.8538><683.4476><0.1064918~Environment~-502~-312~303.881~-185.4265~1~1~None~0~0, CosmeticRipple><560.6042><-49.32114><0~0~169.2678~348.5473~560.6042~-49.32114~387.4749~0.8420444~0.7398376~False~0.5~True~0.1941316~False~-1~0~False, CosmeticRipple><72.26846><-23.12396><61.59006~289.5482~79.5119~228.0935~72.26846~-23.12396~241.5549~0.9245486~0.6843401~False~0.5~True~0.2972609~False~-1~0~False, CosmeticRipple><1013.273><56.1887><-562.2451~41.97491~-125.6444~175.9822~1013.273~56.1887~216.2319~1~1~False~0.5~True~0.1298244~False~-1~0~False, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><766.4267><568.6563><0.3152174><0.5304348, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>BM_RWTW_TAG_14<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>97.39659<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>742.2658<tB>166.9626<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 

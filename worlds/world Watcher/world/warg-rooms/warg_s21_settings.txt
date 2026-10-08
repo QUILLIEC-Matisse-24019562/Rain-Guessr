@@ -1,0 +1,12 @@
+Template: NONE
+WaveSpeed: 0.5578524
+WaveLength: 0.9710738
+WaveAmplitude: 1.064749E-08
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+Palette: 455
+EffectColorA: 10
+EffectColorB: 4
+AmbientSounds: OMNI><RWTW_AR_CityWithNoBuildings.ogg><765.3><517.7454><0.08695652><1, OMNI><RWTW_AR_WindyCliff.ogg><749.9337><295.0792><0.05434782><0.8043478, 
+FadePalette: 14, 0.5398428

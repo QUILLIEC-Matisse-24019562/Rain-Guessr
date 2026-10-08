@@ -1,0 +1,26 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.2009307
+RumbleIntensity: 0.2009304
+WaveSpeed: 0.5086902
+WaveLength: 0.9956549
+WaveAmplitude: 0.00683551
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2844411
+Grime: 0
+Palette: 334
+TerrainLight: 0.5663677
+TerrainStainAmount: 1
+TerrainStainBrightness: 0.5069686
+TerrainStainHeight: 1
+TerrainWaves: 0.08533113
+TerrainGooHeight: 0.1371938
+TerrainDepth: 0.1199406
+TerrainSkyFade: 0
+TerrainPalette: wvwb_sand
+Effects: ModifyEffectColorB-0.3034038,0.08281973,0.3008912-20-20, Flies-0.3034039-26.51086-127.6345, RockFlea-0.1137765-283.8353-123.2758, SandPuffs-1-296.7034-59.0456, LocustSwarmConfig-0,0.6300806,0.3031373,0.2415791,0-285.5908-232.465, Ripple Settings-0-977-468-Watcher-WARD-ward_r15-0-1-454-1, 
+PlacedObjects: TerrainHandle><299.9286><119.472><-69.65771~6.102158~69.65771~-6.102158~66.20206, TerrainHandle><524.4533><80.2037><-97.5708~-7.845627~97.5708~7.845627~63.58682, TerrainHandle><765.7781><140.4476><-77.50842~-15.69125~0~-96.76279~87.99544, CustomDecal><179.9732><79.38319><6.978302~692.9307~564.2439~673.7526~583.4342~-18.30647~-355.8927~180.4495~0~1~1~rustymetal(var)~0.2370343~1~0.2370343~1~0.2370343~1~0.2370343~1, BlackSpot><270.6817><49.6851><-8.722839~-96.86265~495.3333~-103.8365~483.9936~-7.845627, SpinningTopSpot><391.0535><341.4625><0~0~Watcher~WARD~ward_r15~350~350~11~false, FloatingDebris><-2.274719><338.1349><50~50~1986328799~0~30~0.25~0.5~6~41.0451|-19.22653|282.945~-111.4594|173.871|466.8899~0.9761403|0.4402004|0.25~-0.5556322|0.2137045|-0.5214395~0.4701501|2.205432|0.4786987~Ripple~0.5~0v0v0v0|0v0v0v0|0v0v0v0~0, CosmeticRipple><819.5061><718.52><-466.7308~-218.6964~-64.09772~-257.139~819.5061~718.52~265.0075~0.7508711~0.6840886~False~0.5~False~0.1114986~False~-1~0~False, 
+AmbientSounds: OMNI><AM_WIN_Hilltop.ogg><68.69763><524.179><0.234521><1, OMNI><RWTW_AmbInterior.ogg><63.87924><440.9404><0.3672608><1, 
+FadePalette: 335, 0.4266618

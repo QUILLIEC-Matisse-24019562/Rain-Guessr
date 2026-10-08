@@ -1,0 +1,299 @@
+CONDITIONAL LINKS
+Inv : VS_C12 : 1 : VS_BASEMENT02
+Inv : VS_BASEMENT02 : 1 : VS_C12
+Inv : EXCLUSIVEROOM : VS_BASEMENT01
+Inv : EXCLUSIVEROOM : VS_BASEMENT02
+END CONDITIONAL LINKS
+
+ROOMS
+GATE_HI_VS : DISCONNECTED, VS_B01 : GATE
+GATE_SL_VS : DISCONNECTED, VS_D02 : GATE
+GATE_SB_VS : VS_H01 : GATE
+GATE_SI_VS : DISCONNECTED, VS_S09, VS_E07 : GATE
+
+VS_B01 : GATE_HI_VS, VS_A02
+VS_A02 : VS_B02, VS_B01
+VS_A01 : VS_S04, VS_B08, VS_B04, VS_C03
+VS_S04 : VS_A01 : SHELTER
+VS_B02 : DISCONNECTED, VS_C04, VS_A03, VS_A02, VS_S01
+VS_C04 : VS_A06, VS_B02
+VS_S01 : VS_B02 : SHELTER
+VS_A03 : VS_B02, VS_C02, DISCONNECTED, VS_B03
+VS_B03 : VS_A03, VS_C01
+VS_C01 : VS_C03, VS_B03
+VS_D01 : VS_A05, VS_A06, VS_B04, VS_C02
+VS_A05 : VS_A14, VS_D01 : SWARMROOM
+VS_A14 : DISCONNECTED, VS_A05
+VS_B04 : VS_A01, VS_B08, VS_D01, VS_B07
+VS_C02 : VS_A03, VS_D01, VS_F02
+VS_A04 : VS_C05, VS_S20, VS_H02, VS_B12
+VS_S20 : VS_A04 : SHELTER
+VS_B07 : VS_B04, VS_F02
+VS_B08 : VS_A01, VS_B04, VS_H02, VS_C03
+VS_H02 : VS_C05, VS_B08, VS_A04, VS_C03, VS_F01
+VS_C03 : VS_A01, VS_B08, VS_H02, VS_C01
+VS_C05 : VS_H02, VS_A04, VS_B09
+VS_B09 : VS_C05, VS_C06
+VS_A06 : VS_C04, VS_D01
+VS_C06 : VS_C13, VS_B10, VS_B09, VS_C07
+VS_C13 : VS_E07, VS_C06
+VS_E07 : GATE_SI_VS, VS_C13
+VS_S09 : GATE_SI_VS : SHELTER
+VS_B10 : DISCONNECTED, VS_A07, VS_C06 : SWARMROOM
+VS_A07 : VS_S05, VS_B10, VS_B11
+VS_S05 : VS_A07 : SHELTER
+VS_B11 : VS_A07, VS_A08
+VS_A08 : VS_C07, VS_B11
+VS_C07 : VS_C06, VS_B12, VS_A08
+VS_B12 : VS_A04, VS_C07, VS_C09
+VS_F01 : VS_H02, VS_F02, VS_C11, VS_D04 : SWARMROOM
+VS_C09 : VS_B12, VS_A13
+VS_D04 : VS_A13, VS_F01, VS_B16
+VS_A13 : VS_C09, VS_S07, VS_D04
+VS_S07 : VS_A13 : SHELTER
+VS_B16 : VS_D04, VS_D03, VS_C10
+VS_D02 : DISCONNECTED, VS_B05, VS_S02, GATE_SL_VS
+VS_S02 : VS_D02 : SHELTER
+VS_B05 : VS_D02, VS_E01
+VS_E01 : VS_C08, VS_B05
+VS_D05 : VS_B18, DISCONNECTED, VS_B14, DISCONNECTED, DISCONNECTED, VS_C08
+VS_D03 : VS_B16, VS_C10, VS_A09
+VS_A09 : VS_A10, VS_D03
+VS_A10 : VS_A09, VS_A11, VS_B13
+VS_B13 : VS_A10, VS_S06, VS_B14
+VS_S06 : VS_B13 : SHELTER
+VS_B14 : VS_B13, VS_D05
+VS_A11 : VS_B15, VS_A10, VS_A12
+VS_A12 : VS_B15, VS_A11, VS_A15
+VS_A15 : VS_B18, VS_A12
+VS_B15 : VS_A11, VS_A12
+VS_C08 : VS_B18, VS_E01, VS_D05
+VS_B18 : VS_A15, VS_C08, VS_D05
+VS_C10 : VS_B16, VS_D03, VS_C12
+VS_C11 : VS_F01, VS_E02, VS_C12
+VS_C12 : VS_C10, VS_C11, DISCONNECTED
+VS_E02 : VS_B17, VS_C11, VS_B06
+VS_B17 : VS_E06, VS_E02
+VS_F02 : VS_B07, VS_C02, VS_E06, VS_F01
+VS_E06 : VS_F02, VS_S08, VS_B17
+VS_S08 : VS_E06 : SHELTER
+VS_H01 : GATE_SB_VS, VS_B06
+VS_B06 : VS_E02, VS_S03, VS_H01
+VS_S03 : VS_B06 : SHELTER
+VS_BASEMENT02 : DISCONNECTED, VS_BASEMENT01
+VS_BASEMENT01 : VS_BASEMENT02
+END ROOMS
+
+CREATURES
+//only in the rain
+VS_A06 : 4-Salamander-{PreCycle}
+VS_B07 : 6-Eel-{PreCycle}
+VS_A04 : 5-Eel-{PreCycle}
+VS_H02 : 12-Eel-{PreCycle}
+VS_E06 : 4-Tentacle Plant-{PreCycle}, 9-Salamander-{PreCycle}
+VS_B15 : 3-Tentacle Plant-{PreCycle}
+VS_D02 : 6-Tentacle Plant-{PreCycle}
+VS_A02 : 2-Eggbug-{PreCycle}
+
+VS_B17 : 7-Tentacle Plant
+VS_C12 : 8-Tentacle Plant, 11-Tentacle Plant
+VS_F02 : 17-Tentacle Plant
+VS_C06 : 4-Tentacle Plant
+
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)OFFSCREEN : 0-Scavenger-8, 0-Vulture-2
+(X-Gourmand,Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_C05 : 3-Pole Mimic-{13}, 4-Pole Mimic-{21}
+(Gourmand)VS_C05 : 3-Centipede-4, 4-Red Centipede
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_D04 : 6-Black-2, 8-Black
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_B16 : 7-Black
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_C10 : 7-Black-2
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_F02 : 7-Black-2, 14-Salamander-2
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_E02 : 8-Black, 10-Black-2, 13-Black
+(Gourmand)VS_A05 : 4-Cyan-3
+(Gourmand)VS_D01 : 4-DropBug
+(Gourmand)VS_A04 : 5-DropBug
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_C01 : 12-Eel, 13-Salamander-2
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_C07 : 8-Centipede-2, 11-Centipede-3
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_B09 : 3-Centipede-2, 5-Small Centipede-4
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_D03 : 4-Snail-3
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_C08 : 4-Snail-4, 7-Jet Fish
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_C03 : 4-Snail-4
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_D02 : 4-Snail-3
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_E01 : 6-Jet Fish
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_C04 : 4-Pink, 3-CicadaA-3, 6-CicadaB-5, 2-Pole Mimic-{12}
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_B07 : 6-Centipede-4
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_A03 : 4-Small Centipede-3
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_B12 : 6-Small Centipede-5
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_C09 : 2-Egg Bug-2
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_A08 : 2-Centipede-2, 3-Small Centipede-4
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_F01 : 5-Small Centipede-8
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)VS_C13 : 3-Centipede-3
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)LINEAGE : VS_C13 : 5 : Blue-0.1, Yellow-0.4, Cyan-0
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)LINEAGE : VS_C04 : 4 : Pink-0.1, Caramel-0.4, Strawberry-0
+(X-Gourmand,Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)LINEAGE : VS_A05 : 4 : None-0.2, Pink-0.2, Cyan-0
+(X-Yellow,Rivulet,Red,Artificer,Spear,Saint,Inv)LINEAGE : VS_C02 : 3 : Blue-0.2, Cyan-0.4, Strawberry-0
+
+(Yellow)OFFSCREEN : 0-Scavenger-9, 0-Vulture-1
+(Yellow)VS_C05 : 4-Pole Mimic-{21}
+(Yellow)VS_D04 : 6-Black-2, 8-Black
+(Yellow)VS_B16 : 7-Black
+(Yellow)VS_C10 : 7-Black
+(Yellow)VS_F02 : 7-Black-2, 14-Eel
+(Yellow)VS_E02 : 8-Black, 10-Black-2
+(Yellow)VS_A05 : 4-Salamander
+(Yellow)VS_C01 : 12-Eel, 13-Salamander-2
+(Yellow)VS_C07 : 8-Centipede-1, 11-Centipede-3
+(Yellow)VS_B09 : 3-Centipede, 5-Small Centipede-4
+(Yellow)VS_D03 : 4-Snail-3
+(Yellow)VS_C08 : 4-Snail-4, 7-Jet Fish
+(Yellow)VS_C03 : 4-Snail-4
+(Yellow)VS_D02 : 4-Snail-3
+(Yellow)VS_E01 : 6-Jet Fish
+(Yellow)VS_C02 : 3-Eel
+(Yellow)VS_C04 : 4-Pink, 3-CicadaA-3, 6-CicadaB-5
+(Yellow)VS_B07 : 6-Centipede-3
+(Yellow)VS_A03 : 4-Small Centipede-3
+(Yellow)VS_B12 : 6-Small Centipede-5
+(Yellow)VS_C09 : 2-Egg Bug-2
+(Yellow)VS_A08 : 2-Centipede-2, 3-Small Centipede-4
+(Yellow)VS_F01 : 5-Small Centipede-8
+(Yellow)VS_C13 : 3-Centipede-3
+(Yellow)LINEAGE : VS_C13 : 5 : Blue-0.1, Yellow-0.4, Cyan-0
+(Yellow)LINEAGE : VS_C04 : 4 : Pink-0.1, Caramel-0.4, Strawberry-0
+(Yellow)LINEAGE : VS_A05 : 4 : Salamander-0.2, Eel-0.2, Strawberry-0
+
+(Rivulet)OFFSCREEN : 0-Scavenger-9, 0-Vulture-2
+(Rivulet)VS_C05 : 4-Pole Mimic-{21}
+(Rivulet)VS_D04 : 6-Black-2, 8-Black
+(Rivulet)VS_B16 : 7-Black
+(Rivulet)VS_C10 : 7-Black
+(Rivulet)VS_F02 : 7-Black-2, 14-Eel
+(Rivulet)VS_E02 : 8-Black, 10-Black-2
+(Rivulet)VS_A05 : 4-Salamander
+(Rivulet)VS_C01 : 12-Eel, 10-Sea Leech-4, 12-Sea Leech-5, 13-Sea Leech-3
+(Rivulet)VS_C07 : 7-Yellow-3
+(Rivulet)VS_B09 : 3-Yellow-2, 5-Small Centipede-4
+(Rivulet)VS_D03 : 3-Eel, 4-Snail-3
+(Rivulet)VS_C08 : 7-Aquacenti, 4-Snail-4, 7-Jet Fish
+(Rivulet)VS_C03 : 4-White, 4-Snail-4
+(Rivulet)VS_D02 : 4-Snail-3
+(Rivulet)VS_E01 : 7-Aquacenti, 7-Eel, 6-Jet Fish
+(Rivulet)VS_C02 : 3-Cyan
+(Rivulet)VS_C04 : 2-Centiwing-2, 4-Centiwing, 2-Pole Mimic-{12}
+(Rivulet)VS_B07 : 6-Centipede-3
+(Rivulet)VS_A03 : 4-Small Centipede-3
+(Rivulet)VS_B12 : 6-Small Centipede-5
+(Rivulet)VS_C09 : 5-Centipede-3
+(Rivulet)VS_A08 : 2-Centipede-2, 3-Small Centipede-4
+(Rivulet)VS_F01 : 5-Small Centipede-8, 5-Eel
+(Rivulet)VS_E06 : 3-Eel
+(Rivulet)VS_C13 : 3-Centiwing-3
+(Rivulet)LINEAGE : VS_C13 : 5 : Cyan-0.1, White-0.4, Red-0
+(Rivulet)LINEAGE : VS_C04 : 4 : Cyan-0.1, Strawberry-0
+(Rivulet)LINEAGE : VS_A05 : 4 : Salamander-0.2, Eel-0.2,Strawberry-0
+(Rivulet)LINEAGE : VS_C02 : 3 : Cyan-0.2, White-0.4, Strawberry-0
+
+(Red)OFFSCREEN : 0-Scavenger-8, 0-Vulture-3, 0-KingVulture-1
+(Spear)OFFSCREEN : 0-Scavenger-9, 0-KingVulture-1, 0-Vulture-3
+(Artificer)OFFSCREEN : 0-Scavenger-12, 0-Vulture-3, 0-KingVulture-1
+(Red,Artificer,Spear)VS_C05 : 3-Centipede-4, 4-Red Centipede
+(Red,Artificer,Spear)VS_D04 : 6-Black-2, 8-Black-2
+(Red,Artificer,Spear)VS_B16 : 7-Black-2
+(Red,Artificer,Spear)VS_C10 : 7-Black-2
+(Red,Artificer,Spear)VS_E02 : 8-Black-2, 10-Black-2, 13-Black
+(Red,Artificer,Spear)VS_F02 : 7-Black-3, 14-Salamander-2
+(Red,Artificer,Spear)VS_A05 : 4-Cyan-3
+(Red,Artificer,Spear)VS_C01 : 12-Salamander, 13-Salamander-2
+(Red,Artificer,Spear)VS_D01 : 4-DropBug
+(Red,Artificer,Spear)VS_A04 : 5-DropBug
+(Red,Artificer,Spear)VS_C07 : 8-Centipede-2, 11-Centipede-4
+(Red,Artificer,Spear)VS_B09 : 3-Centipede-3, 5-Small Centipede-3
+(Red,Artificer,Spear)VS_D03 : 4-Snail-3
+(Red,Artificer,Spear)VS_C08 : 4-Snail-4, 7-Jet Fish
+(Red,Artificer,Spear)VS_C03 : 4-Snail-4, 5-DropBug
+(Red,Artificer,Spear)VS_D02 : 4-Snail-3
+(Red,Artificer,Spear)VS_E01 : 6-Jet Fish
+(Red,Artificer,Spear)VS_C02 : 3-Cyan
+(Red,Artificer,Spear)VS_C04 : 2-Pole Mimic-{12}, 3-CicadaA-2, 6-CicadaB-3
+(Red,Artificer,Spear)VS_B07 : 6-Centipede-5
+(Red,Artificer,Spear)VS_A03 : 4-Small Centipede-2, 5-Centipede
+(Red,Artificer,Spear)VS_B12 : 6-Small Centipede-5
+(Red,Artificer,Spear)VS_C09 : 2-Egg Bug-2
+(Red,Artificer,Spear)VS_A08 : 2-Centipede-2, 3-Small Centipede-4
+(Red,Artificer,Spear)VS_H01 : 8-Tentacle Plant
+(Red,Artificer,Spear)VS_C11 : 3-Black
+(Red,Artificer,Spear)VS_F01 : 5-Centipede-2
+(Red,Artificer,Spear)VS_C13 : 3-CicadaA-2, 6-CicadaB-3, 5-Cyan
+(Red,Artificer,Spear)VS_A10 : 4-DropBug
+(Red,Artificer,Spear)VS_A15 : 6-DropBug
+(Red,Artificer,Spear)LINEAGE : VS_C13 : 5 : Cyan-0.1, White-0.4, Cyan-0
+(Red,Artificer,Spear)LINEAGE : VS_C04 : 4 : Cyan-0.1, Eel-0.4, Red-0
+(Red,Artificer,Spear)LINEAGE : VS_A05 : 4 : None-0.2, Cyan-0.2, White-0
+(Red,Artificer,Spear)LINEAGE : VS_C02 : 3 : Cyan-0.2, Blue-0.4, Eel-0
+
+(Saint)OFFSCREEN : 0-MirosVulture-3-{Night}, 0-Scavenger-14, 0-Vulture-2
+(Saint)VS_D04 : 6-Black-2, 8-Black-2
+(Saint)VS_B16 : 7-Black-2
+(Saint)VS_C10 : 7-Black-2
+(Saint)VS_E02 : 8-Black, 10-Black, 13-Black, 7-LanternMouse-2, 6-Big Spider-2-{Ignorecycle}, 4-SpitterSpider-{Ignorecycle}
+(Saint)VS_F02 : 7-Black-3
+(Saint)VS_B06 : 3-LanternMouse-3
+(Saint)VS_B09 : 3-Yellow-2
+(Saint)VS_C07 : 7-Yellow-3
+(Saint)VS_C04 : 2-Centiwing-2, 4-Centiwing, 4-Big Spider-3-{Winter}, 4-Strawberry
+(Saint)VS_C05 : 3-Centipede-4, 4-Red Centipede
+(Saint)VS_A08 : 2-Centipede-2, 3-Small Centipede-4
+(Saint)VS_F01 : 9-LanternMouse-5
+(Saint)VS_B12 : 6-Small Centipede-5
+(Saint)VS_H01 : 8-Tentacle Plant, 2-Drop Bug-{Ignorecycle}
+(Saint)VS_E06 : 4-Centipede-4, 4-Small Centipede-3, 3-Drop Bug-{Ignorecycle}
+(Saint)VS_C02 : 3-Cyan-2
+(Saint)VS_C03 : 4-Strawberry
+(Saint)VS_A04 : 4-Strawberry
+(Saint)VS_C09 : 5-Centipede-3, 2-SpitterSpider-2
+(Saint)VS_C08 : 7-Aquacenti, 3-Sea Leech-6, 4-Sea Leech-4
+(Saint)VS_E01 : 7-Aquacenti, 7-Sea Leech-5
+(Saint)VS_D02 : 5-Aquacenti, 6-Sea Leech-6
+(Saint)VS_D03 : 4-Sea Leech-6
+(Saint)VS_C01 : 10-Sea Leech-4, 12-Sea Leech-5, 13-Sea Leech-3
+(Saint)VS_C13 : 3-Centiwing-3
+
+(Inv)OFFSCREEN : 0-Scavenger-12, 0-MirosVulture-2
+(Inv)VS_C05 : 3-Red Centipede, 4-Red Centipede
+(Inv)VS_D04 : 6-Red, 8-Red
+(Inv)VS_B16 : 7-Red
+(Inv)VS_C10 : 7-Red
+(Inv)VS_E02 : 8-Red, 10-Red, 13-Red
+(Inv)VS_F02 : 7-Red, 14-Red
+(Inv)VS_A05 : 4-Cyan-3
+(Inv)VS_C01 : 12-Red, 13-Red
+(Inv)VS_D01 : 4-DropBug
+(Inv)VS_A04 : 5-DropBug
+(Inv)VS_C07 : 8-Red Centipede, 11-Red Centipede
+(Inv)VS_B09 : 3-Red Centipede, 5-Small Centipede-3
+(Inv)VS_D03 : 4-Snail-3
+(Inv)VS_C08 : 4-Snail-4, 7-Jet Fish
+(Inv)VS_C03 : 4-Snail-4, 5-DropBug
+(Inv)VS_D02 : 4-Snail-3
+(Inv)VS_E01 : 6-Jet Fish
+(Inv)VS_C02 : 3-Cyan
+(Inv)VS_C04 : 3-CicadaA-2, 6-CicadaB-3, 2-Pole Mimic-{12}
+(Inv)VS_B07 : 6-Red Centipede-5
+(Inv)VS_A03 : 4-Small Centipede-2, 5-Red Centipede
+(Inv)VS_B12 : 6-Small Centipede-5
+(Inv)VS_C09 : 2-Egg Bug-2
+(Inv)VS_A08 : 2-Red Centipede, 3-Small Centipede-4
+(Inv)VS_H01 : 8-Tentacle Plant
+(Inv)VS_C11 : 3-Red
+(Inv)VS_F01 : 5-Red Centipede
+(Inv)VS_C13 : 3-CicadaA-2, 6-CicadaB-3, 5-Cyan
+(Inv)VS_A10 : 4-DropBug
+(Inv)VS_A15 : 6-DropBug
+(Inv)LINEAGE : VS_C13 : 5 : Cyan-0.1, White-0.4, Red-0
+(Inv)LINEAGE : VS_C04 : 4 : Cyan-0.1, Eel-0.4, Red-0
+(Inv)LINEAGE : VS_A05 : 4 : None-0.2, Cyan-0.2, Red-0
+(Inv)LINEAGE : VS_C02 : 3 : Cyan-0.2, Blue-0.4, Eel-0
+(Inv)VS_BASEMENT02 : 4-Tentacle Plant
+END CREATURES
+
+BAT MIGRATION BLOCKAGES
+END BAT MIGRATION BLOCKAGES

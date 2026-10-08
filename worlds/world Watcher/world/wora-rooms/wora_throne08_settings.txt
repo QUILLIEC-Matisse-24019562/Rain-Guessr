@@ -1,0 +1,13 @@
+DangerType: None
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04709252
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.1213465
+Effects: Sentient Rot Spores-0.3478704-20-20, 
+PlacedObjects: GooDrips><545.4858><533.4718><139.3443~114.9651~0~0~0.6465746, PassiveCorruption><362.6759><616.197><0~-128.9664~-421.0296~-399.5689~2.602725~21.3516~0.8~0.3~0.55~0.05~0.15~0.06971044~0.2~Default~Dot~Passive~0.8273969~0~1, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><869.1623><572.5502><0.3024584><0.6698226, OMNI><SO_WAT-ProperDrips.ogg><868.5692><491.841><0.2601272><0.5428326, OMNI><RWTW_RotAmb_Deep.ogg><862.6191><402.4634><0.1190272><1, OMNI><SO_SFX-Heartbeat1.ogg><861.6123><247.2715><0.09429932><0.5375018, OMNI><RWTW_RotAmb_UnfortEvo.ogg><861.6108><329.3243><0.09429998><0.8052626, OMNI><SO_SFX-Drowning.ogg><852.3085><171.3902><0.2024868><1, OMNI><RWTW_RotAmb_VanillaRot.ogg><843.5566><77.54413><0.09430064><1, 
+FadePalette: 10, 0.8249233
+WetTerrain: OFF

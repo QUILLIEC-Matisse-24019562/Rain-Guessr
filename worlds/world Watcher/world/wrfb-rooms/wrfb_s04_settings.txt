@@ -1,0 +1,7 @@
+Template: NONE
+DangerType: Flood
+Grime: 0.1086956
+Palette: 209
+PlacedObjects: LightSource><122.0508><594.4824><0.4673913~Environment~148~-173~403~-31.39746~0~0~None~0~0, CustomDecal><-17.55676><356.9486><-8~389~357~387~337~-34~342~-202~0~1~1~BlueSmoker~0.1086956~1~0.1086956~1~0.1086956~1~0.1086956~1, BrokenShelterWaterLevel><109.8692><571.0894><, ShelterSpawnPoint><123.1795><572.3382><, 
+AmbientSounds: OMNI><AM_IND-Midsex01.ogg><26.91266><525.1337><0.2934783><1, OMNI><SO_WAT-OpenFlow.ogg><25.69727><446.7828><0.3152174><1, OMNI><SO_NAT-WindTunnel.ogg><30.55426><370.041><0.1521739><1, 
+FadePalette: 33, 0.5

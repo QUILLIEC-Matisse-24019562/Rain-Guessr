@@ -1,0 +1,23 @@
+Template: NONE
+DangerType: Sandstorm
+Clouds: 0
+Grime: 0.02173913
+BkgDroneVolume: 0
+Palette: 69
+TerrainLight: 0.1630435
+TerrainStainAmount: 0.3586957
+TerrainStainBrightness: 1
+TerrainStainHeight: 0.6847826
+TerrainWaves: 0.3586957
+TerrainEdgeRadius: 105.6521
+TerrainGooHeight: 0.07608695
+TerrainGrain: 1
+TerrainDepth: -3.369572
+TerrainSkyFade: 1
+TerrainPalette: outerrim
+Effects: OuterRimView-1-20-20, SurfaceSandstorm-0.3804348-14-79, 
+PlacedObjects: CustomDecal><-36.08655><658.2229><-8~911~1293~995~1202~-795~673~83~0~1~1~rustb2~0.2282609~1~0.2282609~1~0.2282609~1~0.2282609~1, CustomDecal><-5.089233><603.196><-31~965~3049~680~2940~-74~116~70~0~1~0.2282609~runningwhite~0~0.5978261~0~0.5978261~0~0.5978261~0~0.5978261, CustomDecal><255.9315><224.959><-12~388~433~353~406~-83~764~23~0.6630435~1~1~greenpink~0.4021739~0.1521739~0.4021739~0.1521739~0.4021739~0.1521739~0.4021739~0.1521739, CustomDecal><90.80515><182.17><13~434~600~487~546~-15~394~342~0.4347826~0.6086956~0.8586956~caterpillar~0.1521739~0.2391304~0.1521739~0.2391304~0.1521739~0.2391304~0.1521739~0.2391304, TerrainHandle><2052.05><783.5963><-245~-44~87~-59~176, TerrainHandle><2251.229><719.6939><-40~0~99~-52~65, TerrainHandle><2639.699><799.8882><-98~-35~108~-29~89, TerrainHandle><1302.383><68.96252><-22~-52~40~0~20, CustomDecal><1020.465><934.822><10~153~890~168~835~-23~371~66~0~0.1413043~0.2173913~canworm~0.0326087~0.4347826~0.0326087~0.4347826~0.0326087~0.4347826~0.0326087~0.4347826, BlackSpot><1735.374><629.4053><116~105~265~1~145~-114, FloatingDebris><548.45><1046.495><-385~72~1483937190~0~30~0.25~1.804347~100~144|411~255|-182~3.22|1.9~-0.19|0~0|0~Stardust~1~0.67v1.05v0v0|-0.53v0.04v0v0~0, FloatingDebris><2407.443><745.5582><50~50~94358142~0~30~0.25~1.902173~98~-264|-117~593|386~2.76|0.63~0|0~0|0.08~Stardust~0.9456522~0.61v0.06v0v0|0.01v0.96v0v0~0, CustomDecal><1818.302><948.2796><29~643~1050~671~1027~-161~0~0~0~1~0~rustb1~0.2608696~0.5108696~0.2608696~0.5108696~0.2608696~0.5108696~0.2608696~0.5108696, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><778.0518><504.277><0.1521739><1, OMNI><RWTW_RotAmb_VanillaRot.ogg><787.5501><433.7574><0.1521739><1, SPOT><RWTW_DustStorm_Gusting.ogg><795.3862><285.0856><0.3369565><1><2220.386><1311.086><99.64465><-337.3553><0><0.3173914, SPOT><RWTW_DustStorm_High.ogg><617.6918><287.8067><0.2065217><0.7847826><1369.692><1350.807><31.64465><-256.3553><0><0.1869567, SPOT><RWTW_DustStorm_Gusting.ogg><429.8329><271.3599><0.326087><1><584.8329><1268.36><-62.35535><-439.3553><0><0.4152175, OMNI><RWTW_DustStorm_Gusting.ogg><605.8063><502.0581><0.2282609><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_125 - Timelapse<eA>vol<eB>0.2565215<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>123.913<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>800.9496<tB>281.654<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1040.95<tB>930.654<tA>handlePos<tB>-302.3553<tB>180.6447, 
+FadePalette: 22, 0.4565217, 0.4021739, 0.2173913, 0.2826087
+WetTerrain: OFF

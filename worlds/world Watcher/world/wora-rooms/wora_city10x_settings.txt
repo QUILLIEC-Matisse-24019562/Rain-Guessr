@@ -1,0 +1,32 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.75
+RumbleIntensity: 0.1086956
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04990017
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.02173913
+Grime: 0.06521739
+Palette: 69
+EffectColorA: 7
+EffectColorB: 21
+TerrainLight: 0.3478261
+TerrainStainAmount: 1
+TerrainStainBrightness: 0.6304348
+TerrainStainHeight: 0.4347826
+TerrainWaves: 0.3695652
+TerrainEdgeRadius: 200
+TerrainGooHeight: 0.07608695
+TerrainGrain: 1
+TerrainDepth: 0.2173844
+TerrainSkyFade: 1
+TerrainPalette: outerrim
+Effects: SurfaceSandstorm-0.08695652-20-20, FlowerWind-0.3590675,0.7209647,0.2099838-33.81165-79.48228, 
+PlacedObjects: MudPit><1227.45><128.6312><444~40~182, GooDrips><1448.551><330.3558><130~66~329~-66.99997~0.4891304, CustomDecal><1324.552><55.5955><-33~349~290~387~236~6~-259~151~0~0.6521739~1~rustb2~0.4673913~0.8695652~0.4673913~0.8695652~0.4673913~0.8695652~0.4673913~0.8695652, CustomDecal><1278.198><103.8997><-170~823~816~842~684~-43~554~7.999992~0~1~0.8260869~rustb3~0.2065217~1~0.2065217~1~0.2065217~1~0.2065217~1, FloatingDebris><978.667><604.0147><-175~-273~1835905931~0~30~0.7570823~2.054348~31~-75|25~222|-125~2.02|2.22~0|0~0|0~Stardust~0~-0.3999999v0v0v0|-0.02v0.07v0v0~0, TerrainHandle><1889.514><189.4255><-121~-133~2~-44~102, TerrainHandle><626.5807><101.808><-228~4~127~2~234, TerrainHandle><922.0504><97.63467><-99~-106~130~-63~87, TerrainHandle><201.162><181.7422><0~-83~168~-82~160, CustomDecal><223.3279><227.9768><-347~671~841~806~673~-56~-69~76~0~1~1~rustb3~0.3695652~1~0.3695652~1~0.3695652~1~0.3695652~1, TerrainSunOffset><1144.949><406.8614><-21~102, CustomDecal><310.3137><197.0522><-43~351~556~329~543~-31~-54.99997~-178~0.326087~1~0.0326087~skullduckpng~0.05434782~0.2826087~0.05434782~0.2826087~0.05434782~0.2826087~0.05434782~0.2826087, DynamicWarpTarget><1451.219><605.0726><-388~-68~3~false~true, FloatingDebris><594.0033><406.8413><-615~-299~610075824~7~15~0.3586957~2.380435~9~2|341~161|-30~0.51|0.71~0.05|-0.35~-4.449999|-0.89~Rot Islands~0.173913~0v0v0v0|0v0v0v0~0, PrinceFilter><609.0685><413.9496><-6~60~0~0~2~1~0, KarmaFlowerPatch><576.0708><219.1612><201~-33~0.5~33.0343~-72.32024~0.25~0.8176376, KarmaFlower><567.1656><239.112><0~0~5~7, PrinceFilter><560.0957><207.1227><0~100~-348~-208~3~1~1, PrinceFilter><1345.155><517.9477><16~100~140~-21~2~1~0, FloatingDebris><1506.816><125.0583><-516~-141~145885216~0~30~0.4130442~0.8043485~10~-73~-7~0.89~0.17~-1.84~Rot Islands~0.2065217~0v0v0v0~0, LobeTree><1332.705><513.606><-35~-78~10~-354, PrinceFilter><1521.019><131.1382><-2~50~2~127~2~1~0, RippleSpawnEgg><1947.554><599.4604><, RippleSpawnEgg><291.3115><643.0603><, 
+AmbientSounds: SPOT><SO_WAT-MoreDrips.ogg><777.5901><260.5049><0.2282609><0.3152174><1451.59><253.5049><-137.3553><-61.35535><0><0.154348, SPOT><SO_WAT-LilDrips.ogg><775.075><147.0283><0.2717391><0.3347826><1451.075><289.0283><-74.35535><-129.3553><0><0.1, SPOT><waterGurgleLOOP1.wav><790.0748><22.77853><0.4673913><0.1978261><1446.075><162.7785><-165.3553><7.644653><0><0.2956523, OMNI><RWTW_DustStorm_Gusting.ogg><713.6067><519.4855><0.1521739><0.3347826, OMNI><RWTW_RotAmb_VanillaRot.ogg><710.9391><443.8099><0.1521739><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_125 - Timelapse<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>785.5177<tB>409.1401<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1455.518<tB>386.1401<tA>handlePos<tB>-450.3553<tB>-215.3553, 
+FadePalette: 22, 0.2173913, 0.25
+WetTerrain: OFF

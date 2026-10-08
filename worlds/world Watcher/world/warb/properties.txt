@@ -1,0 +1,58 @@
+safariStartRoom: WARB_S11
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+batsPerActiveSwarmRoom: 6
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0
+proceduralMusicBank: wara
+Room Setting Templates: Salination
+Subregion: Salination
+rippleSpiderThreshold: 25
+Room_Attr: WARB_B41: Angler-Forbidden,
+Room_Attr: WARB_F01: BlackLizard-Forbidden,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F02: BlackLizard-Stay,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F03: BlackLizard-Stay,Salamander-Forbidden,Vulture-Forbidden,Angler-Stay,
+Room_Attr: WARB_F04: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F05: BlackLizard-Forbidden,Salamander-Forbidden,Vulture-Forbidden,Angler-Stay,
+Room_Attr: WARB_F06: BlackLizard-Forbidden,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F07: BlackLizard-Forbidden,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F08: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F09: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F10: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F11: BlackLizard-Stay,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F12: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F13: BlackLizard-Like,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F14: BlackLizard-Stay,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F15: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F16: Salamander-Stay,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F17: Salamander-Stay,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F18: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F19: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F20: Vulture-Forbidden,
+Room_Attr: WARB_F21: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F22: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F23: BlackLizard-Forbidden,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F24: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F26: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_F27: Angler-Forbidden,
+Room_Attr: WARB_G23: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_G24: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_G25: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_G26: Salamander-Forbidden,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_G27: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_G30: Angler-Forbidden,
+Room_Attr: WARB_H13: YellowLizard-Avoid,Vulture-Forbidden,Centipede-Avoid,RedCentipede-Forbidden,SmallCentipede-Forbidden,
+Room_Attr: WARB_J01: BlackLizard-Forbidden,Salamander-Avoid,Vulture-Forbidden,
+Room_Attr: WARB_J02: BlackLizard-Like,Salamander-Like,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_J03: Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_J04: Salamander-Like,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_J05: BlackLizard-Stay,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_J06: Salamander-Forbidden,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_J07: Salamander-Forbidden,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_J08: Salamander-Forbidden,Vulture-Forbidden,Angler-Forbidden,
+Room_Attr: WARB_S11: StandardGroundCreature-Forbidden,Slugcat-Forbidden,LizardTemplate-Forbidden,PinkLizard-Forbidden,GreenLizard-Forbidden,BlueLizard-Forbidden,YellowLizard-Forbidden,WhiteLizard-Forbidden,RedLizard-Forbidden,BlackLizard-Forbidden,Salamander-Forbidden,CyanLizard-Forbidden,Fly-Forbidden,Leech-Forbidden,SeaLeech-Forbidden,Snail-Forbidden,Vulture-Forbidden,GarbageWorm-Forbidden,LanternMouse-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Spider-Forbidden,JetFish-Forbidden,BigEel-Forbidden,Deer-Forbidden,TubeWorm-Forbidden,DaddyLongLegs-Forbidden,BrotherLongLegs-Forbidden,TentaclePlant-Forbidden,PoleMimic-Forbidden,MirosBird-Forbidden,TempleGuard-Forbidden,Centipede-Forbidden,RedCentipede-Forbidden,Centiwing-Forbidden,SmallCentipede-Forbidden,Scavenger-Forbidden,Overseer-Forbidden,VultureGrub-Forbidden,EggBug-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DropBug-Forbidden,KingVulture-Forbidden,Hazer-Forbidden,
+Room_Attr: WARB_S17: Angler-Forbidden,

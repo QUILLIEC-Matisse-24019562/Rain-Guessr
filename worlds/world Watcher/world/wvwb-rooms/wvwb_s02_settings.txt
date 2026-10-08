@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.154473
+RumbleIntensity: 0.154473
+WaveSpeed: 0.5086902
+WaveLength: 0.9956549
+WaveAmplitude: 0.00683551
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2844411
+Grime: 0
+Palette: 334
+Effects: LocustSwarmConfig-0,0.5,0.1080159,0,0-296.1064-231.0078, 
+PlacedObjects: CustomDecal><615.4105><398.2927><-6.105957~283.2145~283.3678~310.2383~304.3027~-6.102173~-516.3934~-57.53461~0.1422205~1~0~rustymetal(var)~0.5~1~0.5~1~0.5~1~0.5~1, 
+AmbientSounds: OMNI><AM_WIN_Hilltop.ogg><60.77191><515.7573><0.234521><1, OMNI><RWTW_AmbInterior.ogg><74.64798><428.8499><0.3388161><1, 
+FadePalette: 336, 0.4266616

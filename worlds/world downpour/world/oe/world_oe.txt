@@ -1,0 +1,180 @@
+ROOMS
+GATE_SB_OE : OE_RAIL04 : GATE
+GATE_OE_SU : OE_PUMP04 : GATE
+OE_RAIL04 : OE_RAIL06, OE_RAIL05, GATE_SB_OE
+OE_RAIL06 : OE_RAIL01, OE_RAIL04, OE_TOWER11
+OE_RAIL05 : OE_S01, OE_RAIL04, OE_TOWER14
+OE_TOWER11 : OE_RAIL06, DISCONNECTED, OE_TOWER14
+OE_S01 : OE_RAIL05 : SHELTER
+OE_RAIL01 : OE_RAIL03, OE_RAIL06, DISCONNECTED, OE_TOWER10, DISCONNECTED, OE_TOWER03
+OE_RAIL02 : OE_RAIL03, OE_RUIN04, OE_TOWER05
+OE_RAIL03 : OE_SPIRE, OE_RAIL01, OE_RAIL02, OE_TOWER05, OE_TOWER03
+OE_TOWER10 : OE_RAIL01, OE_TOWER12
+OE_SPIRE : OE_S04, OE_RAIL03
+OE_S04 : OE_SPIRE : SHELTER
+
+OE_TOWER03 : OE_RAIL01, OE_RAIL03, OE_TOWER01
+OE_TOWER01 : OE_TOWER03, OE_TOWER02
+OE_TOWER02 : OE_TOWER01, OE_TOWER04, OE_TOWER09 : PERFHEAVY
+OE_TOWER09 : OE_TOWER12, DISCONNECTED, OE_TOWER02
+OE_TOWER14 : OE_RAIL05, OE_TOWER11, OE_TOWER13
+OE_TOWER13 : OE_TOWER14, OE_TOWER12
+OE_TOWER12 : OE_TOWER10, OE_TOWER13, OE_TOWER09
+OE_TOWER04 : OE_TOWER06, OE_TOWER02, OE_S02 : SCAVOUTPOST
+OE_TOWER05 : OE_RAIL02, OE_RAIL03, OE_TOWER06
+OE_TOWER06 : OE_TOWER05, OE_TOWER04 : PERFHEAVY
+OE_S02 : OE_RUIN01, OE_TOWER04 : ANCIENTSHELTER
+OE_RUIN01 : OE_RUIN02, OE_S02
+OE_RUIN02 : OE_RUIN04, OE_RUIN03, OE_RUINFrontHall, OE_RUIN01
+OE_RUIN03 : OE_RUIN04, OE_RUINCourtYard, OE_RUIN02
+OE_RUIN04 : OE_RAIL02, OE_RUIN03, DISCONNECTED, OE_RUIN02 : SWARMROOM
+OE_RUINFrontHall : OE_RUIN02, OE_RUINCourtYard
+OE_RUINCourtYard : OE_RUIN25, OE_RUIN03, OE_RUINFrontHall, OE_TOWER07
+OE_TOWER07 : OE_RUINCourtYard, OE_CAVE19
+OE_CAVE08 : OE_BROKENDRAIN, OE_CAVE15, OE_CAVE16
+OE_BROKENDRAIN : OE_CAVE19, OE_CAVE08
+OE_CAVE19 : OE_BROKENDRAIN, OE_TOWER07
+OE_CAVE02 : OE_CAVE03, OE_CAVE20
+OE_CAVE03 : DISCONNECTED, OE_CAVE02 : SWARMROOM
+OE_CAVE15 : OE_CAVE08, OE_CAVE20 : SWARMROOM
+OE_CAVE20 : OE_CAVE02, OE_CAVE15
+OE_CAVE16 : OE_RUIN16, OE_CAVE08, OE_CAVE18
+OE_CAVE18 : OE_CAVE17, OE_EXSHELTER, OE_CAVE16
+OE_EXSHELTER : OE_CAVE18 : SHELTER
+OE_RUIN16 : OE_RUIN18, OE_RUIN17, OE_CAVE16
+OE_RUIN17 : OE_RUIN10, OE_RUIN16
+OE_RUIN18 : OE_RUINBackHall, OE_RUIN14, OE_RUIN16
+OE_RUIN10 : OE_RUIN13, OE_RUIN14, OE_RUIN17
+OE_RUIN14 : OE_MIDSHELTER, OE_RUIN25, OE_RUIN15, OE_RUIN18, OE_RUIN10 : SWARMROOM
+OE_MIDSHELTER : OE_RUIN14 : SHELTER
+OE_RUIN25 : OE_RUINCourtYard, OE_RUIN14 : SWARMROOM
+OE_CAVE17 : OE_RUIN23, DISCONNECTED, OE_CAVE18, OE_CAVE04
+OE_RUIN23 : OE_RUIN15, OE_CAVE17
+OE_RUIN15 : OE_RUIN09, OE_RUIN14, OE_RUIN23
+OE_RUIN09 : OE_RUIN11, OE_RUIN22, OE_RUIN15
+OE_RUIN11 : OE_RUIN24, OE_RUIN09, OE_RUIN13
+OE_RUIN13 : OE_RUIN11, OE_RUIN21, OE_RUIN10
+OE_RUIN21 : OE_RUIN13, OE_RUINBackHall
+OE_RUINBackHall : OE_RUIN18, OE_RUIN21
+OE_CAVE04 : OE_CAVE05, OE_CAVE17
+OE_CAVE05 : OE_RUIN19, OE_CAVE04
+OE_RUIN19 : OE_RUIN22, DISCONNECTED, OE_CAVE05 : SCAVTRADER
+OE_RUIN22 : OE_RUIN08, OE_RUIN09, OE_RUIN19
+OE_RUIN24 : OE_RUIN11, OE_RUIN12
+OE_RUIN12 : OE_RUIN24, OE_CAVE01
+OE_CAVE01 : OE_S05x, OE_RUIN12, OE_CAVE10
+OE_S05x : OE_RUIN05, OE_RUIN06, OE_CAVE01 : ANCIENTSHELTER
+OE_RUIN05 : DISCONNECTED, OE_RUIN08, OE_S05x : SWARMROOM
+OE_RUIN08 : OE_RUIN05, OE_RUIN22
+OE_RUIN06 : OE_S05x, OE_WORMPIT, OE_FINAL01
+OE_FINAL01 : DISCONNECTED, OE_RUIN06, OE_CAVE09, OE_CAVE10
+OE_CAVE10 : OE_FINAL01, OE_JUNGLE06, OE_CAVE01, OE_CAVE09
+OE_CAVE09 : OE_CAVE10, OE_FINAL01, OE_CAVE11, OE_JUNGLE04
+OE_JUNGLE04 : OE_CAVE09, OE_JUNGLEESCAPE, OE_S06
+OE_JUNGLEESCAPE : OE_JUNGLE01, OE_JUNGLE04
+OE_S06 : OE_JUNGLE04 : SHELTER
+OE_CAVE11 : OE_WORMPIT, DISCONNECTED, OE_CAVE09
+OE_WORMPIT : OE_JUNGLE01, OE_RUIN06, OE_CAVE11
+OE_JUNGLE06 : OE_CAVE10, OE_JUNGLE05
+OE_JUNGLE05 : OE_CAVE07, OE_JUNGLE06
+OE_CAVE07 : OE_EXITPATH, OE_JUNGLE01, OE_JUNGLE05
+OE_JUNGLE01 : OE_RUIN07, OE_WORMPIT, OE_JUNGLEESCAPE, OE_CAVE07
+OE_RUIN07 : OE_CAVE12, OE_JUNGLE01
+OE_CAVE12 : OE_TREETOP, OE_JUNGLE02, OE_RUIN07, OE_JUNGLE03, OE_BACKFILTER, OE_CAVE13
+OE_BACKFILTER : OE_CAVE14, OE_EXITPATH, OE_CAVE12
+OE_EXITPATH : OE_CAVE07, OE_BACKFILTER : SWARMROOM
+OE_TREETOP : OE_CAVE12, OE_JUNGLE02
+OE_JUNGLE02 : OE_TREETOP, OE_SFINAL, OE_CAVE12
+OE_SFINAL : OE_JUNGLE02 : SHELTER
+OE_CAVE13 : OE_CAVE12, OE_TOWER08
+OE_TOWER08 : DISCONNECTED, OE_JUNGLE03, OE_CAVE14, OE_CAVE13
+OE_CAVE14 : OE_BACKFILTER, OE_TOWER08
+OE_JUNGLE03 : OE_FINAL02, OE_TOWER08, OE_CAVE12
+OE_FINAL02 : OE_FINAL03, OE_JUNGLE03, DISCONNECTED, OE_SEXTRA
+OE_SEXTRA : OE_FINAL02, DISCONNECTED : ANCIENTSHELTER
+OE_FINAL03 : OE_FINAL02 : NOTRACKERS
+OE_TEMP : DISCONNECTED : NOTRACKERS
+OE_PUMP01 : OE_PUMP02
+OE_PUMP02 : OE_PUMP04, OE_PUMP03, OE_PUMP01
+OE_PUMP03 : OE_S03, OE_PUMP04, OE_PUMP02
+OE_S03 : OE_PUMP03 : SHELTER
+OE_PUMP04 : OE_PUMP03, GATE_OE_SU, OE_PUMP02
+END ROOMS
+
+CREATURES
+OE_TOWER02 : 6-Salamander-{PreCycle}
+OE_TOWER06 : 2-White-{PreCycle}
+OE_CAVE02 : 5-Salamander-{PreCycle}
+(Yellow)OFFSCREEN : 0-Scavenger-10, 0-Scavenger-5-{Night}, 0-Overseer-4-{Ignorecycle}
+(White)OFFSCREEN : 0-Vulture-{Ignorecycle}, 0-Scavenger-10, 0-Scavenger-5-{Night}, 0-Overseer-4-{Ignorecycle}
+(Gourmand)OFFSCREEN : 0-Scavenger-15, 0-Scavenger-5-{Night}, 0-Vulture-{Ignorecycle}, 0-Overseer-4-{Ignorecycle}, 0-KingVulture-2-{Night}
+(White,Yellow,Gourmand)OE_TOWER07 : 2-Centipede-2 , 3-Small Centipede-5
+(White,Yellow,Gourmand)OE_TOWER11 : 3-Centipede-2, 3-Small Centipede-5
+(White,Yellow)OE_TOWER14 : 4-Big Spider-1, 4-Small Centipede-2
+(Gourmand)OE_TOWER14 : 4-Big Spider-2
+(White,Yellow,Gourmand)OE_TOWER09 : 6-JungleLeech-7-{Ignorecycle}
+(White,Yellow)OE_TOWER10 : 3-CicadaB-3
+(Gourmand)OE_TOWER10 : 2-DropBug, 5-Blue-2, 3-CicadaB-3
+(White,Gourmand)OE_RAIL06 : 5-Big Spider-2
+(White,Yellow,Gourmand)OE_RAIL01 : 13-CicadaB-2, 11-CicadaA-4, 17-TentaclePlant, 7-Salamander-1-{PreCycle}
+(White,Yellow,Gourmand)OE_RUIN01 : 5-TentaclePlant
+(White,Yellow,Gourmand)OE_RUIN03 : 5-BigNeedleWorm, 6-SmallNeedleWorm-4, 4-Big Spider-3-{Night}
+(White)OE_RUINBackHall : 5-Blue
+(Gourmand)OE_RUINBackHall : 5-Blue, 5-TentaclePlant-{Night}, 6-White-{Night}, 9-TentaclePlant-{Night}
+(White)OE_RUINCourtYard : 4-Caramel-{Ignorecycle}, 5-Green-{Ignorecycle}
+(Gourmand)OE_RUINCourtYard : 4-Caramel-{Ignorecycle}, 5-Caramel-{Ignorecycle}
+(Yellow)OE_RUIN05 : 3-Blue-{Ignorecycle}, 4-EggBug
+(White,Gourmand)OE_RUIN05 : 3-Blue-{Ignorecycle}, 4-EggBug, 3-White-{Night}, 4-Big Spider-3-{Night}, 6-TentaclePlant-{Night}, 7-TentaclePlant-{Night}
+(White,Yellow,Gourmand)OE_CAVE01 : 5-JungleLeech-4-{Ignorecycle}
+(White,Gourmand)OE_CAVE09 : 4-Blue-2-{Ignorecycle}
+(White,Yellow,Gourmand)OE_CAVE04 : 4-Small Centipede-5-{Ignorecycle}
+(White,Yellow)OE_CAVE10 : 4-Small Centipede-6-{Ignorecycle}, 5-JungleLeech-3-{Ignorecycle}
+(Gourmand)OE_CAVE10 : 4-Small Centipede-6-{Ignorecycle}, 5-JungleLeech-3-{Ignorecycle}, 11-TentaclePlant-{Night}
+(White,Gourmand)OE_CAVE16 : 5-JungleLeech-7-{Ignorecycle}
+(White,Yellow,Gourmand)OE_CAVE17 : 5-TentaclePlant-{Ignorecycle}
+(White,Yellow)OE_CAVE12 : 10-Centipede-3-{Ignorecycle}, 11-Small Centipede-5-{Ignorecycle}
+(Gourmand)OE_CAVE12 : 10-Centipede-3-{Ignorecycle}, 11-Small Centipede-5-{Ignorecycle}, 7-TentaclePlant-{Night}
+(White,Gourmand)OE_CAVE14 : 2-Small Centipede-5-{Ignorecycle}, 2-JungleLeech-7-{Ignorecycle}
+(White,Yellow)OE_CAVE15 : 3-Centipede-{Ignorecycle}, 5-Small Centipede-3-{Ignorecycle}
+(Gourmand)OE_CAVE15 : 4-Centipede-2-{Ignorecycle}, 3-Centipede-2-{Ignorecycle}, 5-Small Centipede-3-{Ignorecycle}
+(White,Gourmand)OE_RUIN15 : 3-Caramel-{Ignorecycle}, 5-Caramel-{Ignorecycle}, 6-Yeek-8-{Night}
+(Yellow)OE_RUIN15 : 5-Blue-{Ignorecycle}, 6-Yeek-8-{Night}
+(White,Yellow)OE_RUIN24 : 2-CicadaB-3, 3-CicadaA-2, 5-CicadaA-4
+(Gourmand)OE_RUIN24 : 2-CicadaB-3, 3-CicadaA-2, 5-CicadaA-4, 2-TentaclePlant-{Night}, 7-TentaclePlant-{Night}
+(White,Yellow,Gourmand)OE_RUIN14 : 6-CicadaB-2, 10-CicadaA-4
+(White,Yellow,Gourmand)OE_RUIN04 : 6-CicadaB-2
+(White,Gourmand)OE_RUIN06 : 4-JungleLeech-5-{Ignorecycle}, 4-CicadaB-2, 5-CicadaA-1
+(Yellow)OE_RUIN06 : 4-CicadaB-2, 5-CicadaA-1
+(White,Yellow)OE_RUIN10 : 4-Caramel-{Ignorecycle}
+(Gourmand)OE_RUIN10 : 4-Caramel-{Ignorecycle}, 8-Caramel-{Ignorecycle}
+(White)OE_RUIN17 : 5-Blue-{Ignorecycle}
+(Gourmand)OE_RUIN17 : 5-White-{Ignorecycle}
+(White,Gourmand)OE_RUIN09 : 3-Pink-2
+(Yellow)OE_RUIN09 : 3-Blue-1
+(White,Yellow,Gourmand)OE_RUIN18 : 3-BigNeedleWorm, 3-SmallNeedleWorm-6, 4-CicadaB-3, 5-CicadaA-4
+(White,Yellow,Gourmand)OE_RUIN21 : 2-Yeek-5-{Ignorecycle}
+(White,Yellow,Gourmand)OE_RUIN11 : 6-Yeek-5-{Ignorecycle}
+(White,Yellow,Gourmand)OE_RAIL03 : 7-Blue, 6-Salamander-2-{PreCycle}
+(White,Yellow,Gourmand)OE_EXITPATH : 7-TentaclePlant
+(White,Gourmand)OE_JUNGLE05 : 3-White-{Ignorecycle}, 4-JungleLeech-11-{Ignorecycle}
+(Yellow)OE_JUNGLE05 : 3-Blue-{Ignorecycle}
+(White,Yellow,Gourmand)OE_JUNGLE06 : 2-CicadaB-1, 6-CicadaA-2, 4-Yeek-3-{Ignorecycle}
+(White,Yellow)OE_RUIN07 : 2-Yeek-5-{Ignorecycle}
+(Gourmand)OE_RUIN07 : 2-Yeek-5-{Ignorecycle}, 2-TentaclePlant-{Night}
+(White)OE_RUIN08 : 4-Green-{Ignorecycle}, 5-Green-{Ignorecycle}, 7-Yeek-7-{Ignorecycle}
+(Yellow)OE_RUIN08 : 7-Yeek-7-{Ignorecycle}
+(Gourmand)OE_RUIN08 : 4-Caramel-{Ignorecycle}, 5-Caramel-{Ignorecycle}, 7-Yeek-7-{Ignorecycle}
+(White,Yellow,Gourmand)OE_RUIN25 : 7-Yeek-6-{Ignorecycle}
+(White,Yellow,Gourmand)OE_JUNGLE03 : 3-CicadaA-2, 3-Yeek-5-{Ignorecycle}
+(White,Yellow,Gourmand)OE_FINAL01 : 4-Small Centipede-3-{Ignorecycle}
+(White,Yellow,Gourmand)OE_FINAL02 : 5-Yeek-5-{Ignorecycle}
+(White,Yellow,Gourmand)OE_JUNGLE01 : 4-TentaclePlant-{Night}, 4-JungleLeech-9-{Ignorecycle}
+(Gourmand)OE_RUINFrontHall : 2-TentaclePlant-{Night}, 4-Big Spider-2-{Night}
+(White,Yellow,Gourmand)OE_RUIN16 : 6-TentaclePlant-{Night}
+(White,Yellow,Gourmand)OE_JUNGLEESCAPE : 6-Blue-{Ignorecycle}, 3-Mimic-{Ignorecycle}-{16}, 9-DropBug-{Ignorecycle}, 8-Small Centipede-5-{Ignorecycle}
+END CREATURES
+
+BAT MIGRATION BLOCKAGES
+OE_CAVE16
+OE_CAVE17
+END BAT MIGRATION BLOCKAGES

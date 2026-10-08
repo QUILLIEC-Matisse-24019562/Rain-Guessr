@@ -1,0 +1,4 @@
+Template: wska_settingstemplate_inside
+Effects: BkgOnlyLightning-1-20-20, 
+PlacedObjects: CustomDecal><134.1><98.07678><38~544~677~567~706~-123~-443~129~0~1~0~greybones~0.1847826~1~0.1847826~1~0.1847826~1~0.1847826~1, LightSource><475.6072><477.8312><0.08695652~Environment~171~147~-510~-589.3975~1~1~None~0~0, LightSource><447.3426><293.1234><0.05434782~Environment~-214~322~402.9999~-311.3975~1~1~None~0~0, LightSource><521.4013><290.174><0.05434845~Environment~215~320~332.0001~-178.3975~1~1~None~0~0, SlimeMold><306.8315><142.1826><12~127~2~3, SlimeMold><344.95><155.0015><0~0~2~3, CosmeticSlimeMold2><349.0607><113.9406><-2~86, LightFixture><329.8007><150.9831><SlimeMoldLight~17.32051~-10~57, RippleSpawnEgg><649.8197><468.5865><, RippleSpawnEgg><309.1819><470.4169><, RippleTree><509.7703><360.6135><0~86.25~0.6114131~0.7554348~left, 
+FadePalette: 458, 0.3695652

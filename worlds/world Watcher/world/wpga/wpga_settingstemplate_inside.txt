@@ -1,0 +1,14 @@
+CeilingDrips: 0.5541093
+WaveSpeed: 0.5227419
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1190401
+Grime: 0.2510983
+RandomItemDensity: 0.6082183
+Palette: 470
+EffectColorA: 9
+EffectColorB: 3
+Effects: LightBurn-0.1839709-20-20, SilenceWater-0.5238397-34.97806-110, ModifyEffectColorB-0.02164227,1,0.5-896.2225-432, Flies-0.09739619-328.6823-333, Beetle-0.0432872-280.8931-242, RockFlea-0.2705456-30-30, WaterGlowworm-1-306.8228-138, 
+AmbientSounds: OMNI><SO_WAT-MoreDrips.ogg><721.86><493.5288><0.14288><1, OMNI><SO_WAT-LilDrips.ogg><706.261><369.5696><0.2078108><1, OMNI><RWTW_AmbDrips_01.ogg><431.2082><453.447><0.1212361><1.077917, OMNI><RWTW_AR_DripWorks.ogg><725.6847><442.5716><0.06712673><1, OMNI><AM_ENV-Woods.ogg><838.8265><257.7375><0.2619198><0.5324983, 

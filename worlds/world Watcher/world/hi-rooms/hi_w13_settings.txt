@@ -1,0 +1,11 @@
+Template: NONE
+Clouds: 0.09392813
+Grime: 0.2912704
+BkgDroneVolume: 0
+BkgDroneNoThreatVolume: 0
+Palette: 61
+EffectColorA: 5
+EffectColorB: 2
+PlacedObjects: DangleFruit><931.8855><300.8259><0~0~2~3, 
+AmbientSounds: SPOT><AM_IND-ElectricHum02.ogg><735.6714><100.6783><0.5491379><0.8231046><805.2446><407.1121><-64.73981><-68.13776><0><0.4316811, OMNI><AM_ENV-NatWind.ogg><504.7859><275.6498><0.1314657><1, OMNI><AM_ENV-Outside.ogg><510.7953><199.8515><0.3034475><1, OMNI><Mech Multiactive Highpass.wav><733.2554><220.566><0.192887><1, SPOT><SO_IND-HVAC.ogg><469.2443><21.56515><0.3034482><1><365.9013><182.1734><-121.2484><65.25301><0><0.1, SPOT><SO_IND-HVAC.ogg><594.9096><574.86><0.3157335><1><435.058><665.3813><-67.00015><-99.78986><0><0.198276, OMNI><SO_WAT-LilDrips.ogg><751.8221><518.3398><0.3403015><1, OMNI><SO_WAT-MoreDrips.ogg><572.6166><477.9425><0.5><1, 
+FadePalette: 11, 0

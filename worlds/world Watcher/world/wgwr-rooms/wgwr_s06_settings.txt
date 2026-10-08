@@ -1,0 +1,2 @@
+Effects: Sentient Rot Spores-0-301.8009-147, 
+FadePalette: 10, 0.2705456

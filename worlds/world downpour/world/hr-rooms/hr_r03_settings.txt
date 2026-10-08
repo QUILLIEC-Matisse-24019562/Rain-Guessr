@@ -1,0 +1,15 @@
+Template: HR_SettingsTemplate_HellUpper
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8469563
+Grime: 0.2934783
+WaterReflectionAlpha: 0
+Effects: InvertedWater-0-47-122, WaterFluxMinLevel-0.8152174-332-156, WaterFluxMaxLevel-0.8152174-339-103, WaterFluxFrequency-0.2826087-332-210, WaterDepth-0-332-274, HeatWave-0.4347826-642-17, FireFlies-0-20-20, 
+PlacedObjects: FairyParticleSettings><-10.14795><1621.885><639~-424.3398~1~7.065217~37.5~0~1~2.09349~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~77.82593~1~0.6521739, LightSource><503.5502><2239.008><0.4021739~EffectColor1~-722~-668~99~-295.3975~0~1~None~0~0, LightSource><490.6555><2042.124><0.1413043~EffectColor1~-1266~-713~-12~-209.3975~0~0~None~0~0, Lantern><229.1478><1747.672><-19~147~4~9, DangleFruit><201.2675><1782.36><-297~65~2~3, DangleFruit><259.8983><1801.301><0~0~2~3, KarmaShrine><498.1936><348.691><3~22, 
+AmbientSounds: OMNI><AM_WIN-SubWnd.ogg><820.7034><526.6945><0.4130435><1, 
+FadePalette: 75, 0.2934783, 0.2934783, 0.2934783
+WetTerrain: OFF

@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+CeilingDrips: 0
+WaveSpeed: 0.4143726
+WaveLength: 0.9571863
+WaveAmplitude: 3.84808E-12
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.08695652
+EffectColorA: 15
+EffectColorB: 11
+Effects: LightBurn-0.1413043-30-30, Coldness-1-33-90, Dustpuffs-1-283-32, 
+PlacedObjects: SnowSource><382.624><471.5931><Radial~1242~-666~474~-371.3975~0.5217391~1, SnowSource><124.9005><106.3683><Radial~485~20~509~414.6025~0.5543478~1, SnowSource><1045.401><484.3262><Radial~-332~-281~-409~122.6025~0.6413044~1, SnowSource><566.312><350.1818><UnSnow~0~100~50~86.60254~0.1847826~0, RedToken><442.3007><240.2333><5~-61~-72~295~0~CL~~0~0~1, DeadTokenStalk><558.8929><197.1689><-8~-66, DeadTokenStalk><359.0264><197.8018><23~-69, DeadTokenStalk><484.8643><235.9142><-6~-48, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><831.5573><642.4466><0.3586957><1, OMNI><AM_ENV-CityTone.ogg><830.053><573.4655><0.2717391><1, 
+FadePalette: 0, 0.5108696
+WetTerrain: OFF

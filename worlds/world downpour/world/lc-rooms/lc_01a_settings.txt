@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0
+Grime: 0.2391304
+BkgDroneVolume: 0
+Palette: 30
+EffectColorA: 13
+EffectColorB: 2
+Effects: DayNight-1-438-121, SkyAndLightBloom-0.02173913-326-183, RoofTopView-0-20-20, SSMusic-1-33-90, PixelShift-0.5-32-65, AboveCloudsView-1-348-41, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><833.3021><652.5293><0.173913><1, OMNI><AM_ENV-LightWind.ogg><647.051><654.0204><0.3478261><0.9021739, SPOT><AM_ENV-WallHum.ogg><44.60425><480.4207><0.2391304><1><57.60425><26.42065><-213.3553><272.6447><0><0.4260871, 
+FadePalette: 11, 0.2065217, 0.1847826
+WetTerrain: OFF

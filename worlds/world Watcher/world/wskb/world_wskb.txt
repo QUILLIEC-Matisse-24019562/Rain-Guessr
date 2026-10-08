@@ -1,0 +1,89 @@
+CONDITIONAL LINKS
+END CONDITIONAL LINKS
+
+ROOMS
+WSKB_C01 : WSKB_C16, WSKB_S06, WSKB_C04, WSKB_N01
+WSKB_S06 : WSKB_C01 : SHELTER
+WSKB_C16 : WSKB_C03, WSKB_N05, WSKB_C01
+WSKB_C03 : WSKB_N07, WSKB_C05, WSKB_C16
+WSKB_C04 : WSKB_C05, WSKB_C01, WSKB_C10
+WSKB_C05 : WSKB_C03, WSKB_C06, WSKB_C09, WSKB_C04
+WSKB_C06 : WSKB_C07, WSKB_C05, WSKB_C08
+WSKB_C07 : WSKB_C06
+WSKB_C08 : WSKB_C06, WSKB_C09
+WSKB_C09 : WSKB_C08, WSKB_C05, WSKB_C17
+WSKB_C10 : WSKB_C04, WSKB_C11, WSKB_N14
+WSKB_C11 : WSKB_C12, WSKB_C10
+WSKB_C12 : WSKB_C13, WSKB_C11
+WSKB_C13 : WSKB_C17, WSKB_C12
+WSKB_C17 : WSKB_C15, WSKB_C09, WSKB_C13
+WSKB_C15 : WSKB_C17, DISCONNECTED
+
+WSKB_N01 : WSKB_C01, WSKB_N02
+WSKB_N02 : WSKB_N01, WSKB_N03
+WSKB_N03 : WSKB_N12, WSKB_N02, WSKB_N04, WSKB_N16
+WSKB_N04 : WSKB_S0N, WSKB_N03, WSKB_C18
+WSKB_C18 : WSKB_N04
+WSKB_S0N : WSKB_N04 : SHELTER
+WSKB_N07 : WSKB_N08, WSKB_C03
+WSKB_N08 : WSKB_N07, WSKB_N06
+WSKB_N05 : WSKB_N06, WSKB_C16
+WSKB_N06 : WSKB_N08, WSKB_N09, WSKB_N10, WSKB_N05
+WSKB_N09 : WSKB_N06 : SWARMROOM
+WSKB_N10 : WSKB_N11, WSKB_N06, WSKB_N16
+WSKB_N11 : WSKB_N12, WSKB_N10
+WSKB_N12 : WSKB_N11, WSKB_N13, WSKB_N03
+WSKB_N13 : WSKB_N12
+WSKB_N14 : WSKB_N15, WSKB_C10
+WSKB_N15 : WSKB_N17, WSKB_N14
+WSKB_N16 : WSKB_N10, WSKB_N03, WSKB_N17
+WSKB_N17 : WSKB_N16, WSKB_N15
+END ROOMS
+
+CREATURES
+OFFSCREEN : 0-Scavenger-9
+WSKB_C01 : 4-Dropbug
+WSKB_C03 : 3-SmallCentipede-2
+WSKB_C16 : 3-Eggbug
+LINEAGE : WSKB_C03 : 3 : Centipede-{0.1}-0.8, Centipede-{0.5}-0.8, Centipede-{0.8}-0.8, RedCentipede-0
+WSKB_C05 : 4-CicadaA-3, 5-Cyan
+WSKB_C07 : 1-CicadaA-2
+LINEAGE : WSKB_C08 : 2 : Eggbug-0.2, Dropbug-0
+WSKB_C09 : 3-SmallCentipede-4
+LINEAGE : WSKB_C09 : 3 : Centipede-{0.7}-0.8, Centipede-{0.9}-0.8, RedCentipede-0
+WSKB_C10 : 2-Snail-2, 3-Leech-4
+WSKB_C13 : 2-Snail-3, 3-Leech-6
+WSKB_C17 : 3-Pink, 4-Leech-5, 5-Leech-5
+WSKB_C15 : 1-SmallCentipede-2, 2-Needle, 2-SmallNeedle-2
+LINEAGE : WSKB_C15 : 1 : Centipede-{0.1}-0.8, Centipede-{0.5}-0.8, Centipede-{0.8}-0.8, RedCentipede-0
+WSKB_C18 : 1-Needle, 1-SmallNeedle-2
+
+WSKB_N01 : 2-CicadaA-2, 4-Needle, 4-SmallNeedle-2
+LINEAGE : WSKB_N01 : 3 : Eggbug-0.2, Dropbug-0
+LINEAGE : WSKB_N01 : 5 : Pink-0.3, Green-0.5, Red-0
+WSKB_N03 : 6-SmallNeedle-2, 7-SmallCentipede-5
+LINEAGE : WSKB_N03 : 4 : Pink-0.3, Green-0.5, Red-0
+LINEAGE : WSKB_N03 : 5 : Centiwing-0.25, RedCentipede-0
+LINEAGE : WSKB_N03 : 7 : Centipede-{0.4}-0.5, Centipede-{0.7}-0.7, Centipede-{0.9}-0.8, RedCentipede-0
+LINEAGE : WSKB_N03 : 8 : Centipede-{0.7}-0.8, Centipede-{0.9}-0.8, RedCentipede-0
+WSKB_N05 : 2-SmallCentipede-2
+LINEAGE : WSKB_N05 : 3 : Pink-0.3, Blue-0.5, White-0
+WSKB_N06 : 5-CicadaA-2
+LINEAGE : WSKB_N06 : 6 : Centiwing-0.25, RedCentipede-0
+LINEAGE : WSKB_N06 : 4 : Needle-0.5, Centiwing-0.25, RedCentipede-0
+LINEAGE : WSKB_N07 : 3 : Centipede-{0.3}-0.5, Centipede-{0.6}-0.5, Centipede-{0.8}-0.5, RedCentipede-0
+LINEAGE : WSKB_N08 : 3 : White-0.4, Cyan-0
+WSKB_N10 : 3-Yellow, 4-Yellow, 5-Yellow, 6-Yellow
+WSKB_N11 : 2-CicadaA-2, 3-Yellow-2
+WSKB_N12 : 3-SmallCentipede-2
+WSKB_N13 : 1-CicadaA
+LINEAGE : WSKB_N13 : 1 : CicadaA-0.000244140625, CicadaB-0
+WSKB_N14 : 2-Leech-3, 3-Leech-3
+WSKB_N15 : 3-Leech-4, 4-Leech-4, 5-SmallCentipede-3
+LINEAGE : WSKB_N15 : 5 : Centipede-{0.7}-0.8, Centipede-{0.9}-0.8, RedCentipede-0
+WSKB_N16 : 3-Centiwing
+
+END CREATURES
+
+BAT MIGRATION BLOCKAGES
+END BAT MIGRATION BLOCKAGES

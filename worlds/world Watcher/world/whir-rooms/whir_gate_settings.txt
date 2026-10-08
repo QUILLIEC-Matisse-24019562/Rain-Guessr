@@ -1,0 +1,2 @@
+PlacedObjects: Corruption><617.3247><337.0105><0~181, RottenDangleFruit><829.4283><237.5362><0~0~2~3, RottenDangleFruit><758.5527><265.8416><0~0~2~3, RottenDangleFruit><705.6888><244.8229><0~0~2~3, RottenDangleFruit><658.6672><294.0545><0~0~2~3, KarmaFlowerPatch><782.6882><139.1965><-9~141~0.5653742~-774~150~0.1521739~0.7717391, PrinceFilter><795.5638><124.3089><-10~37~0~0~3~1~1, 
+FadePalette: 10, 0.2272583

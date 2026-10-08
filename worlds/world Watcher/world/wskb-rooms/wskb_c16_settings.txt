@@ -1,0 +1,5 @@
+Template: wskb_settingstemplate_inside
+Clouds: 0.078261
+PlacedObjects: CustomDecal><430.0519><101.7226><-14~453~317~366~141~-70~-140~128~0~1~0~rust1~0.4130435~1~0.4130435~1~0.4130435~1~0.4130435~1, 
+AmbientSounds: SPOT><am_ind-utility03.ogg><589.6667><45.11041><0.3913043><0.7065217><706.6667><350.1104><-35.35534><-35.35534><0><0.3608697, 
+FadePalette: 8, 0.5

@@ -1,0 +1,7 @@
+Clouds: 0
+Grime: 0
+BkgDroneVolume: 0.326087
+Effects: SuperStructureProjector-0.173913-16-80, ProjectedScanLines-0.1956522-20-132, SunBlock-1-275-86, SSSwarmers-0.1521739-275-25, ZeroG-1-275-150, SSMusic-0.4852174-271-205, BrokenZeroG-0-20-21, 
+PlacedObjects: SuperStructureFuses><438.105><-49.4202><91~61, CoralStem><602.0576><446.6915><-100~10, CoralStem><372.3037><139.9615><32~114, ProjectedStars><469.8208><389.5887><372~172, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><755.5798><486.8949><0.5><1, OMNI><SO_ENV-StrongWnd.ogg><761.9447><396.5456><0.1956522><1, OMNI><AM_SFX-RandomGods.ogg><763.744><305.3001><0><1, OMNI><AM_IND-DeepHum.ogg><765.8309><229.1829><0.5217391><1, 
+FadePalette: 10, 0

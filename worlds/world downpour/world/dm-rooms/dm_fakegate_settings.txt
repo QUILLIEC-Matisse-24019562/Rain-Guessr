@@ -1,0 +1,7 @@
+Clouds: 0
+Grime: 0
+BkgDroneVolume: 0
+Effects: ZeroG-0.9239131-30-30, SuperStructureProjector-0.06521739-270-138, ProjectedScanLines-0.08695652-20-78, SunBlock-1-30-134, FakeGate-1-280-82, BrokenZeroG-1-303-25, SSMusic-0.18695652-262-189, 
+PlacedObjects: NoSpearStickZone><483.5829><238.318><-236~137, WallMycelia><101.6571><321.5729><0~100, WallMycelia><876.728><320.0512><-6~156, LightSource><482.4031><-56.62134><0.2173913~Environment~-624~740~50~86.60254~0~0~None~0~0, ProjectedStars><1034.551><237.7361><-234~-16, ProjectedStars><71.55042><251.7379><8~128, LightFixture><877.8964><93.72965><RedLight~17.32051~-10~75, LightFixture><741.3298><477.6234><RedLight~17.32051~-10~20, LightFixture><166.6612><126.3685><RedLight~17.32051~-10~44, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><78.57001><473.1873><0.2065217><1><464.57><-39.81265><-132.3553><-32.35534><0><0.3173914, OMNI><AM_SUB-BlankState.ogg><829.9221><646.3518><0.2173913><1, OMNI><AM_IND-SuperStructure.ogg><829.1406><573.8923><0.3913043><1, 
+FadePalette: 23, 0.8043478

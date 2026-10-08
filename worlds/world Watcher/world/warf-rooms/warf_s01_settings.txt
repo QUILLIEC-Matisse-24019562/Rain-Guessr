@@ -1,0 +1,9 @@
+Template: NONE
+Clouds: 0.8152174
+Grime: 0.2065217
+Palette: 81
+EffectColorA: 9
+EffectColorB: 10
+PlacedObjects: LightSource><761.4418><352.0647><0.06521739~White~-62~-4~-397~92.60254~1~0~None~0~0, 
+AmbientSounds: OMNI><Noise Wind.wav><26.08405><117.3884><0.09782609><1, 
+FadePalette: 83, 0.9021739

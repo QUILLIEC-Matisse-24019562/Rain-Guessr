@@ -1,0 +1,2 @@
+PlacedObjects: WallMycelia><473.928><382.1576><0~100, 
+FadePalette: 10, 1

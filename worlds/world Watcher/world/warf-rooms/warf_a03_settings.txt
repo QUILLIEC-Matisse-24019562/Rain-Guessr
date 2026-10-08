@@ -1,0 +1,16 @@
+Template: NONE
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3043478
+Grime: 0
+Palette: 80
+EffectColorA: 10
+Effects: Fog-1-20-20, 
+PlacedObjects: CustomDecal><343.684><217.6715><-25~193~323~424~350~-35~-765~-562~0~1~0~GreyBones~0.2065217~1~0.2065217~1~0.2065217~1~0.2065217~1, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><103.3739><8.656982><0.3586957><1.156522, OMNI><AM_WIN_Hilltop.ogg><292.1569><11.323><0.25><1.9, SPOT><SO_IND-HVAC.ogg><23.27631><142.4483><0.4290132><0.8043478><449.2763><431.4483><-27.35535><-27.35535><0><0.1610576, SPOT><AM_WIN_Hilltop.ogg><78.44531><455.043><0.2065217><1.9><615.4453><654.043><-2.355347><-91.35535><0><0.0891304, 
+FadePalette: 32, 0.7065217
+WetTerrain: OFF

@@ -1,0 +1,8 @@
+Template: NONE
+Grime: 0
+Palette: 22
+EffectColorA: 18
+EffectColorB: 14
+PlacedObjects: LightFixture><584.8004><309.9876><RedLight~-374.6795~106~13, LightSource><1108.045><299.3052><0.2826087~EffectColor1~4~81~-197~-231.3975~1~1~None~0~0, LightSource><1007.1><300.6734><0.2934783~EffectColor1~-3~78~-168~270.6025~1~1~None~0~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><758.1202><490.5901><0.3369565><1, OMNI><Deep Weird Wind.wav><767.0601><413.6908><0.1630435><1, OMNI><SO_IND-Fridge.ogg><718.8013><233.4778><0.2391304><1, OMNI><SO_SFX-Kepler.ogg><747.819><319.8352><0.1630435><1, OMNI><SO_SFX-Heartbeat1.ogg><754.6821><567.1881><0.1847826><1, 
+FadePalette: 30, 0.4347826

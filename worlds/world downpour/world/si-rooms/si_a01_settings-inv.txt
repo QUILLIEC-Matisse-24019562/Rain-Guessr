@@ -1,0 +1,5 @@
+Palette: 10
+EffectColorA: 11
+EffectColorB: 12
+PlacedObjects: SSLightRod><810.1398><132.357><83.32056~-51~0.1252494~0~187.3968~0.2065217, SSLightRod><810.6743><482.9298><-396.6795~-12~0.1195652~180~88.24874~0.5, Corruption><406.9055><361.9584><1~154, 
+FadePalette: 33, 0.7826087

@@ -1,0 +1,12 @@
+Template: NONE
+RainIntensity: 1
+RumbleIntensity: 1
+Clouds: 0.5
+Grime: 0
+Palette: 81
+EffectColorA: 10
+EffectColorB: 13
+Effects: Fog-1-20-20, 
+PlacedObjects: LightFixture><550.9581><304.1956><HolyFire~-699.6795~275~96, LightFixture><330.6999><344.7514><HolyFire~-513.6795~135~76, InsectGroup><550.0559><304.192><25~-17~-224~-280~StandardFly~0.1086956, InsectGroup><332.8247><341.0962><-32~19~2~-246~StandardFly~0.1086956, LightFixture><795.878><325.5916><SlimeMoldLight~-654.6795~231~84, LightFixture><412.5585><343.8077><SlimeMoldLight~-32.67947~151~50, LightSource><332.1589><343.9186><0.1086956~EffectColor2~151~82~-339~-196.3975~0~1, LightSource><551.1237><301.905><0.1521739~EffectColor2~139~123~-677~23.60254~0~1, CustomDecal><-89.09125><-44.1284><91~658~1181~688~1211~3~-323~-298~0.2065217~0.3478261~0~PointyArrows~0.4456522~1~0.4456522~1~0.4456522~1~0.4456522~1, LightSource><329.5624><340.44><0.3043478~EffectColor2~4~37~50~86.60254~0~0, LightSource><550.5428><302.0546><0.3369561~EffectColor2~3~50~50~86.60254~0~0, CustomDecal><84.93213><210.8119><-7~228~828~250~847~-32~777~-268~0~1~0~GreyBones~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, ReliableSpear><586.1426><188.3598><, 
+AmbientSounds: OMNI><SO_SFX-Morse.ogg><383.1931><35.198><0.0326087><1.9, OMNI><SO_NAT-Fire.ogg><185.6855><36.07474><0.2065217><1, OMNI><AM_ENV-SubTerr.ogg><582.8216><37.59036><0.2065217><1, SPOT><AM_WIN_Hilltop.ogg><758.1999><458.5073><0.2065217><1.9><-85.80011><321.5073><-125.3553><-97.35535><0><0.252174, 
+FadePalette: 83, 0.8043478

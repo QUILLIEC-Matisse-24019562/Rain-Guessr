@@ -1,0 +1,4 @@
+Template: wvwa_settingstemplate_pillars
+Effects: Ripple Settings-0-1009-422-White-WARD-ward_e26-0-6.6-32-1, 
+PlacedObjects: LightSource><462.3973><184.5197><0.1358901~Environment~553.0675~436.5873~50~86.60254~1~1~None~0~0, CustomDecal><-27.39948><-3.782087><-11.11267~697.7975~1029.025~728.5517~1046.121~6.834259~0~0~0~1~0~rustb1~0.3885017~1~0.4349594~1~0.2491293~1~0.2026719~1, FluxWaterfall><500><640><3~0.9552838~D~0~0, FluxWaterfall><400><640><3~0.9552838~D~0~0, FluxWaterfall><600><640><3~0.9552838~D~0~0, FluxWaterfall><300><640><3~0.9552838~D~0~0, WarpPoint><482.251><546.1553><159~-125~Watcher~NULL~NULL~NULL~NULL~NULL~90619dc7-458a-4ec5-bf08-b2e16e42a435~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~true~true~true~true~false~0~-1~-1, 
+AmbientSounds: SPOT><RWTW_AmbSubBubble.ogg><241.0467><378.9438><0.1840893><1><485.9717><596.3943><-125.1113><-109.6779><0><0.1836236, 

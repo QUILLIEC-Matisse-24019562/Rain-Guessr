@@ -1,0 +1,136 @@
+CONDITIONAL LINKS
+END CONDITIONAL LINKS
+
+ROOMS
+WPGA_E01 : DISCONNECTED, WPGA_A05
+WPGA_A05 : WPGA_A06, WPGA_E01
+WPGA_A06 : WPGA_A05, WPGA_C02 : SWARMROOM
+WPGA_C02 : WPGA_B03, WPGA_C03, WPGA_A06
+WPGA_C03 : WPGA_A07, WPGA_C02 : SWARMROOM
+WPGA_A07 : WPGA_S02, WPGA_C03, WPGA_D02
+WPGA_S02 : WPGA_A07 : SHELTER
+WPGA_D02 : WPGA_B05, WPGA_A07
+WPGA_B03 : WPGA_A10, WPGA_A08, WPGA_C02
+WPGA_A08 : WPGA_A09, WPGA_B03
+WPGA_A09 : WPGA_A08 : SWARMROOM
+WPGA_A10 : WPGA_B04, WPGA_B03
+WPGA_B04 : WPGA_B11, WPGA_A10
+WPGA_B11 : WPGA_A26, WPGA_B04
+WPGA_A26 : WPGA_A30, WPGA_A27, WPGA_B11
+WPGA_A30 : WPGA_C06, WPGA_A26 : SWARMROOM
+WPGA_A27 : WPGA_A26, WPGA_S04
+WPGA_S04 : WPGA_A27 : SHELTER
+WPGA_B05 : WPGA_A20, WPGA_D02, WPGA_D01
+WPGA_A20 : WPGA_A21, WPGA_B05
+WPGA_A21 : WPGA_A18, WPGA_A20
+WPGA_A01 : WPGA_A03, WPGA_D01
+WPGA_D01 : WPGA_B05, WPGA_A01, WPGA_A11, WPGA_A02
+WPGA_A11 : WPGA_A12, WPGA_D01
+WPGA_A12 : WPGA_C04, WPGA_A11
+WPGA_C04 : WPGA_B06, WPGA_A12
+WPGA_B06 : WPGA_smiley, WPGA_S03, WPGA_A16, WPGA_C04
+WPGA_S03 : WPGA_B06 : SHELTER
+WPGA_smiley : WPGA_B06
+WPGA_A16 : WPGA_A14, WPGA_A22, WPGA_B06
+WPGA_A14 : WPGA_A17, WPGA_A16 : SWARMROOM
+WPGA_A17 : WPGA_A14, WPGA_A18
+WPGA_A18 : WPGA_A17, WPGA_A21, WPGA_A19
+WPGA_A19 : WPGA_B07, WPGA_A18
+WPGA_B07 : WPGA_A13, WPGA_A19
+WPGA_A22 : WPGA_A16, WPGA_A24
+WPGA_A24 : WPGA_A25, WPGA_A22, WPGA_C05
+WPGA_A25 : WPGA_B10, WPGA_A24
+WPGA_B10 : WPGA_A25
+WPGA_C05 : WPGA_A29, WPGA_B09, WPGA_A24
+WPGA_B09 : WPGA_C05, WPGA_A23
+WPGA_A23 : WPGA_B09, WPGA_A03
+WPGA_A02 : WPGA_D01
+WPGA_A03 : WPGA_A23, WPGA_B01, WPGA_A01
+WPGA_B01 : WPGA_A04, WPGA_A03
+WPGA_A04 : WPGA_B02, WPGA_S01, WPGA_B01
+WPGA_S01 : WPGA_A04 : SHELTER
+WPGA_B02 : WPGA_B08, WPGA_A13, WPGA_A04
+WPGA_B08 : WPGA_B02
+WPGA_A13 : WPGA_C01, WPGA_B07, WPGA_B02
+WPGA_C01 : WPGA_A13, WPGA_A28
+WPGA_A28 : WPGA_B12, WPGA_C01
+WPGA_A29 : WPGA_B12, WPGA_C05
+WPGA_B12 : WPGA_A29, WPGA_A28, WPGA_C06
+WPGA_C06 : WPGA_A30, WPGA_B12
+END ROOMS
+
+CREATURES
+//Featuring Paste the blue scav. Special thanks to arctic_ptarmigan and alduris for helping me find the scavenger ID.
+OFFSCREEN : 0-Deer-3, 0-Scavenger-12, 0-Scavenger-{Seed:8413}
+WPGA_E01 : 2-CicadaB-5, 3-Frog-5, 4-Strawberry-{Mean:-0.6}, 5-Frog-4
+WPGA_A05 : 2-Frog-3
+WPGA_C02 : 5-Frog-4, 6-Frog-3, 7-Snail-4
+LINEAGE : WPGA_C02 : 3 : Strawberry-0.5, Pink-0.5, Cyan-0
+LINEAGE : WPGA_C02 : 4 : Pink-0.5, Blue-0.5, Cyan-0
+WPGA_C03 : 2-Frog-3, 3-CicadaB-4
+WPGA_A07 : 3-Frog-2
+WPGA_D02 : 2-CicadaB-3, 4-Mimic-{19}, 6-Frog-5
+LINEAGE : WPGA_D02 : 3 : Strawberry-0.5, Pink-0.5, Cyan-0
+LINEAGE : WPGA_D02 : 5 : Strawberry-0.5, Pink-0.5, Cyan-0
+WPGA_B03 : 3-CicadaB-2, 5-Frog-4, 6-Snail-2
+LINEAGE : WPGA_B03 : 4 : Pink-0.5, Blue-0.5, Cyan-0
+WPGA_A09 : 1-CicadaB-2
+LINEAGE : WPGA_B04 : 2 : Strawberry-0.5, Pink-0.5, Cyan-0
+WPGA_B04 : 3-Needle, 3-SmallNeedle-2
+WPGA_B11 : 2-CicadaB-3
+LINEAGE : WPGA_B11 : 3 : White-0.6, Cyan-0
+WPGA_A30 : 2-CicadaB-2
+LINEAGE : WPGA_B05 : 4 : Strawberry-0.5, Pink-0.5, Cyan-0
+LINEAGE : WPGA_B05 : 3 : Eggbug-0.01, RedCentipede-1, Eggbug-0
+WPGA_A20 : 2-Green-{Mean:0.5}
+WPGA_A01 : 2-Snail-3
+WPGA_D01 : 4-CicadaB-4, 5-Leech-7, 6-Leech-6, 7-Leech-7
+WPGA_A11 : 2-Snail-2
+LINEAGE : WPGA_A12 : 3 : Strawberry-0.5, Pink-0.5, Cyan-0
+WPGA_A12 : 2-Needle, 2-SmallNeedle-2
+WPGA_C04 : 3-Needle, 3-SmallNeedle-2
+LINEAGE : WPGA_C04 : 2 : White-{Mean:0.5}-0.8, Cyan-{Mean:0.5}-0
+WPGA_B06 : 4-Needle, 4-SmallNeedle-3
+// Greeble the green lizard. Special thanks to shortstaq and stormthecat for the ID. 
+WPGA_smiley : 1-Green-{Mean:-1.0|Seed:4193}
+WPGA_A16 : 3-Eggbug
+LINEAGE : WPGA_A14 : 3 : Green-0.2, Red-0
+LINEAGE : WPGA_A17 : 2 : Green-0.2, Red-0
+LINEAGE : WPGA_A18 : 3 : Green-0.2, Red-0
+WPGA_A19 : 2-Eggbug
+LINEAGE : WPGA_B07 : 4 : Green-0.2, Red-0
+LINEAGE : WPGA_B07 : 3 : Strawberry-0.5, Pink-0.5, Cyan-0
+WPGA_B07 : 2-Needle
+WPGA_A22 : 2-Snail-2
+LINEAGE : WPGA_C05 : 4 : Strawberry-0.5, Pink-0.5, Cyan-0
+WPGA_C05 : 3-Eggbug
+WPGA_B09 : 3-Snail-3
+LINEAGE : WPGA_B09 : 2 : Strawberry-0.5, White-0.5, Cyan-0
+WPGA_B10 : 1-Green-{Mean:-0.3}, 2-Snail-2
+WPGA_A03 : 4-Snail-2, 5-Leech-7
+LINEAGE : WPGA_A03 : 3 : Green-0.2, Red-0
+LINEAGE : WPGA_B01 : 2 : Mimic-{6}-1, Tentacle-0
+LINEAGE : WPGA_B01 : 3 : Mimic-{12}-1, Tentacle-0
+LINEAGE : WPGA_B01 : 4 : Mimic-{11}-1, Tentacle-0
+LINEAGE : WPGA_B01 : 5 : Mimic-{12}-1, Tentacle-0
+LINEAGE : WPGA_B01 : 7 : Mimic-{19}-1, Tentacle-0
+LINEAGE : WPGA_B01 : 6 : Strawberry-0.5, Pink-0.5, Cyan-0
+WPGA_A04 : 3-Snail-2
+WPGA_B02 : 3-Needle, 3-SmallNeedle-3, 6-Dropbug
+WPGA_B08 : 1-CicadaB-2, 2-CicadaB-2
+LINEAGE : WPGA_B02 : 4 : Strawberry-0.5, Pink-0.5, Cyan-0
+LINEAGE : WPGA_B02 : 5 : Mimic-{16}-1, Tentacle-0
+LINEAGE : WPGA_A13 : 3 : Pink-0.5, Blue-0.5, Cyan-0
+LINEAGE : WPGA_C01 : 2 : Strawberry-0.5, Pink-0.5, Cyan-0
+WPGA_C01 : 3-Needle, 3-SmallNeedle-2, 4-Dropbug
+LINEAGE : WPGA_A28 : 2 : Strawberry-0.5, Pink-0.5, Cyan-0
+WPGA_A29 : 2-Eggbug
+LINEAGE : WPGA_B12 : 3 : White-0.6, Cyan-0
+WPGA_B12 : 4-Needle, 4-SmallNeedle-2
+LINEAGE : WPGA_C06 : 3 : Pink-0.5, White-0.5, Cyan-0
+WPGA_C06 : 2-CicadaB-2
+
+END CREATURES
+
+BAT MIGRATION BLOCKAGES
+END BAT MIGRATION BLOCKAGES

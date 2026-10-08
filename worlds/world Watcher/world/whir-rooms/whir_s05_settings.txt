@@ -1,0 +1,3 @@
+DangerType: Flood
+Effects: Sentient Rot Spores-0-60.90775-94, 
+FadePalette: 10, 0.2605831

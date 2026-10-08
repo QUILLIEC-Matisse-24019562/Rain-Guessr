@@ -1,0 +1,8 @@
+Clouds: 0
+Grime: 0.25
+Palette: 300
+EffectColorA: 0
+EffectColorB: 0
+PlacedObjects: DangleFruit><543.0813><1326.438><0~0~2~3, DangleFruit><608.3215><1298.64><0~0~2~3, DangleFruit><401.8891><1312.677><0~0~2~3, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><56.14435><481.0914><0.2862955><1><160.879><1517.588><-258.463><-232.6946><0><1, 
+FadePalette: 301, 0, 0

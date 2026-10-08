@@ -1,0 +1,28 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.5
+RumbleIntensity: 0.1086956
+WaveSpeed: 0.4967676
+WaveLength: 0.9983838
+WaveAmplitude: 0.04736541
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.05434782
+Grime: 0.06521739
+BkgDroneVolume: 0
+Palette: 69
+TerrainLight: 0.6195652
+TerrainStainAmount: 1
+TerrainStainBrightness: 0.1956522
+TerrainStainHeight: 0.6956522
+TerrainWaves: 0.3695652
+TerrainEdgeRadius: 200
+TerrainGooHeight: 0.02173913
+TerrainGrain: 1
+TerrainDepth: 0.2173844
+TerrainSkyFade: 0.6086956
+TerrainPalette: outerrim
+PlacedObjects: TerrainHandle><265.6844><308.6725><-131~93~113~-29~193, TerrainHandle><724.0553><316.7959><-137~-38~72~34~226, TerrainHandle><488.4498><103.2596><-191~-24~201~-15~160, DynamicWarpTarget><472.067><1865.33><-385~-6~2~false~true, FloatingDebris><693.0534><3395.526><63~-108~1454380246~0~17~0.4991376~1.153147~20~-310|-150.0112~288|56.55804~1.79|0.8467786~0|0~0|0.2684271~Stardust~0.5~-0.08v2.53v0v0|-0.09707823v0.5283142v0v0~0, FloatingDebris><550.6758><3280.814><-483~-67~890546578~0~30~0.25~1.413043~100~-103|-6~206|-2935~1.76|1.05~0|0~0|0~Stardust~0.5~-0.4458429v0.13v0v0|-0.33v0.07v0v0~0, 
+AmbientSounds: SPOT><RWTW_DustStorm_High.ogg><754.4201><475.8552><0.2282609><1><478.4201><3614.855><-58.35535><-337.3553><0><0.5130436, OMNI><RWTW_DustStorm_Deep.ogg><759.8714><396.1589><0.2065217><0.5695652, SPOT><RWTW_AR_CityWithNoBuildings.ogg><761.0615><241.8097><0.2391304><0.6478261><487.0615><2549.811><22.64465><-1086.355><0><0.8500001, OMNI><RWTW_RotAmb_VanillaRot.ogg><574.0229><386.0513><0.1630435><1, SPOT><RWTW_DustStorm_Gusting.ogg><591.5556><123.4421><0.1195652><1><520.5556><169.4421><-48.35535><-0.3553391><0><0.1, 
+FadePalette: 22, 0.2065217, 0.2065217, 0.2391304, 0.2391304, 0.2282609

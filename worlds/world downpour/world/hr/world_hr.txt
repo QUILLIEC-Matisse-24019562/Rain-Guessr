@@ -1,0 +1,125 @@
+ROOMS
+HR_C01 : HR_A06, HR_A02
+HR_A02 : HR_A07, HR_C01, HR_AP01
+HR_A06 : HR_A07, HR_C01
+HR_A07 : HR_A06, HR_AP01, HR_A02
+HR_AP01 : HR_LCA, HR_S02, HR_A07, HR_A02 : ARENA
+HR_S02 : HR_AP01 : SHELTER
+
+HR_LCA : HR_A03, HR_A04, HR_A05, HR_AP01
+HR_A03 : HR_BR1, HR_LCA
+HR_A05 : HR_COL, HR_LCA : ARENA
+HR_COL : HR_BR1, HR_A05
+HR_A04 : HR_US1, HR_LCA
+HR_US1 : HR_A7R, HR_S1R, HR_A04
+HR_S1R : HR_US1 : SHELTER
+HR_A7R : HR_BR1, HR_US1 : ARENA
+HR_BR1 : HR_IN1, HR_A7R, HR_COL, HR_A03
+
+HR_IN1 : HR_BI01, HR_BR1 : ARENA
+HR_BI01 : HR_BI02, HR_SHR, HR_IN1
+HR_SHR : HR_BI01 : SHELTER
+HR_BI02 : HR_TP1, DISCONNECTED, HR_BI01
+HR_TP1 : HR_CT1, HR_B03, HR_B01, HR_BI02
+
+HR_B03 : HR_CT1, HR_TP1, HR_TER : ARENA
+HR_CT1 : HR_B02, HR_B03, HR_TP1
+HR_B02 : HR_S11, HR_CT1
+HR_S11 : HR_B02 : SHELTER
+HR_TER : HR_gbfi, HR_B03 : PERF_HEAVY
+HR_B01 : HR_hrce, HR_TP1 : PERF_HEAVY
+HR_hrce : HR_A16, HR_B01
+HR_gbfi : HR_R05, HR_TER
+
+HR_A16 : HR_A17, HR_A18, HR_hrce
+HR_A17 : DISCONNECTED, HR_C02, HR_A16
+HR_S04 : HR_A18 : SHELTER
+HR_A18 : HR_C02, HR_A16, HR_S04
+HR_C02 : HR_L07, HR_A17, HR_A18 : ARENA
+HR_L07 : HR_L08, HR_C02
+HR_L08 : HR_C14, HR_B05, HR_L07
+HR_S06 : HR_B05 : SHELTER
+HR_B05 : HR_A14, HR_S06, HR_L08 : ARENA
+HR_C14 : HR_A14, HR_L08
+HR_A14 : HR_A25, HR_C14, HR_B05
+HR_A25 : HR_A08, HR_A14
+HR_L02 : HR_E04, HR_I01
+HR_E04 : HR_L03, HR_L02
+HR_L03 : HR_L04, HR_E04
+HR_L04 : HR_A08, HR_L03, HR_S12, HR_L05
+HR_S12 : HR_L04 : SHELTER
+HR_A08 : HR_A25, HR_L04
+HR_L05 : HR_L04, HR_L06
+HR_L06 : HR_L05, HR_H01 : ARENA
+HR_H01 : HR_M06, HR_L06
+
+HR_M06 : HR_H01, HR_J02
+HR_M05 : HR_R02, HR_J02
+HR_J02 : HR_M06, HR_I01, HR_M05 : ARENA
+HR_I01 : HR_M01, HR_L02, DISCONNECTED, HR_S05, HR_J02
+HR_S05 : HR_I01 : SHELTER
+
+HR_S03 : HR_R05 : SHELTER
+HR_R05 : HR_R07, HR_R01, HR_gbfi, HR_S03
+HR_R07 : HR_R06, HR_R05 : ARENA
+HR_R01 : HR_R04, HR_R05
+HR_R04 : HR_R06, HR_R01 : ARENA
+HR_R06 : HR_R11, HR_R08, HR_R04, HR_R07
+HR_R11 : HR_C09, HR_R09, HR_R13, HR_R06
+HR_S01 : HR_R13 : SHELTER
+HR_R13 : HR_S01, HR_B14, HR_R11 : ARENA
+HR_B14 : HR_R13, HR_R12
+HR_R08 : HR_R06, HR_R10
+HR_R10 : HR_R08, HR_R12
+HR_R12 : HR_R16, HR_B14, HR_R10
+HR_R16 : HR_LAYERS_OF_REALITY, HR_R18, HR_R17, HR_R12
+HR_R17 : HR_R16, HR_C09
+HR_R18 : HR_R16, HR_R15
+HR_R03 : HR_R14, HR_S10, HR_R02
+HR_S10 : HR_R03 : SHELTER
+HR_R14 : HR_R03, HR_R15 : ARENA
+HR_R15 : HR_R14, HR_R18, HR_C09
+HR_C09 : HR_R15, HR_R17, HR_R11
+HR_R09 : HR_R02, HR_R11 : ARENA
+HR_R02 : HR_R03, HR_M05, HR_R09
+
+HR_M01 : HR_M02, HR_I01
+HR_M02 : HR_M03, HR_M01
+HR_M03 : HR_M04, HR_M02
+HR_M04 : HR_AI, HR_M03
+HR_LAYERS_OF_REALITY : HR_R16
+HR_AI : HR_FINAL, HR_M04
+HR_FINAL : HR_AI
+END ROOMS
+
+CREATURES
+//all
+OFFSCREEN : 0-MirosVulture-8-{Voidsea}, 0-Leviathan-1-{Voidsea}, 0-Miros-6
+HR_LCA : 8-FireBug-{Voidsea}
+HR_A04 : 2-RedCentipede-{Voidsea}
+HR_A05 : 3-Cyan-{Voidsea}, 6-RedCentipede-{Voidsea}, 8-White-{Voidsea}, 9-White-{Voidsea}, 10-Cyan-{Voidsea}
+HR_BR1 : 4-Cyan-{Voidsea}, 16-Red-{Voidsea}, 4-Red-{Voidsea}, 14-SpitterSpider-{Voidsea}, 16-Red-{Voidsea}
+HR_A7R : 2-Red-{Voidsea}, 7-Red-{Voidsea}
+HR_US1 : 4-FireBug-{Voidsea}
+HR_IN1 : 3-Tentacle Plant, 4-Tentacle Plant
+HR_B03 : 4-RedCentipede-{Voidsea}, 8-Red-{Voidsea}, 5-SpitterSpider-{Voidsea}, 6-White-{Voidsea}
+HR_gbfi : 2-FireBug-{Voidsea}
+HR_R07 : 7-BigNeedleWorm, 8-SmallNeedleWorm-3, 9-CicadaA, 10-CicadaB, 11-CicadaA, 12-CicadaB, 14-Red-{Voidsea}, 19-Red-{Voidsea}
+HR_R04 : 2-SpitterSpider-{Voidsea}, 3-White-2-{Voidsea}, 4-White-{Voidsea}, 5-SpitterSpider-{Voidsea}
+HR_R10 : 5-FireBug-{Voidsea}
+HR_R13 : 6-RedCentipede-{Voidsea}, 8-Red-{Voidsea}
+HR_R17 : 5-Daddy-{Voidsea}
+HR_R18 : 2-Snail-3, 6-Snail-2, 8-Red-{Voidsea}
+HR_R09 : 2-Yellow-5, 6-White-{Mean:1.0}, 7-White-{Mean:1.0}
+HR_I01 : 5-FireBug-{Voidsea}
+HR_J02 : 5-Daddy-{Voidsea}, 6-Daddy-{Voidsea}, 7-Cyan-{Voidsea}, 8-Daddy-{Voidsea}, 12-Cyan-{Voidsea}, 17-FireBug-{Voidsea}, 18-FireBug-{Voidsea}
+HR_L02 : 4-Yellow-6
+HR_A25 : 2-FireBug-{Voidsea}
+HR_B05 : 3-RedCentipede-{Voidsea}
+HR_L06 : 2-CicadaA-3, 3-CicadaB-4
+HR_C02 : 5-Red-{Voidsea}, 7-Red-{Voidsea}, 8-Centiwing, 9-Centiwing
+HR_hrce : 5-FireBug-{Voidsea}, 8-FireBug-{Voidsea}
+END CREATURES
+
+BAT MIGRATION BLOCKAGES
+END BAT MIGRATION BLOCKAGES

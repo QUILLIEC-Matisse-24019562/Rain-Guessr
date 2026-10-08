@@ -1,0 +1,9 @@
+Template: GW_SettingsTemplate_Inside
+Grime: 0.2065217
+PlacedObjects: BrokenShelterWaterLevel><496.6258><351.5945><, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><760.8157><456.3276><0.4347826><1><399.8157><344.3276><-207.3553><-73.35535><0><0.328261, 
+FadePalette: 8, 0.6086956
+Palette: 39
+EffectColorA: 21
+EffectColorB: 21
+Effects: WaterDepth-0-289-22, LethalWater-1-302-85, 

@@ -1,0 +1,21 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.5805572
+WaveLength: 0.9597214
+WaveAmplitude: 0.0002341782
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2065217
+Grime: 0
+Palette: 455
+EffectColorA: 10
+EffectColorB: 2
+TerrainGooHeight: 0.1084913
+TerrainDepth: 0.1076007
+TerrainPalette: test_snow
+Effects: Fog-1-20-20, Coldness-0.2082392-22-94, FairyParticles-0.0326087-296-12, 
+PlacedObjects: SnowSource><564.0664><476.0793><Strip~-108~84~354~108.6025~1~1, SnowSource><682.4491><366.2689><Radial~-263~132~50~86.60254~0.3695652~1, FairyParticleSettings><-137.6413><89.33212><-606~-333.3398~1~2.717391~9.782609~0.5543478~1.128429~6.713982~59.78261~375~108.6956~293.4782~0~0~50.86956~140.8696~0~0~0~0~1~1~0.2826087~0~4.521739~Dandelion~SIN_IO~SIN_IO~78.26087~0.08695652~0, CustomDecal><151.6337><0.1012268><39~718~784~665~682~-130~-597~-381~0~1~0~greybones~0.2065217~1~0.2065217~1~0.2065217~1~0.2065217~1, LightSource><531.6832><342.0615><0.07608695~EffectColor2~-719~-387~404~-509.3975~0~1~None~0~0, CustomDecal><195.0927><49.87659><16~240~486~535~434~-272~-606~-380~0~0.06521739~0~chaoticb&w2~0.3043478~1~1~1~0~1~0~1, LightBeam><114.0975><149.1294><644~530~788~491~342~-264~-304~199~0.4217393~0~0~1~None~0~0, LightSource><573.8535><379.3639><0.173913~White~-232~151~215~-203.3975~1~1~None~0~0, CustomDecal><181.9255><144.3459><-113~464~687~558~659~-179~-557~-476~0~1~0~ghostsplash~0.2065217~1~0.2065217~1~0.2065217~1~0.2065217~1, RippleSpawnEgg><470.0181><489.6919><, 
+AmbientSounds: OMNI><RWTW_AR_RearDen.ogg><598.6102><127.607><0.1086956><0.8043478, OMNI><SO_SFX-Kepler.ogg><359.7516><122.7><0.08695652><1, OMNI><RWTW_AR_WindyCliff.ogg><245.9327><34.93832><0.05434782><1, OMNI><am_sub-blankstate.ogg><458.9492><33.98224><0.3043478><1, 
+FadePalette: 14, 0.5147579
+WetTerrain: OFF

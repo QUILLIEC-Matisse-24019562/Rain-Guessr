@@ -1,0 +1,18 @@
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0.0
+rippleSpiderThreshold: 15
+softLightRegion: true
+boxWormColor: 1.058, 0.73, 0.368
+proceduralMusicBank: rwtw6
+Subregion: Desolate Tract
+Room Setting Templates: Tract
+Room_Attr: Default: A22Loach-Forbidden,
+Room_Attr: WTDB_A05: BlueLizard-Avoid,WhiteLizard-Avoid,CyanLizard-Avoid,Centipede-Avoid,RedCentipede-Avoid,SmallCentipede-Avoid,EggBug-Avoid,DropBug-Avoid,
+Room_Attr: WTDB_A11: BlueLizard-Avoid,WhiteLizard-Avoid,CyanLizard-Avoid,Centipede-Avoid,RedCentipede-Avoid,SmallCentipede-Avoid,EggBug-Avoid,DropBug-Avoid,
+Room_Attr: WTDB_A22: BlueLizard-Avoid,WhiteLizard-Avoid,CyanLizard-Avoid,Centipede-Avoid,RedCentipede-Avoid,SmallCentipede-Avoid,EggBug-Avoid,DropBug-Avoid,Loach-Forbidden,RotLoach-Stay,A22Loach-Stay,
+Room_Attr: WTDB_A24: BlueLizard-Avoid,WhiteLizard-Avoid,CyanLizard-Avoid,Centipede-Avoid,RedCentipede-Avoid,SmallCentipede-Avoid,EggBug-Avoid,DropBug-Avoid,Loach-Stay,RotLoach-Stay,
+Room_Attr: WTDB_A25: BlueLizard-Avoid,WhiteLizard-Avoid,CyanLizard-Avoid,Centipede-Avoid,RedCentipede-Avoid,SmallCentipede-Avoid,EggBug-Avoid,DropBug-Avoid,Loach-Stay,RotLoach-Stay,
+Room_Attr: WTDB_A34: Loach-Stay,RotLoach-Stay,
+Room_Attr: WTDB_A26: BlueLizard-Avoid,WhiteLizard-Avoid,CyanLizard-Avoid,Centipede-Avoid,RedCentipede-Avoid,SmallCentipede-Avoid,EggBug-Avoid,DropBug-Avoid,

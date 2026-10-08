@@ -1,0 +1,16 @@
+Template: NONE
+RainIntensity: 1
+RumbleIntensity: 1
+Clouds: 0.1086956
+Grime: 0
+RandomItemDensity: 0.4021739
+RandomItemSpearChance: 0
+WaterReflectionAlpha: 0.3043478
+Palette: 81
+EffectColorA: 9
+EffectColorB: 10
+Effects: Fog-1-20-20, Moth-0.05434782-273-21, Toxic Brine Water-1-30.56958-69.3007, 
+PlacedObjects: CustomDecal><-195.0586><-56.30798><6~774~1168~774~1190~0~-131.0301~-286.1105~0~1~0~greybones~0.2826087~1~0~1~0~1~0.1086956~1, CustomDecal><102.5557><40.341><-8~150~105.446~147.5308~99.69217~2~-317.9315~23.20794~0~0.06733239~0~whitetag~1~0~0~0~1~0~0~1, KarmaFlower><344.5108><508.116><504.9557~-16.04993~5~7, RippleSpawnEgg><750.7851><136.0539><, RippleSpawnEgg><512.5135><133.1867><, RippleTree><230.391><98.70174><3.086517~88.27119~0.2549737~0.5~right, WallLight><105.1788><360.2738><801.257~-516.686~105.1788~360.2738~-245.6874~225.9302~90.12311~0~368.5277~205.5591~1~0~0.1679814~False~SkyColor~False~False~Always~Hard, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><35.19232><531.6915><0.2065217><1, OMNI><AM_WIN_Hilltop.ogg><43.42957><452.9119><0.1521739><1.9, SPOT><SO_IND-MechHum03.ogg><20.668><328.4324><0.3043478><1><149.668><296.4324><-35.35534><-35.35534><0><0.06739144, SPOT><SO_IND-MechHum02.ogg><14.16553><203.6123><0.3586957><1><438.1655><352.6123><-35.35534><-35.35534><0><0.1, SPOT><SO_WAT-LightFlow.ogg><1153.517><250.0508><0.5><1.9><553.5174><-55.94925><1.644653><159.6447><0><0.1000001, SPOT><SO_WAT-LightFlow.ogg><1155.675><133.1537><0.5><1.9><390.6752><-59.84634><-128.3553><90.64465><0><0.1000001, SPOT><SO_WAT-LightFlow.ogg><1157.471><19.44797><0.5108696><1.9><706.4715><-51.55203><0.6446533><149.6447><0><0.1000001, 
+Triggers: Spot<tA>event<tB>BringPlayerGuideToRoom<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>671.8095<tB>398.189<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>Yellow<tA>pos<tB>364.8095<tB>241.189<tA>handlePos<tB>-35.35534<tB>-35.35534, 
+FadePalette: 83, 0.75

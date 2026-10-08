@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0.5108696
+Grime: 0.3913043
+Palette: 81
+EffectColorA: 10
+EffectColorB: 13
+Effects: Fog-1-20-20, Flies-0.3043478-291-22, 
+PlacedObjects: LightSource><535.202><448.3058><0.1304348~EffectColor2~219~48~-553~-35.39746~0~1~None~0~0, LightFixture><531.4757><501.5515><HolyFire~-542.6795~-164~24, InsectGroup><533.6863><501.1774><0~100~-543~-240~StandardFly~0.3043478, LightSource><530.1957><500.0413><0.1847826~EffectColor2~127~61~-529~-1.397461~0~0~None~0~0, CustomDecal><199.6679><201.4324><5~384~586~356~587~-32~-607~-540~0~1~0~GreyBones~0.08695652~1~0.08695652~1~0.08695652~1~0.08695652~1, LightSource><317.4382><510.8176><0.1847826~White~2~38~-487~-341.3975~0~0~None~0~0, CustomDecal><255.8613><377.356><-6~102~120~96~118~1~441~-453~0~1~0~ScavMark UpSign~0.25~0~0.25~0~0.25~0~0.25~0, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><121.2748><30.69846><0.2065217><1, OMNI><SO_NAT-Fire.ogg><313.6798><31.06271><0.2065217><1, OMNI><SO_SFX-Morse.ogg><498.0247><31.55154><0.0326087><1.9, 
+FadePalette: 83, 0.8586956

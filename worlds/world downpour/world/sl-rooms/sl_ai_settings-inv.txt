@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: FloodAndRain
+RainIntensity: 0.6086956
+WaveSpeed: 0.4975311
+WaveLength: 0.9987655
+WaveAmplitude: 0.03207998
+SecondWaveLength: 0.8079708
+SecondWaveAmplitude: 0.5108696
+Clouds: 0.1086956
+Grime: 0
+BkgDroneVolume: 0
+RandomItemDensity: 0
+Palette: 13
+EffectColorA: 18
+EffectColorB: 6
+Effects: BrokenZeroG-1-39-55, ElectricDeath-1-37-94, WaterFluxMinLevel-0.1086956-306-83, WaterFluxFrequency-0.2065217-303-30, WaterFluxMinDelay-0.2065217-566-30, WaterFluxMaxLevel-0.5-310-143, Fog-1-36-156, GreenSparks-0.5-30-4, Lightning-0.6086956-578-94, 
+PlacedObjects: LightSource><1301.739><650.5503><0.4782609~Environment~65~-233~-397.0053~-273.395~1~0~None~0~0, LightSource><1266.178><717.3132><0.1630435~Environment~38~-193~-350.9301~-209.4302~1~1~None~0~0, InsectGroup><226.3682><576.5886><-138~101~0~0~Moth~0.4673913, LightSource><509.8038><219.7891><0.1956522~Environment~-28~512~-270~139.6025~1~0~None~0~0, CustomDecal><1160.447><-53.96609><0~869.528~869.528~869.528~869.528~0~-534~-153~0~1~0~BlackRust1~0.173913~1~0.8586956~1~0~1~0~1, CustomDecal><875.7828><-51.5527><0~897.978~897.978~897.978~897.978~0~79.00018~-210.0296~0~1~0~Rust1~0~1~0~1~0~1~1~1, CustomDecal><1144.089><4.119202><-33~182~973~190~925~-3~100.0114~-310.0316~0.1630435~1~0~DirtyWaterLine~1~1~0.173913~1~0~1~0~1, SuperStructureFuses><1031.684><229.1718><94~142, ExitSymbolHidden><1528.467><650.5529><, LightSource><1811.073><591.5952><1~EffectColor1~-694~-524~127.993~-511.41~1~0~Fade~0.9025109~0, LightningMachine><1810.205><575.6922><-178~-236~0~0~-463~-124.3975~-497~-153~0.2088504~0~1~0.4935276~1~0.3~1~0.3261314~1~0.5~0~1~0, LightningMachine><1165.083><584.1951><19.99915~-171.0008~0~0~113~132.6025~254~-212~0.4586958~0~1~0.4187463~0.8~0.1695649~1~0.3586983~0~0.3586957~0~1~0, LightningMachine><1428.002><76.00409><297.0128~-65.03103~0~0~238~227.6025~12~51~0.2086779~0~1~0.6260867~1~0.3~1~0.3142143~2~0.5~0~1~0, 
+AmbientSounds: SPOT><SO_WAT-LilDrips.ogg><63.97223><487.3019><0.2065217><1><1553.972><218.3019><-295.3553><-120.3553><0><0.4586958, SPOT><SO_WAT-LilDrips.ogg><68.66486><368.1368><0.2826087><1><578.6648><182.1368><-357.3553><-69.35535><0><0.2956523, OMNI><AM_ENV-LightWind.ogg><832.3748><651.0937><0.3369565><0.8043478, OMNI><SO_WAT-LilDrips.ogg><653.1058><649.8887><0.3478261><1, SPOT><AM_IND-SuperStructure.ogg><55.92285><239.3155><0.3152174><1><-22.07715><554.3154><-60.35534><-102.3553><0><0.2956523, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>NA_11 - Digital Sundown<eA>vol<eB>0.3326091<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>5<eA>rest<eB>5<eA>fadeIn<eB>163.0435<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>647.0839<tB>559.9315<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>Red<tA>pos<tB>1018.084<tB>160.9315<tA>handlePos<tB>-86.35535<tB>-143.3553, 
+FadePalette: 17, 0.75, 0.8695652

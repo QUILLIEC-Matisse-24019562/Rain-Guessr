@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0.25
+Grime: 0
+Palette: 81
+EffectColorA: 10
+EffectColorB: 13
+Effects: Flies-0.3043478-20-20, Fog-1-288-21, 
+PlacedObjects: LightFixture><691.3571><144.3601><HolyFire~-472.6795~-34~5, LightSource><651.6219><193.2325><0.08046291~EffectColor2~181~175~230.9999~0.6025238~0~1~None~0~0, InsectGroup><691.4662><141.0365><7~60~-98~-167~StandardFly~0.3152174, LightSource><691.6682><140.8054><0.3152174~EffectColor2~28~73~-97~218.6025~0~0~None~0~0, CustomDecal><162.1656><185.5687><-63~522~734~475~653~-174~-566~-521~0~1~0~GreyBones~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, ReliableSpear><525.0632><554.5715><, RippleSpawnEgg><543.0204><283.2645><, RippleSpawnEgg><582.1282><425.5965><, RippleSpawnEgg><413.8873><429.9152><, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><560.4191><43.89322><0.2065217><1, OMNI><SO_SFX-Morse.ogg><354.4198><42.68323><0.04347826><1.9, OMNI><SO_NAT-Fire.ogg><161.0873><38.57004><0.2065217><1, SPOT><waterGurgleLOOP1.wav><761.8616><545.666><0.25><1><65.86157><288.666><-51.35535><-53.35535><0><0.06739144, 
+FadePalette: 83, 0.8043478

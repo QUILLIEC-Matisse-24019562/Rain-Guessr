@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+Grime: 0
+Palette: 12
+EffectColorA: 15
+EffectColorB: 15
+Effects: Darkness-0.2282609-20-20, RoofTopView-1-23-76, Fog-0-277-77, DayNight-1-276-22, FairyParticles-0.1304348-531-78, LightBurn-0.1195652-307-154, 
+PlacedObjects: LightSource><647.4121><524.3671><0.25~EffectColor2~0~100~-217~-515.3975~1~0~None~0~0, LightSource><515.6252><479.5937><0.25~EffectColor2~0~100~-341~-471.3975~1~0~None~0~0, LightSource><801.8><120.0016><0.25~EffectColor2~160~128~135~-110.3975~1~0~None~0~0, LightBeam><575.0616><360.1903><469~474~625~473~361~4~110~-346~0.04130422~0.9565217~0~0~None~0~0, FairyParticleSettings><51.36211><341.3552><-479~-25.33975~0~1~1~0~1~1.448696~60~180~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.1956522~0.423913~0.5~0.75~4~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><1100.088><830.3676><0.4456522~Environment~-241~-116~-1175~-825.3975~1~0~None~0~0, CustomDecal><405.7667><116.1993><9~40~352~29~356~-16~-262~74~0.1630435~0.6304348~0~Scav Wedges~0.5~1~0.5~1~0.5~1~0.5~1, 
+FadePalette: 28, 0.6304348

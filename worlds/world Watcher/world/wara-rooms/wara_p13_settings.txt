@@ -1,0 +1,8 @@
+Template: NONE
+Clouds: 0.3033606
+Grime: 0
+Palette: 81
+EffectColorA: 10
+EffectColorB: 10
+AmbientSounds: OMNI><RWTW_AR_GearWorks.ogg><137.3992><424.0431><0.1099646><1, OMNI><RWTW_AR_ClinkMachine.ogg><125.1979><246.1638><0.2028303><0.3536558, OMNI><RWTW_AR_BuzzyMachine.ogg><123.1408><331.3538><0.2028303><1, 
+FadePalette: 148, 0.501474, 0.501474

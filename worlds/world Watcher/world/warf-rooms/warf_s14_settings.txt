@@ -1,0 +1,5 @@
+Grime: 0
+Palette: 81
+PlacedObjects: LightSource><493.1487><204.8837><0.05434782~Environment~-1~149~-618~90.60254~0~0, 
+AmbientSounds: OMNI><waterGurgleLOOP1.wav><30.33014><287.5668><0.06521739><1, OMNI><AM_ENV-SubTerr.ogg><21.5144><379.5505><0.1086956><1, 
+FadePalette: 83, 0.9021739

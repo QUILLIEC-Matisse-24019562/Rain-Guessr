@@ -1,0 +1,12 @@
+Template: HR_SettingsTemplate_HellNew
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: WaterFluxMaxLevel-0.2173913-711-396, WaterFluxMinLevel-0.2065217-693-169, WaterFluxFrequency-0.173913-457-434, FairyParticles-0.07608695-435-341, 
+PlacedObjects: LightSource><498.9457><1223.209><1~Environment~-79~-74~50~86.60254~1~0~Fade~0.5760869~0, LightSource><446.5885><367.382><1~EffectColor2~122~214~-334~4.602539~0~1~None~0~0, LightSource><783.8696><373.3397><1~EffectColor2~-188~199~-323~76.60251~0~1~None~0~0, LightSource><450.3188><503.4457><0.3586957~EffectColor2~-12~437~-309~123.6025~0~1~None~0~0, LightSource><760.2892><482.304><0.3586957~EffectColor2~-18~437~-6~-42.39746~0~1~None~0~0, FairyParticleSettings><819.1778><665.6866><-77.06189~-593.3398~1~7.065217~37.5~0~1~2.35436~60~180~40~100~0~19.56522~0~23.47826~0.1086956~0.1413043~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, LightSource><592.3328><944.8597><1~EffectColor2~-678~-557~77~-127.3975~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_SUB-MysticCave1.ogg><726.5416><240.4456><0.5543478><0.726087, 
+FadePalette: 75, 0.3043478, 0.2717391, 0.2282609
+WetTerrain: OFF

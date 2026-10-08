@@ -1,0 +1,41 @@
+globalCreatureFlags: Ignorecycle
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0.0
+rippleSpiderThreshold: 20
+proceduralMusicBank: rwtw3
+cloudsStart: 8500
+cloudsEnd: 9500
+mapSkyLayers: 0, 2
+hideTimer: true
+Subregion: Signal Spires
+Room Setting Templates: SpireOutside, SpireInside
+Room_Attr: WPTA_A01: YellowLizard-Forbidden,
+Room_Attr: WPTA_A02: SkyWhale-Avoid,
+Room_Attr: WPTA_A03: YellowLizard-Forbidden,
+Room_Attr: WPTA_B02: YellowLizard-Like,
+Room_Attr: WPTA_B03: YellowLizard-Forbidden,
+Room_Attr: WPTA_B04: YellowLizard-Forbidden,SkyWhale-Forbidden,
+Room_Attr: WPTA_B05: YellowLizard-Forbidden,Vulture-Avoid,KingVulture-Avoid,SkyWhale-Forbidden,
+Room_Attr: WPTA_B06: SkyWhale-Forbidden,
+Room_Attr: WPTA_B07: SkyWhale-Forbidden,
+Room_Attr: WPTA_B08: YellowLizard-Like,SkyWhale-Forbidden,
+Room_Attr: WPTA_B10: SkyWhale-Forbidden,
+Room_Attr: WPTA_C01: YellowLizard-Like,SkyWhale-Forbidden,
+Room_Attr: WPTA_C02: YellowLizard-Like,Centipede-Forbidden,SmallCentipede-Forbidden,SkyWhale-Forbidden,
+Room_Attr: WPTA_C03: YellowLizard-Forbidden,Centipede-Stay,SmallCentipede-Stay,
+Room_Attr: WPTA_C04: YellowLizard-Forbidden,
+Room_Attr: WPTA_D01: Vulture-Forbidden,KingVulture-Forbidden,SkyWhale-Forbidden,
+Room_Attr: WPTA_D02: SkyWhale-Forbidden,
+Room_Attr: WPTA_D03: SkyWhale-Forbidden,
+Room_Attr: WPTA_D04: SkyWhale-Forbidden,
+Room_Attr: WPTA_E01: SkyWhale-Forbidden,
+Room_Attr: WPTA_F01: SkyWhale-Forbidden,
+Room_Attr: WPTA_F02: Vulture-Forbidden,KingVulture-Forbidden,SkyWhale-Like,
+Room_Attr: WPTA_F03: Vulture-Forbidden,KingVulture-Forbidden,SkyWhale-Forbidden,
+Room_Attr: WPTA_G01: Centipede-Forbidden,SmallCentipede-Forbidden,SkyWhale-Like,

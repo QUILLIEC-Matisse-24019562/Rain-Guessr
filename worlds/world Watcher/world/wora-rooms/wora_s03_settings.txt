@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: Sandstorm
+Clouds: 0.04386039
+Grime: 0.1304348
+Palette: 78
+EffectColorA: 8
+EffectColorB: 18
+PlacedObjects: CustomDecal><385.605><228.1848><2.986816~211~227.1742~227~260.0293~-44~-137.3939~-489~0~1~0~rust2~0.3917814~1~0.3917814~1~0.3917814~1~0.3917814~1, ShelterSpawnPoint><506.6799><281.6519><, 
+AmbientSounds: OMNI><RWTW_AR_CityWithNoBuildings.ogg><753.678><502.6588><0.06521739><1, 
+FadePalette: 10, 0.4230536

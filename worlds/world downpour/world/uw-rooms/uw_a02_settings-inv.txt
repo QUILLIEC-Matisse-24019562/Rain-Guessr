@@ -1,0 +1,9 @@
+Template: UW_SettingsTemplate_Wall
+DangerType: None
+Clouds: 1
+Palette: 8
+Effects: Flies-0-20-20, Fog-0.01086957-22-73, PixelShift-0.5-32-65, AboveCloudsView-1-23-139, 
+PlacedObjects: LightSource><814.925><287.5646><0.2934783~Environment~-117~206~-73~243.6025~1~0, FlareBomb><79.66309><502.8657><17~47~2~3, FlareBomb><128.8935><462.1693><0~0~2~3, Mushroom><102.6716><245.184><16~-234~2~3, Mushroom><202.3434><251.0732><-66~-150~2~3, Mushroom><281.3559><245.3303><137~-261~2~3, Corruption><708.2753><272.5516><-4~127, Corruption><908.1769><265.0638><-1~103, CorruptionTube><562.5506><405.7656><-83~246, Corruption><827.4307><390.4142><46~118, Corruption><692.6643><195.8193><0~100, Corruption><906.8><182.0002><0~100, 
+AmbientSounds: SPOT><SO_WAT-LilDrips.ogg><707.072><369.0634><0.2065217><1><760.072><419.0634><-249.3553><-52.35535><0><0.3173914, 
+FadePalette: 32, 0.4565217
+WetTerrain: OFF

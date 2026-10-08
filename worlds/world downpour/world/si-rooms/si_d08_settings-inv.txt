@@ -1,0 +1,8 @@
+Palette: 3
+EffectColorA: 11
+EffectColorB: 12
+Effects: SkyDandelions-0.5869565-20-20, BrokenZeroG-1-28-88, 
+PlacedObjects: DandelionPatch><395.3013><134.2736><15~134, ReliableSpear><1693.115><128.9134><, ReliableSpear><1776.904><130.9252><, DandelionPatch><2753.664><218.4304><0~100, DandelionPatch><3598.197><191.5362><0~100, PlayerPushback><4150.639><236.6566><-213~1, PlayerPushback><4148.683><616.5058><-215~2, PlayerPushback><-204.5388><638.5301><222~0, PlayerPushback><-199.5513><219.6519><233~0, Corruption><2001.955><90.96355><-239~99, Corruption><3019.823><118.5945><-202~120, Corruption><3505.329><181.172><-18~122, Corruption><1132.496><163.0329><0~100, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><686.8946><583.08><0.2934783><1, SPOT><AM_WIN-HowlingWnd.ogg><869.9518><474.1941><0.25><0.8630434><2461.952><77.19409><-284.3553><-149.3553><0><0.3934784, 
+FadePalette: 33, 0.7934783, 0.7934783, 0.7934783, 0.7934783
+WetTerrain: OFF

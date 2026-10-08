@@ -1,0 +1,4 @@
+Template: wmpa_settingstemplate_tidelands
+Effects: Fog-0.8083612-285.5908-18.89433, 
+AmbientSounds: SPOT><SO_IND-HeatDuct.ogg><212.3127><16.65564><0.4060626><1.1087><435.8704><419.6093><-48.9361><-45.84955><0><0.1536789, 
+FadePalette: 10, 0.659697

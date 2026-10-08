@@ -1,0 +1,4 @@
+Template: wpga_settingstemplate_inside
+Clouds: 0.09739652
+PlacedObjects: ShelterSpawnPoint><472.2248><245.4278><, CustomDecal><384.2879><200.2862><-15.92975~317~247.0864~276~220.205~-63~-293.7042~-3~0~1~0~greybones~0.08877099~1~0.08877099~1~0.08877099~1~0.08877099~1, 
+FadePalette: 471, 0.6060221

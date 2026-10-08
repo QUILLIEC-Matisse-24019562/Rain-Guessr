@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Blizzard
+WaveSpeed: 0.5695527
+WaveLength: 0.9652237
+WaveAmplitude: 1.316503E-09
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.3043478
+Grime: 0
+Palette: 455
+EffectColorA: 10
+EffectColorB: 10
+Effects: Fog-1-20-20, Coldness-1-21-89, FairyParticles-0.01086957-285-27, 
+PlacedObjects: CustomDecal><451.0907><187.1291><-62~284~228~421~236~-38~-870~-522~0~1~0~greybones~0.2282609~1~0.2282609~1~0.2282609~1~0.2282609~1, FairyParticleSettings><-180.9274><140.4077><-506~-327.3398~1~2.717391~9.782609~0.5543478~1.128429~6.713982~59.78261~375~108.6956~293.4782~0~0~50.86956~140.8696~0~0~0~0~1~1~0.2826087~0~4.521739~Dandelion~SIN_IO~SIN_IO~78.26087~0.08695652~0, LightBeam><381.1169><231.6494><231~172~231~140~149~-138~-745~21~0.8347827~0~0~1~None~0~0, SnowSource><569.638><288.9157><Radial~0~100~168~156.6025~0.6521737~1, 
+AmbientSounds: OMNI><am_env-citytone.ogg><142.8351><3.36319><0.3586957><1.156522, OMNI><am_win_hilltop.ogg><354.6524><8.620483><0.25><1.9, OMNI><RWTW_AR_RearDen.ogg><159.3969><94.61432><0.06521739><1.9, 
+FadePalette: 14, 0.3039317

@@ -1,0 +1,12 @@
+Template: HR_SettingsTemplate_HellUpper
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: WaterFluxMaxLevel-0.7391304-255-137, WaterFluxMinLevel-0.6739131-258-192, WaterFluxFrequency-0.06521739-254-247, InvertedWater-1-4-129, WaterDepth-0-253-303, 
+PlacedObjects: FairyParticleSettings><-14.40552><49.42627><302~-373.3398~1~7.065217~37.5~0~1~2.09349~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~77.82593~1~0.6521739, LightSource><500.8203><557.8378><0.3586957~EffectColor1~-652~-552~35~-184.3975~0~1~None~0~0, DangleFruit><396.7954><178.6948><170~102~2~3, DangleFruit><650.7841><98.69708><163~59~2~3, 
+AmbientSounds: SPOT><AM_WIN-HowlingWnd.ogg><734.4459><241.9597><0.5543478><0.5108696><477.4459><-53.04028><106.6447><365.6447><0><0.6000001, 
+FadePalette: 75, 0.3695652
+WetTerrain: OFF

@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+Clouds: 0.1195652
+Grime: 0.173913
+Palette: 30
+Effects: Dustpuffs-1-20-20, LightBurn-0.1086956-20-71, PixelShift-0.5-32-65, AboveCloudsView-1-281-54, 
+PlacedObjects: SuperStructureFuses><256.3945><118.1383><66~85, NoSpearStickZone><481.1797><428.162><6~110, LightSource><-81.42969><502.9372><1~Environment~155~-13~50~86.60254~0~0~None~0~0, 
+AmbientSounds: DIR><AM_ENV-NatWind.ogg><678.948><469.0311><0.6847826><1.117391><98.0295><0, OMNI><AM_ENV-NatWind.ogg><480.6499><490.6176><0.423913><1, DIR><AM_ENV-CityTone.ogg><746.1361><569.6465><0.6521739><0.7847826><-84.8935><0, 
+FadePalette: 18, 0.1847826

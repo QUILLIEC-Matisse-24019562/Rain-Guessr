@@ -1,0 +1,8 @@
+Template: NONE
+DangerType: Flood
+Palette: 210
+EffectColorA: 13
+EffectColorB: 2
+Effects: WaterGlowworm-0.5108696-20-20, 
+PlacedObjects: LightSource><1049.557><608.0508><0.3369565~EffectColor2~320~-74~693~-10.39746~0~0~None~0~0, LightSource><1056.752><505.2><0.05434782~EffectColor1~475~-18~418~106.6025~0~1~None~0~0, GlowWeed><1359.552><267.0286><-512~-74~2~3, GlowWeed><1313.381><193.839><-370~117~2~3, LightFixture><1448.649><71.23657><GlowWeedLight~17.32051~-10~64, LightFixture><240.4831><445.0738><GlowWeedLight~17.32051~-10~74, LightFixture><787.0434><258.8344><GlowWeedLight~17.32051~-10~84, LightFixture><1535.897><514.1598><GlowWeedLight~17.32051~-10~91, LightFixture><1081.953><673.4218><GlowWeedLight~17.32051~-10~57, 
+AmbientSounds: OMNI><SO_WAT-OpenFlow.ogg><46.80762><533.3047><0.2608696><1, OMNI><SO_SFX-Drowning.ogg><33.8222><447.3135><0.2391304><1, OMNI><AM_WIN-SubWnd.ogg><39.69995><359.4962><0.3043478><1, 

@@ -1,0 +1,8 @@
+Template: NONE
+Palette: 98
+EffectColorA: 6
+EffectColorB: 13
+Effects: Fog-1-20-20, Flies-0.2608696-29-76, 
+PlacedObjects: CustomDecal><112.1674><55.56787><40~304~261~482~279~-2~-515~-386~0~1~0~xrootscreen~0.8043478~0~0.8043478~0~0.8043478~0~0.8043478~0, 
+AmbientSounds: OMNI><so_sfx-morana.ogg><604.3636><32.89633><0.1521739><1, OMNI><am_env-outside.ogg><227.9396><29.81354><0.2065217><1, OMNI><am_ind-warehouse01.ogg><771.4712><206.6979><0.3043478><1, SPOT><RWTW_AR_BuzzyMachine.ogg><797.6189><523.135><0.4060629><0.9033788><216.2111><399.5276><-23.00925><-26.09576><0><0.2006478, 
+FadePalette: 10, 0.6086958

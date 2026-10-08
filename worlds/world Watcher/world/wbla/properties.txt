@@ -1,0 +1,32 @@
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+batsPerActiveSwarmRoom: 6
+overseersSpawnChance: 0.0
+overseersMin: 0
+overseersMax: 0
+rippleSpiderThreshold: 20
+playerGuideOverseerSpawnChance: 0
+locustRegion: true
+boxWormColor: 1.058, 0.73, 0.368
+proceduralMusicBank: rwtw1
+Subregion: Badlands
+Room Setting Templates: BadlandsSurface
+Room_Attr: WBLA_A09: IndigoLizard-Avoid,
+Room_Attr: WBLA_B01: BlackLizard-Forbidden,
+Room_Attr: WBLA_B02: BlackLizard-Forbidden,SpitLizard-Stay,DrillCrab-Forbidden,H01Crab-Forbidden,
+Room_Attr: WBLA_B05: BlackLizard-Forbidden,
+Room_Attr: WBLA_C01: DrillCrab-Forbidden,H01Crab-Forbidden,
+Room_Attr: WBLA_C02: BlackLizard-Like,
+Room_Attr: WBLA_C03: BlackLizard-Forbidden,
+Room_Attr: WBLA_C05: DrillCrab-Forbidden,H01Crab-Forbidden,
+Room_Attr: WBLA_D01: SpitLizard-Forbidden,DrillCrab-Forbidden,H01Crab-Forbidden,
+Room_Attr: WBLA_D03: Vulture-Avoid,
+Room_Attr: WBLA_E01: BlackLizard-Forbidden,DrillCrab-Forbidden,H01Crab-Forbidden,
+Room_Attr: WBLA_F01: BlackLizard-Forbidden,DrillCrab-Forbidden,H01Crab-Forbidden,
+Room_Attr: WBLA_F02: BlackLizard-Forbidden,DrillCrab-Forbidden,H01Crab-Forbidden,
+Room_Attr: WBLA_F03: BlackLizard-Forbidden,DrillCrab-Forbidden,H01Crab-Forbidden,
+Room_Attr: WBLA_F04: BlackLizard-Like,SpitLizard-Forbidden,DrillCrab-Forbidden,H01Crab-Forbidden,
+Room_Attr: WBLA_H01: DrillCrab-Forbidden,
+Room_Attr: WBLA_J01: BlackLizard-Forbidden,

@@ -1,0 +1,4 @@
+Template: WSKA_SettingsTemplate_Inside
+PlacedObjects: CustomDecal><186.7244><205.0516><39~330~677~341~733~43~-143~159~0~1~0~greybones~0.1630435~1~0.1630435~1~0.1630435~1~0.1630435~1, LightSource><620.3><390.4948><0.1086956~White~171~117~50~86.60254~1~0~None~0~0, ShelterSpawnPoint><625.4813><323.9673><, 
+AmbientSounds: SPOT><am_env-citytone.ogg><730.1492><488.3273><0.4347826><0.5695652><433.1492><492.3273><-28.35535><-33.35535><0><0.2195653, 
+FadePalette: 458, 0.6739131

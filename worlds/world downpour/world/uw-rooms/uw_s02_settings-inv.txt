@@ -1,0 +1,5 @@
+Template: UW_SettingsTemplate_Underhang
+Palette: 8
+EffectColorA: 20
+EffectColorB: 20
+FadePalette: 13, 0

@@ -1,0 +1,13 @@
+Template: HR_SettingsTemplate_HellNew
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+BkgDroneVolume: 0
+EffectColorB: 18
+Effects: WaterDepth-0.06521739-70-70, 
+PlacedObjects: FairyParticleSettings><1189.62><668.0979><153~-799.3397~1~7.065217~37.5~0~1~2.35436~60~180~40~100~0~19.56522~0~23.47826~0.08695652~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~88.69563~0.4021739~0.6521739, LightSource><277.9135><204.3653><0.2282609~EffectColor1~-1128~710~50~86.60254~1~0~Fade~0.8152174~0, LightSource><3684.213><209.8035><1~EffectColor1~-498~673~50~86.60254~0~0~None~0~0, LightSource><3229.038><205.9465><1~EffectColor1~543~711~50~86.60254~0~0~None~0~0, LightSource><1188.154><194.0743><1~EffectColor1~835~657~50~86.60254~0~0~None~0~0, LightSource><1580.094><208.4265><1~EffectColor1~173~732~50~86.60254~0~0~None~0~0, Lantern><2325.747><449.3><-2~94~4~9, DangleFruit><2914.55><722.489><0~0~2~3, DangleFruit><3728.295><482.8939><-225~260~2~3, DangleFruit><3763.572><545.7124><44~186~2~3, DangleFruit><449.075><675.5039><0~0~2~3, DangleFruit><500.2274><630.9218><0~0~2~3, 
+FadePalette: 39, 0.07608695, 0.09782609, 0.1086956, 0.1086956, 0.3586957
+WetTerrain: OFF

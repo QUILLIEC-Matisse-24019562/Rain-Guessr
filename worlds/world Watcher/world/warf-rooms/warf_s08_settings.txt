@@ -1,0 +1,8 @@
+Template: NONE
+Clouds: 1
+Grime: 0
+Palette: 80
+PlacedObjects: LightSource><470.3343><531.3667><0.1060313~White~-2~-51~56~16.60254~1~0~None~0~0, 
+AmbientSounds: OMNI><Noise Wind.wav><335.666><25.43149><0.1086956><1, SPOT><AM_WIN_Hilltop.ogg><782.9459><464.5402><0.1521739><1.9><473.9459><580.5402><-35.35534><-35.35534><0><0.04565231, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_136 - Lullaby<eA>vol<eB>0.2021737<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>1<eA>rest<eB>1<eA>fadeIn<eB>143.4783<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>0<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>886.5898<tB>441.6198<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>490.5898<tB>302.6198<tA>handlePos<tB>-35.35534<tB>-35.35534, 
+FadePalette: 83, 0.9021739

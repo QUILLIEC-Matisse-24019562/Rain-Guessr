@@ -1,0 +1,14 @@
+Template: HR_SettingsTemplate_HellUpper
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8578259
+Palette: 10
+Effects: Lightning-0.8152174-361-150, 
+PlacedObjects: FairyParticleSettings><55.91119><280.1317><157~-522.3397~1~7.065217~37.5~0~1~2.09349~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~77.82593~1~0.6521739, HRGuard><2504.419><587.4338><0~0~2~3, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><828.0748><625.8145><0.1847826><1, OMNI><AM_RAIN-Rumbles.ogg><833.9593><554.1958><0.4347826><1, OMNI><AM_WIN-HowlingWnd.ogg><835.5965><486.3718><0.5><0.5304348, OMNI><AM_WIN-StrongWnd2.ogg><654.8931><613.8604><0.3152174><1, 
+FadePalette: 75, 0.2934783, 0.3152174, 0.3043478, 0.2934783, 0.2934783, 0.3152174, 0.3043478, 0.3043478, 0.3152174, 0.3043478
+WetTerrain: OFF

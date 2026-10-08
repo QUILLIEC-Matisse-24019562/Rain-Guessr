@@ -1,0 +1,6 @@
+Template: NONE
+Palette: 209
+EffectColorA: 2
+PlacedObjects: LightSource><144.1998><577.5097><0.3369565~Environment~159~-66~-31~-197.3975~0~0~None~0~0, BrokenShelterWaterLevel><126.5652><571.8264><, 
+AmbientSounds: OMNI><SO_IND-Turbine.ogg><15.69299><529.3083><0.423913><1, OMNI><SO_WAT-OpenFlow.ogg><20.55652><437.4493><0.2282609><1, 
+FadePalette: 10, 0.4347826

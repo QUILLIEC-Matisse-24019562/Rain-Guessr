@@ -1,0 +1,8 @@
+Template: NONE
+DangerType: Flood
+Clouds: 0.01086957
+Palette: 209
+EffectColorA: 2
+EffectColorB: 13
+PlacedObjects: LightSource><552.0165><628.8007><0.6304348~Environment~185~-152~-151~-196.3975~0~0~None~0~0, BrokenShelterWaterLevel><536.8662><609.1013><, 
+AmbientSounds: OMNI><SO_IND-Turbine.ogg><43.9187><532.6827><0.3369565><1, OMNI><SO_WAT-OpenFlow.ogg><37.85522><455.3299><0.2826087><1, OMNI><AM_IND-Midsex01.ogg><31.93219><380.4175><0.2173913><1, 

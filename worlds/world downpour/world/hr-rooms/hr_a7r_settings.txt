@@ -1,0 +1,10 @@
+Template: HR_SettingsTemplate_HellNew
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+PlacedObjects: FairyParticleSettings><648.1934><997.551><-268~-54.33975~1~7.065217~37.5~0~1~2.354363~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, LightFixture><1772.11><883.6432><HolyFire~17.32051~-10~26, LightSource><1772.868><883.1614><0.7608696~EffectColor2~-163~108~50~86.60254~0~0~None~0~0, LightFixture><670.1998><725.9907><HolyFire~17.32051~-10~43, LightSource><670.1732><725.6499><0.7391304~EffectColor2~-131~128~50~86.60254~0~0~None~0~0, HRGuard><952.5149><1086.551><0~0~2~3, DangleFruit><1367.737><1137.82><334.1347~22.89362~2~3, DangleFruit><1352.241><1183.452><-433.7848~14.25916~2~3, DangleFruit><1528.813><1186.81><0~0~2~3, 
+FadePalette: 75, 0.2282609, 0.2608696
+WetTerrain: OFF

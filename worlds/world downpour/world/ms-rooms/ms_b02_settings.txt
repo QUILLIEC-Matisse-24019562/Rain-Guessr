@@ -1,0 +1,2 @@
+Clouds: 1
+BkgDroneVolume: 0.2769565

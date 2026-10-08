@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Sandstorm
+RainIntensity: 0.3124284
+RumbleIntensity: 0.1080156
+WaveSpeed: 0.4988555
+WaveLength: 0.9994277
+WaveAmplitude: 0.04812603
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.09291508
+Grime: 0
+Palette: 69
+EffectColorA: 8
+EffectColorB: 8
+PlacedObjects: LightSource><535.1797><352.5155><0.1637646~EffectColor1~92.32043~-81.10794~271.398~79.76825~0~0~None~0~0, LightSource><547.1956><502.0695><0.1730556~EffectColor1~109.4166~-47.79092~145.7396~60.11981~0~0~None~0~0, CustomDecal><336.573><238.9304><-35.04761~346.6874~478.522~341.5617~468.264~-5.979919~-461.602~-3.417175~0~1~0~rustb2~0.5~1~0.5~1~0.5~1~0.5~1, GooDrips><594.9125><537.463><1.709656~81.20581~0~0~0.5, 
+AmbientSounds: OMNI><RWTW_RotAmb_VanillaRot.ogg><149.9071><510.9478><0.1521739><1, OMNI><RWTW_DustStorm_Deep.ogg><145.6516><430.4829><0.1521739><1, 
+FadePalette: 22, 0.366409

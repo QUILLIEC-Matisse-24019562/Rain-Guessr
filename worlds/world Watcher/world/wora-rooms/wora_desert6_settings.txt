@@ -1,0 +1,24 @@
+Template: NONE
+DangerType: Sandstorm
+RainIntensity: 0.3586957
+RumbleIntensity: 0.1086956
+Clouds: 0.2608696
+Grime: 0
+Palette: 69
+EffectColorA: 13
+EffectColorB: 13
+TerrainLight: 0.1298616
+TerrainStainAmount: 0.3074022
+TerrainStainBrightness: 1
+TerrainStainHeight: 0.7619205
+TerrainWaves: 0.2597245
+TerrainEdgeRadius: 200
+TerrainGooHeight: 0.1558971
+TerrainGrain: 0
+TerrainDepth: 1.175584
+TerrainPalette: outerrim
+Effects: ModifyEffectColorA-0,0.456713,0.3052074-316.735-116, ModifyEffectColorB-0.963142,0.2510981,0.5-43.77161-76, 
+PlacedObjects: TerrainHandle><453.0156><143.0082><-120.6442~-1~167.4378~2~125, TerrainHandle><125.1813><209.7768><-93.76282~-2~120.6442~2~167, TerrainHandle><914.7045><316.782><-124.6266~1~40~0~95, LightBeam><159.5824><153.9406><-13.93851~460~95.75403~476~189.3411~3~-255.8712~192~0.3458912~0.1406837~0~1~None~0~0, LightBeam><684.2219><196.2825><-3.982422~411~87.78912~465~186.3543~26~0~0~0.3567133~0.1406837~0~1~None~0~0, LightBeam><421.4166><48.30453><-23.89459~569~95.75403~583~173.4114~18~0~0~0.3458909~0.140684~0~1~None~0~0, LightSource><228.4066><458.8924><0.06932267~EffectColor2~237.9503~-39~50~86.60254~1~0~None~0~0, LightSource><486.6261><461.9978><0.04767907~EffectColor2~265.8273~-11~50~86.60254~1~0~None~0~0, LightSource><738.4508><447.0516><0.05850087~EffectColor2~233.9678~-143~50~86.60254~1~0~None~0~0, LightBeam><60.25208><127.996><-0.9956055~407~811.5959~498~992.7965~-20~-75.6662~-187~0.7138327~0.1298619~0~1~None~0~0, LightSource><556.6659><368.9251><0.2424714~Environment~0~100~50~86.60254~1~0~None~0~0, LightSource><804.5005><367.4356><0.177542~Environment~17.92096~107~50~86.60254~1~0~None~0~0, PrinceFilter><221.2539><400.097><-12~42~8~34~1~1~0, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><758.6207><475.5276><0.326087><1, 
+FadePalette: 10, 0.2934783
+RoomSpecificScriptActive: ON

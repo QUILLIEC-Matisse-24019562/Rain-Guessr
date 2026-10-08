@@ -1,0 +1,16 @@
+DangerType: Flood
+CeilingDrips: 0.748902
+WaveSpeed: 0.5120703
+WaveLength: 0.7439649
+WaveAmplitude: 0.04946124
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.1537018
+WaterReflectionAlpha: 1
+Palette: 452
+EffectColorA: 6
+Effects: SilenceWater-1-20-20, SkyAndLightBloom-0-27.01318-101, Flies-0.0216436-937.9941-455, RockFlea-0.2164365-325.7394-279, 
+PlacedObjects: CustomDecal><-189.604><-40.8277><-49.78036~860~1567.262~747~1628.99~118~232.9724~-188~0~1~0~blackrust1~0.1450759~1~0.08014513~1~0.1450759~1~0.1883631~1, LightSource><257.9202><353.1778><0.05850155~Environment~283.7482~39~-74.45093~-465.3975~1~1~None~0~0, LightSource><-49.74278><355.2259><0.05850187~Environment~206.0908~114~93.80673~-468.3975~1~1~None~0~0, LightSource><553.5981><355.0289><0.0260368~Environment~277.7745~171~-203.8799~-479.3975~1~1~None~0~0, LightSource><750.3531><359.1213><0.0476804~Environment~313.6164~44~-62.50366~-477.3975~1~1~None~0~0, FluxWaterfall><-120><660><2~0.9545165~D~0~0, FluxDrain><60><80><3~0.5~D~0~0, FluxDrain><300><40><5~0.5~D~0~0, FluxDrain><-140><80><3~0.5~D~0~0, FluxDrain><700><40><5~0.5~D~0~0, FluxDrain><500><40><5~0.5~D~0~0, FluxWaterfall><60><660><3~0.9220511~D~0~0, FluxWaterfall><720><620><1~0.9675346~D~0~0, FluxWaterfall><520><620><3~0.9090331~D~0~0, FluxWaterfall><340><620><2~0.911229~D~0~0, WaterNut><864.2869><268.542><-110.5125~-190~2~3, WaterNut><886.1484><281.563><-76.66187~-296~2~3, WaterNut><906.1857><278.3242><-12.94287~-198~2~3, LightSource><318.3574><270.5737><0.1342548~Environment~0~82~88.82874~157.6025~1~1~None~0~0, LightSource><473.8277><276.4663><0.03685794~Environment~77.65735~91~30.08783~-353.3975~1~1~None~0~0, LightSource><780.1545><314.2344><0.1558984~Environment~197.1303~58~50~86.60254~1~1~None~0~0, LightBeam><758.115><203.4272><-79.64862~281~-28.6969~465~110.6882~-34~113.4993~-82~0.3675351~0~0.9567128~1~None~0~0, LightSource><752.5062><138.2587><0.1558971~Environment~375.3441~-26~50~86.60254~1~0~None~0~0, LightSource><95.60034><338.1777><0.1342548~Environment~0~100~13.16248~-413.3975~1~1~None~0~0, DeadTokenStalk><229.5266><379.1088><24.8902~107, DeadTokenStalk><286.5842><382.957><-5.973572~105, WaterCycleTop><432.8383><171.2256><, WaterCycleBottom><507.0261><16.45233><, RippleSpawnEgg><652.4834><373.6902><, RippleSpawnEgg><457.6643><300.4515><, RippleTree><669.1371><257.4879><0~53.75~0.6385869~0.7581522~left, 
+AmbientSounds: SPOT><RWTW_AmbSubBubble.ogg><609.0376><476.5568><0.1840893><1><895.8486><-38.46436><-235.3829><53.49005><0><0.2486639, 
+FadePalette: 10, 0.02164376

@@ -1,0 +1,6 @@
+DangerType: Rain
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0
+PlacedObjects: BrokenShelterWaterLevel><530.8198><344.4134><, 
+FadePalette: 8, 0.8586956

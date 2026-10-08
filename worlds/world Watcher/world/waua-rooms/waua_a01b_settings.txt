@@ -1,0 +1,8 @@
+Template: NONE
+DangerType: None
+Grime: 0.05400782
+RandomItemSpearChance: 0
+Palette: 100
+PlacedObjects: CustomDecal><134.7234><279.1297><4.274139~352.6674~768.3054~351.813~762.3215~49.54843~-324.831~-20.50281~0~1~1~rustymetal~0.3141699~1~0.4535425~1~0~1~0~1, LightSource><852.6873><409.5891><1~Environment~-327.3954~94.01996~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><517.8872><635.4365><0.3234611><1, SPOT><SO_IND-WinFan.ogg><725.2802><214.9473><0.3977933><1><399.1863><535.1631><-109.7246><-87.46667><0><0.2393726, 
+FadePalette: 10, 0.204413

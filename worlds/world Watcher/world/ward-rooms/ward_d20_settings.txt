@@ -1,0 +1,12 @@
+Template: NONE
+Clouds: 0.25
+Grime: 0
+RandomItemDensity: 0.3586957
+RandomItemSpearChance: 0.1021738
+Palette: 81
+EffectColorA: 10
+EffectColorB: 13
+Effects: Fog-1-20-20, Flies-0.2173913-276-22, DarkenLights-0.5014738-35.12619-89.8054, 
+PlacedObjects: CustomDecal><461.8345><280.4313><3~64~62~60~65~-2~-628~-19~0~0.2717391~0~CryWhale~0.7391304~0.25~0.7391304~0.25~0.7391304~0.25~0.7391304~0.25, ReliableSpear><269.0187><328.4491><, ReliableSpear><550.7916><289.6956><, SlimeMold><236.8523><347.1987><0~0~2~3, SlimeMold><302.8655><337.9498><-341.9869~-189.5126~2~3, SlimeMold><396.103><321.4488><-320.3812~-200.6241~2~3, SlimeMold><410.2056><310.567><-120.9918~-235.1931~2~3, SlimeMold><620.2416><303.8375><238~220~2~3, SlimeMold><574.6959><303.411><176~128~2~3, SlimeMold><335.2859><324.4291><-298.7755~-142.5974~2~3, CosmeticSlimeMold><640.3022><288.8427><77.18805~28.69052, CosmeticSlimeMold2><300.1776><320.468><-17~113, LightFixture><264.9402><314.6891><SlimeMoldLight~17.32051~-10~7, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><127.6046><50.36267><0.1521741><1, OMNI><SO_SFX-Morse.ogg><501.0614><48.81653><0.04347826><1.9, OMNI><SO_NAT-Fire.ogg><316.4484><55.69324><0.1521733><1, 
+FadePalette: 454, 0.75

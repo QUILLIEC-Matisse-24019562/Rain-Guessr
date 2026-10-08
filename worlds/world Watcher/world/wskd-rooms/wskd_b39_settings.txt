@@ -1,0 +1,4 @@
+Template: SK_SettingsTemplate_Inside
+PlacedObjects: ScavengerTreasury><492.9414><336.0581><68~228, LanternOnStick><580.4472><410.4666><53~-136, LanternOnStick><368.0818><399.6082><-35~-167, Lantern><353.5514><320.2739><0~0~1~3, Lantern><273.595><401.1235><0~0~1~3, Lantern><643.066><323.0784><0~0~2~4, CustomDecal><129.5796><191.5665><15~399~710~421~737~-41~-290~89.00002~0~1~0~greybones~0.25~1~0.25~1~0.25~1~0.25~1, 
+AmbientSounds: SPOT><so_sfx-datastream.ogg><348.9232><352.4347><0.3913043><0.373913><490.9232><367.4347><-47.35535><-76.35535><0><0.2195653, 
+FadePalette: 457, 0

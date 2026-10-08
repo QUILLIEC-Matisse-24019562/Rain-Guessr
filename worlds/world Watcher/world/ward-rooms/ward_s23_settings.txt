@@ -1,0 +1,9 @@
+Template: NONE
+Grime: 0
+Palette: 80
+EffectColorA: 10
+EffectColorB: 16
+Effects: Fog-1-28-11, Contrast-0.0326087-29-77, DarkenLights-0.5014738-35.12619-89.8054, 
+PlacedObjects: LightSource><473.8591><165.1582><0.05896394~EffectColor2~174~28~345.3137~-243.974~0~0~Fade~0.9938089~0, WallLight><417.7349><115.4902><150~50~417.7349~115.4902~0~100~103.987~0~104.5566~100~0.7243513~1~0.1456372~False~SkyColor~False~False~Always~Soft, 
+AmbientSounds: OMNI><SO_IND-HVAC.ogg><412.9902><30.5502><0.1521739><1, OMNI><SO_IND-WeirdVent.ogg><234.6569><27.37399><0.1521739><1, OMNI><SO_SFX-GlassGhost.ogg><784.8698><30.16019><0.06521739><1.9, OMNI><SO_SFX-LakeBottom.ogg><598.05><25.74899><0.25><1, SPOT><RWTW_AR_StaticRadio.ogg><765.6912><379.6913><0.326087><0.2565217><475.6912><49.69125><2.644653><-103.3553><0><0.1, 
+FadePalette: 454, 0.8586956

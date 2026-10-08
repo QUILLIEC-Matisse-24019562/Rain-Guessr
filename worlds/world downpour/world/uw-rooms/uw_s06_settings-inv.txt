@@ -1,0 +1,4 @@
+EffectColorA: 20
+EffectColorB: 20
+Effects: ElectricDeath-0.09782609-46-85, 
+FadePalette: 10, 1

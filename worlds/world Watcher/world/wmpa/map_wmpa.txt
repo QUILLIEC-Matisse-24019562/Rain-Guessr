@@ -1,0 +1,105 @@
+WMPA_A01: -1185.878><576.9183><-826.4556><437.5175><1><Migration Path><48><35
+WMPA_A02: -1812.94><626.92><-1285.494><462.2917><1><Migration Path><48><35
+WMPA_A03: -1500.464><591.7336><-1161.545><459.7288><1><Migration Path><152><35
+WMPA_A04: -1971.347><562.1029><-1430.813><383.6977><1><Migration Path><48><74
+WMPA_A05: -1821.84><506.5457><-1296.606><335.0036><1><Migration Path><48><35
+WMPA_A06: -2216.178><596.672><-1659.904><448.386><1><Migration Path><100><35
+WMPA_A07: -1068.489><686.7985><-772.6021><580.1826><0><Migration Path><100><35
+WMPA_A08: -768.3589><575.6837><-601.6384><452.8946><1><Migration Path><152><35
+WMPA_A09: -2446.691><596.6719><-1782.998><448.6232><1><Migration Path><48><35
+WMPA_B01: -302.0544><400.369><-269.114><221.3839><1><Migration Path><152><150
+WMPA_B02: 93.75784><228.141><49.73346><235.9068><1><Migration Path><100><35
+WMPA_B03: 330.84><228.1428><269.4218><217.7299><1><Migration Path><48><35
+WMPA_B04: 564.9185><228.1428><385.6768><229.0724><1><Migration Path><100><35
+WMPA_B05: 797.1447><61.47055><606.4576><-28.9207><1><Migration Path><48><150
+WMPA_B06: 566.3922><-26.18672><384.5847><47.34742><1><Migration Path><100><35
+WMPA_B07: 328.8499><14.55534><271.1312><36.24178><1><Migration Path><48><74
+WMPA_B08: 91.30724><-59.52124><50.58822><29.40752><1><Migration Path><100><35
+WMPA_C01: 1123.561><-108.2884><724.1849><-10.36345><1><Migration Path><152><35
+WMPA_C02: 2043.465><-166.9324><1048.161><-88.72053><1><Migration Path><451><74
+WMPA_C03: 2882.502><-219.4034><1975.639><-86.77492><1><Migration Path><100><35
+WMPA_C04: 3105.468><-219.4034><2195.328><-87.01188><1><Migration Path><48><35
+WMPA_C06: 2350.007><-457.683><1656.792><-368.0709><1><Migration Path><48><115
+WMPA_C07: 3252.544><-203.3518><2313.293><-81.0319><1><Migration Path><48><38
+WMPA_D01: 50.70349><-267.5515><77.94241><-176.7116><1><Migration Path><48><74
+WMPA_D02: 50.20592><-478.0521><80.50687><-368.0709><1><Migration Path><48><74
+WMPA_D03: -185.4847><-370.6412><-146.2577><-257.8685><1><Migration Path><100><74
+WMPA_D04: -416.237><-560.1539><-447.7711><-372.3423><1><Migration Path><252><35
+WMPA_D05: -206.2337><-750.9009><-125.5043><-568.8271><1><Migration Path><100><74
+WMPA_D06: -428.3438><-664.4785><-245.4166><-476.5648><1><Migration Path><48><35
+WMPA_D07: -444.2738><-899.6723><-241.9973><-669.2521><2><Migration Path><48><74
+WMPA_D08: -618.2344><-707.6899><-464.0125><-571.0096><1><Migration Path><100><74
+WMPA_D09: -924.2974><-791.6433><-681.9911><-583.3499><1><Migration Path><100><35
+WMPA_S01: -1695.192><506.549><-1170.948><327.3151><2><><48><35
+WMPA_S02: -424.1237><207.1578><-397.3369><214.7867><2><><48><35
+WMPA_S03: 1119.876><-221.2519><825.0536><-143.3947><2><><48><35
+WMPA_S04: 3099.075><-327.428><2191.908><-209.1744><2><><48><35
+WMPA_S05: -569.4487><-428.666><-363.9987><-266.4113><2><><48><35
+OffScreenDen_WMPA: -844.5082><734.3261><266.0023><-153.6461><1><><0><0
+Connection: WMPA_A01,WMPA_A07,30,28,8,18,3,3
+Connection: WMPA_A01,WMPA_A03,13,8,139,3,3,3
+Connection: WMPA_A02,WMPA_A04,8,17,42,58,2,0
+Connection: WMPA_A02,WMPA_A03,41,17,5,29,0,2
+Connection: WMPA_A04,WMPA_A06,5,43,92,12,2,0
+Connection: WMPA_A04,WMPA_A05,39,18,3,17,0,2
+Connection: WMPA_A05,WMPA_S01,44,17,15,17,0,2
+Connection: WMPA_A06,WMPA_A09,5,9,42,9,3,3
+Connection: WMPA_A07,WMPA_A08,91,17,17,21,3,3
+Connection: WMPA_A08,WMPA_B01,145,6,4,122,3,3
+Connection: WMPA_B01,WMPA_S02,62,10,33,17,2,0
+Connection: WMPA_B01,WMPA_B02,147,6,7,6,3,3
+Connection: WMPA_B02,WMPA_B03,92,6,5,6,3,3
+Connection: WMPA_B03,WMPA_B07,24,23,24,64,3,1
+Connection: WMPA_B03,WMPA_B04,42,6,6,6,3,3
+Connection: WMPA_B04,WMPA_B05,94,6,5,119,3,3
+Connection: WMPA_B05,WMPA_B06,10,45,89,17,2,0
+Connection: WMPA_B05,WMPA_C01,42,6,10,5,3,3
+Connection: WMPA_B06,WMPA_B07,9,17,44,23,2,0
+Connection: WMPA_B07,WMPA_B08,6,12,90,17,2,0
+Connection: WMPA_B08,WMPA_D01,37,9,24,67,3,1
+Connection: WMPA_C01,WMPA_S03,75,21,24,27,3,1
+Connection: WMPA_C01,WMPA_C02,141,5,7,44,3,3
+Connection: WMPA_C02,WMPA_C03,440,7,7,5,3,3
+Connection: WMPA_C02,WMPA_C06,328,6,24,105,3,1
+Connection: WMPA_C03,WMPA_C04,90,17,8,17,0,2
+Connection: WMPA_C04,WMPA_C07,38,17,6,13,0,2
+Connection: WMPA_C04,WMPA_S04,23,13,25,24,3,1
+Connection: WMPA_D01,WMPA_D03,10,23,94,46,2,0
+Connection: WMPA_D01,WMPA_D02,24,8,25,66,3,1
+Connection: WMPA_D02,WMPA_D03,9,46,92,20,2,0
+Connection: WMPA_D02,WMPA_D04,8,9,240,17,2,0
+Connection: WMPA_D03,WMPA_D04,23,10,176,28,3,1
+Connection: WMPA_D04,WMPA_S05,75,28,24,5,1,3
+Connection: WMPA_D04,WMPA_D06,125,17,27,28,3,1
+Connection: WMPA_D04,WMPA_D08,25,6,13,61,3,1
+Connection: WMPA_D04,WMPA_D05,220,6,74,64,3,1
+Connection: WMPA_D05,WMPA_D06,11,54,42,6,2,0
+Connection: WMPA_D06,WMPA_D08,9,21,90,55,2,0
+Connection: WMPA_D06,WMPA_D07,19,3,24,31,3,1
+Connection: WMPA_D08,WMPA_D09,7,9,90,18,2,0
+
+SpawnMigrationStream: stream1,722^305,3295^-213,906^230,3271^-207,None,012,70,30,WMPA_C07
+SpawnMigrationStreamMidpoint: stream1,0,808^-111^220.5974^112^146
+SpawnMigrationStreamMidpoint: stream1,1,1418^-132^198.0482^108^234
+SpawnMigrationStreamMidpoint: stream1,2,2334^-157^177.981^271^132
+SpawnMigrationStreamMidpoint: stream1,3,2653^-203^-67.86182^65^55
+SpawnMigrationStreamMidpoint: stream1,4,2875^-213^172.5372^165^253
+
+SpawnMigrationStream: stream2,61^21,-1031^-789,-96^-168,-898^-723,None,012,70,30,WMPA_D09
+SpawnMigrationStreamMidpoint: stream2,0,46^-548^-48.3465^143^47
+SpawnMigrationStreamMidpoint: stream2,1,-176^-552^5.780083^93^89
+SpawnMigrationStreamMidpoint: stream2,2,-335^-573^-0.9967499^50^45
+SpawnMigrationStreamMidpoint: stream2,3,-545^-549^-1.814842^43^75
+SpawnMigrationStreamMidpoint: stream2,4,-742^-601^-81.78607^60^132
+SpawnMigrationStreamMidpoint: stream2,5,-571^-746^-43.35988^157^64
+SpawnMigrationStreamMidpoint: stream2,6,-772^-807^-1.632523^95^131
+
+SpawnMigrationStream: stream3,-107^663,-2504^605,-124^539,-2339^582,None,012,70,30,WMPA_A09
+SpawnMigrationStreamMidpoint: stream3,0,-536^562^-0.6436157^249^93
+SpawnMigrationStreamMidpoint: stream3,1,-909^582^33.7957^72^83
+SpawnMigrationStreamMidpoint: stream3,2,-1042^657^-0.980278^115^64
+SpawnMigrationStreamMidpoint: stream3,3,-1190^588^-73.47676^103^64
+SpawnMigrationStreamMidpoint: stream3,4,-1434^607^2.067635^62^135
+SpawnMigrationStreamMidpoint: stream3,5,-1813^660^0.4561234^165^203
+SpawnMigrationStreamMidpoint: stream3,6,-2061^584^2.00032^66^66
+SpawnMigrationStreamMidpoint: stream3,7,-2242^626^2.216293^54^116

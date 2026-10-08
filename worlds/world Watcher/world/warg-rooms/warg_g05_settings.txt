@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+WaveSpeed: 0.4531068
+WaveLength: 0.9765534
+WaveAmplitude: 0.0001768228
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.3043478
+Grime: 0
+RandomItemDensity: 0.5
+RandomItemSpearChance: 0.1021738
+Palette: 455
+EffectColorB: 13
+Effects: Flies-0.25-20-20, Fog-0.8043478-279-21, Coldness-0.1006476-29.38272-85.55746, 
+PlacedObjects: DangleFruit><222.5392><217.9003><-489~213~3~6, DangleFruit><257.2986><301.306><-435~167~6~12, CustomDecal><159.8636><26.58545><-82~267~399~686~768~52~-507~-372~0~1~0~greybones~0.2065217~1~0.2065217~1~0.2065217~1~0.2065217~1, DynamicWarpTarget><390.8447><173.1239><0~0~2~false~false, KarmaFlower><676.7056><353.6831><0~0~5~7, WarpFilter><691.9284><344.9633><25~26, SnowSource><539.5844><123.0992><Radial~6.790344~129.6306~249.3895~-10.31436~0.8188344~1, SnowSource><500.6985><708.9249><Radial~96.29956~-231.4928~283.9585~-464.6509~0.6980578~1, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><492.7029><25.69437><0.2065217><1, OMNI><SO_NAT-Fire.ogg><310.28><23.55228><0.1086956><1, OMNI><SO_SFX-Morse.ogg><118.1104><22.85681><0.04347826><1.9, SPOT><SO_NAT-Fire.ogg><9.378113><282.6586><0.25><1><470.3781><161.6586><-50.35535><-49.35535><0><0.1, 
+FadePalette: 14, 0.4017576

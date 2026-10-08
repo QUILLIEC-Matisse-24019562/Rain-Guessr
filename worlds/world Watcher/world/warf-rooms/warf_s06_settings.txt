@@ -1,0 +1,4 @@
+Grime: 0
+Palette: 80
+AmbientSounds: OMNI><Noise Wind.wav><364.442><-6.555908><0.09782609><1, 
+FadePalette: 83, 0.9021739

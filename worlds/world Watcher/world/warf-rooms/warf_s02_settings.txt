@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0
+Grime: 0
+Palette: 80
+EffectColorA: 9
+EffectColorB: 10
+Effects: Fog-0.5-378-28, 
+PlacedObjects: CustomDecal><93.89008><68.41704><13~579~797~609~787~16~-274~227~0.07608695~1~1~BlackRust1~1~0~1~0~1~0~1~0, 
+AmbientSounds: SPOT><AM_IND-Warehouse03.ogg><775.3776><385.596><0.2065217><1><511.3777><227.596><-138.3553><-38.35535><0><0.154348, SPOT><Noise Wind.wav><308.6712><443.3534><0.07608695><1><509.6712><538.3534><-35.35534><-35.35534><0><0.1108697, 
+FadePalette: 83, 0.9021739

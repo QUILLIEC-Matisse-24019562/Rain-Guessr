@@ -1,0 +1,13 @@
+WaveSpeed: 0.4342505
+WaveLength: 0.9671253
+WaveAmplitude: 1.234137E-09
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.05434782
+Grime: 0
+Palette: 80
+EffectColorA: 10
+Effects: Fog-1-20-20, 
+PlacedObjects: CustomDecal><340.9308><294.4145><-34~244~359~292~278~-104~-717~-637~0~1~0~GreyBones~0.08695652~1~0.08695652~1~0.08695652~1~0.08695652~1, CustomDecal><338.0697><294.3125><-25~251~394~293~297~-100~-755~-638~0~1~0~BlueSmoker~0.1956522~1~0.1956522~1~0.1956522~1~0.1956522~1, LightSource><581.6457><203.137><1~EffectColor1~-107~295~432.0001~-387.3975~1~0~None~0~0, WarpPoint><463.3199><429.7054><0~0~Watcher~NULL~NULL~NULL~NULL~NULL~564dae0d-51f4-4066-b942-46418b9f7354~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~true~true~true~true~false~0~-1~false~-1, 
+AmbientSounds: OMNI><SO_NAT-WindTunnel.ogg><119.4493><10.76627><0.1086956><1, OMNI><SO_SFX-Drowning.ogg><326.3><23.4986><0.2065217><1, OMNI><RWTW_AR_DripWorks.ogg><125.0372><99.3035><0.1521739><1, 
+FadePalette: 33, 0.9586956

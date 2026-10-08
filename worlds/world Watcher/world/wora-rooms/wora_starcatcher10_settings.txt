@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04788044
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2504014
+Palette: 50
+PlacedObjects: CustomDecal><123.6803><701.3002><-115.1847~886.7476~857.8111~840.7009~619.7628~-148.3727~14.07806~176.5123~0~1~0~rust1~0.5~1~0.5~1~0.5~1~0.5~1, RottenDangleFruit><155.6566><1449.125><0~0~2~3, RottenDangleFruit><196.8917><1378.809><0~0~2~3, RottenDangleFruit><228.7553><1301.708><0~0~2~3, MudPit><255.6507><51.0415><426.5298~56.86057~322.1591, GooDrips><349.8585><445.6352><0~100~0~0~0.1939531, GooDrips><586.2939><479.8819><17.91766~53.95331~0~0~0.1096854, 
+AmbientSounds: OMNI><RWTW_RotAmb_VanillaRot.ogg><765.9981><538.9736><0.1383096><0.7746382, OMNI><RWTW_DustStorm_Deep.ogg><747.4326><459.2537><0.1383083><0.7746405, SPOT><waterGurgleLOOP2.wav><747.4359><262.8947><0.4304438><0.4991954><482.2839><125.2661><-119.8242><105.3429><0><0.4756019, SPOT><SO_WAT-ProperDrips.ogg><750.6714><368.4433><0.5><1><466.3219><457.2109><-164.6181><-68.6113><0><0.1, 
+FadePalette: 10, 0.4173357, 0.4173357

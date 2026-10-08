@@ -1,0 +1,9 @@
+Template: NONE
+Clouds: 0.08667456
+Palette: 98
+EffectColorA: 13
+EffectColorB: 6
+Effects: Fog-0.2075476-20-20, Flies-0.3043478-20-71, Ripple Settings-0-970-367-White-WARA-wara_e08-0-1.2-148-1, 
+PlacedObjects: CustomDecal><383.9897><318.6997><49~254~832~259~1004~-45~-410.5861~-617.2816~0~1~0~xrootscreen~0.4019304~1~0.4019304~1~0.4019304~1~0.4019304~1, LanternOnStick><1083.477><429.5513><62~-114, 
+AmbientSounds: OMNI><am_env-outside.ogg><620.9421><47.30853><0.25><1, SPOT><so_ind-hvac.ogg><42.67969><183.6872><0.25><0.7065217><301.6797><453.6872><-35.35534><-35.35534><0><0.154348, SPOT><am_win-subwnd.ogg><738.3213><280.0898><0.25><1><831.3213><408.0898><-67.35535><-78.35535><0><0.252174, OMNI><am_ind-warehouse01.ogg><381.9006><138.8684><0.3043478><1, OMNI><so_sfx-morana.ogg><143.6744><47.93515><0.1521739><1, 
+FadePalette: 10, 0.6556644, 0.6556645

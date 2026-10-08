@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: Blizzard
+WaveSpeed: 0.3185161
+WaveLength: 0.9092581
+WaveAmplitude: 1.740956E-11
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 37
+Effects: Contrast-0.2173913-20-20, Bloom-0.1630435-24-72, 
+PlacedObjects: SnowSource><5272.518><347.3008><Radial~1254~459~85~-151.3975~0.8152174~1, SnowSource><3932.445><369.9543><Radial~1193~540~50~86.60254~0.5543478~1, SnowSource><2323.398><362.6721><Radial~1279~760~50~86.60254~0.7826087~1, SnowSource><1070.932><155.4164><Radial~545~6~50~86.60254~0.4891304~1, SnowSource><1360.151><727.6317><Radial~128~-255~12~-377.3975~0.7391304~1, SnowSource><475.8436><251.3232><Radial~398~296~50~86.60254~0.6739131~1, 
+FadePalette: 40, 0.3043478, 0.4782609, 0.4891304, 0.4891304, 0.5108696, 0.5326087

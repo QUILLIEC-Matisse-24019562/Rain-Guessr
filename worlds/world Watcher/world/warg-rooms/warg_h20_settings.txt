@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Blizzard
+WaveSpeed: 0.4825153
+WaveLength: 0.9912577
+WaveAmplitude: 0.008315244
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+Palette: 455
+EffectColorA: 21
+EffectColorB: 18
+Effects: Coldness-0.1006476-20-20, Fog-0.1006475-23.82697-78.76711, 
+PlacedObjects: CustomDecal><361.5439><164.1951><0~477~252~424~200~-143~-778~-500~0~1~0~greybones~0.1956522~1~0.1956522~1~0.1956522~1~0.1956522~1, CustomDecal><358.6237><164.1551><10~469~285~438~210~-134~-738~-501~0~1~0~dirtywaterline~0.3043478~1~0.3043478~1~0.3043478~1~0.3043478~1, LightSource><490.186><408.1895><0.4021739~EffectColor2~15~62~353.0001~-52.39746~0~0~None~0~0, LightSource><489.1949><409.6923><1~White~-16~31~305~-270.3975~0~0~None~0~0, WarpPoint><490.1779><408.4085><27~23~Watcher~NULL~NULL~NULL~NULL~NULL~~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~true~true~true~true~false~0~-1~false~-1~false~-1~false~-1, 
+AmbientSounds: OMNI><SO_IND-HeatDuct.ogg><744.8><21.74706><0.1086956><1, OMNI><Deep Weird Wind.wav><363.6705><17.4335><0.04347826><1.9, OMNI><AM_ENV-SubTerr.ogg><547.3069><21.80194><0.1086956><1, OMNI><AM_IND-Fabrik01.ogg><173.4476><27.96898><0.3043478><0.3543478, SPOT><AM_ENV-LightWind.ogg><740.5749><517.8467><0.2065217><1><491.5749><36.84668><0.6446533><122.6447><0><0.252174, 
+FadePalette: 14, 0.4084675

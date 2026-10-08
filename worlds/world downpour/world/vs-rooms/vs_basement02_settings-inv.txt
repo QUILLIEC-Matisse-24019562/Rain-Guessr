@@ -1,0 +1,9 @@
+DangerType: None
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.0326087
+BkgDroneVolume: 0
+Palette: 8
+Effects: SilenceWater-0.7608696-20-20, LightBurn-0.173913-19-74, 
+PlacedObjects: LightSource><782.4408><227.8101><0.25~Environment~-341~267~-399~-193.3975~0~0~None~0~0, LightSource><434.4004><181.8818><0.1195652~Environment~102~214~-484~150.6025~0~1~None~0~0, LightSource><1589.854><263.921><0.2934783~Environment~-546~518~294~-155.3975~0~0~None~0~0, LightSource><1439.996><329.8><0.2173913~Environment~329~172~50~86.60254~0~1~None~0~0, LightSource><1322.81><369.6886><0.3152174~Environment~129~219~50~86.60254~0~0~None~0~0, LightSource><1747.448><290.7755><0.5760869~Environment~0~312~-104~270.6025~0~0~None~0~0, DevToken><281.4294><366.0883><-37~64~0~0~0~~~0~0~0~1, 
+FadePalette: 5, 0.2065217, 0.3043478, 0.3478261

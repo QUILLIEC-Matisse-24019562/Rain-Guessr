@@ -1,0 +1,5 @@
+RainIntensity: 0
+RumbleIntensity: 0
+Palette: 0
+PlacedObjects: BrokenShelterWaterLevel><226.7184><199.9475><, 
+FadePalette: 17, 0.6086956

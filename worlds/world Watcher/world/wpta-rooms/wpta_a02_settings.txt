@@ -1,0 +1,6 @@
+Clouds: 0
+Grime: 0.25
+Palette: 300
+PlacedObjects: DandelionPeach><225.6705><205.3537><0~0~2~3, DandelionPeach><297.8374><180.3286><0~0~2~3, PlateTree><170.764><144.354><-76.92297~239.248, WeaverSpot><512.0586><665.793><-71.76341~-454.3677, SkyWhalePathfinding><590.5226><478.0571><0~100~0~0~0, SkyWhalePathfinding><941.7603><355.6839><-9.403076~322.1135~0~0~0, SkyWhalePathfinding><-131.6004><316.4931><-0.8548126~350.3048~0~0~0, SkyWhalePathfinding><322.0516><249.0047><4.274109~197.3882~0~0, 
+AmbientSounds: SPOT><RWTW_PlateTree_A2.ogg><654.7898><591.777><0.3141699><1><64.55695><301.1808><22.77234><-136.1607><0><0.22079, OMNI><AM_WIN-StrongWnd2.ogg><833.7387><634.8024><0.3327531><1, 
+FadePalette: 301, 0

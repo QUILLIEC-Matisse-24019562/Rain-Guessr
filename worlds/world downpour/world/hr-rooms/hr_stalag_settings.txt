@@ -1,0 +1,17 @@
+Template: HR_SettingsTemplate_HellNew
+DangerType: Rain
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.9021739
+Grime: 0
+BkgDroneVolume: 0
+Palette: 58
+Effects: Darkness-0.7065217-348-71, 
+PlacedObjects: LightSource><474.6758><801.3453><0.1195652~EffectColor1~358~-554~-443~-356.3975~1~0~None~0~0, LightSource><458.8199><544.9129><0.2173913~Environment~-11~94~50~86.60254~1~0~None~0~0, LightSource><460.3561><89.86108><0.1413043~EffectColor2~-570~611~50~86.60254~1~1~None~0~0, CustomDecal><389.2679><80.19363><-452~1403~606~1495~118~-15~-463~922~0~1~1~Rust2~0.06521739~1~0.06521739~1~0.06521739~1~0.06521739~1, FairyParticleSettings><-35.64246><91.14041><5~8.660254~1~7.065217~37.5~0~1~2.35436~60~180~40~100~0~19.56522~0~23.47826~0.1086956~0.1413043~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, 
+AmbientSounds: SPOT><AM_WIN-SubWnd.ogg><598.8572><294.89><0.6086956><1><487.8572><136.89><-43.35535><242.6447><0><0.404348, OMNI><AM_WIN-SubWnd.ogg><555.1696><486.4331><0.5434783><1, OMNI><AM_WIN-HowlingWnd.ogg><739.9346><547.561><0.25><0.7456522, 
+FadePalette: 39, 0.6304348, 0.6195652
+WetTerrain: OFF

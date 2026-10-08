@@ -1,0 +1,183 @@
+WRRA_C01: 1995.193><-166.5736><1388.796><-88.17956><1><Rusted Wrecks><152><35
+WRRA_A01: 1672.103><-189.5736><1254.396><-106.1792><1><Rusted Wrecks><48><35
+WRRA_A02: 2276.552><-43.57387><1902.536><-43.17955><1><Rusted Wrecks><48><35
+WRRA_B01: 2464.822><-201.5736><1877.646><-182.1792><1><Rusted Wrecks><100><35
+WRRA_B02: 2613.592><43.92613><2064.826><-42.17935><2><Rusted Wrecks><48><76
+WRRA_D01: 2228.233><8.926206><1383.816><84.82084><2><Rusted Wrecks><100><76
+WRRA_B03: 2579.362><-68.57385><1662.586><64.82043><0><Rusted Wrecks><100><35
+WRRA_S02: 2337.762><-27.19636><1606.636><239.3048><0><><48><35
+WRRA_A03: 2822.792><-18.57399><1931.406><205.8208><0><Rusted Wrecks><48><35
+WRRA_A04: 1967.183><60.42645><1261.356><201.8208><2><Rusted Wrecks><48><35
+WRRA_B04: 1674.793><64.42645><1034.366><259.8208><2><Rusted Wrecks><100><35
+WRRA_A05: 1339.953><16.42644><910.9064><229.8208><2><Rusted Wrecks><48><35
+WRRA_A06: 1970.003><-30.57387><1264.346><48.82045><0><Rusted Wrecks><48><35
+WRRA_D02: 1548.643><-11.07377><834.2444><41.82045><0><Rusted Wrecks><202><36
+WRRA_A07: 1085.246><150.7114><685.9706><75.53484><0><Rusted Wrecks><48><37
+WRRA_B05: 1274.773><-171.2876><817.3904><-92.46536><1><Rusted Wrecks><100><35
+WRRA_A08: 1522.173><-183.2886><1127.026><-119.4652><1><Rusted Wrecks><48><35
+WRRA_A09: 3114.252><-85.28805><2255.046><110.5348><0><Rusted Wrecks><48><35
+WRRA_A10: 2984.473><-16.28816><2131.586><211.5348><0><Rusted Wrecks><48><39
+WRRA_B06: 3096.473><29.7124><2226.166><383.5348><1><Rusted Wrecks><100><35
+WRRA_B07: 3406.512><-29.13807><2645.886><61.38485><0><Rusted Wrecks><48><77
+WRRA_A20: 3211.243><89.80242><2451.906><208.3048><0><Rusted Wrecks><48><35
+WRRA_A11: 3251.752><-179.281><2362.126><-10.42475><0><Rusted Wrecks><48><35
+WRRA_S01: 3315.183><-62.19636><2517.606><72.30424><2><><48><35
+WRRA_B08: 3099.292><-163.2816><2224.726><-163.4252><1><Rusted Wrecks><100><35
+WRRA_A12: 1103.523><-56.49846><691.3663><-47.46815><2><Rusted Wrecks><48><35
+WRRA_S03: 1055.186><58.80343><558.2604><78.30444><1><><48><35
+WRRA_B09: 874.5164><-74.49856><470.3422><-56.46825><2><Rusted Wrecks><99><35
+WRRA_A13: 646.5164><-78.49845><322.9922><-60.46825><2><Rusted Wrecks><48><35
+WRRA_C02: 285.0714><-78.99847><-34.43147><26.53185><0><Rusted Wrecks><151><36
+WRRA_C03: -379.4326><-88.35027><-378.1738><-0.2459484><0><Rusted Wrecks><150><35
+WRRA_C04: -928.5126><-64.24676><-696.8035><31.47805><0><Rusted Wrecks><150><35
+WRRA_D03: -1547.127><-61.69257><-1127.864><34.75405><0><Rusted Wrecks><201><35
+WRRA_A21: -2036.448><-61.46926><-1249.654><15.28165><0><Rusted Wrecks><48><35
+WRRA_S05: -2035.958><-84.46937><-1250.644><165.2808><1><><48><35
+WRRA_C06: -2389.128><-61.69257><-1601.074><33.41205><0><Rusted Wrecks><150><35
+WRRA_C05: 338.8893><-78.24676><-15.80717><-144.5222><2><Rusted Wrecks><150><35
+WRRA_A14: 34.71677><-60.24676><-133.2887><-143.5222><2><Rusted Wrecks><48><35
+WRRA_B10: -190.6397><-39.90294><-347.3138><-133.7402><2><Rusted Wrecks><99><35
+WRRA_A15: -505.5417><-45.53936><-462.3518><-151.9522><2><Rusted Wrecks><48><35
+WRRA_A16: -460.6006><-167.5396><-403.6118><-291.9532><1><Rusted Wrecks><48><35
+WRRA_D04: -1007.727><-33.19654><-882.3837><-124.6962><2><Rusted Wrecks><201><35
+WRRA_A17: -1391.047><-33.19643><-1006.834><-124.6962><2><Rusted Wrecks><48><35
+WRRA_A18: -1394.547><173.8034><-924.1995><-262.6962><2><Rusted Wrecks><48><35
+WRRA_S04: -1252.687><105.8035><-858.4896><-389.6952><1><><48><35
+WRRA_A19: -1146.677><230.8034><-790.7896><-267.6962><2><Rusted Wrecks><48><41
+WRRA_B11: -1846.127><-59.69255><-1236.684><-125.5882><2><Rusted Wrecks><99><36
+WRRA_D05: -2427.128><-60.69255><-1667.784><-126.5882><2><Rusted Wrecks><201><35
+WRRA_L01: -2888.188><87.38347><-2253.654><427.0028><0><Rusted Wrecks><151><150
+WRRA_A22: -3214.507><7.642646><-2263.454><-79.43606><1><Rusted Wrecks><48><35
+WRRA_A23: -3133.718><-27.35756><-2148.954><-128.4362><2><Rusted Wrecks><48><35
+WRRA_A24: -2987.978><-76.35735><-2028.474><-199.4362><1><Rusted Wrecks><48><35
+WRRA_A25: -3062.767><73.64265><-2145.974><10.56385><1><Rusted Wrecks><48><35
+WRRA_S06: -3221.017><109.9014><-2261.014><56.97145><1><><48><35
+WRRA_A26: -3086.557><90.90195><-2026.054><-84.02866><2><Rusted Wrecks><48><35
+WRRA_A27: -2828.807><0.9019462><-1914.544><-92.02876><2><Rusted Wrecks><48><35
+WRRA_A28: -3211.898><175.6214><-2037.994><29.37485><2><Rusted Wrecks><48><35
+WRRA_A29: -3359.617><166.6214><-2148.514><136.3748><2><Rusted Wrecks><48><35
+WRRA_B12: -2824.408><7.621047><-1797.374><-175.7782><1><Rusted Wrecks><48><75
+WRRA_A30: -2773.547><145.6214><-1915.854><45.22225><2><Rusted Wrecks><48><35
+WRRA_B13: -2911.898><166.4904><-2034.254><155.1248><2><Rusted Wrecks><48><75
+WRRA_A31: -2912.408><315.4894><-1820.194><310.1248><1><Rusted Wrecks><48><35
+OffScreenDen_WRRA: 165.8723><658.3074><-1.773675><3.012851><1><><0><0
+Connection: WRRA_C01,WRRA_A02,132,24,4,10,0,2
+Connection: WRRA_C01,WRRA_A01,2,11,40,21,2,0
+Connection: WRRA_C01,WRRA_B01,145,9,4,18,1,2
+Connection: WRRA_A01,WRRA_A08,9,18,42,16,2,0
+Connection: WRRA_A02,WRRA_B02,43,19,3,9,0,2
+Connection: WRRA_B01,WRRA_B08,94,24,2,11,0,2
+Connection: WRRA_B02,WRRA_A09,44,66,3,8,0,2
+Connection: WRRA_B02,WRRA_D01,3,47,96,60,2,0
+Connection: WRRA_D01,WRRA_A04,2,50,41,13,2,0
+Connection: WRRA_D01,WRRA_B03,96,24,4,9,0,2
+Connection: WRRA_D01,WRRA_A06,3,22,39,29,2,0
+Connection: WRRA_B03,WRRA_S02,4,28,38,15,2,0
+Connection: WRRA_B03,WRRA_A03,95,28,2,11,0,2
+Connection: WRRA_A03,WRRA_B06,42,30,4,25,0,2
+Connection: WRRA_A03,WRRA_A10,45,7,4,10,0,2
+Connection: WRRA_A04,WRRA_B04,7,27,92,25,2,0
+Connection: WRRA_B04,WRRA_A05,1,8,39,23,2,0
+Connection: WRRA_A05,WRRA_B05,23,6,70,29,3,1
+Connection: WRRA_A06,WRRA_D02,6,13,196,9,2,0
+Connection: WRRA_D02,WRRA_A07,1,11,40,6,2,0
+Connection: WRRA_A07,WRRA_A12,18,3,12,30,3,1
+Connection: WRRA_B05,WRRA_A12,6,31,35,8,1,3
+Connection: WRRA_B05,WRRA_A08,96,20,3,26,0,2
+Connection: WRRA_A09,WRRA_A10,10,29,40,19,1,0
+Connection: WRRA_A09,WRRA_B07,42,28,2,24,0,2
+Connection: WRRA_A09,WRRA_A11,41,5,4,27,3,1
+Connection: WRRA_B06,WRRA_B07,94,28,45,30,0,1
+Connection: WRRA_B07,WRRA_A20,12,68,38,9,2,0
+Connection: WRRA_B07,WRRA_A11,12,9,42,7,3,0
+Connection: WRRA_B07,WRRA_B08,45,16,93,27,0,0
+Connection: WRRA_A11,WRRA_S01,45,28,23,6,1,3
+Connection: WRRA_A12,WRRA_S03,7,30,23,7,1,3
+Connection: WRRA_A12,WRRA_B09,5,11,92,17,2,0
+Connection: WRRA_B09,WRRA_A13,6,17,44,18,2,0
+Connection: WRRA_A13,WRRA_C02,15,23,146,22,2,0
+Connection: WRRA_A13,WRRA_C05,7,8,142,8,2,0
+Connection: WRRA_C02,WRRA_C03,13,11,140,15,3,3
+Connection: WRRA_C03,WRRA_A16,71,24,41,13,3,0
+Connection: WRRA_C03,WRRA_C04,19,15,133,7,3,3
+Connection: WRRA_C04,WRRA_D03,6,16,186,15,3,3
+Connection: WRRA_D03,WRRA_A21,4,5,41,5,3,3
+Connection: WRRA_A21,WRRA_S05,22,16,22,28,3,1
+Connection: WRRA_A21,WRRA_C06,6,5,142,5,3,3
+Connection: WRRA_C06,WRRA_L01,9,5,145,13,3,3
+Connection: WRRA_C05,WRRA_A14,7,13,43,7,2,0
+Connection: WRRA_A14,WRRA_B10,4,24,93,18,2,0
+Connection: WRRA_B10,WRRA_A15,5,9,44,10,2,0
+Connection: WRRA_A15,WRRA_A16,18,24,13,29,3,1
+Connection: WRRA_A15,WRRA_D04,5,11,192,6,3,3
+Connection: WRRA_D04,WRRA_A17,5,17,43,17,2,0
+Connection: WRRA_A17,WRRA_A18,8,25,10,5,2,3
+Connection: WRRA_A17,WRRA_B11,4,11,93,11,2,0
+Connection: WRRA_A18,WRRA_A19,44,25,4,27,0,2
+Connection: WRRA_A18,WRRA_S04,35,11,13,16,0,2
+Connection: WRRA_B11,WRRA_D05,5,5,193,5,3,3
+Connection: WRRA_D05,WRRA_L01,8,6,3,13,3,3
+Connection: WRRA_L01,WRRA_A31,94,124,23,28,3,1
+Connection: WRRA_L01,WRRA_A30,121,96,36,29,3,1
+Connection: WRRA_L01,WRRA_B12,119,44,44,17,3,0
+Connection: WRRA_L01,WRRA_A29,27,52,11,31,3,1
+Connection: WRRA_L01,WRRA_A22,72,16,31,7,3,0
+Connection: WRRA_A22,WRRA_A25,44,27,6,5,0,2
+Connection: WRRA_A22,WRRA_A23,44,17,3,24,0,2
+Connection: WRRA_A23,WRRA_A26,23,30,7,4,1,3
+Connection: WRRA_A23,WRRA_A24,43,8,4,25,0,2
+Connection: WRRA_A24,WRRA_B12,43,13,4,5,0,2
+Connection: WRRA_A25,WRRA_S06,4,29,38,17,2,0
+Connection: WRRA_A25,WRRA_B13,42,21,4,10,0,2
+Connection: WRRA_A26,WRRA_A28,7,32,41,5,1,0
+Connection: WRRA_A26,WRRA_B12,43,25,6,70,0,1
+Connection: WRRA_A26,WRRA_A27,43,5,9,7,0,2
+Connection: WRRA_A27,WRRA_A30,38,27,35,3,0,3
+Connection: WRRA_A28,WRRA_B13,41,29,4,52,0,2
+Connection: WRRA_A28,WRRA_A29,4,13,42,16,2,0
+Connection: WRRA_A30,WRRA_B13,4,9,39,22,2,0
+Connection: WRRA_B13,WRRA_A31,23,69,23,6,1,3
+
+SpawnMigrationStream: stream1,2250^161,2555^-175,2193^24,2544^-178,None,12,70,30,WRRA_B01
+SpawnMigrationStreamMidpoint: stream1,0,1966^74^7.482803^147^143
+SpawnMigrationStreamMidpoint: stream1,1,1450^64^-10.14222^182^135
+SpawnMigrationStreamMidpoint: stream1,2,1357^-160^258.2017^33^21
+SpawnMigrationStreamMidpoint: stream1,3,1639^-178^150.1197^122^150
+SpawnMigrationStreamMidpoint: stream1,4,2067^-142^175.6562^103^54
+SpawnMigrationStreamMidpoint: stream1,5,2255^-190^182.4477^75^87
+
+SpawnMigrationStream: stream2,-1000^34,1086^19,-961^-44,1088^-21,None,12,70,30,WRRA_A07
+SpawnMigrationStreamMidpoint: stream2,0,-712^-17^208.6612^143^34
+SpawnMigrationStreamMidpoint: stream2,1,-508^-61^185.97^76^53
+SpawnMigrationStreamMidpoint: stream2,2,-341^-43^200.6133^55^107
+SpawnMigrationStreamMidpoint: stream2,3,-175^-48^182.2118^55^34
+SpawnMigrationStreamMidpoint: stream2,4,99^-61^179.2785^190^197
+SpawnMigrationStreamMidpoint: stream2,5,345^-34^179.7309^105^56
+SpawnMigrationStreamMidpoint: stream2,6,564^-79^185.6579^75^75
+SpawnMigrationStreamMidpoint: stream2,7,717^-61^166.7202^13^112
+SpawnMigrationStreamMidpoint: stream2,8,954^-42^207.974^58^139
+
+SpawnMigrationStream: stream3,346^5,-2759^6,323^-81,-2796^97,None,0,70,30,WRRA_A26
+SpawnMigrationStreamMidpoint: stream3,0,151^-37^-4.356842^125^124
+SpawnMigrationStreamMidpoint: stream3,1,-285^-54^-16.67362^80^24
+SpawnMigrationStreamMidpoint: stream3,2,-389^-44^-0.8147354^27^42
+SpawnMigrationStreamMidpoint: stream3,3,-471^-57^-0.376709^40^28
+SpawnMigrationStreamMidpoint: stream3,4,-555^-47^-10.08281^19^69
+SpawnMigrationStreamMidpoint: stream3,5,-787^-33^29.0652^55^29
+SpawnMigrationStreamMidpoint: stream3,6,-910^-40^0.8604431^39^52
+SpawnMigrationStreamMidpoint: stream3,7,-998^-25^-15.47858^22^46
+SpawnMigrationStreamMidpoint: stream3,8,-1149^-31^8.028389^70^47
+SpawnMigrationStreamMidpoint: stream3,9,-1497^-67^-33.75751^133^41
+SpawnMigrationStreamMidpoint: stream3,10,-1735^-51^-5.132233^121^231
+SpawnMigrationStreamMidpoint: stream3,11,-2038^-36^0.1782455^48^51
+SpawnMigrationStreamMidpoint: stream3,12,-2220^-47^16.42627^106^48
+SpawnMigrationStreamMidpoint: stream3,13,-2372^-46^16.9622^120^27
+SpawnMigrationStreamMidpoint: stream3,14,-2588^-44^-7.914047^58^104
+SpawnMigrationStreamMidpoint: stream3,15,-2837^-39^27.93738^44^93
+
+SpawnMigrationStream: stream4,-2758^-41,-3065^-61,-2781^-94,-2986^-85,None,1,70,30,WRRA_A26
+SpawnMigrationStreamMidpoint: stream4,0,-2840^-74^12.32667^43^66
+
+SpawnMigrationStream: stream5,-3064^-62,-3068^95,-3215^-46,-3140^136,None,2,70,30,WRRA_A26
+
+SpawnMigrationStream: stream6,1093^31,1065^166,1093^131,965^128,None,0,70,30,WRRA_A07

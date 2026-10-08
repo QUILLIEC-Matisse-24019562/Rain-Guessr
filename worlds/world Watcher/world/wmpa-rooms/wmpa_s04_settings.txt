@@ -1,0 +1,2 @@
+Template: wmpa_settingstemplate_tidelands
+FadePalette: 10, 0.7061543

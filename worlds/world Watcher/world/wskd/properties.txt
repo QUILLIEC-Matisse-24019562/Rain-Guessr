@@ -1,0 +1,10 @@
+safariStartRoom: WSKD_S05
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0.0
+rippleSpiderThreshold: 18
+softLightRegion: true
+proceduralMusicBank: wskd
+Subregion: Shrouded Stacks
+Room Setting Templates: Outside, Inside

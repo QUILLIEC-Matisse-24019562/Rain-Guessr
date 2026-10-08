@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Blizzard
+WaveSpeed: 0.5666271
+WaveLength: 0.9666864
+WaveAmplitude: 0.0001169184
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2065217
+Grime: 0
+Palette: 455
+EffectColorA: 10
+EffectColorB: 9
+Effects: Fog-0.6041195-20-20, FairyParticles-0.01086957-305-27, Coldness-0.2065217-22-86, 
+PlacedObjects: FairyParticleSettings><133.2511><114.3><-764~-479.3397~1~2.717391~9.782609~0.5543478~1.128429~6.713982~59.78261~375~108.6956~293.4782~0~0~50.86956~140.8696~0~0~0~0~1~1~0.2826087~0~4.521739~Dandelion~SIN_IO~SIN_IO~78.26087~0.08695652~0, CustomDecal><375.4261><115.5948><36~562~170~512~733~-67~-706~-452~0~1~0~greybones~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, LightSource><591.8633><281.396><0.04347829~White~-338~138~86~-423.3975~0~1~None~0~0, FirecrackerPlant><511.1226><120.1825><166.6723~190.7472~2~3, ReliableSpear><829.584><216.6265><, ReliableSpear><895.7901><211.1308><, 
+AmbientSounds: OMNI><RWTW_AR_WindyCliff.ogg><136.6748><5.185333><0.05434782><0.8043478, OMNI><RWTW_AR_CityWithNoBuildings.ogg><796.3318><522.0675><0.2282609><1, 
+FadePalette: 24, 0.3067531

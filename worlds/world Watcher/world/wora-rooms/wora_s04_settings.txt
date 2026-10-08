@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: Sandstorm
+Clouds: 0.7919753
+Grime: 0.1304348
+Palette: 50
+EffectColorA: 8
+EffectColorB: 18
+PlacedObjects: CustomDecal><391.3215><83.54401><-220.0293~584~167.4378~615~308.8141~-42~-679.0044~-143~0~1~0~rust2~0.391782~1~0.391782~1~0.391782~1~0.391782~1, LightSource><398.0239><547.0118><0.04768007~Environment~-2.986816~48~-630.0001~-100.3975~1~1~None~0~0, LightSource><457.2935><363.3342><0.04767907~Environment~-9.956055~43~50~86.60254~1~1~None~0~0, CustomDecal><423.346><-18.50737><-136.3983~554~119.6486~3~77.83307~-33~-471.918~-141~0~1~0~rust2~0.3376727~1~0.3376727~1~0.3376727~1~0.3376727~1, ShelterSpawnPoint><369.8521><581.777><, 
+AmbientSounds: OMNI><RWTW_AR_CityWithNoBuildings.ogg><753.678><502.6588><0.06521739><1, 
+FadePalette: 10, 0.5930775

@@ -1,0 +1,10 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: None
+Clouds: 1
+Grime: 0
+BkgDroneVolume: 0
+Palette: 16
+Effects: SunBlock-0-11-49, Bloom-0.8369565-13-106, 
+PlacedObjects: SpotLight><142.6941><86.808><18~531~676~544~614~10, CoralStem><523.1365><81.89624><1~178, CoralStem><168.0381><289.0536><60~124, CoralStem><844.7996><256.4438><-139~181, 
+AmbientSounds: OMNI><SO_SFX-Drowning.ogg><831.3334><655.1106><0.5><1, SPOT><AM_IND-DeepHum.ogg><72.09741><501.3253><0.4130435><1><491.0974><377.3253><-131.3553><-140.3553><0><0.2847827, OMNI><SO_SFX-Heartbeat2.ogg><654.5776><656.8514><0.5108696><0.8826087, SPOT><SO_SFX-Celia.ogg><651.2262><265.3014><0.09782609><1.430435><474.2262><373.3014><-128.3553><-127.3553><0><0.2304349, 
+FadePalette: 24, 0.6086956

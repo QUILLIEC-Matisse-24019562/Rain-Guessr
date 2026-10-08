@@ -1,0 +1,10 @@
+DangerType: Sandstorm
+RainIntensity: 1
+Clouds: 0
+Grime: 0.1195652
+Palette: 334
+EffectColorB: 21
+Effects: LightBurn-0.1991854-20-20, Flies-0.5886543-0-0, 
+PlacedObjects: LightBeam><391.3647><-37.47787><-15~767~184~763~200~-3~416~501~0.1065223~0~1~1~None~0~0, LightSource><468.8318><285.3978><0.7391304~Environment~41~128~454~-114.3975~1~0~None~0~0, LightSource><485.8327><649.7029><0.6304348~Environment~0~100~383~-587.3975~1~0~None~0~0, LightSource><481.6248><435.9059><0.3804348~Environment~44~133~437~-462.4728~1~0~None~0~0, LightSource><491.1748><169.5426><0.5~Environment~35~160~397.3524~143.568~1~1~None~0~0, LightSource><491.4305><342.1637><0.4565217~Environment~43~163~396~-282.9927~1~1~None~0~0, LightSource><487.4239><114.3489><0.5~Environment~10~157~341~54.60254~1~0~None~0~0, LightSource><488.7752><-14.30162><0.1413043~Environment~7~152~50~86.60254~1~1~None~0~0, LightSource><486.8375><673.3202><0.1195652~Environment~2~154~269.0001~-88.39746~1~1~None~0~0, LightSource><479.9488><512.5212><0.5~Environment~3~152~50~86.60254~1~1~None~0~0, LightSource><505.5543><677.4584><0.3369565~Environment~-300~-593~-395~-160.3975~1~1~None~0~0, CustomDecal><-61.46112><-36.50412><7.964874~939~1012.709~790~1092.357~-8~-116~382~0~1~0~greybones~0.1212361~1~0.1212361~1~0.1212361~1~0.1212361~1, NoSpearStickZone><492.0034><756.2977><168.2578~27, RippleSpawnEgg><561.8732><439.8425><, RippleSpawnEgg><561.9493><260.9838><, RippleSpawnEgg><401.7064><262.9687><, RippleSpawnEgg><397.9395><440.0639><, RippleTree><431.0166><254.5069><-4.884155~64.87802~0.3664617~0.7231823~right~spiralCoils|2.22972~droopy|0.2229724~depth|8.918888, NoRippleSproutZone><78.07294><200.3003><-7.5~110~153.75~113.75~200~5, 
+AmbientSounds: SPOT><RWTW_DustStorm_Gusting.ogg><730.3265><490.9688><0.1861672><0.7857271><498.4671><733.9688><-35.35534><-35.35534><0><1, OMNI><RWTW_RotAmb_Goo.ogg><0><0><0.1212364><0.8636453, OMNI><RWTW_RotAmb_Med.ogg><0><0><0.2727416><0.6104141, 
+FadePalette: 333, 0.2621586

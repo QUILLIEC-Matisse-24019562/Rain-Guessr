@@ -1,0 +1,7 @@
+Template: NONE
+DangerType: None
+Grime: 0
+Palette: 8
+EffectColorA: 20
+EffectColorB: 20
+FadePalette: 13, 0.1304348

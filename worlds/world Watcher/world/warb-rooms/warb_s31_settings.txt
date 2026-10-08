@@ -1,0 +1,4 @@
+Palette: 80
+Effects: DarkenLights-0.8051803-20-20, 
+AmbientSounds: SPOT><SO_WAT-RunningWater.ogg><775.6326><411.876><0.3523832><1><472.012><190.7345><72.67297><-66.22058><0><0.207357, 
+FadePalette: 33, 0.9058279

@@ -1,0 +1,4 @@
+Template: WTDA_SettingsTemplate_Tomb
+DangerType: Sandstorm
+RainIntensity: 1
+FadePalette: 337, 0.6817746

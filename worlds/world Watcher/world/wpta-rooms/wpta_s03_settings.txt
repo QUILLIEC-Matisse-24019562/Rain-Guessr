@@ -1,0 +1,2 @@
+Template: WPTA_SettingsTemplate_SpireInside
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><670.8992><608.5226><0.2955873><1, 

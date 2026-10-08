@@ -1,0 +1,10 @@
+Template: wtda_settingstemplate_tower
+DangerType: Sandstorm
+RainIntensity: 1
+Grime: 0.1521739
+Palette: 336
+EffectColorA: 13
+EffectColorB: 4
+Effects: Ripple Settings-0-1047.492-36.23137-Watcher-WARG-warg_b31-0-1-80-0.6097571, 
+PlacedObjects: LightSource><427.4872><350.5517><0.2934783~Environment~52~146~50~86.60254~1~0~None~0~0, CustomDecal><61.94464><84.31342><29.92532~580~885.9077~539~921.0308~34~-224.9253~256~0~1~0~greybones~0.1956522~1~0.1956522~1~0.1956522~1~0.1956522~1, LightSource><423.0422><350.028><0.04767973~Environment~346.4714~148~-314.3924~184.6025~1~1~None~0~0, SlimeMold><126.8355><243.0842><-206.937~112~2~3, SlimeMold><189.1833><261.4385><-198~57~2~3, SlimeMold><858.9496><239.7629><0~0~2~3, SlimeMold><833.4183><237.5674><0~0~2~3, SlimeMold><766.554><254.2101><0~0~2~3, CosmeticSlimeMold><834.4468><202.5361><0~100, CosmeticSlimeMold2><159.4132><224.6162><0~100, LightFixture><163.6347><250.9134><SlimeMoldLight~-155.6795~2~62, LightFixture><816.4009><245.0763><SlimeMoldLight~17.32051~-10~25, WarpPoint><443.7992><262.6651><316.6031~178~Watcher~Watcher~WARG~warg_b31~290~1470~f87fa71f-d815-483d-b1d3-ced91811ee04~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~false~false~false~false~false~0~-1~-1~-1~-1~-1~-1, CosmeticRipple><-120.5799><390.4788><0~0~294.9261~87.99118~-120.5799~390.4788~307.7724~0.9181177~0.7677125~False~0.5~True~0.260162~False~-1~0~False, CosmeticRipple><-9.548889><-7.50383><0~0~210.2991~363.0701~-9.548889~-7.50383~419.5779~0.8066197~1~False~0.5~True~0.2508707~False~-1~0~False, CosmeticRipple><764.5606><-39.63739><-187.2052~88.84538~0.8685913~366.4872~764.5606~-39.63739~366.4882~0.6858302~0.2102223~False~0.5~False~0.4088267~False~-1~0~False, 
+FadePalette: 337, 0.3571203

@@ -1,0 +1,4 @@
+Template: WSKC_SettingsTemplate_Inside
+PlacedObjects: LightSource><613.0844><399.1813><0.2608696~EffectColor1~55~124~50~86.60254~1~0~None~0~0, CustomDecal><333.8618><270.9159><37~300~547~206~529~-60~-382~-252~0~1~0~greybones~0.1413043~1~0.1413043~1~0.1413043~1~0.1413043~1, ShelterSpawnPoint><599.8029><298.6937><, 
+AmbientSounds: SPOT><so_sfx-data1.ogg><363.8926><443.5813><0.3586957><0.5304348><617.8926><407.5813><-35.35534><-35.35534><0><0.1652175, 
+FadePalette: 458, 0.7717391

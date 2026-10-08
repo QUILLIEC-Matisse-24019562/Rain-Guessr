@@ -1,0 +1,3 @@
+BkgDroneVolume: 0.2769565
+PlacedObjects: Corruption><108.2241><464.5763><0~100, PassiveCorruption><782.9423><162.4186><33~188~-574~-51~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1, 
+FadePalette: 10, 0.2380801

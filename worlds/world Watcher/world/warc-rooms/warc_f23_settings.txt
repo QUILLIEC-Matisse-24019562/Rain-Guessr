@@ -1,0 +1,9 @@
+Template: NONE
+Clouds: 0
+Palette: 98
+EffectColorA: 6
+EffectColorB: 12
+Effects: Fog-0.2013563-20-20, Darkness-0.3093083-21-74, 
+PlacedObjects: InsectGroup><480.1039><234.8635><0~100~0~0~RockFlea~0.5, 
+AmbientSounds: OMNI><so_sfx-morana.ogg><742.4232><503.6><0.1521739><1, OMNI><am_env-outside.ogg><153.6951><105.0034><0.25><1, OMNI><am_ind-warehouse01.ogg><757.1484><208.5777><0.3043478><1, SPOT><RWTW_FG_DripMachine.ogg><150.7334><323.4374><0.1223466><1><306.5658><67.52939><95.64691><-23.96384><0><0.2052475, 
+FadePalette: 10, 0.6556644

@@ -1,0 +1,15 @@
+RainIntensity: 0.8260869
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0
+SecondWaveAmplitude: 0
+Clouds: 1
+BkgDroneVolume: 0
+Palette: 35
+EffectColorA: 12
+EffectColorB: 21
+Effects: ElectricDeath-0-254-0, GreenSparks-0.3913043-256-186, SilenceWater-0.4456522-256-302, WaterDepth-0.1304348-296-350, BkgOnlyLightning-1-249-245, Fog-0-0-0, 
+PlacedObjects: LightSource><1569.954><360.2176><1~EffectColor1~14~47~-102.0124~-309.444~0~0~None~0~0, LightSource><313.0128><455.6389><0.2608775~EffectColor1~32~44~-25.07855~-239.2018~0~0~None~0~0, LightSource><565.7371><502.763><0.3913116~EffectColor1~27~41~-132.2679~-472.4771~0~0~None~0~0, LightSource><980.8676><374.6087><0.3913627~EffectColor1~16~48~162.1127~-271.8006~0~0~None~0~0, LightSource><1122.606><355.6353><0.3913627~EffectColor1~7~46~21.11981~-260.6903~0~0~None~0~0, LightSource><1298.933><382.8088><0.3913627~EffectColor1~2~44~-157.9175~-287.442~0~0~None~0~0, LightSource><1433.915><452.6584><0.3913627~EffectColor1~12~45~-293.0383~-356.3403~0~0~None~0~0, LightSource><1475.969><318.1129><0.3913627~EffectColor1~15~48~-333.0355~-221.5095~0~0~None~0~0, LightSource><1588.953><458.3082><0.3913627~EffectColor1~14~55~-449.4849~-361.2993~0~0~None~0~0, LightSource><1650.91><402.4258><0.3913627~EffectColor1~15~44~-510.3088~-302.5016~0~0~None~0~0, LightSource><1702.616><323.0121><0.3913627~EffectColor1~9~50~-561.2339~-226.4958~0~0~None~0~0, LightSource><1222.946><374.3942><0.3913627~EffectColor1~12~41~-80.92566~-277.3829~0~0~None~0~0, LightSource><1374.618><367.5687><0.3913627~EffectColor1~7~54~-232.997~-271.3663~0~0~None~0~0, LightSource><752.4307><733.9205><0.3339903~EffectColor1~29~58~-181.9818~-509.4045~0~0~None~0~0, LightSource><-34.84778><584.7141><0.3339897~EffectColor1~12~53~-331.8733~-564.9254~0~0~None~0~0, LightSource><952.8195><912.1395><0.3339897~EffectColor1~37~41~4.089294~-556.9234~0~0~None~0~0, LightSource><94.4234><587.1195><0.3339903~EffectColor1~15~47~-135.9968~-544.4011~0~0~None~0~0, LightSource><1018.12><1054.928><0.3339897~EffectColor1~15~36~145.9963~-586.4076~0~0~None~0~0, LightSource><688.5759><653.1069><0.3339897~EffectColor1~12~47~33.85449~-582.2248~0~0~None~0~0, LightSource><158.3813><528.7213><0.3339903~EffectColor1~25~49~381.0408~-418.4036~0~0~None~0~0, NoSpearStickZone><-47.5031><508.6624><180~180, NoSpearStickZone><4010.089><1822.606><-182~168, LightSource><1423.634><388.7495><0.1635583~EffectColor1~-538~387~50~86.60254~0~0~None~0~0, LightSource><341.2759><619.5026><0.1408293~EffectColor1~780~-441~-351.9782~-427.4018~0~0~None~0~0, DevToken><1635.931><273.938><61~-71~0~0~0~~~0~0~0~1, 
+AmbientSounds: OMNI><AM_WAT-Sea01.ogg><654.1245><638.5935><0.0326087><0.1, OMNI><AM_RAIN-RollingThunder.ogg><834.5841><555.6815><0.3478261><1, OMNI><AM_RAIN-Rumbles.ogg><660.203><554.0556><0.3369565><1, OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0.01086957><0.1, OMNI><AM_WIN-StrongWnd2.ogg><839.411><484.6187><0.1847826><1.234783, 
+FadePalette: 17, 0.6195652, 0.6521739, 0.6739131, 0.6195652, 0.6413044, 0.6521739, 0.6956522, 0.7173913, 0.6413044, 0.8913044

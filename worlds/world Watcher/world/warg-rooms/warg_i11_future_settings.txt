@@ -1,0 +1,22 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.3136537
+WaveLength: 0.9068269
+WaveAmplitude: 0.001036154
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2065217
+Grime: 0
+Palette: 455
+EffectColorA: 10
+EffectColorB: 2
+TerrainWaves: 0.1413043
+TerrainGooHeight: 0.1518276
+TerrainDepth: 1.036265
+TerrainPalette: ridgesnow
+Effects: FairyParticles-0.1086956-40-20, Coldness-0.8054148-24-84, Fog-1-327-18, 
+PlacedObjects: FairyParticleSettings><-98.69641><799.5378><-509~-328.3398~1~2.717391~9.782609~0.5543478~1.128429~6.713982~59.78261~375~108.6956~293.4782~0~0~50.86956~140.8696~0~0~0~0~1~1~0.2826087~0~4.521739~Dandelion~SIN_IO~SIN_IO~78.26087~0.08695652~0, CustomDecal><-211.9441><1312.058><-12~293~1076~186~587~-300~-196~-799~0~1~0~greybones~0.3043478~1~0.3043478~1~0.3043478~1~0.3043478~1, LightSource><14.64215><1560.359><0.25~White~871~-446~936.9999~-774.3975~1~1~None~0~0, LocalBlizzard><-15.32031><1454.588><962~-172~-215~-369.3975~0.25~1~0.5326087, LanternOnStick><58.20654><1401.945><-53~-155, SnowSource><-111.949><1436.52><Radial~382~-12~-44~-513.3975~1~0, SnowSource><194.017><1197.189><Radial~153~75~-355~-207.3975~1~0, SnowSource><480.1843><1242.328><Radial~197~51~-522~-453.3975~1~1, SnowSource><630.0634><1275.072><Radial~0~89~-632~-361.3975~1~1, LightSource><60.90207><1227.87><1~White~593~-311~610~-233.3975~0~0~Fade~0.5~0, LightSource><226.5524><1467.969><0.04347826~EffectColor2~626~-424~676~-632.3975~0~1~None~0~0, LightSource><355.8046><1337.293><0.1521736~White~372~-157~50~86.60254~0~1~None~0~0, TerrainHandle><217.8301><1231.874><-40~0~40~0~20, TerrainHandle><-127.9788><1409.151><-54.23938~0.5695801~63.35259~-11.39154~20, TerrainHandle><508.2363><1351.656><-40~0~40~0~73.5401, TerrainHandle><703.6026><1332.247><-40~0~40~0~20, TerrainHandle><345.7081><1304.114><-40~0~40~0~20, TerrainHandle><45.99008><1306.84><-40~0~40~0~20, WindRect><-59.09692><1177.175><-16~467~440~253~784~78~0.1956521~Creatures, GoldToken><77.28281><1340.82><-43.21133~-33.3378~724.0986~-79.63226~0~WARG~~0~0~0, 
+AmbientSounds: SPOT><RWTW_AR_WindyCliff.ogg><745.9697><253.1977><0.25><1><-175.0302><1502.198><116.6447><-297.3553><0><0.404348, OMNI><RWTW_AR_RearDen.ogg><478.6163><116.6012><0.1195652><0.8043478, 
+FadePalette: 14, 0.4006908
+WetTerrain: OFF

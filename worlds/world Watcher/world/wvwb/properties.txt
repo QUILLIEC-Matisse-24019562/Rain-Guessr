@@ -1,0 +1,22 @@
+kelpColor: 0.30,0.40,0.20
+mudColor: 3A3D26
+overseersMin: 0
+overseersMax: 0
+waterColorOverride: 0.4, 0.6, 0.2
+rippleSpiderThreshold: 12
+globalCreatureFlags: Ignorecycle
+hideTimer: true
+locustRegion: true
+playerGuideOverseerSpawnChance: 0
+boxWormColor: 1.058, 0.73, 0.368
+proceduralMusicBank:
+Subregion: Fractured Gateways
+Room_Attr: Default: SkyWhale-Forbidden,TOPWhale-Forbidden,MIDWhale-Forbidden,BOTWhale-Forbidden,
+Room_Attr: WVWB_A05: SpitterSpider-Forbidden,
+Room_Attr: WVWB_B01: BigSpider-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: WVWB_B02: SpitterSpider-Forbidden,
+Room_Attr: WVWB_C01: BigSpider-Forbidden,SpitterSpider-Forbidden,SkyWhale-Like,BOTWhale-Like,
+Room_Attr: WVWB_D01: SkyWhale-Like,MIDWhale-Like,
+Room_Attr: WVWB_H01: SkyWhale-Like,BOTWhale-Like,
+Room_Attr: WVWB_H02: BigSpider-Forbidden,SpitterSpider-Forbidden,SkyWhale-Like,MIDWhale-Like,TOPWhale-Like,
+Room_Attr: WVWB_J01: TOPWhale-Stay,

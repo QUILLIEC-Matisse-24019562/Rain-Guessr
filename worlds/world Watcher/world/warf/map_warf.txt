@@ -1,0 +1,291 @@
+WARF_A01: 2778.658><581.5314><1983.124><689.9603><1><Aerial Tramway><48><35
+WARF_A02: 2544.658><581.5314><1766.124><690.9603><1><Aerial Tramway><100><35
+WARF_A03: 2532.658><692.5314><1810.124><821.9603><1><Aerial Tramway><48><35
+WARF_A04: 2301.658><514.0314><1652.504><585.9603><0><Aerial Tramway><48><78
+WARF_A05: 2263.678><317.9994><1629.124><430.5742><0><Aerial Tramway><48><35
+WARF_A06: 2457.658><871.0314><1706.124><953.9603><0><Aerial Tramway><100><78
+WARF_A07: 2550.658><872.5314><1922.124><1001.96><1><Aerial Tramway><48><35
+WARF_A08: 2026.678><317.9994><1408.124><430.9561><0><Aerial Tramway><100><35
+WARF_A09: 2484.658><467.5315><1777.744><562.5164><0><Aerial Tramway><48><35
+WARF_B01: 1633.678><251.9994><1086.124><364.9561><0><Aerial Tramway><152><78
+WARF_B02: 1231.678><224.9994><870.124><369.9561><0><Aerial Tramway><100><35
+WARF_B03: 1173.658><161.5314><868.124><239.9562><1><Aerial Tramway><48><35
+WARF_B04: 1068.658><146.5314><755.124><210.9562><0><Aerial Tramway><48><35
+WARF_S01: 2415.658><692.5314><1694.124><822.9603><2><><48><35
+WARF_B05: 885.659><76.0316><632.434><126.9262><0><Blast Deck><48><78
+WARF_B06: 892.6789><284.9994><632.434><354.9284><0><Blast Deck><48><35
+WARF_B07: 639.659><284.5315><407.4339><339.9284><0><Blast Deck><100><35
+WARF_B08: 210.658><263.5315><173.432><331.9284><0><Blast Deck><48><35
+WARF_B09: -35.34234><184.0314><-43.56811><236.9282><0><Blast Deck><100><78
+WARF_B10: -191.342><415.0315><-156.569><890.9304><1><Blast Deck><48><78
+WARF_B11: -569.341><421.0315><-381.5701><893.9304><0><Blast Deck><100><78
+WARF_B12: -1094.342><485.5315><-615.5681><979.9304><1><Blast Deck><48><35
+WARF_B13: -1091.342><179.5314><-610.5681><243.9282><0><Blast Deck><48><35
+WARF_B14: -1272.342><37.0316><-1045.566><-27.06784><1><Blast Deck><100><154
+WARF_B15: 102.658><479.5315><-31.56811><996.9304><0><Blast Deck><100><35
+WARF_B22: -449.3409><-4.968411><-255.568><532.9304><1><Blast Deck><48><78
+WARF_B24: -1094.342><371.5315><-615.5681><831.9304><0><Blast Deck><48><35
+WARF_B25: 321.658><82.0316><409.4339><134.9261><1><Blast Deck><100><78
+WARF_B26: 861.659><-99.46835><571.4319><8.927544><0><Blast Deck><48><35
+WARF_B27: -455.3409><296.5315><-137.569><405.9284><2><Blast Deck><48><35
+WARF_B28: -878.341><389.5315><-494.5681><1115.928><2><Blast Deck><48><35
+WARF_B30: 390.6591><263.5315><290.4339><331.9284><0><Blast Deck><48><35
+WARF_B42: -467.3409><161.5314><-254.568><752.9304><1><Blast Deck><48><35
+WARF_B43: -650.341><185.5314><-378.5701><751.9304><1><Blast Deck><48><35
+WARF_C01: -479.3409><119.5314><-274.5681><242.9282><0><Blast Deck><100><35
+WARF_C02: -548.341><2.531587><-373.5701><94.92754><0><Blast Deck><152><35
+WARF_C03: -875.341><67.0316><-493.5701><87.92815><0><Blast Deck><48><78
+WARF_C04: -131.342><-0.4684117><-48.56831><87.92754><1><Blast Deck><48><35
+WARF_C05: -434.3409><272.5315><-255.568><383.9284><1><Blast Deck><48><35
+WARF_C07: -1037.342><2.531587><-611.5681><84.92754><0><Blast Deck><48><35
+WARF_S02: 1005.658><29.53161><696.434><7.927545><0><><48><35
+WARF_S03: -1157.342><-9.468408><-815.566><115.9312><2><><48><35
+WARF_S14: -599.341><56.5316><-377.5701><626.9304><1><><48><35
+WARF_B16: 411.6591><409.0315><458.5719><1088.358><1><Blast Deck><48><78
+WARF_B17: 171.658><374.5315><222.57><1124.348><1><Blast Deck><100><35
+WARF_B18: -74.34236><304.0315><116.5689><1017.348><2><Blast Deck><48><78
+WARF_B19: -299.3409><395.5315><7.569347><1154.348><2><Blast Deck><48><35
+WARF_B20: -623.341><328.0315><-102.4311><1048.348><2><Blast Deck><48><78
+WARF_B21: -647.341><539.5314><-103.4311><1255.348><2><Blast Deck><48><35
+WARF_B23: -629.341><-96.46839><-509.4321><509.3582><1><Blast Deck><48><35
+WARF_B33: -1823.342><-444.4685><-1399.426><-773.6456><2><Ridgeworks><48><35
+WARF_B34: -1586.342><-594.4688><-1244.426><-936.6456><2><Ridgeworks><48><35
+WARF_C06: -227.341><-75.46852><-317.4301><-354.6437><2><Ridgeworks><48><35
+WARF_D01: -1001.341><-231.4686><-692.428><-603.6417><1><Ridgeworks><48><35
+WARF_D02: -800.341><-252.4686><-573.428><-722.6417><1><Ridgeworks><48><121
+WARF_D03: -74.34116><-165.4686><-287.4301><-542.6417><1><Ridgeworks><202><35
+WARF_D04: -302.3409><-459.4685><-204.43><-1058.642><0><Ridgeworks><48><121
+WARF_D05: -695.341><-645.4688><-576.428><-1049.642><1><Ridgeworks><100><35
+WARF_D06: 171.658><-745.9688><220.572><-1112.642><0><Ridgeworks><152><78
+WARF_D07: 525.659><-174.4686><147.569><-540.6396><2><Ridgeworks><100><35
+WARF_D08: 528.659><73.0316><141.568><-257.6447><2><Ridgeworks><100><78
+WARF_D09: -944.341><-615.4688><-709.428><-857.6417><2><Ridgeworks><48><35
+WARF_D10: -1079.342><-451.9685><-941.428><-819.6417><1><Ridgeworks><100><78
+WARF_D11: -968.341><-117.4686><-806.428><-544.6417><2><Ridgeworks><48><35
+WARF_D12: -1352.342><-432.4685><-1067.426><-539.6417><0><Ridgeworks><48><35
+WARF_D13: -722.341><-480.4685><-425.4281><-751.6417><2><Ridgeworks><48><35
+WARF_D14: -485.3409><-465.4685><-334.4301><-925.6417><1><Ridgeworks><48><35
+WARF_D15: -488.3409><-297.4685><-304.4281><-716.6417><2><Ridgeworks><48><35
+WARF_D16: -458.3409><-124.9686><-582.4301><-392.6437><2><Ridgeworks><100><78
+WARF_D17: -710.341><-312.4685><-422.4281><-593.6417><2><Ridgeworks><48><35
+WARF_D18: -53.34234><-54.46849><-122.4311><-340.6437><2><Ridgeworks><48><35
+WARF_D19: 126.658><-51.46849><1.569147><-304.6437><2><Ridgeworks><48><35
+WARF_D21: -428.3409><-483.4685><-191.428><-708.6417><2><Ridgeworks><100><35
+WARF_D22: -332.3409><-603.4688><-339.4281><-1059.642><2><Ridgeworks><48><35
+WARF_D23: -137.342><-553.9688><-20.42871><-1150.642><0><Ridgeworks><48><78
+WARF_D24: 129.658><-543.4688><238.572><-890.6456><0><Ridgeworks><100><35
+WARF_D25: 42.65766><-196.9686><-49.42931><-146.6449><0><><48><78
+WARF_D26: 30.65768><-609.4688><96.57146><-1104.642><2><Ridgeworks><48><35
+WARF_D29: -641.341><-411.4685><-568.428><-886.6417><0><Ridgeworks><100><35
+WARF_D30: 921.659><73.0316><438.5719><-273.6447><2><Ridgeworks><152><78
+WARF_D31: 1071.658><29.53161><639.572><-425.6418><1><Ridgeworks><48><35
+WARF_D32: -176.342><-219.4686><-199.428><-121.6408><0><Ridgeworks><48><35
+WARF_D33: -359.3409><-192.4686><-332.4281><-72.64056><0><Ridgeworks><48><35
+WARF_D34: -359.3409><-318.4685><-231.428><-422.6418><1><Ridgeworks><48><35
+WARF_D35: -518.3409><-306.4685><-350.4281><-418.6418><0><Ridgeworks><48><35
+WARF_D38: 672.9066><-29.32676><335.9682><-271.6526><0><Ridgeworks><48><35
+WARF_G01: -1400.342><-465.4685><-1165.426><-769.6456><2><Ridgeworks><100><35
+WARF_G02: -1646.342><-474.4685><-1283.426><-772.6456><2><Ridgeworks><48><35
+WARF_G03: -1268.342><-618.4688><-1127.426><-967.6456><2><Ridgeworks><152><35
+WARF_G04: -1343.342><-621.4688><-1070.426><-1097.652><1><Ridgeworks><48><35
+WARF_S04: 648.659><-84.4684><279.5719><-413.6397><1><><48><35
+WARF_S06: 39.65766><-900.4688><236.572><-1250.642><1><><48><35
+WARF_S08: -677.341><437.5315><-108.4311><1396.348><1><><48><35
+WARF_S18: -1124.342><-378.4685><-936.7661><-591.2797><2><><48><35
+WARF_S32: -398.9142><-306.4279><-350.4747><-188.9339><0><><48><35
+OffScreenDen_WARF: 101.679><652.9996><0.01408665><4.888144><1><><0><0
+Connection: WARF_A01,WARF_A02,2,17,93,17,2,0
+Connection: WARF_A02,WARF_A03,49,27,27,6,1,3
+Connection: WARF_A02,WARF_A04,6,17,42,60,2,0
+Connection: WARF_A02,WARF_A09,29,6,23,29,3,1
+Connection: WARF_A03,WARF_A06,30,28,81,10,1,3
+Connection: WARF_A03,WARF_S01,17,17,30,17,2,0
+Connection: WARF_A04,WARF_A05,31,15,44,30,3,1
+Connection: WARF_A05,WARF_A08,1,11,92,11,2,0
+Connection: WARF_A06,WARF_A07,79,48,22,24,3,1
+Connection: WARF_A08,WARF_B01,7,5,147,48,2,0
+Connection: WARF_B01,WARF_B02,9,21,95,9,2,0
+Connection: WARF_B02,WARF_B03,31,3,33,27,3,1
+Connection: WARF_B03,WARF_B04,10,18,42,23,2,0
+Connection: WARF_B04,WARF_B05,3,10,41,53,2,0
+Connection: WARF_B05,WARF_B06,23,67,22,8,1,3
+Connection: WARF_B05,WARF_S02,35,46,25,27,0,1
+Connection: WARF_B05,WARF_B25,10,27,91,27,2,0
+Connection: WARF_B05,WARF_B26,31,11,39,28,3,1
+Connection: WARF_B06,WARF_B07,6,7,90,8,3,3
+Connection: WARF_B07,WARF_B30,5,10,43,17,2,0
+Connection: WARF_B08,WARF_B09,6,17,93,63,2,0
+Connection: WARF_B08,WARF_B30,41,17,4,17,0,2
+Connection: WARF_B08,WARF_B25,24,5,12,67,3,1
+Connection: WARF_B09,WARF_B10,17,49,36,5,2,0
+Connection: WARF_B09,WARF_C01,5,8,91,8,2,0
+Connection: WARF_B10,WARF_B11,11,70,93,70,2,0
+Connection: WARF_B10,WARF_B15,36,70,5,27,0,2
+Connection: WARF_B10,WARF_B27,11,5,44,23,2,0
+Connection: WARF_B11,WARF_B12,6,70,36,27,2,0
+Connection: WARF_B11,WARF_B43,6,4,5,21,2,1
+Connection: WARF_B11,WARF_C05,72,2,15,25,3,1
+Connection: WARF_B12,WARF_B24,22,5,22,29,3,1
+Connection: WARF_B13,WARF_B24,22,28,22,4,1,3
+Connection: WARF_B13,WARF_B14,11,5,89,132,2,0
+Connection: WARF_B13,WARF_C03,36,5,6,63,0,2
+Connection: WARF_B14,WARF_S03,95,83,8,17,0,2
+Connection: WARF_B14,WARF_D01,73,9,3,16,0,2
+Connection: WARF_B15,WARF_B16,94,27,11,70,0,2
+Connection: WARF_B22,WARF_B42,26,73,33,8,1,3
+Connection: WARF_B22,WARF_S14,13,60,31,16,2,0
+Connection: WARF_B22,WARF_B23,13,2,41,11,2,0
+Connection: WARF_B24,WARF_B28,36,12,4,13,0,2
+Connection: WARF_B27,WARF_B20,7,8,44,4,2,0
+Connection: WARF_B27,WARF_C05,32,8,40,17,0,1
+Connection: WARF_B28,WARF_B20,42,14,14,57,0,2
+Connection: WARF_B42,WARF_B43,5,25,42,17,2,0
+Connection: WARF_C01,WARF_C05,40,31,8,5,1,3
+Connection: WARF_C01,WARF_C02,14,2,62,27,3,1
+Connection: WARF_C02,WARF_C03,6,6,41,6,2,0
+Connection: WARF_C02,WARF_C04,145,3,5,2,3,3
+Connection: WARF_C03,WARF_C07,4,15,43,18,2,0
+Connection: WARF_C04,WARF_D25,44,4,40,66,3,1
+Connection: WARF_B16,WARF_B17,11,31,94,21,2,0
+Connection: WARF_B16,WARF_D08,25,8,11,71,3,1
+Connection: WARF_B17,WARF_B18,5,21,43,65,2,0
+Connection: WARF_B18,WARF_B19,4,65,43,14,2,0
+Connection: WARF_B18,WARF_D18,13,8,21,30,3,1
+Connection: WARF_B19,WARF_B20,3,14,33,57,2,0
+Connection: WARF_B20,WARF_B21,26,73,33,14,1,3
+Connection: WARF_B20,WARF_D16,9,5,17,70,3,1
+Connection: WARF_B21,WARF_S08,15,14,24,22,3,1
+Connection: WARF_B23,WARF_D02,3,18,42,113,3,0
+Connection: WARF_B33,WARF_G02,39,16,11,25,0,2
+Connection: WARF_B34,WARF_G02,5,29,24,7,1,3
+Connection: WARF_B34,WARF_G03,42,16,4,23,0,2
+Connection: WARF_C06,WARF_D18,43,22,5,14,0,2
+Connection: WARF_C06,WARF_D16,4,16,90,54,2,0
+Connection: WARF_D01,WARF_D02,44,15,7,66,0,2
+Connection: WARF_D02,WARF_D11,5,113,37,25,2,0
+Connection: WARF_D02,WARF_D03,40,103,9,22,0,2
+Connection: WARF_D02,WARF_D15,40,66,3,25,0,2
+Connection: WARF_D02,WARF_D05,22,18,22,24,3,1
+Connection: WARF_D03,WARF_D18,100,26,18,4,1,3
+Connection: WARF_D03,WARF_D19,150,30,8,4,0,3
+Connection: WARF_D03,WARF_D07,193,9,5,10,0,2
+Connection: WARF_D03,WARF_D04,100,2,25,114,3,1
+Connection: WARF_D04,WARF_D29,9,95,90,9,2,0
+Connection: WARF_D04,WARF_D14,5,42,42,4,2,0
+Connection: WARF_D04,WARF_D05,7,7,94,11,2,0
+Connection: WARF_D04,WARF_D06,40,7,7,57,0,2
+Connection: WARF_D05,WARF_D22,95,26,5,12,0,2
+Connection: WARF_D05,WARF_D09,5,19,41,8,2,0
+Connection: WARF_D06,WARF_D24,103,68,91,6,2,3
+Connection: WARF_D06,WARF_D23,1,32,32,6,2,3
+Connection: WARF_D06,WARF_S06,32,9,24,27,3,1
+Connection: WARF_D07,WARF_D08,5,29,4,7,1,3
+Connection: WARF_D07,WARF_S04,90,18,24,6,1,3
+Connection: WARF_D08,WARF_D30,94,63,8,63,0,2
+Connection: WARF_D08,WARF_D38,94,7,3,19,0,2
+Connection: WARF_D09,WARF_D10,11,29,80,12,1,3
+Connection: WARF_D10,WARF_D11,80,64,11,10,1,3
+Connection: WARF_D10,WARF_S18,60,57,34,18,2,0
+Connection: WARF_D10,WARF_D29,93,57,5,24,0,2
+Connection: WARF_D10,WARF_D12,4,38,41,11,2,0
+Connection: WARF_D10,WARF_G01,9,19,89,3,2,0
+Connection: WARF_D10,WARF_D13,93,19,5,4,0,2
+Connection: WARF_D11,WARF_D12,14,25,41,23,2,0
+Connection: WARF_D13,WARF_D17,6,29,3,5,1,2
+Connection: WARF_D13,WARF_D21,41,26,7,26,0,2
+Connection: WARF_D13,WARF_D14,42,4,5,4,0,2
+Connection: WARF_D14,WARF_D15,24,30,24,5,1,3
+Connection: WARF_D15,WARF_D16,30,29,42,10,1,3
+Connection: WARF_D15,WARF_D17,5,14,42,5,2,0
+Connection: WARF_D16,WARF_D33,44,24,4,22,0,2
+Connection: WARF_D17,WARF_D35,42,29,5,23,0,2
+Connection: WARF_D18,WARF_D19,42,28,5,28,0,2
+Connection: WARF_D21,WARF_D23,90,24,6,65,0,2
+Connection: WARF_D21,WARF_D22,81,6,23,28,3,1
+Connection: WARF_D22,WARF_D23,42,12,5,16,0,2
+Connection: WARF_D23,WARF_D24,40,47,7,24,0,2
+Connection: WARF_D23,WARF_D26,42,16,6,13,0,2
+Connection: WARF_D24,WARF_D25,28,25,27,11,1,3
+Connection: WARF_D25,WARF_D32,6,31,42,17,2,0
+Connection: WARF_D30,WARF_D31,118,32,20,23,2,0
+Connection: WARF_D30,WARF_D38,10,6,43,19,2,0
+Connection: WARF_D32,WARF_D33,4,17,43,5,2,0
+Connection: WARF_D33,WARF_S32,16,8,24,28,3,1
+Connection: WARF_D33,WARF_D34,28,10,33,29,2,1
+Connection: WARF_D34,WARF_D35,6,17,42,13,2,0
+Connection: WARF_G01,WARF_G02,7,23,37,25,2,0
+Connection: WARF_G03,WARF_G04,45,19,17,18,3,1
+
+SpawnMigrationStream: stream1,1019^205,2353^907,1045^26,2326^891,None,01,70,30,WARF_A06
+SpawnMigrationStreamMidpoint: stream1,0,1179^222^170.4658^86^92
+SpawnMigrationStreamMidpoint: stream1,1,1743^297^105.5046^117^94
+SpawnMigrationStreamMidpoint: stream1,2,1998^341^179.392^133^71
+SpawnMigrationStreamMidpoint: stream1,3,2267^323^121.9711^61^20
+SpawnMigrationStreamMidpoint: stream1,4,2260^434^92.42117^40^57
+SpawnMigrationStreamMidpoint: stream1,5,2309^535^88.15925^41^142
+SpawnMigrationStreamMidpoint: stream1,6,2576^681^84.57191^135^15
+SpawnMigrationStreamMidpoint: stream1,7,2528^774^0.7746429^51^292
+
+SpawnMigrationStream: stream2,-1284^-213,-1849^-449,-1268^-175,-1748^-413,None,12,70,30,WARF_B33
+SpawnMigrationStreamMidpoint: stream2,0,-1209^-153^177.6535^52^53
+SpawnMigrationStreamMidpoint: stream2,1,-1004^-213^177.8213^102^69
+SpawnMigrationStreamMidpoint: stream2,2,-792^-233^253.7907^33^58
+SpawnMigrationStreamMidpoint: stream2,3,-820^-383^268.1894^83^178
+SpawnMigrationStreamMidpoint: stream2,4,-808^-641^-39.59164^55^29
+SpawnMigrationStreamMidpoint: stream2,5,-1006^-541^86.93768^152^29
+SpawnMigrationStreamMidpoint: stream2,6,-1107^-535^15.24489^31^64
+SpawnMigrationStreamMidpoint: stream2,7,-1288^-490^28.90992^57^116
+SpawnMigrationStreamMidpoint: stream2,8,-1540^-441^-12.46741^53^30
+
+SpawnMigrationStream: stream3,933^371,-479^495,934^323,-437^553,None,01,70,30,WARF_B11
+SpawnMigrationStreamMidpoint: stream3,0,881^283^-6.235847^28^26
+SpawnMigrationStreamMidpoint: stream3,1,801^310^-1.420036^21^39
+SpawnMigrationStreamMidpoint: stream3,2,646^291^-1.657387^48^47
+SpawnMigrationStreamMidpoint: stream3,3,499^281^-1.796455^64^62
+SpawnMigrationStreamMidpoint: stream3,4,169^288^-2.240585^61^125
+SpawnMigrationStreamMidpoint: stream3,5,-137^217^7.27137^115^120
+SpawnMigrationStreamMidpoint: stream3,6,-193^503^7.836021^39^182
+
+SpawnMigrationStream: stream4,152^548,9^363,151^503,73^324,None,012,70,30,WARF_B14
+SpawnMigrationStreamMidpoint: stream4,0,214^486^186.939^45^61
+SpawnMigrationStreamMidpoint: stream4,1,420^484^204.5746^42^48
+SpawnMigrationStreamMidpoint: stream4,2,421^374^-28.64169^24^80
+SpawnMigrationStreamMidpoint: stream4,3,194^358^-0.5149155^63^77
+
+SpawnMigrationStream: stream5,6^365,-976^386,-38^373,-898^407,None,2,70,30,WARF_B14
+SpawnMigrationStreamMidpoint: stream5,0,-307^402^-0.4837036^193^192
+
+SpawnMigrationStream: stream6,-980^387,-1232^-45,-1007^379,-1232^41,None,01,70,30,WARF_B14
+SpawnMigrationStreamMidpoint: stream6,0,-1109^356^-46.10298^53^48
+SpawnMigrationStreamMidpoint: stream6,1,-1091^187^5.48349^54^31
+SpawnMigrationStreamMidpoint: stream6,2,-1372^169^-47.59648^38^78
+
+SpawnMigrationStream: stream7,-212^-10,-485^-383,-206^-54,-487^-288,None,2,70,30,WARF_D06
+SpawnMigrationStreamMidpoint: stream7,0,-399^-75^-9.442467^97^50
+SpawnMigrationStreamMidpoint: stream7,1,-539^-125^-50.20549^119^68
+SpawnMigrationStreamMidpoint: stream7,2,-506^-190^241.8603^42^56
+SpawnMigrationStreamMidpoint: stream7,3,-451^-297^268.243^40^30
+
+SpawnMigrationStream: stream8,-485^-387,-404^-493,-480^-458,-494^-524,None,1,70,30,WARF_D06
+
+SpawnMigrationStream: stream9,-403^-493,141^-688,-362^-493,125^-688,None,0,70,30,WARF_D06
+SpawnMigrationStreamMidpoint: stream9,0,-295^-548^265.7985^130^71
+SpawnMigrationStreamMidpoint: stream9,1,-199^-692^195.0259^48^146
+SpawnMigrationStreamMidpoint: stream9,2,47^-651^177.3321^14^30
+
+SpawnMigrationStream: stream10,-693^564,-720^297,-635^545,-692^367,None,0,70,30,WARF_D30
+SpawnMigrationStreamMidpoint: stream10,0,-640^378^234.9622^82^43
+
+SpawnMigrationStream: stream11,-697^296,252^-185,-681^219,67^-180,None,1,70,30,WARF_D30
+SpawnMigrationStreamMidpoint: stream11,0,-560^162^175.4814^209^144
+SpawnMigrationStreamMidpoint: stream11,1,-450^40^249.9976^81^96
+SpawnMigrationStreamMidpoint: stream11,2,-610^-83^1.559761^49^162
+SpawnMigrationStreamMidpoint: stream11,3,-809^-106^-80.60838^23^30
+SpawnMigrationStreamMidpoint: stream11,4,-407^-165^184.6855^60^138
+SpawnMigrationStreamMidpoint: stream11,5,-45^-151^179.4495^170^107
+
+SpawnMigrationStream: stream12,362^-186,911^132,395^-191,859^241,None,2,70,30,WARF_D30
+SpawnMigrationStreamMidpoint: stream12,0,578^-156^29.87395^97^58
+SpawnMigrationStreamMidpoint: stream12,1,398^-93^102.305^103^134
+SpawnMigrationStreamMidpoint: stream12,2,491^91^108.0697^44^118
+SpawnMigrationStreamMidpoint: stream12,3,692^122^175.3025^67^95

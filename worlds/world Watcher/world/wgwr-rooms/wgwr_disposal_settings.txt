@@ -1,0 +1,2 @@
+PlacedObjects: WarpPoint><775.4473><1195.533><0~0~Watcher~NULL~NULL~NULL~NULL~NULL~~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~true~false~true~true~false~0~-1~-1, Rattler><120.0842><401.8042><, 
+AmbientSounds: SPOT><Mech Basic.wav><742.4814><384.4292><0.251098><0.6104141><664.8416><24.42923><-50.28943><119.6447><0><0.4679419, 

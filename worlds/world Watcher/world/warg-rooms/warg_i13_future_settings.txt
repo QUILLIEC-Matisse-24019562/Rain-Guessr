@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.3139482
+WaveLength: 0.9069741
+WaveAmplitude: 0.002423472
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0
+Palette: 455
+EffectColorA: 9
+EffectColorB: 2
+Effects: Fog-1-20-20, Coldness-0.208239-267-21, FairyParticles-0.01086957-21-85, 
+PlacedObjects: FairyParticleSettings><-180.5501><205.4931><-512~-326.3398~1~2.717391~9.782609~0.5543478~1.128429~6.713982~59.78261~375~108.6956~293.4782~0~0~50.86956~140.8696~0~0~0~0~1~1~0.2826087~0~4.521739~Dandelion~SIN_IO~SIN_IO~78.26087~0.08695652~0, LightSource><215.9487><332.9771><0.05434782~EffectColor2~80~211~241~-344.3975~0~1~None~0~0, LightSource><439.5932><324.823><0.04347826~EffectColor2~29~239~50~86.60254~0~1~None~0~0, LightSource><687.0781><318.8978><0.0326087~EffectColor2~58~232~138~80.60254~0~1~None~0~0, 
+AmbientSounds: OMNI><RWTW_AR_WindyCliff.ogg><208.1931><17.05202><0.05434782><1, OMNI><RWTW_AR_RearDen.ogg><407.2><21.50467><0.1086956><0.8043478, SPOT><RWTW_AR_ClinkMachine.ogg><759.3527><503.6353><0.2065217><0.1><477.3527><354.6353><-35.35534><-35.35534><0><0.252174, SPOT><RWTW_AR_WindyCliff.ogg><767.6199><267.8481><0.1086956><1><1157.62><343.8481><-273.3553><4.644653><0><0.154348, SPOT><am_sub-blankstate.ogg><231.1016><452.1723><0.25><1><-137.8984><349.1723><287.6447><-0.3553467><0><0.2086958, 
+FadePalette: 14, 0.4006906
+WetTerrain: OFF

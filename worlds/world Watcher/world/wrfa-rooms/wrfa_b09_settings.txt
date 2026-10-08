@@ -1,0 +1,6 @@
+Template: NONE
+DangerType: Flood
+Palette: 210
+EffectColorA: 13
+EffectColorB: 2
+PlacedObjects: LightSource><1196.112><328.605><0.0326087~EffectColor1~291~-34~50~86.60254~0~1~None~0~0, LightSource><878.0529><550.7839><0.05434782~EffectColor1~248~-243~-703~-41.39746~0~1~None~0~0, LightSource><426.3943><274.6115><0.25~EffectColor2~263~44~-550~-8.397461~0~0~None~0~0, LightSource><758.051><303.7696><0.25~EffectColor2~350~9~50~86.60254~0~0~None~0~0, LightSource><1735.443><305.4416><0.05434782~EffectColor1~-171~177~50~86.60254~0~1~None~0~0, LightSource><1740.198><196.7231><0.1956522~EffectColor2~-447~-152~50~86.60254~0~0~None~0~0, LightSource><1490.35><221.0766><0.0326087~Environment~373~-64~39~250.6026~0~1~None~0~0, LightSource><514.7719><363.3012><0.0326087~Environment~441~-67~50~86.60254~0~1~None~0~0, CustomDecal><141.4321><101.4381><-41~527~792~524~838~-9~-563~182~0~0.3043478~0~blackrust1~1~1~1~1~0.5869565~1~0.5869565~1, Hazer><1653.939><133.4403><280~-99~7~10, WarpPoint><572.8152><293.5591><0~0~Watcher~NULL~NULL~NULL~NULL~NULL~d48b2ed2-99d6-49a6-ac35-86a2a88bad0e~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~true~true~true~true~false~0~-1~-1~-1~-1~-1, 

@@ -1,0 +1,10 @@
+Template: DM_SettingsTemplate_Conflux
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8913044
+Effects: Darkness-0-278-130, Bloom-1-23-74, SSSwarmers-0-270-75, ZeroGSpecks-0.0326087-278-22, 
+PlacedObjects: LightFixture><95.04204><339.2168><RedLight~17.32051~-10~88, LightFixture><887.8859><463.9142><RedLight~17.32051~-10~36, WallMycelia><755.8358><96.38591><0~100, WallMycelia><805.504><312.6023><0~100, WallMycelia><335.3114><568.5762><0~100, WallMycelia><217.0208><126.6989><0~100, UniqueDataPearl><803.0134><354.1038><-396~29~0~0~DM~0, DevToken><617.4714><299.1223><2~-69~0~0~0~~~0~0~0~1, 
+FadePalette: 10, 0.8586956

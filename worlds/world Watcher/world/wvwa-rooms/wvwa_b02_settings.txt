@@ -1,0 +1,4 @@
+Template: wvwa_settingstemplate_pillars
+Effects: Ripple Settings-0-1009-422-White-WARD-ward_e26-0-6.6-32-1, 
+PlacedObjects: RippleSpawnEgg><520.2281><588.3455><, RippleSpawnEgg><382.3474><610.6805><, RippleSpawnEgg><612.4113><286.028><, KarmaFlower><435.179><601.5893><0~0~5~7, RippleTree><1132.636><533.9631><0~83.75~0.2445652~0.5~right, RippleStalk><940.3881><444.777><-1.25~33.75~left~depth|9.375, RippleStalk><986.613><469.8913><3.75~25~right, RippleStalk><1054.37><398.8165><0~32.5~left, 
+AmbientSounds: SPOT><SO_ENV-StrongWnd.ogg><600.5631><536.8432><0.5><1><-156.4719><337.7609><292.0402><-327.52><0><0.2022068, SPOT><SO_ENV-StrongWnd.ogg><796.4127><546.4413><0.5><1><2159.819><356.0476><-292.6558><-308.7258><0><0.2022068, 

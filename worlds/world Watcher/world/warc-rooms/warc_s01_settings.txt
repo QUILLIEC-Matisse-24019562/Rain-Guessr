@@ -1,0 +1,7 @@
+Template: NONE
+Palette: 98
+EffectColorA: 19
+EffectColorB: 6
+PlacedObjects: LightSource><518.9101><252.583><0.2052917~EffectColor2~-20.3526~178.0707~420.8009~-333.0001~0~0~None~0~0, CustomDecal><48.22913><251.8991><14~195~902~192~754~4~-104.8374~-547.5731~0.2971697~1~0~xRootScreen~0.7090212~1~0.7090212~1~0.7090212~1~0.7090212~1, 
+AmbientSounds: OMNI><AM_NAT-ForestRain.ogg><284.2635><12.19955><0.4021739><0.3543478, 
+FadePalette: 10, 0.7078932

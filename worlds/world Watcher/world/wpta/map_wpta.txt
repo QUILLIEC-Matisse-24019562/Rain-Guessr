@@ -1,0 +1,103 @@
+WPTA_A01: -463.9904><-295.2654><-350.344><-168.5463><1><Signal Spires><48><37
+WPTA_A02: -406.6356><710.7762><-307.2883><711.9384><2><Signal Spires><48><35
+WPTA_A03: 287.5096><-290.359><254.7117><-229.549><1><Signal Spires><48><35
+WPTA_A04: 359.5096><179.3271><327.7117><203.1121><1><Signal Spires><48><35
+WPTA_A05: -321.1305><-553.796><-335.5917><-556.5566><1><Signal Spires><48><35
+WPTA_B02: -396.9903><-178.9016><-346.344><-52.18272><1><Signal Spires><100><35
+WPTA_B03: -319.9903><-352.3893><-227.3439><-278.5628><1><Signal Spires><48><75
+WPTA_B04: -540.9905><-412.687><-467.344><-300.7776><2><Signal Spires><100><35
+WPTA_B05: -478.9904><35.84222><-349.344><69.47013><2><Signal Spires><48><75
+WPTA_B06: 581.2999><-241.9655><507.6561><-232.0173><0><Signal Spires><48><75
+WPTA_B07: 358.3644><650.0707><289.7117><634.7155><2><Signal Spires><48><75
+WPTA_B08: 134.5094><-226.8879><143.7117><-236.954><0><Signal Spires><48><75
+WPTA_B09: 490.5096><238.2857><482.1635><219.2235><1><Signal Spires><48><75
+WPTA_B10: -549.679><-602.0875><-570.6669><-470.274><2><Signal Spires><99><35
+WPTA_C01: -618.9905><-178.9017><-470.344><-161.1413><2><Signal Spires><48><115
+WPTA_C02: -171.9906><-298.4389><32.656><-265.8683><2><Signal Spires><48><115
+WPTA_C03: -331.9903><-192.6537><-105.3438><-217.2076><2><Signal Spires><48><115
+WPTA_C04: 435.8645><-176.009><372.6561><-235.1909><1><Signal Spires><48><115
+WPTA_C05: 288.0096><-54.35614><254.6561><-115.6536><1><Signal Spires><48><115
+WPTA_C06: 357.3644><1082.451><285.7116><992.2692><2><Signal Spires><48><115
+WPTA_C07: 734.0287><-611.9321><609.8912><-712.7834><1><><48><115
+WPTA_D01: 358.0097><-493.3643><275.5109><-435.1246><1><Signal Spires><100><75
+WPTA_D02: 662.0095><-492.3069><506.6561><-435.1246><0><Signal Spires><102><76
+WPTA_D03: -406.9903><287.3296><-353.344><277.8671><2><Signal Spires><100><75
+WPTA_D04: -400.9903><532.751><-355.344><510.5943><2><Signal Spires><100><75
+WPTA_E01: -170.9906><-549.4307><-356.344><-434.009><0><Signal Spires><252><38
+WPTA_F01: 352.5096><356.4841><242.7117><337.4592><2><Signal Spires><104><112
+WPTA_F02: -13.78102><841.8041><-229.2884><864.327><2><Signal Spires><308><35
+WPTA_F03: 357.3644><1611.095><282.7117><1295.874><2><Signal Spires><48><227
+WPTA_G01: -24.99055><89.51157><-230.344><72.64359><0><Signal Spires><353><37
+WPTA_S01: -465.4904><-287.7475><-599.2883><-167.1358><2><><48><35
+WPTA_S02: 486.5096><-432.6732><366.7117><-569.1194><1><><48><35
+WPTA_S03: 353.2193><699.2278><408.7117><745.7896><1><><48><35
+OffScreenDen_WPTA: -511.9906><-392.8026><9.656138><-661.5049><1><><0><0
+Connection: WPTA_A01,WPTA_S01,23,23,24,13,3,0
+Connection: WPTA_A01,WPTA_B03,43,7,7,45,0,2
+Connection: WPTA_A01,WPTA_B04,22,3,74,32,3,1
+Connection: WPTA_A02,WPTA_F02,11,30,10,7,1,3
+Connection: WPTA_A02,WPTA_D04,36,10,63,65,3,2
+Connection: WPTA_A03,WPTA_B08,4,6,44,6,2,0
+Connection: WPTA_A03,WPTA_C04,42,6,3,8,0,2
+Connection: WPTA_A03,WPTA_D01,18,10,18,66,3,1
+Connection: WPTA_A04,WPTA_F01,13,29,43,15,1,3
+Connection: WPTA_A04,WPTA_B09,41,23,3,23,0,2
+Connection: WPTA_A04,WPTA_G01,33,6,315,29,3,2
+Connection: WPTA_A05,WPTA_B03,34,30,34,4,1,3
+Connection: WPTA_A05,WPTA_B10,4,12,92,28,2,0
+Connection: WPTA_A05,WPTA_E01,40,5,67,6,3,3
+Connection: WPTA_B02,WPTA_C02,93,25,3,105,0,2
+Connection: WPTA_B02,WPTA_C01,9,7,41,47,3,3
+Connection: WPTA_B02,WPTA_B03,90,15,38,68,3,1
+Connection: WPTA_B03,WPTA_C02,38,20,9,20,3,3
+Connection: WPTA_B03,WPTA_E01,14,4,83,36,3,2
+Connection: WPTA_B04,WPTA_C01,26,27,36,8,3,3
+Connection: WPTA_B04,WPTA_E01,58,8,10,25,2,2
+Connection: WPTA_B05,WPTA_D03,14,70,13,5,2,3
+Connection: WPTA_B05,WPTA_G01,39,18,33,13,1,0
+Connection: WPTA_B05,WPTA_C01,11,10,38,102,3,3
+Connection: WPTA_B06,WPTA_C04,3,67,41,65,2,0
+Connection: WPTA_B06,WPTA_D02,10,7,12,68,3,3
+Connection: WPTA_B07,WPTA_F02,23,70,277,5,1,3
+Connection: WPTA_B07,WPTA_S03,34,56,36,15,0,1
+Connection: WPTA_B07,WPTA_F01,11,53,39,107,3,0
+Connection: WPTA_B08,WPTA_C05,40,54,3,17,0,2
+Connection: WPTA_B09,WPTA_F01,35,70,88,86,1,0
+Connection: WPTA_C02,WPTA_C03,25,66,39,28,2,1
+Connection: WPTA_C03,WPTA_G01,11,110,61,4,1,3
+Connection: WPTA_C04,WPTA_G01,27,111,333,6,1,3
+Connection: WPTA_C04,WPTA_C05,6,50,43,10,2,0
+Connection: WPTA_C05,WPTA_F01,11,111,16,45,1,3
+Connection: WPTA_C06,WPTA_F03,23,109,23,4,1,3
+Connection: WPTA_C06,WPTA_F02,36,6,292,16,3,3
+Connection: WPTA_C07,WPTA_D02,25,105,76,51,1,3
+Connection: WPTA_D01,WPTA_S02,93,66,32,26,0,2
+Connection: WPTA_D01,WPTA_E01,4,7,242,8,2,0
+Connection: WPTA_D01,WPTA_D02,95,7,5,8,0,2
+Connection: WPTA_D03,WPTA_D04,13,70,11,5,1,3
+
+SpawnMigrationStream: stream1,747^-472,765^-727,716^-559,719^-689,None,1,70,30,WPTA_C07
+
+SpawnMigrationStream: stream2,364^-514,360^269,373^-464,351^193,None,01,70,30,WPTA_F03
+SpawnMigrationStreamMidpoint: stream2,0,342^-387^55.77409^97^135
+SpawnMigrationStreamMidpoint: stream2,1,386^-226^71.08662^80^114
+SpawnMigrationStreamMidpoint: stream2,2,391^-22^105.8091^42^76
+SpawnMigrationStreamMidpoint: stream2,3,363^100^133.886^56^131
+
+SpawnMigrationStream: stream3,329^178,355^1905,334^286,267^1817,None,2,70,30,WPTA_F03
+SpawnMigrationStreamMidpoint: stream3,0,314^411^137.7559^112^154
+SpawnMigrationStreamMidpoint: stream3,1,377^643^119.7173^115^67
+SpawnMigrationStreamMidpoint: stream3,2,381^866^2.341843^82^139
+SpawnMigrationStreamMidpoint: stream3,3,295^1069^74.6943^104^66
+SpawnMigrationStreamMidpoint: stream3,4,410^1216^103.8316^119^193
+SpawnMigrationStreamMidpoint: stream3,5,306^1412^80.94061^82^71
+SpawnMigrationStreamMidpoint: stream3,6,403^1620^86.26457^92^144
+
+SpawnMigrationStream: stream4,-651^-585,363^-516,-553^-529,317^-616,stream2,012,70,30,WPTA_F03
+SpawnMigrationStreamMidpoint: stream4,0,-471^-609^168.9041^174^22
+SpawnMigrationStreamMidpoint: stream4,1,-369^-591^188.2058^33^370
+SpawnMigrationStreamMidpoint: stream4,2,65^-516^184.207^108^189
+
+SpawnMigrationStream: stream5,362^-519,750^-467,362^-488,768^-330,stream1,012,70,30,WPTA_C07
+SpawnMigrationStreamMidpoint: stream5,0,516^-540^200.5517^81^49
+SpawnMigrationStreamMidpoint: stream5,1,652^-479^100.7869^20^67

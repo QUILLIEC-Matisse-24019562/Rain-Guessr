@@ -1,0 +1,151 @@
+WSKD_B42: 349.4652><-57.09293><257.2689><-28.1884><2><Shrouded Stacks><48><35
+WSKD_A26: 186.5287><-140.7249><131.9537><-134.7334><2><Shrouded Stacks><48><77
+WSKD_B01: 1066.532><304.2753><977.4847><206.2669><2><Shrouded Stacks><100><77
+WSKD_B02: 653.5301><274.2753><636.4836><198.2669><2><Shrouded Stacks><152><35
+WSKD_B03: 422.2788><-30.22503><377.921><16.11012><1><Shrouded Stacks><48><115
+WSKD_B30: 579.2801><-133.2251><389.921><-119.8898><0><Shrouded Stacks><152><38
+WSKD_B04: 847.8992><-16.87222><910.0988><60.46316><2><Shrouded Stacks><48><35
+WSKD_B05: 951.8992><-184.872><1045.099><51.46307><2><Shrouded Stacks><58><35
+WSKD_B06: 899.8984><-375.8719><909.0988><-139.5368><2><Shrouded Stacks><100><35
+WSKD_B07: 431.8991><-414.8719><605.0977><-369.537><2><Shrouded Stacks><48><77
+WSKD_B08: 281.9248><-244.635><259.4573><-170.9052><1><Shrouded Stacks><48><38
+WSKD_B09: 306.9248><209.3647><280.3342><353.0946><1><Shrouded Stacks><48><35
+WSKD_B10: 261.9251><494.3651><250.3342><497.0948><1><Shrouded Stacks><48><115
+WSKD_B11: 92.9221><479.3645><136.334><583.0947><1><Shrouded Stacks><48><35
+WSKD_S03: 88.92554><600.3644><130.3336><701.0947><1><><48><35
+WSKD_B12: 63.92648><808.3644><79.33372><822.0947><1><Shrouded Stacks><100><35
+WSKD_B13: -68.0978><557.7742><15.60746><593.0718><1><Shrouded Stacks><48><77
+WSKD_B14: 190.9379><-96.22606><80.60751><90.07202><1><Shrouded Stacks><100><35
+WSKD_B15: -13.09781><-104.2261><-48.39254><63.07209><2><Shrouded Stacks><48><35
+WSKD_B16: -235.0993><-110.2261><-187.3925><53.07196><2><Shrouded Stacks><48><35
+WSKD_B17: -16.09781><13.77389><-52.39254><221.0723><2><Shrouded Stacks><48><35
+WSKD_B18: -228.0993><15.77389><-196.3929><215.0723><2><Shrouded Stacks><48><35
+WSKD_B19: -399.7801><24.73398><-319.6727><232.6293><2><Shrouded Stacks><48><35
+WSKD_B39: -398.9693><27.19546><-319.3644><351.123><1><Shrouded Stacks><48><35
+WSKD_B20: -542.7819><-142.266><-469.6724><51.8919><2><Shrouded Stacks><100><35
+WSKD_B21: -441.9694><-293.8045><-346.3645><-159.8772><2><Shrouded Stacks><48><35
+WSKD_B22: 0.7931932><-242.2045><-31.51067><-145.1861><2><Shrouded Stacks><48><35
+WSKD_B23: -272.2086><-329.2044><-171.5108><-199.1864><2><Shrouded Stacks><48><35
+WSKD_B24: -337.2082><-472.2045><-279.5108><-351.1864><2><Shrouded Stacks><152><35
+WSKD_S04: -640.2097><-470.2045><-411.5101><-354.1864><2><><48><35
+WSKD_B25: -148.3352><188.5613><-537.5099><591.8135><2><Shrouded Stacks><48><77
+WSKD_B26: 163.784><298.7957><-400.5101><725.814><2><Shrouded Stacks><152><35
+WSKD_B27: 180.7928><190.7954><-282.5108><610.8137><2><Shrouded Stacks><48><35
+WSKD_B28: -428.2099><289.7957><-414.5101><500.8136><1><Shrouded Stacks><204><35
+WSKD_B29: -626.0831><22.35794><-485.4162><219.97><0><Shrouded Stacks><48><35
+WSKD_B31: -2.081568><-293.6418><61.58347><229.97><1><Shrouded Stacks><100><77
+WSKD_B32: -337.0836><153.3579><-175.4167><366.97><1><Shrouded Stacks><48><35
+WSKD_B37: 468.919><-221.075><415.7771><-972.91><0><Shrouded Stacks><48><35
+WSKD_B33: -74.08135><-131.479><-88.22269><-983.91><0><Shrouded Stacks><204><77
+WSKD_S05: -154.7637><-104.0749><-24.74435><-768.4324><1><><48><35
+WSKD_B34: 4.236734><171.9252><115.2557><-794.4324><0><Shrouded Stacks><52><77
+WSKD_B35: -73.76325><401.9252><-178.7446><-552.4324><0><Shrouded Stacks><204><35
+WSKD_B36: -465.7644><67.92517><-213.7448><-897.4311><0><Shrouded Stacks><48><115
+WSKD_B38: -1026.131><18.37725><-997.6256><60.6498><0><Shrouded Stacks><204><35
+WSKD_B40: -767.9699><-253.8046><-679.3636><-176.8772><1><Shrouded Stacks><152><77
+WSKD_B41: 114.7934><-472.2045><189.4893><-364.1864><2><Shrouded Stacks><152><35
+OffScreenDen_WSKD: -912.1317><-278.2045><-942.8671><-983.91><1><><0><0
+Connection: WSKD_B42,WSKD_A26,5,16,44,65,2,0
+Connection: WSKD_A26,WSKD_B22,1,4,37,18,2,0
+Connection: WSKD_B01,WSKD_B02,12,18,143,18,2,0
+Connection: WSKD_B01,WSKD_B04,35,9,17,31,3,1
+Connection: WSKD_B02,WSKD_B26,6,19,148,11,2,0
+Connection: WSKD_B02,WSKD_B03,63,4,45,99,2,0
+Connection: WSKD_B03,WSKD_B09,4,83,41,3,2,3
+Connection: WSKD_B03,WSKD_B30,42,63,124,31,0,3
+Connection: WSKD_B03,WSKD_B04,37,17,5,8,0,3
+Connection: WSKD_B03,WSKD_B08,5,11,41,29,2,0
+Connection: WSKD_B30,WSKD_B14,5,18,90,4,2,0
+Connection: WSKD_B30,WSKD_B06,147,16,19,28,0,1
+Connection: WSKD_B30,WSKD_B37,69,6,39,21,2,0
+Connection: WSKD_B04,WSKD_B05,42,4,13,28,3,1
+Connection: WSKD_B05,WSKD_B06,17,9,55,28,2,1
+Connection: WSKD_B06,WSKD_B07,4,18,43,22,2,0
+Connection: WSKD_B07,WSKD_B08,39,60,36,5,0,0
+Connection: WSKD_B07,WSKD_B41,4,23,148,22,2,0
+Connection: WSKD_B08,WSKD_B31,6,13,96,50,3,0
+Connection: WSKD_B09,WSKD_B10,7,29,14,5,2,3
+Connection: WSKD_B09,WSKD_B14,5,3,85,30,2,1
+Connection: WSKD_B10,WSKD_B12,20,104,78,15,2,3
+Connection: WSKD_B10,WSKD_B11,2,48,43,12,2,3
+Connection: WSKD_B11,WSKD_S03,35,31,38,16,0,0
+Connection: WSKD_B11,WSKD_B13,4,23,44,28,1,0
+Connection: WSKD_B11,WSKD_B17,12,4,42,26,2,0
+Connection: WSKD_B12,WSKD_B13,26,13,28,70,3,0
+Connection: WSKD_B13,WSKD_B28,9,3,200,7,3,0
+Connection: WSKD_B14,WSKD_B15,12,10,38,12,2,0
+Connection: WSKD_B15,WSKD_B17,24,24,26,4,1,3
+Connection: WSKD_B15,WSKD_B16,6,20,36,20,2,0
+Connection: WSKD_B15,WSKD_B22,17,7,9,30,3,1
+Connection: WSKD_B16,WSKD_B18,14,29,23,3,1,3
+Connection: WSKD_B16,WSKD_B20,12,4,92,16,2,0
+Connection: WSKD_B16,WSKD_B23,34,3,25,28,3,1
+Connection: WSKD_B17,WSKD_B18,8,13,42,16,2,0
+Connection: WSKD_B18,WSKD_B25,25,30,6,9,1,3
+Connection: WSKD_B18,WSKD_B19,6,18,44,19,2,0
+Connection: WSKD_B19,WSKD_B39,25,10,25,10,1,3
+Connection: WSKD_B19,WSKD_B20,8,3,81,29,3,1
+Connection: WSKD_B20,WSKD_B31,9,27,10,15,1,2
+Connection: WSKD_B20,WSKD_B21,86,3,25,30,3,1
+Connection: WSKD_B21,WSKD_B23,38,11,4,22,0,2
+Connection: WSKD_B21,WSKD_B40,13,10,146,17,2,0
+Connection: WSKD_B22,WSKD_B23,10,4,44,30,2,1
+Connection: WSKD_B23,WSKD_B24,23,7,79,29,3,1
+Connection: WSKD_B24,WSKD_B41,145,17,4,17,0,2
+Connection: WSKD_B24,WSKD_S04,7,16,40,15,2,0
+Connection: WSKD_B25,WSKD_B26,45,60,11,4,0,2
+Connection: WSKD_B26,WSKD_B27,83,10,25,23,3,1
+Connection: WSKD_B28,WSKD_B29,24,9,5,31,0,1
+Connection: WSKD_B28,WSKD_B32,121,5,5,22,2,1
+Connection: WSKD_B29,WSKD_B36,42,15,5,10,3,2
+Connection: WSKD_B29,WSKD_B38,9,7,198,9,2,0
+Connection: WSKD_B31,WSKD_B32,6,63,42,11,2,3
+Connection: WSKD_B37,WSKD_B33,10,9,194,8,2,0
+Connection: WSKD_B33,WSKD_B34,148,70,46,11,3,3
+Connection: WSKD_B33,WSKD_B36,6,54,42,8,2,0
+Connection: WSKD_B33,WSKD_S05,74,51,23,26,1,1
+Connection: WSKD_B34,WSKD_B35,4,53,107,6,3,3
+Connection: WSKD_B35,WSKD_B36,29,17,29,100,3,3
+
+SpawnMigrationStream: stream1,-138^415,130^826,-23^545,-116^875,None,1,70,30,WSKD_B12
+
+SpawnMigrationStream: stream2,-939^-127,1143^265,-968^-193,1055^305,None,12,70,40,WSKD_B01
+SpawnMigrationStreamMidpoint: stream2,0,-849^-314^164.4601^179^176
+SpawnMigrationStreamMidpoint: stream2,1,-518^-328^169.1668^48^37
+SpawnMigrationStreamMidpoint: stream2,2,-291^-366^221.0479^109^17
+SpawnMigrationStreamMidpoint: stream2,3,-201^-451^177.6852^171^134
+SpawnMigrationStreamMidpoint: stream2,4,110^-430^182.1414^89^55
+SpawnMigrationStreamMidpoint: stream2,5,425^-446^180.3277^99^75
+SpawnMigrationStreamMidpoint: stream2,6,824^-355^187.481^92^203
+SpawnMigrationStreamMidpoint: stream2,7,795^-12^73.4464^25^53
+SpawnMigrationStreamMidpoint: stream2,8,980^161^116.0796^34^116
+
+SpawnMigrationStream: stream3,444^-228,130^826,444^-199,249^823,None,1,70,30,WSKD_B12
+SpawnMigrationStreamMidpoint: stream3,0,401^29^93.54711^142^39
+SpawnMigrationStreamMidpoint: stream3,1,305^236^17.76015^70^88
+SpawnMigrationStreamMidpoint: stream3,2,286^489^87.04588^68^141
+
+SpawnMigrationStream: stream4,-152^389,-1249^9,-159^369,-1193^52,None,01,70,30,WSKD_B38
+SpawnMigrationStreamMidpoint: stream4,0,-237^297^-9.392456^91^108
+SpawnMigrationStreamMidpoint: stream4,1,-661^319^-7.82711^94^100
+SpawnMigrationStreamMidpoint: stream4,2,-775^16^25.57861^287^177
+
+SpawnMigrationStream: stream5,181^13,-648^30,138^-103,-564^66,stream4,0,70,30,WSKD_B38
+SpawnMigrationStreamMidpoint: stream5,0,166^-205^-40.75671^47^43
+SpawnMigrationStreamMidpoint: stream5,1,6^-193^-6.642982^36^104
+SpawnMigrationStreamMidpoint: stream5,2,-294^-131^71.14058^104^84
+SpawnMigrationStreamMidpoint: stream5,3,-490^-47^11.68333^101^63
+
+SpawnMigrationStream: stream6,-174^334,347^-47,-159^299,65^-48,None,2,70,40,WSKD_B42
+SpawnMigrationStreamMidpoint: stream6,0,-179^126^-72.30191^78^42
+SpawnMigrationStreamMidpoint: stream6,1,-247^38^-8.905388^52^34
+SpawnMigrationStreamMidpoint: stream6,2,-394^26^-52.63129^84^121
+SpawnMigrationStreamMidpoint: stream6,3,-423^-278^226.1422^33^73
+SpawnMigrationStreamMidpoint: stream6,4,6^-243^113.6205^60^63
+SpawnMigrationStreamMidpoint: stream6,5,150^-237^141.9631^38^83
+
+SpawnMigrationStream: stream7,-95^327,1062^280,-121^296,1024^279,stream5,012,70,49,WSKD_B01
+SpawnMigrationStreamMidpoint: stream7,0,-94^266^176.8817^60^84
+SpawnMigrationStreamMidpoint: stream7,1,180^311^177.6219^163^61
+SpawnMigrationStreamMidpoint: stream7,2,347^301^156.1407^74^99
+SpawnMigrationStreamMidpoint: stream7,3,729^288^172.8228^128^147

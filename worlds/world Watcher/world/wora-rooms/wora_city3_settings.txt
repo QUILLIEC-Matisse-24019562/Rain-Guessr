@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.3586957
+RumbleIntensity: 0.1086956
+Clouds: 0.8043478
+Grime: 0
+BkgDroneVolume: 0
+Palette: 69
+PlacedObjects: CustomDecal><49.21365><11.06377><-8.960449~638~1029.634~552~974.8755~-52~0~0~0~1~0~rust1~0.2619201~1~0.2619201~1~0.2619201~1~0.2619201~1, RippleSpawnEgg><150.1509><385.3688><, 
+AmbientSounds: SPOT><SO_IND-MechHum01.ogg><774.3868><531.3959><0.3695652><1><618.3868><323.3959><-46.35535><-40.35535><0><0.1869567, OMNI><RWTW_RotAmb_VanillaRot.ogg><590.478><561.5512><0.1304348><1, OMNI><RWTW_DustStorm_Deep.ogg><586.6997><487.7393><0.1304348><0.7065217, 
+FadePalette: 22, 0.2705931

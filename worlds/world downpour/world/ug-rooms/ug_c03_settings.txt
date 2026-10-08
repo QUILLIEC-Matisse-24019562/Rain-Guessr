@@ -1,0 +1,8 @@
+DangerType: Rain
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.1521739
+Palette: 4
+Effects: SilenceWater-0.4021739-17-136, RockFlea-0.75-30-30, HeatWave-0.2391304-287-35, Fog-0.2608696-275-82, WaterDepth-0.09782609-305-132, 
+AmbientSounds: OMNI><AM_ENV-LushNight.ogg><624.937><564.6898><0.3804348><1, 
+FadePalette: 11, 0.8043478, 0.8043478, 0.8043478

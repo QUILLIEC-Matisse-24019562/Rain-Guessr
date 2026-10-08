@@ -1,0 +1,9 @@
+Template: LC_SettingsTemplate_Slums
+DangerType: None
+Grime: 0
+Palette: 30
+EffectColorA: 12
+Effects: Contrast-0.0326087-20-20, Brightness-0.04347826-23-75, Darkness-0.6413044-276-74, Advertisements-1-270-20, DayNight-1-536-72, Fog-1-528-19, LightBurn-0.2717391-792-70, 
+PlacedObjects: DayNightSettings><522.9486><367.2737><4~8.660248~18~33, FairyParticleSettings><176.4499><116.2431><103~-162.3398~0~1~1~0~1~1.448696~60~180~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.04347826~0.1413043~0.5~0.75~4~Pixel~SIN_IO~SIN_IO~0~0~0, SuperStructureFuses><11.93994><315.9373><34~90, DeepProcessing><1135.788><422.9463><-3~207~27~210~28~-1~-210~240~0.02173913~1~0.5, LightSource><1147.628><510.1584><0.1195652~EffectColor1~-14~161~-515~103.6025~0~0~Fade~0.9673913~0, 
+AmbientSounds: SPOT><SO_IND-HeatDuct.ogg><271.4312><196.8346><0.2826087><1><1145.431><430.8346><-203.3553><10.64465><0><0.2847827, SPOT><SO_IND-Generator.ogg><151.1859><296.9261><0.4130435><1><1149.186><457.9261><-228.3553><-61.35535><0><0.3500001, 
+FadePalette: 22, 0.6086956

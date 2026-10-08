@@ -1,0 +1,16 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.06521739
+RumbleIntensity: 0.2717391
+WaveSpeed: 0.5001046
+WaveLength: 0.9999477
+WaveAmplitude: 5.892729E-12
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1304348
+BkgDroneVolume: 0.2608696
+Effects: PixelShift-0.5-32-65, AboveCloudsView-1-20-20, Flies-0-19-82, SkyDandelions-0-278-23, Coldness-1-17-145, 
+PlacedObjects: DataPearl><409.6669><146.3896><-525~385~0~0~BroadcastMisc~1, UniqueDataPearl><546.3074><143.0584><-660~257~0~0~SI_top~0, BlueToken><479.648><339.1155><0~-59~70~197~1~KingVulture~White|Yellow|Rivulet|Saint|Spear~0~0~0, DeadTokenStalk><439.0966><312.1283><11~-53, DeadTokenStalk><518.5503><280.2612><-16~-35, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><786.4443><219.0579><0.2282609><1.03913><51.44434><142.0579><-277.3553><53.64465><0><0.3826088, OMNI><AM_ENV-WinterHum.ogg><858.1354><560.8972><0.3152174><1, 
+FadePalette: 0, 0.2608696
+WetTerrain: OFF

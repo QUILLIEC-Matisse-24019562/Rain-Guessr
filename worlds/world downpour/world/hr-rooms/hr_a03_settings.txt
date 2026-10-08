@@ -1,0 +1,14 @@
+Template: HR_SettingsTemplate_HellNew
+DangerType: Flood
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 18
+Effects: WaterFluxMaxLevel-0-337-166, FireFlies-0-136-85, Bloom-0.1847826-115-43, LightBurn-0-632-159, HeatWave-0.3586957-105-8, FairyParticles-0.1413043-424-41, SkyAndLightBloom-0-548-287, Fog-0-759-430, 
+PlacedObjects: LightFixture><571.5726><422.5924><HolyFire~-387.6795~-202~20, LightFixture><70.76605><425.6993><HolyFire~17.32051~-10~20, InsectGroup><572.0797><426.5666><-59~54~0~0~FireFly~0.6304348, InsectGroup><70.39996><428.3676><-1~65~-100~135~FireFly~0.5, FairyParticleSettings><405.9347><333.5767><-684~-529.3398~1~7.065217~37.5~0~1~2.09349~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~77.82593~1~0.6521739, LightSource><346.0972><384.5752><0.6413044~EffectColor2~1214~-518~50~86.60254~0~0~Fade~0.7826087~0, DangleFruit><285.5947><553.5739><0~0~2~3, DangleFruit><319.3047><481.7923><0~0~2~3, 
+AmbientSounds: OMNI><SO_NAT-Fire.ogg><734.0677><442.1882><0.5434783><1.528261, OMNI><SO_SFX-UnderWaterSub.ogg><741.3376><341.6167><0.7282609><0.6086956, OMNI><SO_SFX-Doomsday.ogg><736.0558><546.2023><0.3369565><0.7456522, 
+FadePalette: 75, 0.2717391
+WetTerrain: OFF

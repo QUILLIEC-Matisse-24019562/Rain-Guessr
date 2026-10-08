@@ -1,0 +1,4 @@
+Template: warc_settingstemplate_cistern
+PlacedObjects: WarpPoint><688.0427><371.3857><144.4492~95.68216~Watcher~Watcher~WVWB~wvwb_e01~4650~310~09590981-d27e-46d7-81f3-1ecfda6d5c14~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~false~false~false~false~false~0~-1~false~-1~false~-1~false~-1~false~-1~false~-1~false~-1~false~-1~false~-1~false~-1~false~-1~false~-1~false, CustomDecal><388.471><290.5554><-6.173035~193.7089~667.1816~233.8338~685.0835~-261.12~-576.5628~-632.1201~0.6508543~0.8859333~0~xrootscreen~0~1~1~1~1~1~1~1, 
+AmbientSounds: SPOT><SO_IND-MechHum01.ogg><740.8547><354.0406><0.359093><1><259.4501><361.9192><-35.97263><-44.61493><0><0.05974147, 
+FadePalette: 539, 0.8051804

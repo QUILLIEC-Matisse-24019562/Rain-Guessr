@@ -1,0 +1,5 @@
+Clouds: 0
+Palette: 29
+Effects: DayNight-0.6086956-16-59, RoofTopView-1-273-4, PixelShift-0.5-20-20, 
+PlacedObjects: DayNightSettings><129.3215><461.0903><5~8.660254~35~10, 
+FadePalette: 42, 0.04347826, 0.0326087

@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0
+Grime: 0
+Palette: 81
+EffectColorA: 10
+EffectColorB: 13
+Effects: Flies-0.25-20-20, Fog-1-287-21, 
+PlacedObjects: FirecrackerPlant><766.5961><174.6754><-180~-201~2~3, FirecrackerPlant><596.4227><216.3156><-286~-239~2~6, CustomDecal><122.6679><55.35864><6~513~809~551~826~10~-292~176~0~1~0~GreyBones~0.08695652~1~0.08695652~1~0.1304348~1~0.08695652~1, LightSource><291.5729><347.907><0.1086956~Environment~0~100~50~86.60254~0~0~None~0~0, RippleSpawnEgg><675.2927><227.9454><, 
+AmbientSounds: SPOT><Basic Mech.wav><528.2283><540.6989><0.1086956><1><354.2283><315.6988><-35.35534><-35.35534><0><0.08913057, OMNI><AM_ENV-SubTerr.ogg><243.7344><46.5506><0.1956522><1, OMNI><SO_NAT-Fire.ogg><680.1566><46.57312><0.173913><1, OMNI><SO_SFX-Morse.ogg><436.1851><51.07581><0.04347826><1.9, SPOT><RWTW_AR_Heater.ogg><755.9037><504.8721><0.08695652><0.4521739><753.9037><443.8721><-35.35534><-35.35534><0><0.1, 
+FadePalette: 83, 0.9021739

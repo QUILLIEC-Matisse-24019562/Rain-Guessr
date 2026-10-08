@@ -1,0 +1,11 @@
+DangerType: Flood
+WaveSpeed: 0.6521739
+WaveLength: 1
+WaveAmplitude: 0.2934783
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+WaterReflectionAlpha: 1
+Effects: ElectricDeath-1-20-20, 
+PlacedObjects: WallMycelia><528.5577><3160.309><0~100, WallMycelia><591.5687><3005.688><-14~108, WallMycelia><272.3118><923.4326><0~100, WallMycelia><229.5787><365.6838><0~100, WallMycelia><761.3><195.4983><-103~169, WallMycelia><649.1674><1135.36><0~100, 
+FadePalette: 22, 0.7934783, 0.7934783, 0.7934783

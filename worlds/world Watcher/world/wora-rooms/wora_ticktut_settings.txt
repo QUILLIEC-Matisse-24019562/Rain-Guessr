@@ -1,0 +1,7 @@
+Template: NONE
+DangerType: Sandstorm
+Clouds: 0
+Palette: 47
+Effects: SilenceWater-1-20-20, 
+PlacedObjects: LightFixture><896.2933><506.0547><RedLight~17.32051~-10~93, CustomDecal><-83.69803><89.278><-27~256~1168~269~1104~-12~230~-374~0~1~0~dirtywaterline~1~1~1~1~0~1~0~1, CustomDecal><-71.36707><27.66214><-65~675~1213~735~1034~-50~0~0~0~1~0~rust2~0.4673913~0.6413044~0.4673913~0.6413044~0.4673913~0.6413044~0.4673913~0.6413044, 
+FadePalette: 9, 0.1086956

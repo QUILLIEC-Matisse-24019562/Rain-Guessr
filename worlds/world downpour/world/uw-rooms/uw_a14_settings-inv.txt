@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: None
+Clouds: 1
+Grime: 0
+Palette: 8
+EffectColorA: 20
+EffectColorB: 20
+Effects: PixelShift-0.5-32-65, AboveCloudsView-1-20-20, Fog-1-16-98, FireFlies-1-289-21, 
+PlacedObjects: GhostSpot><593.5597><552.3114><, CustomDecal><501.5697><247.9134><-11~152~153~154~142~0~-191~126~0~1~0~GodOfEyes~0.5~0~0.5~0~0.5~0~0.5~0, Corruption><-12.86694><380.9123><48~138, WallMycelia><680.3476><153.0754><36~164, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>Passages<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>736.3222<tB>348.8416<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>pos<tB>170.3222<tB>230.8416<tA>handlePos<tB>97.64465<tB>-72.35535, 
+FadePalette: 32, 1
+WetTerrain: OFF

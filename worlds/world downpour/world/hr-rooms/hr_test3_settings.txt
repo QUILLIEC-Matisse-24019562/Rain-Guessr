@@ -1,0 +1,10 @@
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0
+SecondWaveAmplitude: 0.5217391
+Palette: 58
+EffectColorA: 13
+Effects: WaterDepth-0.09782609-757-71, SilenceWater-1-717-157, 
+PlacedObjects: LightSource><810.644><52.61366><0.07608165~EffectColor2~29~285~182~-60.39746~0~1~None~0~0, LightSource><532.0958><45.93591><0.07608563~EffectColor2~18~273~-301~71.60254~0~1~None~0~0, LightSource><692.4744><47.00613><0.04347826~EffectColor2~13~283~259~84.60254~0~1~None~0~0, LightSource><677.8212><41.94397><0.06521739~EffectColor2~-99~555~-24~353.6025~1~1~None~0~0, 
+FadePalette: 59, 0.7608696

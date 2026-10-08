@@ -1,0 +1,4 @@
+Template: wtda_settingstemplate_tomb
+Effects: LightBurn-0.3066197-25.72592-117.1368, 
+PlacedObjects: RippleTree><507.8029><449.0556><0~48.29266~0.3503849~0.7027037~right, RippleStalk><454.2163><436.7787><-0.9768066~24.87808~left~depth|8.918907, RippleStalk><419.0182><384.2063><-0.9768677~38.53656~left~spiralAmount|1~droopy|0.1167948, 
+FadePalette: 337, 0.1022067

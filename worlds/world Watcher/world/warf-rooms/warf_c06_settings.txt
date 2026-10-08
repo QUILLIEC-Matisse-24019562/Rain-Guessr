@@ -1,0 +1,12 @@
+Template: NONE
+RainIntensity: 1
+Clouds: 0.3043478
+Grime: 0
+WaterReflectionAlpha: 0.25
+Palette: 81
+EffectColorA: 10
+EffectColorB: 18
+Effects: Salt Flakes-0.6086956-20-20, Fog-1-292-17, Toxic Brine Water-1-26.01297-81.83136, 
+PlacedObjects: CustomDecal><-55.08777><-49.36697><5~762~994~765~1004~-5~-205~245~0.315327~0.7923166~0~runningwhite~0.4565217~1~0.3043478~1~0.5~1~0.5~1, DandelionPatch><682.6981><334.2218><8~54, KarmaFlower><640.5548><345.2936><234.5457~0.875~8~25, LocalBlizzard><469.4916><586.4907><15~-500~267~-90.39746~0.09782609~1~0.5, LightSource><470.6796><609.1364><0.4118513~White~-11.39142~-492.3583~202.6462~-343.4268~0~1~None~0~0, LightSource><108.6302><243.5898><0.1084904~EffectColor1~-9.11322~54.43396~50~86.60254~0~1~Fade~0.9719928~0, WindRect><105.5536><427.5759><-8.024963~313.4661~840.0271~278.8969~806.0753~18.51917~0.1476169~Visuals, RippleTree><655.2318><491.2979><-1.25~73.75~0.258152~0.3097826~left~droopy|0.1494565, RippleStalk><500.5685><526.4825><0~37.5~left~depth|26.90217~sinOffset|86.95652, RippleStalk><520.2585><571.0244><-3.75~21.25~right~depth|28.125, RippleStalk><565.5663><522.0385><0~26.25~right~depth|27.30978, RippleStalk><567.869><390.3531><2.5~27.5~left, RippleSpawnEgg><506.7922><393.6873><, RippleSpawnEgg><788.9301><455.1243><, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><771.6214><567.8411><0.2065217><1, OMNI><AM_WIN_Hilltop.ogg><762.322><459.9088><0.2065217><1.9, 
+FadePalette: 83, 0.5543478

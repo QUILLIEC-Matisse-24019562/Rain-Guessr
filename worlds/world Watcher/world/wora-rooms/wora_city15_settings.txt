@@ -1,0 +1,25 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.3586957
+RumbleIntensity: 0.1086956
+Clouds: 0.2173913
+Grime: 0
+Palette: 69
+EffectColorA: 8
+EffectColorB: 10
+TerrainLight: 1
+TerrainStainAmount: 1
+TerrainStainBrightness: 1
+TerrainStainHeight: 0.9456522
+TerrainWaves: 1
+TerrainEdgeRadius: 200
+TerrainGooHeight: 0.1086956
+TerrainGrain: 1
+TerrainDepth: 0.05434096
+TerrainSkyFade: 1
+TerrainPalette: outerrim
+PlacedObjects: CustomDecal><67.13892><-22.53459><80.65738~695~722.9868~624~881.2884~-22~5.964844~295~0~1~0~rust2~0.303011~1~0.3290472~1~0.2965814~1~0.4913745~1, CustomDecal><291.3952><-26.29385><-229.9854~352~563.6896~403~477.0717~154~-476.3046~300~0~1~1~runningwhite~0.09782609~1~0.09782609~1~0.09782609~1~0.09782609~1, CosmeticSlimeMold><358.3301><204.4806><0~100, SlimeMold><376.8421><211.3026><-483~-3~2~3, SlimeMold><331.9259><217.2202><-173~-152~2~3, CosmeticSlimeMold2><850.8351><334.7619><5~83, SlimeMold><831.6761><328.4391><0~0~2~3, FloatingDebris><492.1808><385.9605><-618~-184~1763061406~15~24~0.25~1.934782~37~-79|32~170|-266~1.78|1.55~0|0~0|0~Stardust~1~-0.2v0.31v0v0|-0.08v-0.02v0v0~0, TerrainHandle><570.8011><202.8543><-47~-4~45~-15~72, TerrainHandle><394.9359><164.1989><-4~-20~40~0~86, TerrainHandle><690.6423><170.5435><-40~0~0~-24~42, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><767.9162><535.2637><0.1521739><0.8043478, OMNI><RWTW_RotAmb_VanillaRot.ogg><582.303><543.0903><0.09782609><1, SPOT><SO_IND-HeatDuct.ogg><429.1478><323.5469><0.3695652><0.5695657><473.1478><454.5469><-95.35535><-42.35535><0><0.2086958, 
+FadePalette: 22, 0.3463457
+TerrainFadePalette: tomb, 0.2934783

@@ -1,0 +1,9 @@
+Template: NONE
+Clouds: 0.1052478
+Palette: 98
+EffectColorA: 6
+EffectColorB: 13
+Effects: Fog-0.2013563-20-20, Flies-0.25-21-78, 
+PlacedObjects: InsectGroup><910.3823><218.9117><0~100~-888~101~RockFlea~0.5, 
+AmbientSounds: OMNI><so_sfx-morana.ogg><239.8179><105.9172><0.1521739><1, OMNI><am_env-outside.ogg><434.9178><104.3588><0.25><1, OMNI><am_ind-warehouse01.ogg><743.8513><208.5775><0.3043478><1, 
+FadePalette: 10, 0.7077522, 0.7077522

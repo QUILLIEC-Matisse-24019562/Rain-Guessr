@@ -1,0 +1,3 @@
+Effects: SKLightningHue-0.1086956-30-30, SKLightning-0.4021739,0.2086958,0.1-299-46, 
+PlacedObjects: LightSource><530.1504><500.8575><0.2218283~Environment~677.0132~-133~192.38~-49.39478~1~1~None~0~0, CustomDecal><-116.3638><-39.50703><91.5959~856~1233.734~779~1139.151~30~0~0~0~1~0~greybones~0.2403049~1~0.2403049~1~0.2403049~1~0.2403049~1, LightSource><361.686><569.3473><0.05162646~Environment~-209.0776~227~50~86.60254~1~1~None~0~0, LightSource><781.9763><638.7339><0.05162614~Environment~245.9151~142~-73.93079~-328.3811~1~1~None~0~0, WarpPoint><416.5931><352.9247><0~0~~NULL~NULL~NULL~NULL~NULL~~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~true~true~true~true~false~0~-1~-1~-1~-1~-1, 
+FadePalette: 458, 0

@@ -1,0 +1,11 @@
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 9
+Effects: FairyParticles-0.1086956-40-40, 
+PlacedObjects: FairyParticleSettings><418.6104><-47.39323><5~8.660254~1~7.065217~37.5~0~1~2.09349~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~77.82593~1~0.6521739, 
+FadePalette: 38, 0.1086956
+WetTerrain: OFF

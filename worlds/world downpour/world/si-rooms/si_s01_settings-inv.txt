@@ -1,0 +1,3 @@
+Template: SI_SettingsTemplate_Inside
+EffectColorB: 20
+FadePalette: 31, 0.5

@@ -1,0 +1,16 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.4492865
+WaveLength: 0.9746432
+WaveAmplitude: 0.004841824
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.4021739
+EffectColorA: 14
+Effects: BkgOnlyLightning-0-20-20, LightBurn-0.4347826-23-77, 
+PlacedObjects: LightSource><261.6564><1034.177><0.07608695~EffectColor1~-3~137~-414~208.6025~0~1~None~0~0, LightSource><719.6099><1034.083><0.09782615~EffectColor1~94~102~-83~104.6025~0~1~None~0~0, LightSource><570.325><1036.347><0.06521744~EffectColor1~21~134~63~-31.39752~0~1~None~0~0, LightSource><415.3277><1044.352><0.07608695~EffectColor1~146~175~-562~76.60254~0~1~Fade~0.6956522~0, LightSource><497.5757><1035.152><0.08695652~EffectColor1~398~443~146~-158.3975~1~0~None~0~0, LightSource><698.9103><425.3804><0.1086956~EffectColor1~-4~130~-834~-111.3975~0~1~None~0~0, LightSource><452.5519><438.5279><0.09782609~EffectColor1~28~177~-560~-14.39749~0~1~None~0~0, LightSource><159.9299><428.4127><0.1086956~EffectColor1~2~167~-275~106.6025~0~1~None~0~0, LightSource><452.1307><439.1605><0.2065217~EffectColor1~-597~208~108~164.6025~0~0~None~0~0, CosmeticSlimeMold2><274.3032><200.9644><0~100, CosmeticSlimeMold2><523.4459><179.8074><0~100, CosmeticSlimeMold><853.6165><198.6011><0~100, SlimeMold><825.0851><194.1132><4~-93~2~8, SlimeMold><833.0794><234.1044><-27~-170~2~8, SlimeMold><296.0519><246.9726><-8~-166~2~8, SlimeMold><324.2529><197.2><-37~-144~2~8, SlimeMold><516.4266><193.156><34~-103~2~8, SlimeMold><558.1874><190.4399><-7~-132~2~8, LightFixture><868.8005><213.4862><SlimeMoldLight~17.32051~-10~55, LightFixture><532.9595><197.6959><SlimeMoldLight~17.32051~-10~89, LightFixture><312.0576><220.3085><SlimeMoldLight~17.32051~-10~67, DangleFruit><341.7967><1150.695><0~0~3~6, DangleFruit><322.9494><1199.485><0~0~3~6, DangleFruit><261.8275><1380.316><0~0~3~6, DangleFruit><227.5814><1257.393><0~0~3~6, DangleFruit><279.9214><1279.397><0~0~3~6, SnowSource><649.1478><227.3281><Radial~263~36~50~86.60254~0.3804344~0.4891301, 
+AmbientSounds: OMNI><MSC-Subtundra.ogg><855.773><618.1987><0.3913043><1, SPOT><SO_IND-FlourLight.ogg><736.8087><250.6918><0.4565217><1><490.8087><1035.692><-120.3553><240.6447><0><0.2086958, DIR><AM_RAIN-Rumbles.ogg><854.7139><520.5533><0><0.6869565><67.21759><0, 
+FadePalette: 0, 0.4782609, 0.4456522
+WetTerrain: OFF

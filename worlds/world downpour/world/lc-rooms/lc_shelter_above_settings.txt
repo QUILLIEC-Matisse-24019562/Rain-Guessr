@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+Grime: 0
+BkgDroneVolume: 0
+Palette: 30
+Effects: DayNight-0.7934783-25-119, RoofTopView-1-23-55, 
+PlacedObjects: DayNightSettings><68.90796><472.1273><5~8.660254~35~10, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><833.3021><652.5293><0.1630435><1, OMNI><AM_ENV-LightWind.ogg><647.051><654.0204><0.3804348><0.9021739, SPOT><AM_ENV-WallHum.ogg><715.2798><427.5522><0.2608696><1><509.2798><105.5523><-24.35535><75.64465><0><0.08913057, 
+FadePalette: 42, 0

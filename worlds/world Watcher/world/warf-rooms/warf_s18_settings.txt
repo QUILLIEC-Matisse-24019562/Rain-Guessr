@@ -1,0 +1,5 @@
+Template: NONE
+Grime: 0
+Palette: 80
+AmbientSounds: OMNI><Deep Weird Wind.wav><354.1727><11.10095><0.04347826><1, OMNI><AM_ENV-SubTerr.ogg><540.2773><15.30188><0.1521739><1, SPOT><waterGurgleLOOP1.wav><742.8156><551.4227><0.1521739><1><811.8156><370.4227><-107.3553><-0.3553467><0><0.1108697, 
+FadePalette: 33, 0.9021739

@@ -1,0 +1,8 @@
+Template: NONE
+DangerType: None
+Grime: 0
+Palette: 12
+EffectColorA: 5
+EffectColorB: 6
+Effects: Darkness-0.25-20-20, LightBurn-0-26-68, Flies-0.2173913-295-23, DayNight-1-307-72, 
+FadePalette: 8, 0.4021739

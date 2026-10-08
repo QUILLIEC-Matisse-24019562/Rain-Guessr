@@ -1,0 +1,10 @@
+DangerType: Sandstorm
+RainIntensity: 1
+RandomItemDensity: 0
+Palette: 333
+EffectColorA: 9
+EffectColorB: 8
+Effects: SurfaceSandstorm-1-20-20, 
+PlacedObjects: LightSource><-17.81555><593.0774><0.3695652~Environment~136~-496~-112~-342.3974~1~1~None~0~0, LightSource><320.0752><579.4353><0.326087~Environment~-160~-436~-432.9283~-506.3975~1~1~None~0~0, LightSource><764.0544><489.0576><0.2934783~Environment~400~-424~50~86.60254~1~1~None~0~0, CustomDecal><-201.2088><106.6788><-205.0952~744~1530.425~727~1445.798~-40~0~0~0~1~0~greybones~0.1537016~1~0.1537016~1~0.1537016~1~0.1537016~1, DeadVultureGrub><430.0408><301.0292><231~68~1~3, DeadVultureGrub><376.5914><302.2698><-396~130~1~3, WarpPoint><409.4899><331.6025><0~0~NULL~NULL~NULL~NULL~NULL~NULL~c3c123aa-7e60-4753-97fb-1887aab7373c~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~true~true~false~false~false~0~-1, 
+AmbientSounds: SPOT><AM_IND-Utility01.ogg><721.4323><476.8161><0.4242474><0.8636453><416.8936><334.8161><-35.35534><-35.35534><0><0.2623278, SPOT><AM_IND-Factory01.ogg><742.1714><216.4263><0.196989><0.8246868><709.4335><0.4262543><-204.6086><-69.35534><0><0.5545163, 
+FadePalette: 334, 0.2182028

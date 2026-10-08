@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Sandstorm
+Clouds: 0
+Grime: 0
+Palette: 46
+TerrainLight: 0.1298616
+TerrainStainAmount: 0.3074022
+TerrainStainBrightness: 1
+TerrainStainHeight: 0.7619205
+TerrainWaves: 0.2597245
+TerrainEdgeRadius: 200
+TerrainGooHeight: 0.1558971
+TerrainGrain: 0
+TerrainDepth: -0.4548514
+TerrainPalette: test_soot
+Effects: LightBurn-0.05410916-20-20, 
+PlacedObjects: TerrainHandle><117.3956><1162.379><-40~0~40~0~56, TerrainHandle><51.03632><1160.239><-40~0~40~0~20, TerrainHandle><450.9247><993.3602><-49.95605~15~62.89899~-7~98, TerrainHandle><-194.8829><1403.234><-40~0~40~0~36, TerrainHandle><-71.55338><1386.574><-47.96485~5~40~0~39, TerrainHandle><720.7351><939.0686><-40~8~60.90771~-15~58, TerrainHandle><1508.495><285.6726><-430.2782~16~196.3104~0~147, TerrainHandle><932.2017><876.6061><-61.90337~6~460.1464~5~56, TerrainHandle><2234.274><267.4623><-136.5739~1~40~0~116, TerrainHandle><1910.433><212.642><-179.3851~10~154.4949~-7~70, TerrainHandle><2676.17><246.0565><-40~0~40~0~184, TerrainHandle><4867.374><1126.696><-805.6223~3~144.5387~2~83, TerrainHandle><4992.396><1117.055><-40~0~40~0~20, TerrainHandle><5187.522><1398.242><-265.0073~1~40~0~43, TerrainHandle><3147.986><200.7344><-267.9941~0~619.4436~105~125, 
+AmbientSounds: OMNI><AM_WIN-SubWnd.ogg><763.2039><489.0104><0.2402762><0.5324971, 

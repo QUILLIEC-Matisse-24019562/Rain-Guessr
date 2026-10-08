@@ -1,0 +1,10 @@
+Template: NONE
+WaveSpeed: 0.5088751
+WaveLength: 0.9955625
+WaveAmplitude: 0.001114407
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+Palette: 455
+AmbientSounds: OMNI><Noise Wind.wav><746.041><354.8043><0.05434782><1, OMNI><AM_ENV-SubTerr.ogg><770.1832><449.4196><0.1086956><1, 
+FadePalette: 14, 0.4056461

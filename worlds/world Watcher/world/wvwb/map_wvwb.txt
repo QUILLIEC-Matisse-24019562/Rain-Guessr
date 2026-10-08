@@ -1,0 +1,71 @@
+WVWB_A01: 1319.976><-457.0081><992.7298><-377.3645><0><Fractured Gateways><48><35
+WVWB_A02: 1170.194><-344.2434><880.1189><-260.8164><1><Fractured Gateways><48><35
+WVWB_A03: -1154.241><646.5756><-670.6516><568.3588><1><Fractured Gateways><48><35
+WVWB_A04: -2387.842><535.421><-1532.939><492.5068><1><Fractured Gateways><48><35
+WVWB_A05: 518.399><-456.8213><333.6233><-372.1528><0><Fractured Gateways><48><35
+WVWB_A06: -1153.594><736.7188><-673.2292><710.3646><1><><48><35
+WVWB_B01: 1396.914><-570.0773><993.6001><-504.3497><0><Fractured Gateways><98><35
+WVWB_B02: -391.9916><259.9154><-168.1569><187.6036><1><Fractured Gateways><48><73
+WVWB_B03: -2160.771><535.421><-1419.507><492.5068><1><Fractured Gateways><99><35
+WVWB_B04: 312.8723><-404.7042><212.9384><-371.8032><0><Fractured Gateways><49><75
+WVWB_B05: 54.44545><-341.4872><-0.7661921><-288.9378><0><Fractured Gateways><100><35
+WVWB_C01: 1472.981><-344.8087><991.86><-258.207><1><Fractured Gateways><150><35
+WVWB_D01: 246.5802><72.24964><115.4875><78.82558><1><Fractured Gateways><207><75
+WVWB_D02: -649.4617><109.1224><-401.6759><106.595><1><Fractured Gateways><105><75
+WVWB_D03: 939.3743><-457.2669><451.433><-378.6375><0><Fractured Gateways><201><35
+WVWB_E01: 1929.267><-570.0773><1211.117><-501.7405><0><Fractured Gateways><252><35
+WVWB_E02: -154.2924><370.179><-41.55671><288.8251><1><Fractured Gateways><100><112
+WVWB_F01: -359.91><-274.4504><-329.8712><-288.0835><0><Fractured Gateways><152><79
+WVWB_H01: 823.7877><-176.075><509.8446><-135.5707><1><Fractured Gateways><201><75
+WVWB_H02: -459.0721><646.665><-550.1087><570.0192><1><Fractured Gateways><405><35
+WVWB_J01: -1618.49><589.1716><-1204.001><490.0801><1><Fractured Gateways><255><75
+WVWB_S01: 1271.372><-457.0081><878.7516><-381.7134><1><><48><35
+WVWB_S02: -2252.544><583.9274><-1420.379><618.037><1><><48><35
+OffScreenDen_WVWB: 1286.044><-231.3389><841.3387><-484.3452><1><><0><0
+Connection: WVWB_A01,WVWB_C01,19,29,19,2,1,3
+Connection: WVWB_A01,WVWB_S01,10,29,4,29,1,1
+Connection: WVWB_A01,WVWB_D03,4,14,194,14,2,0
+Connection: WVWB_A01,WVWB_B01,10,5,9,30,3,1
+Connection: WVWB_A02,WVWB_H01,11,29,196,7,1,3
+Connection: WVWB_A02,WVWB_C01,38,20,7,20,0,2
+Connection: WVWB_A03,WVWB_A06,36,24,41,16,1,0
+Connection: WVWB_A03,WVWB_J01,3,14,249,53,2,0
+Connection: WVWB_A03,WVWB_H02,44,14,5,14,0,2
+Connection: WVWB_A04,WVWB_B03,42,16,6,16,0,2
+Connection: WVWB_A05,WVWB_B04,6,25,45,28,2,0
+Connection: WVWB_A05,WVWB_D03,41,25,6,25,0,2
+Connection: WVWB_B01,WVWB_E01,92,11,8,11,0,2
+Connection: WVWB_B02,WVWB_E02,43,50,3,33,0,2
+Connection: WVWB_B02,WVWB_D02,6,27,96,58,2,3
+Connection: WVWB_B03,WVWB_S02,32,16,37,21,0,3
+Connection: WVWB_B03,WVWB_J01,91,6,9,8,0,2
+Connection: WVWB_B04,WVWB_B05,4,49,96,8,2,0
+Connection: WVWB_B05,WVWB_F01,1,29,150,29,2,0
+Connection: WVWB_D01,WVWB_E02,15,68,95,6,0,3
+Connection: WVWB_D01,WVWB_H01,187,11,10,67,3,1
+Connection: WVWB_D02,WVWB_F01,95,10,54,50,3,3
+Connection: WVWB_E02,WVWB_H02,74,103,328,2,1,3
+
+SpawnMigrationStream: stream1,368^-268,2257^-576,330^-343,2121^-500,None,0,70,30,WVWB_E01
+SpawnMigrationStreamMidpoint: stream1,0,442^-418^175.5653^87^71
+SpawnMigrationStreamMidpoint: stream1,1,815^-434^196.4995^127^98
+SpawnMigrationStreamMidpoint: stream1,2,1029^-419^182.3557^126^125
+SpawnMigrationStreamMidpoint: stream1,3,1307^-504^177.1481^271^71
+SpawnMigrationStreamMidpoint: stream1,4,1480^-561^160.503^76^72
+SpawnMigrationStreamMidpoint: stream1,5,1869^-545^192.8049^159^140
+
+SpawnMigrationStream: stream2,1427^-490,-2402^533,1344^-434,-2318^593,None,012,70,30,WVWB_A04
+SpawnMigrationStreamMidpoint: stream2,0,1351^-366^33.36181^50^50
+SpawnMigrationStreamMidpoint: stream2,1,1171^-374^-1.615479^102^88
+SpawnMigrationStreamMidpoint: stream2,2,928^-274^-10.77827^183^192
+SpawnMigrationStreamMidpoint: stream2,3,680^-201^-1.486618^74^111
+SpawnMigrationStreamMidpoint: stream2,4,542^-140^77.23585^45^151
+SpawnMigrationStreamMidpoint: stream2,5,388^10^31.77095^68^102
+SpawnMigrationStreamMidpoint: stream2,6,81^96^6.628387^100^100
+SpawnMigrationStreamMidpoint: stream2,7,-72^216^23.61964^121^176
+SpawnMigrationStreamMidpoint: stream2,8,-74^527^34.26962^149^193
+SpawnMigrationStreamMidpoint: stream2,9,-488^578^23.13776^175^174
+SpawnMigrationStreamMidpoint: stream2,10,-879^584^14.87667^146^187
+SpawnMigrationStreamMidpoint: stream2,11,-1217^604^5.607544^145^180
+SpawnMigrationStreamMidpoint: stream2,12,-1634^483^-0.8110199^206^240
+SpawnMigrationStreamMidpoint: stream2,13,-2033^531^-16.0079^153^197

@@ -1,0 +1,6 @@
+DangerType: Flood
+BkgDroneVolume: 0
+Palette: 466
+Effects: Sentient Rot Spores-0-40-40, 
+AmbientSounds: SPOT><Basic Mech.ogg><841.1473><317.4104><0.1740086><0.5519775><472.6788><460.4104><-41.35535><-46.35535><0><0.4478262, 
+FadePalette: 10, 0.2932394

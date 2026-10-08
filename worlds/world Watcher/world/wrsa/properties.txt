@@ -1,0 +1,13 @@
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+batsPerActiveSwarmRoom: 6
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0
+hideTimer: true
+waterColorOverride: 0.25, 0.4, 0.2
+{TreeSequence}mapName: wrsa_tree
+{PrinceSequence}mapName: wrsa_prince

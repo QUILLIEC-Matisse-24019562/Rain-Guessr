@@ -1,0 +1,16 @@
+safariStartRoom: WTDA_S03
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0.0
+rippleSpiderThreshold: 20
+softLightRegion: true
+boxWormColor: 1.058, 0.73, 0.368
+proceduralMusicBank: rwtw2
+Subregion: Torrid Desert
+Room Setting Templates: Desert, Tower, Tomb
+Room_Attr: Default: DrillCrab-Forbidden,
+Room_Attr: WTDA_B04: BlueLizard-Avoid,WhiteLizard-Avoid,Scavenger-Avoid,DropBug-Avoid,DrillCrab-Forbidden,ScavengerTemplar-Avoid,ScavengerDisciple-Avoid,RotLoach-Stay,
+Room_Attr: WTDA_B08: BlueLizard-Forbidden,WhiteLizard-Forbidden,Scavenger-Forbidden,DropBug-Forbidden,DrillCrab-Stay,ScavengerTemplar-Forbidden,ScavengerDisciple-Forbidden,RotLoach-Stay,
+Room_Attr: WTDA_B15: WhiteLizard-Forbidden,DrillCrab-Stay,
+Room_Attr: WTDA_B16: WhiteLizard-Like,

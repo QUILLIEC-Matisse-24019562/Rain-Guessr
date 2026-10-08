@@ -1,0 +1,11 @@
+Template: NONE
+CeilingDrips: 0
+Clouds: 0.9130435
+Grime: 0
+Palette: 17
+EffectColorA: 17
+EffectColorB: 13
+Effects: Bloom-0.5543478-440-214, Darkness-0-547-130, 
+PlacedObjects: LightSource><396.8049><208.9561><0.1521739~EffectColor2~-114~49~-372~-209.3975~0~0~None~0~0, 
+FadePalette: 58, 0
+WetTerrain: OFF

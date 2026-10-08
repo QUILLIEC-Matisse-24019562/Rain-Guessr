@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.05226633
+RumbleIntensity: 0.01510023
+Clouds: 0.141858
+Grime: 0
+Palette: 335
+Effects: Desaturation-0.4444892-20-20, Flies-0.1891443-28.25986-130.0226, RockFlea-0.179687-30-76.96716, LocustSwarmConfig-0,0.6579556,0.2434229,0.2742596,0-275.3579-209.171, 
+PlacedObjects: CustomDecal><150.1223><194.4604><-39.32166~439.8042~665.7273~425.2815~654.6146~-64.0712~-297.4768~91.4082~0~0.6747974~0~rustymetal~0~1~0.2677123~1~0.5464575~1~0~1, RippleTree><283.6222><468.9442><-12.8223~61.55725~0.2044127~0.5~right, RippleStalk><204.6099><360.9325><-12.82227~23.11456~right, RippleStalk><386.6639><279.1845><-15.38672~23.96887~left~droopy|0.07433219~sinOffset|100, NoRippleSproutZone><595.6531><114.2863><-40.17645~479.9555~228.9149~536.3382~273.3655~-13.66852, GoldToken><590.058><404.018><10.25781~-84.52502~0~0~0~WVWB~~0, 
+AmbientSounds: OMNI><AM_WIN_Hilltop.ogg><705.4317><457.8466><0.5><1, 
+FadePalette: 453, 0.6689974

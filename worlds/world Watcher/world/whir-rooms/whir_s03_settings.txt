@@ -1,0 +1,4 @@
+DangerType: Flood
+Effects: Sentient Rot Spores-0-40-40, 
+PlacedObjects: BrokenShelterWaterLevel><473.9116><445.8823><, 
+FadePalette: 10, 0.1516488

@@ -1,0 +1,8 @@
+Template: NONE
+DangerType: Flood
+Palette: 208
+EffectColorA: 13
+EffectColorB: 2
+PlacedObjects: LightSource><364.5932><393.8231><0.2173913~Environment~354~215~-480~-142.3975~1~0~None~0~0, LightSource><402.6494><523.6729><0.06521739~Environment~-615~81~-147~-452.3975~1~1~None~0~0, LightSource><582.0613><497.0664><0.3260865~Environment~-326~-63~-69~83.60254~1~0~None~0~0, LightSource><111.5419><410.9456><0.3152174~Environment~-201~133~-73~61.60254~1~0~None~0~0, CustomDecal><46.36035><107.4168><-112~567~778~502~751~-85~-234~128~0.07608695~0.4891304~1~RustB1~0.5543478~1~0.5543478~1~0.5543478~1~0.5543478~1, BubbleGrass><569.5522><426.4705><0~0~4~9, BubbleGrass><377.1512><260.3809><54~71~4~9, DynamicWarpTarget><375.4273><351.3137><94~-2~1~false~false, KarmaFlower><523.0293><321.1228><0~0~5~7, WarpFilter><504.9809><308.8887><4~48, 
+AmbientSounds: OMNI><SO_WAT-OpenFlow.ogg><39.76672><507.4493><0.2934783><1, OMNI><SO_WAT-Splashes.ogg><41.55414><428.7904><0.2282609><1, OMNI><SO_WAT-MoreDrips.ogg><41.29065><353.1958><0.5><1, 
+FadePalette: 8, 0.3586957

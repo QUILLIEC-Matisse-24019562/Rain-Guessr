@@ -1,0 +1,4 @@
+Clouds: 1
+BkgDroneVolume: 0.2769565
+PlacedObjects: DangleFruit><362.1399><477.3571><-21~-138~2~3, DangleFruit><494.8739><505.907><0~0~2~3, DangleFruit><67.32642><522.0992><-166~-163~2~3, DangleFruit><96.6814><477.9157><-142~-273~2~3, DangleFruit><220.8843><514.6018><0~0~2~3, 
+FadePalette: 33, 0.6086956

@@ -1,0 +1,15 @@
+DangerType: Flood
+WaveSpeed: 0.5120703
+WaveLength: 0.7439649
+WaveAmplitude: 0.04946124
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.1537018
+WaterReflectionAlpha: 1
+Palette: 452
+EffectColorA: 6
+Effects: SilenceWater-1-20-20, Bloom-0.07575259-250.0732-242, 
+PlacedObjects: BubbleGrass><650.299><308.4805><0~0~4~9, BubbleGrass><693.7881><305.5364><0~0~4~9, FluxWaterfall><2020><640><3~0.9328732~D~0~0, FluxWaterfall><1000><640><3~0.9328732~D~0~0, FluxWaterfall><1860><640><3~0.9328732~D~0~0, FluxWaterfall><1540><680><9~0.9328732~D~0~0, FluxWaterfall><1360><660><3~0.9328732~D~0~0, FluxWaterfall><1180><660><3~0.9328732~D~0~0, FluxWaterfall><520><620><3~0.5~D~0~0, FluxWaterfall><720><620><3~0.5~D~0~0, FluxWaterfall><320><600><3~0.5~D~0~0, FluxDrain><300><40><5~0.554109~D~0~0, FluxDrain><700><40><5~0.5~D~0~0, FluxDrain><500><40><5~0.5~D~0~0, FluxDrain><1000><80><3~0.5~D~0~0, FluxDrain><1540><60><9~0.5~D~0~0, FluxDrain><1360><80><3~0.5~D~0~0, FluxDrain><2020><80><3~0.5~D~0~0, FluxDrain><1840><80><3~0.5~D~0~0, FluxDrain><1180><80><3~0.5~D~0~0, WaterCycleTop><543.3631><161.7353><, WaterCycleBottom><391.0257><13.94974><, LightSource><2025.787><367.9431><0.09096627~Environment~210.0732~130~50~86.60254~1~1~None~0~0, LightSource><1222.716><365.9111><0.1342541~Environment~228.9897~138~50~86.60254~1~1~None~0~0, LightSource><1627.837><387.045><0.1342541~Environment~277.7745~68~50~86.60254~1~1~None~0~0, LightSource><756.2168><332.7591><0.1017887~Environment~268.8141~97~50~86.60254~1~1~None~0~0, LightSource><372.8172><327.4335><0.1017887~Environment~278.7701~116~50~86.60254~1~1~None~0~0, CustomDecal><-188.6527><-20.20825><-36.83748~627~2658.448~783~2652.474~21~0~0~0~1~0~blackrust1~0.2619199~1~0.2619199~1~0.2619199~1~0.2619199~1, 
+AmbientSounds: SPOT><AM_WIN-NiceWnd.ogg><536.6334><568.0849><0.2026712><0.8494778><1138.106><554.1105><-84.93481><-131.035><0><0.1, SPOT><RWTW_AmbSubBubble.ogg><611.6023><445.869><0.1655055><1><1500.294><372.9491><-196.0612><-132.7436><0><0.2951216, SPOT><RWTW_AmbSubBubble.ogg><737.0922><552.2631><0.1840887><1><513.1735><-45.312><-239.657><47.51006><0><0.2022068, 
+FadePalette: 10, 0.03246539, 0.03246556

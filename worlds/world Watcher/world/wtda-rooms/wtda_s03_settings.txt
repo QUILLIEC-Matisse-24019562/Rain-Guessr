@@ -1,0 +1,5 @@
+Template: WTDA_SettingsTemplate_Tomb
+DangerType: None
+PlacedObjects: CustomDecal><344.3173><254.9269><0~115~230.1611~180~261.0249~14~-445.0366~78~0~1~0~yellowrust~0.3593163~1~0.3593163~1~0.3593163~1~0.3593163~1, LightSource><418.6992><322.4368><0.4589087~Environment~1.991211~37~50~86.60254~1~0~None~0~0, 
+AmbientSounds: OMNI><AM_SUB-BlankState.ogg><774.9285><385.125><0.1645236><1, 
+FadePalette: 337, 0.6493094

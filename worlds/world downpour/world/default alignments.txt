@@ -1,0 +1,9 @@
+//All - General creature alignment. Can be tuned per region
+//Scavengers, Lizards, Cicadas, GarbageWorms, Deer, JetFish (misspelled community names will be disregarded)
+//EVERYWHERE, SU, HI, GW, etc... (misspelled region abbreviations will be treated as EVERYWHERE)
+
+Lizards : SU=-3, GW=2, HI=3, VS=3, CC=2, SB=-18, UW=-3, LF=-2, HR=-500, OE=-10
+JetFish : LM=20, HR=-500
+Cicadas : SI=-10, CC=-5, HR=-500
+Scavengers : UG=15, CL=10, LM=-10, GW=5, HI=5, VS=5, SU=10, SB=-15, UW=-10, SI=10, HR=-500, OE=-16
+Deer : LF=10

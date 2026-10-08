@@ -1,0 +1,15 @@
+Template: NONE
+RainIntensity: 1
+RumbleIntensity: 1
+Clouds: 0.5
+Grime: 0
+RandomItemDensity: 0.4021739
+RandomItemSpearChance: 0
+Palette: 81
+EffectColorA: 10
+EffectColorB: 13
+Effects: Fog-1-20-20, Flies-0.25-304-22, 
+PlacedObjects: LightFixture><611.8094><263.0605><HolyFire~-170.6795~297~9, InsectGroup><612.4334><261.6703><13~64~-192~150~StandardFly~0.3043478, LightSource><612.1917><262.693><0.2065217~EffectColor2~80~270~-826~224.6025~0~1~None~0~0, LightSource><609.0181><261.5519><0.3369561~EffectColor2~-17~60~-188~226.6025~0~0~None~0~0, LightSource><226.7326><560.9492><0.06521739~White~56~18~-442~-3.397461~0~0~None~0~0, LightSource><363.6718><247.684><0.1413043~Environment~60~187~-571~151.6025~1~0~None~0~0, ReliableSpear><235.1993><507.2667><, LightBeam><452.6773><253.9077><28~22~37~-79~25~-88~105~-210~0.01956508~0~0~0~None~0~0, CustomDecal><262.4496><159.7375><-49~552~499~244~652~-116~-366~-159~0~1~0~greybones~0.1086956~1~0.1086956~1~0.1086956~1~0.1086956~1, RippleSpawnEgg><554.4962><248.1912><, RippleSpawnEgg><471.8156><313.1585><, RippleEggDestination><544.0391><284.9403><0~100~0~0~warf_d06~0, 
+AmbientSounds: SPOT><waterGurgleLOOP1.wav><794.8772><547.9044><0.2065217><1><224.8772><628.9044><37.64465><-51.35535><0><0.1, OMNI><AM_ENV-SubTerr.ogg><605.2082><72.05441><0.2065217><1, OMNI><SO_NAT-Fire.ogg><391.6716><78.31604><0.2065217><1, OMNI><SO_SFX-Morse.ogg><189.3026><70.71817><0.04347826><1.9, 
+Triggers: Spot<tA>event<tB>BringPlayerGuideToRoom<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>941.9226<tB>404.3509<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>Red|Rivulet|Artificer|Saint|Spear|Gourmand|Watcher<tA>pos<tB>663.9227<tB>168.3509<tA>handlePos<tB>-74.35535<tB>-108.3553, 
+FadePalette: 83, 0.8586956

@@ -1,0 +1,6 @@
+Template: GW_SettingsTemplate_Inside
+Palette: 39
+EffectColorA: 21
+EffectColorB: 21
+FadePalette: 36, 0, 0
+Effects: WaterDepth-0-289-22, LethalWater-1-302-85, 

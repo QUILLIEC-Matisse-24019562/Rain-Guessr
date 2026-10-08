@@ -1,0 +1,8 @@
+Template: NONE
+DangerType: None
+Clouds: 0
+Grime: 0.1630435
+Palette: 30
+EffectColorA: 2
+Effects: SkyAndLightBloom-0-319-30, PixelShift-0.5-32-65, AboveCloudsView-1-343-110, DayNight-1-311-199, Contrast-0.02173913-392-328, Bloom-0.5869565-29-83, 
+PlacedObjects: LightSource><489.6655><3467.638><1~EffectColor1~38~3~50~86.60254~1~1~Flash~0.9021739, 

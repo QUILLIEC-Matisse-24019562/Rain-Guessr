@@ -1,0 +1,5 @@
+Template: NONE
+Palette: 208
+EffectColorA: 13
+AmbientSounds: OMNI><AM_IND-Utility01.ogg><7.012177><432.4069><0.3977934><1, OMNI><SO_WAT-LilDrips.ogg><24.38567><514.0295><0.5><1, 
+FadePalette: 35, 0.4274093

@@ -1,0 +1,10 @@
+Template: wskb_settingstemplate_inside
+DangerType: Rain
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04764494
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+PlacedObjects: LightBeam><305.4325><256.6682><-15~476~131~473~130~-4~-250~-274~0.07391291~0~0~1~None~0~0, LightSource><477.2162><486.0623><0.2934783~Environment~73.36011~-6~-603~-170.3975~1~0~None~0~0, LightBeam><531.6978><218.47><-24~503~137~507~119~5~-428~107~0.07391357~0~0~1~None~0~0, LightSource><611.6997><709.7389><0.2934783~Environment~2~-113~192~-149.3975~1~0~None~0~0, LightSource><369.5046><716.55><0.2826087~Environment~-9~-124~-313~-164.3975~1~0~None~0~0, CustomDecal><2.322083><152.3134><236~692~685~761~950~8~755.9999~-165~0~1~0~rust1~0.2391304~1~0.2391304~1~0.2391304~1~0.2391304~1, LightSource><373.3263><714.4349><0.1304345~Environment~-5~-193~-305~-151.3975~1~1~None~0~0, LightSource><611.0891><709.1312><0.1304348~Environment~3~-180~206~-315.3975~1~1~None~0~0, FirecrackerPlant><366.6699><281.9333><-451~-34~2~3, FirecrackerPlant><700.8909><281.6081><96~20~2~3, DynamicWarpTarget><482.7465><352.0967><0~0~1~false~false, 
+AmbientSounds: SPOT><am_ind-electrichum03.ogg><493.6909><147.5595><0.1956522><1.019565><481.6909><351.5595><-35.35534><-35.35534><0><0.3065219, 
+FadePalette: 8, 0.3584092

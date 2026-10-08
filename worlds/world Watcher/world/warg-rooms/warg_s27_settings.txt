@@ -1,0 +1,14 @@
+Template: NONE
+WaveSpeed: 0.4495546
+WaveLength: 0.9747773
+WaveAmplitude: 3.369746E-09
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Grime: 0
+Palette: 455
+EffectColorA: 11
+EffectColorB: 10
+PlacedObjects: CustomDecal><415.4153><275.6374><4~126~168~125~160~5~-823~-619~0.5869565~0.6956522~0~fairmaiden~1~0~1~0~1~0~1~0, LightSource><520.5503><347.9894><1~EffectColor1~-37~59~-889~-496.3975~0~0~None~0~0, ShelterSpawnPoint><514.1465><328.3638><, 
+AmbientSounds: OMNI><RWTW_AR_RearDen.ogg><352.1964><37.28778><0.08695652><0.8043478, OMNI><RWTW_AR_SynthHell.ogg><536.8326><39.89056><0.06521739><1, 
+FadePalette: 14, 0.5062936

@@ -1,0 +1,17 @@
+kelpColor: 0.30,0.40,0.20
+overseersMin: 0
+overseersMax: 0
+waterColorOverride: 0.4, 0.6, 0.2
+rippleSpiderThreshold: 18
+playerGuideOverseerSpawnChance: 0
+proceduralMusicBank: rwtw4
+Subregion: Verdant Waterways
+Room Setting Templates: Waterways, Pillars
+Room_Attr: WVWA_B01: Centiwing-Forbidden,
+Room_Attr: WVWA_B04: Centiwing-Forbidden,
+Room_Attr: WVWA_B06: Centiwing-Avoid,
+Room_Attr: WVWA_A07: EelLizard-Forbidden,
+Room_Attr: WVWA_B07: Centiwing-Forbidden,
+Room_Attr: WVWA_B09: EelLizard-Forbidden,
+Room_Attr: WVWA_H02: Centiwing-Forbidden,
+Room_Attr: WVWA_A11: EelLizard-Forbidden,

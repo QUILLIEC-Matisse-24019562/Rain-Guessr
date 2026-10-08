@@ -1,0 +1,4 @@
+Template: WRRA_SettingsTemplate_Inside
+PlacedObjects: ShelterSpawnPoint><509.9337><260.8128><, CustomDecal><313.0153><161.6775><2.986816~238~242.1083~240~404.3923~87~-243.9239~-480~0~1~0~rust3~0.567127~1~0.567127~1~0.567127~1~0.567127~1, LightSource><399.9284><256.5209><1~Environment~0~100~-339.2825~234.6025~1~0~None~0~0, 
+AmbientSounds: SPOT><AM_IND-Utility03.ogg><710.1203><446.3085><0.445891><1><416.5332><435.3085><-35.35534><-35.35534><0><0.1432873, 
+FadePalette: 8, 0.4869821

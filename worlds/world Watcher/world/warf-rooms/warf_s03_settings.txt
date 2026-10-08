@@ -1,0 +1,8 @@
+Template: NONE
+Grime: 0
+Palette: 80
+EffectColorA: 9
+EffectColorB: 10
+PlacedObjects: ShelterSpawnPoint><297.3554><327.8882><, 
+AmbientSounds: OMNI><Noise Wind.wav><8.821655><100.3133><0.09782609><1, 
+FadePalette: 83, 0.9021739

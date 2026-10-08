@@ -1,0 +1,7 @@
+Grime: 0.25
+Palette: 300
+Effects: Fog-0.09291524-20-20, 
+PlacedObjects: DangleFruit><1437.808><337.0133><0~0~2~3, DangleFruit><1488.89><415.0724><0~0~2~3, DangleFruit><501.1948><1054.508><0~0~2~3, PlateTree><1440.07><1222.102><61.53839~198.2425, DynamicWarpTarget><1003.11><408.6667><-277~80~4~false~false, CustomDecal><116.7788><208.6398><10.25784~1495.697~1900.94~1488.009~1957.358~1.708567~-181.2216~152.9166~0~1~1~rustb2~0.1579557~1~0.1579557~1~0.1579557~1~0.1579557~1, 
+AmbientSounds: SPOT><RWTW_PlateTree_B1.ogg><791.2728><279.5604><0.2491296><1><1450.131><1379.273><-77.24146><-68.67236><0><0.2393726, SPOT><AM_IND-Utility03.ogg><332.5231><512.4079><0.2584209><1><1122.822><312.2344><-291.8009><-148.1206><0><0.3880366, SPOT><AM_WIN-StrongWnd2.ogg><540.0826><561.0098><0.3234611><1><1701.574><41.33466><-223.4154><35.5501><0><0.2393726, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_112 - Light Beams<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>0<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>450.0165<tB>399.1414<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>943.0165<tB>468.1414<tA>handlePos<tB>-374.3553<tB>209.6447, 
+FadePalette: 301, 0.25, 0.25, 0.4021739, 0.4021739

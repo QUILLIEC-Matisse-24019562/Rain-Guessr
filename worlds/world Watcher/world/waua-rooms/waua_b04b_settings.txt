@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: None
+Clouds: 0.2229962
+Grime: 0.05400815
+RandomItemSpearChance: 0
+Palette: 101
+Effects: Ancient Urban View-1-20-20, Brightness-0.02787449-26.58075-75.27697, Darkness-0.4552838-18.62953-134.8254, 
+PlacedObjects: CustomDecal><114.1415><38.18407><23.08008~1382.932~717.871~1404.289~687.0975~11.10567~-322.2666~204.1735~0.01858305~1~1~rustymetal(var)~0.3623687~1~0.3623687~1~0.3623687~1~0.3623687~1, CustomDecal><187.2615><761.4037><8.548157~764.4316~607.5995~765.2859~634.9536~2.562848~0~0~0~1~1~rustymetal~0.1562148~1~0.1562148~1~0.1562148~1~0.1562148~1, AdjustableFan><745.7291><757.6425><5~8.660254~0~0.792706~0.7043484~0.1086956, AdjustableFan><275.6099><1479.774><5~8.660254~0~0.8346066~0.7043484~0.1086956, CustomDecal><174.536><705.4424><3.419312~-684.4316~612.7284~-650.2603~659.7435~24.77423~-110.2716~-425.4326~0~1~1~rustb2~0.1283397~1~0.1283397~1~0.1283397~1~0.1283397~1, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><709.4269><623.5353><0.3327531><1, OMNI><AM_ENV-LightWind.ogg><493.955><626.6813><0.3327531><1, SPOT><SO_IND-WinFan.ogg><779.0578><214.9959><0.3699188><0.8327522><382.8688><571.8146><-56.72583><-77.21521><0><0.1743317, SPOT><AM_WIN-NiceWnd.ogg><751.2971><516.7385><0.3792101><1><482.4761><1349.061><-97.75714><-176.3119><0><0.2393726, SPOT><SO_IND-WinFan.ogg><773.3268><375.8839><0.3513356><1><750.6934><764.311><-55.01617><-59.27521><0><0.1836236, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_147 - Afterhours<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>690.6592<tB>216.8703<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>407.3062<tB>709.9352<tA>handlePos<tB>-133.6595<tB>-379.6312, 
+FadePalette: 0, 0.3159112, 0.2415791

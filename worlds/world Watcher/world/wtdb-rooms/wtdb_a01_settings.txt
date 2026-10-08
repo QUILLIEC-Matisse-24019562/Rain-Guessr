@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0.3369565
+RainIntensity: 1
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.1413043
+Palette: 334
+EffectColorB: 0
+Effects: Dustpuffs-0.1521739-20-20, LightBurn-0.1623273-89.73645-89, 
+PlacedObjects: CustomDecal><-47.85733><42.06349><269.8096~742~807.6135~485~1067.467~33~-136.3983~-2.000015~0~1~0~greybones~0.2186327~1~0.2186327~1~0.2186327~1~0.2186327~1, LightSource><324.9904><212.8159><0.1342541~Environment~37.83307~112~50~86.60254~1~1~None~0~0, 
+AmbientSounds: SPOT><AM_IND-Utility03.ogg><829.1002><513.9437><0.3809602><0.7272907><635.0739><448.9438><-15.44318><-38.35535><0><0.3164368, OMNI><AM_IND-Warehouse01.ogg><770.6446><414.0344><0.2727416><0.6104141, SPOT><RWTW_DustStorm_Gusting.ogg><311.3534><359.0818><0.1753454><1.003953><-168.4124><173.0818><-35.35534><-35.35534><0><1, 
+FadePalette: 333, 0

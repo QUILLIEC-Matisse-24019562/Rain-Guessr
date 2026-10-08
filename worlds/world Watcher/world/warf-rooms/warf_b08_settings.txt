@@ -1,0 +1,12 @@
+Template: NONE
+Clouds: 0.05434782
+Grime: 0
+RandomItemDensity: 0.3586957
+RandomItemSpearChance: 0.2543478
+Palette: 81
+EffectColorA: 9
+EffectColorB: 21
+Effects: Fog-1-20-20, 
+PlacedObjects: CustomDecal><108.9217><242.6475><46~257~733~223~771~21~-275~126~0~1~0~GreyBones~0.1956522~1~0.1956522~1~0.1956522~1~0.1956522~1, DangleFruit><493.9432><355.6983><23~-160~5~9, DangleFruit><534.9263><396.8445><-21~-281~4~8, ReliableSpear><279.3196><335.5625><, 
+AmbientSounds: OMNI><Noise Wind.wav><155.0724><19.06357><0.09782609><1, SPOT><AM_WIN_Hilltop.ogg><354.55><11.24496><0.25><1.9><52.55005><344.245><-45.35535><-72.35535><0><0.1217393, SPOT><AM_WIN_Hilltop.ogg><1185.868><3.411652><0.25><1.9><911.8677><349.4117><-59.35535><-66.35535><0><0.1217393, OMNI><AM_ENV-CityTone.ogg><553.9631><12.55347><0.2065217><1, 
+FadePalette: 83, 0.8043478

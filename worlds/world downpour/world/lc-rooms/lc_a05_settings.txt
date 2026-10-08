@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: None
+Clouds: 0.1413043
+Grime: 0
+Palette: 30
+EffectColorA: 6
+Effects: LightBurn-0.08695652-20-20, DayNight-0.326087-276-71, RoofTopView-1-18-85, 
+PlacedObjects: LightSource><635.8593><329.9175><0.4130435~Environment~-253~-5~50~86.60254~0~0~None~0~0, SuperStructureFuses><771.9243><249.4019><132~135, DayNightSettings><506.36><573.6429><5~8.660254~31~35, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><386.8722><179.0962><0.2173913><1, DIR><AM_ENV-NatWind.ogg><745.1213><491.3469><0.3586957><1.332609><-89.00365><0, SPOT><AM_IND-ElectricHum01.ogg><463.3025><366.5314><0.5><1><840.3026><325.5314><-80.35535><3.644653><0><0.2630436, 
+FadePalette: 42, 0.09782609

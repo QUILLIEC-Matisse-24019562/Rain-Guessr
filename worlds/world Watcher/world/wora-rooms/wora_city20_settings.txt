@@ -1,0 +1,22 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.3586957
+RumbleIntensity: 0.1086956
+Clouds: 0.09782609
+Grime: 0
+Palette: 69
+TerrainLight: 0.02116593
+TerrainStainAmount: 0.7608696
+TerrainStainBrightness: 0.423913
+TerrainStainHeight: 0.6630435
+TerrainWaves: 1
+TerrainEdgeRadius: 46.6988
+TerrainGooHeight: 0.1086956
+TerrainGrain: 1
+TerrainDepth: -1.250007
+TerrainSkyFade: 0
+TerrainPalette: outerrim
+PlacedObjects: TerrainHandle><240.5975><123.93><-40.99561~0~40~0~35, TerrainHandle><482.6176><109.9747><-40~0~40~0~158, TerrainHandle><674.9705><106.9433><-47.9649~11~40~0~17, TerrainHandle><360.3473><88.31146><-40~0~40~0~56, CustomDecal><-2.234482><-53.73285><-24.8902~714~746.8814~717~423.3089~-69~0~0~0~1~0~rust2~0.09959279~1~0.2078111~1~0.2510983~1~0.5541093~1, CustomDecal><495.2693><-60.75404><-228.9897~942~443.2211~762~523.8653~-24~260~-7.999989~0~1~0~rust2~0.3484948~1~0.2402768~1~0.2402768~1~0.4026038~1, BlackSpot><372.8956><-0.2955627><-16~159~-755~273~-687~-11, BlackSpot><620.4168><15.05685><-36~173~698~184~726~-38, SlimeMold><420.7183><138.8025><20~-115~2~3, SlimeMold><441.0652><143.1734><-34~-169~2~3, SlimeMold><514.3591><140.5824><13~-106~2~3, CosmeticSlimeMold><354.4965><150.05><-1~82, CosmeticSlimeMold2><603.3828><128.588><0~100, RippleSpawnEgg><566.6349><404.1636><, RippleSpawnEgg><375.3963><330.671><, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><774.3083><567.682><0.2173913><0.6673913, OMNI><RWTW_DustStorm_Deep.ogg><766.4481><503.1527><0.2717391><1, 
+FadePalette: 22, 0.2811286

@@ -1,0 +1,12 @@
+Template: HR_SettingsTemplate_HellUpper
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8686954
+Effects: FairyParticles-0.1086956-52-113, 
+PlacedObjects: FairyParticleSettings><164.8033><309.7134><-856~-39.33975~1~7.065217~37.5~0~1~2.09349~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~77.82593~0.5760869~0.6521739, DandelionPeach><411.5926><482.3734><0~0~2~3, DandelionPeach><557.9175><479.1406><0~0~2~3, DandelionPeach><508.8301><501.0668><0~0~2~3, DandelionPeach><2749.069><492.4148><0~0~2~3, DandelionPeach><2709.398><493.6348><0~0~2~3, HRGuard><1546.833><534.6819><0~0~2~3, 
+FadePalette: 75, 0.3152174, 0.2934783, 0.2826087
+WetTerrain: OFF

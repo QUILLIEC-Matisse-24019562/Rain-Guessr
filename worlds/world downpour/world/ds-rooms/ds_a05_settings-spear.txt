@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: Flood
+Palette: 4
+EffectColorA: 2
+EffectColorB: 5
+Effects: WaterFluxMaxDelay-0.3-20-20, WaterFluxMinDelay-0.06521739-16-72, WaterFluxMaxLevel-0.4565217-14-130, WaterFluxMinLevel-0.2173913-266-76, WaterFluxFrequency-0.1086956-276-18, 
+PlacedObjects: DangleFruit><965.0966><484.3783><0~0~2~3, DangleFruit><383.4462><516.2891><-300~67~2~3, DangleFruit><512.5621><604.9314><0~0~2~3, DangleFruit><746.7886><601.0538><0~0~2~3, BlueToken><184.1907><513.6896><-9~64~139~-209~1~Leech~Saint~0~0~0~0, DeadTokenStalk><148.9144><494.3639><-6~57, InsectGroup><816.612><469.8343><-45~-67~92.00006~-440~Ant~0.6521739, LightFixture><748.1683><118.858><RedSubmersible~17.32051~-10~10, LightFixture><340.3896><117.9167><RedSubmersible~17.32051~-10~3, LillyPuck><359.3203><182.8376><0~0~2~3, LillyPuck><671.6441><176.6113><0~0~2~3, DevToken><868.4275><481.5922><-6~-52~-433~-86~0~~~0~0~0~1, 
+AmbientSounds: OMNI><SO_WAT-OpenFlow.ogg><732.537><473.6965><0.3152174><0.9804348, SPOT><SO_WAT-RunningWater.ogg><879.4429><21.6973><0.3152176><1><835.4429><218.6973><-106.3553><55.64465><0><0.6326092, DIR><AM_IND-Factory01.ogg><758.8304><220.5669><0.6956522><1><0.4646123><0, SPOT><SO_IND-FactoryM.ogg><745.1335><347.5875><0.3695652><1><583.1335><705.5875><8.644653><-43.35535><0><1, 
+FadePalette: 8, 0.2391304

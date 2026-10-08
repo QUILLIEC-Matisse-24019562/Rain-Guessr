@@ -1,0 +1,8 @@
+Template: NONE
+DangerType: Flood
+Clouds: 0.01086957
+Palette: 208
+EffectColorA: 13
+EffectColorB: 13
+PlacedObjects: CustomDecal><64.8678><-30.16162><51~281~483~285~434~16~-244~228~0~1~1~RF_Sand~0.2173913~0.07608695~0.2934783~0.07608695~0.6413044~0.07608695~0.4673913~0.07608695, BrokenShelterWaterLevel><275.9444><77.54704><, ShelterSpawnPoint><275.3044><72.29199><, 
+AmbientSounds: OMNI><SO_WAT-OpenFlow.ogg><55.79578><534.8053><0.2826087><1, OMNI><SO_WAT-MoreDrips.ogg><54.27258><458.0513><0.5><1, 

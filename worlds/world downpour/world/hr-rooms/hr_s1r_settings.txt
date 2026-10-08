@@ -1,0 +1,12 @@
+Template: HR_SettingsTemplate_HellNew
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 7
+Effects: FairyParticles-0.2717391-508-97, Darkness-0-794-444, 
+PlacedObjects: FairyParticleSettings><-68.57196><0.686615><-302~-314.3398~1~7.065217~37.5~0~1~2.354363~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, LightSource><472.8945><365.4199><0.2173913~EffectColor2~519~-283~50~86.60254~0~0~Fade~0.4891304~0, LightSource><584.3349><366.6129><0.2173913~EffectColor1~-271~41~-346~95.60254~0~0~None~0~0, 
+FadePalette: 39, 0.1630435
+WetTerrain: OFF

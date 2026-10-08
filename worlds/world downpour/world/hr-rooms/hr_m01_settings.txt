@@ -1,0 +1,22 @@
+Template: HR_SettingsTemplate_End
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Grime: 0
+BkgDroneVolume: 0
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+WaterReflectionAlpha: 0
+Palette: 23
+Effects: SSMusic-0.08695652-16-18, 
+PlacedObjects: LightSource><175.3473><812.1208><0.05434782~Environment~952~638~50~86.60254~0~0~None~0~0, LightFixture><366.8712><417.4091><RedLight~-258.6795~16~0, LightFixture><864.6597><868.428><RedLight~17.32051~-10~2, LightFixture><-42.07483><1206.347><RedLight~-166.6795~-103~13, SuperStructureFuses><449.3958><312.3631><180~122, SuperStructureFuses><450.2139><68.30328><186~156, SuperStructureFuses><268.467><688.5527><141~95, SuperStructureFuses><511.5783><1108.934><163~60, WallMycelia><423.3093><879.0604><64~177, WallMycelia><212.3187><1292.084><67~121, WallMycelia><554.3015><1137.976><0~100, WallMycelia><856.3176><1293.938><0~100, CellDistortion><460.7983><744.5559><1045~629~50~86.60254~0.3804348~0.4021739~0.1086956~0.01086957, DevToken><394.6121><1231.855><24~101~107~2~0~~~0~0~0~1, 
+AmbientSounds: SPOT><SO_SFX-DataTrans2.ogg><756.3899><472.583><0.3586957><0.6282609><617.3899><255.583><-196.3553><-86.35535><0><0.6108697, SPOT><SO_SFX-Data4.ogg><736.3315><261.3923><0.3369565><0.3152174><612.3315><1135.392><-89.35535><-25.35535><0><0.5565219, SPOT><SO_SFX-Kepler.ogg><765.6956><138.2919><0.3804348><0.3543478><-152.3044><752.2919><247.6447><11.64465><0><1, 
+FadePalette: 75, 0, 0.326087
+WetTerrain: OFF

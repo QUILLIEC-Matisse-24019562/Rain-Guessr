@@ -1,0 +1,5 @@
+Template: SL_SettingsTemplate_Sewer
+Clouds: 1
+Palette: 35
+PlacedObjects: LightFixture><108.9332><574.4197><RedSubmersible~17.32051~-10~2, LightFixture><786.6558><603.6763><RedSubmersible~17.32051~-10~52, 
+FadePalette: 10, 0.4673913, 0.4021739, 0.3369565

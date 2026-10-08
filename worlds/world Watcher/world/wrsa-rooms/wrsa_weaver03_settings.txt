@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 1
+Grime: 0
+Palette: 102
+EffectColorA: 21
+EffectColorB: 21
+Effects: RoomWrap-1-20-20, ZeroG-0.9347826-29-71, 
+PlacedObjects: CosmeticRipple><692.9271><445.4071><175~60~1881~-1015~692.9271~445.4071~2137.378~0.4347826~0.05434782~False~0.6739131~False~0~False~-1~0~False, FloatingDebris><439.6304><198.8483><-187~187~832906970~4~30~2.858696~3~59~591|-32~446|47~1.71|3.09~0|0~0|0~Rot Islands~1~0v0v0v0|0v0v0v0~0, 
+AmbientSounds: OMNI><RWTW_DaemonSpace_01.ogg><766.9214><333.8531><0.25><1, OMNI><RWTW_RotAmb_Deep.ogg><767.0626><251.5699><0.2826087><1, OMNI><RWTW_RotAmb_Goo.ogg><774.2946><172.195><0.5><0.3477366, OMNI><AM_WIN-SubWnd.ogg><728.9324><493.0821><0.5><0.7324047, 
+FadePalette: 32, 0.3043478

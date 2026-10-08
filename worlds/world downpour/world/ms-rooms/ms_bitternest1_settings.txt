@@ -1,0 +1,13 @@
+Template: NONE
+CeilingDrips: 0
+WaveSpeed: 0.4021739
+WaveAmplitude: 0
+SecondWaveAmplitude: 1
+Clouds: 0
+Grime: 0
+WaterReflectionAlpha: 0
+Palette: 40
+Effects: WaterDepth-0.06521739-253-20, SilenceWater-0.8478261-20-20, FairyParticles-1-23-85, Coldness-0-22-138, 
+PlacedObjects: LightSource><244.2162><595.2664><0.2608696~White~736~-348~-132.001~-436.4971~1~1~None~0~0, LightBeam><-153.1176><139.0956><-21~592~1226~587~1259~-19~650.9999~-285~0.1934781~1~0~1~None~0~0, FairyParticleSettings><254.049><289.444><5~8.660254~0~1~1~0~5.909424~6.347906~32.82597~65.01903~1000~1000~5~30~125.2174~144.7826~0.5~0.7~0~0~1~1~1~0.2282609~6.791306~Dandelion~SIN_IO~SIN_IO~0~0~0, 
+AmbientSounds: OMNI><AM_WIN-HowlingWnd.ogg><734.192><549.306><0.7826087><1.195652, OMNI><Noise Wind.wav><731.2045><468.1947><0.6630435><1, OMNI><AM_SUB-BlankState.ogg><735.5623><389.4311><0.6956522><1, OMNI><AM_ENV-LightWind.ogg><561.3857><549.9142><0.8152174><1.508696, OMNI><Mech Basic.wav><560.0818><478.3918><0.3369565><1, 
+FadePalette: 37, 0.3043478

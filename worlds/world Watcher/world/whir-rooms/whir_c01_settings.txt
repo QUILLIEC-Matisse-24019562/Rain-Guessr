@@ -1,0 +1,5 @@
+BkgDroneVolume: 0.2469565
+Palette: 466
+PlacedObjects: PassiveCorruption><233.5095><1206.148><11~353~0~0~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1~0~1, PassiveCorruption><627.849><1350.052><-21~310~0~0~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1~0~1, Corruption><363.1761><2124.271><56~161, Corruption><579.3181><2190.553><-3~113, RottenDangleFruit><543.336><2130.196><0~0~2~3, KarmaFlowerPatch><269.471><700.6996><31~181~0.5~-105~-230~0.1847826~0.7608696, PrinceFilter><286.9556><686.692><-1~58~0~0~3~1~1, 
+AmbientSounds: OMNI><AM_IND-Warehouse02.ogg><469.9406><644.8106><0.4456522><0.5118141, OMNI><AM_IND-Utility02.ogg><646.9076><643.8769><0.131485><0.4345862, DIR><AM_ENV-LightWind.ogg><830.3098><627.1882><0><0.5108696><9.299243><0, OMNI><SO_WAT-LilDrips.ogg><806.1364><538.1037><0><1, 
+FadePalette: 10, 0.1094117, 0.1527946, 0.185451

@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+Clouds: 0.3043478
+Grime: 0
+Palette: 83
+EffectColorA: 10
+EffectColorB: 13
+Effects: Fog-0.8043478-20-20, 
+PlacedObjects: CustomDecal><171.0753><144.6527><23~363~566~338~619~9~-580~-490~0~1~0~GreyBones~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, LightSource><375.6547><313.4569><0.4021739~White~20~66~374~-388.3975~0~0~None~0~0, CustomDecal><304.9493><255.0166><-7~67~82~112~161~41~-630~-625~0.2391304~0.4673913~0~BigGreen~1~1~0.5108696~1~0~1~0~1, CustomDecal><418.192><285.8062><-2~108~150~91~163~25~-715~-633~0.2934783~0.3478261~0~OrangePink~0.2717391~0~1~0~0.2717391~0~1~1, 
+AmbientSounds: OMNI><RWTW_AR_BuzzyMachine.ogg><143.1441><51.36133><0.2065217><1, OMNI><RWTW_AR_GearWorks.ogg><151.6699><145.5667><0.1086956><1, 
+FadePalette: 148, 0.1038762

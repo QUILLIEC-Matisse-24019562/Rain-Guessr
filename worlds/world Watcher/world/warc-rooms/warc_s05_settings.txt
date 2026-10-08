@@ -1,0 +1,3 @@
+Grime: 0
+Palette: 98
+FadePalette: 10, 0.7099286

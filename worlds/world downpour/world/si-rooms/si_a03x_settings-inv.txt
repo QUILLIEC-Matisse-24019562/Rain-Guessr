@@ -1,0 +1,6 @@
+Palette: 3
+EffectColorA: 11
+EffectColorB: 12
+Effects: BrokenZeroG-1-43-46, RoomWrap-1-333-44, 
+PlacedObjects: DeadSeedCob><711.8893><404.4166><, DeadSeedCob><745.9536><346.0555><, DeadSeedCob><828.1703><355.3549><, DandelionPatch><282.8437><598.7677><17~119, DandelionPatch><733.563><254.4919><0~100, Corruption><413.1759><502.6644><11~150, Corruption><155.2818><329.7597><-12~179, Corruption><807.459><106.4569><11~137, 
+FadePalette: 33, 0.7717391

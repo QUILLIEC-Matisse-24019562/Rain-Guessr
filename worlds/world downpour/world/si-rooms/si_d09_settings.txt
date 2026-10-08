@@ -1,0 +1,3 @@
+PlacedObjects: DandelionPatch><279.5109><1103.45><-3~160, DandelionPatch><347.1329><160.6511><1~101, DandelionPeach><332.733><1124.551><0~0~2~3, DandelionPeach><289.7158><1117.947><0~0~2~3, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><686.054><587.2898><0.2934783><1, 
+FadePalette: 18, 0.2173913, 0.1521739, 0.1086956, 0.06521739

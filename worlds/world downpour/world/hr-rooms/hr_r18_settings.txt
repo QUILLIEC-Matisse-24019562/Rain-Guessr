@@ -1,0 +1,13 @@
+Template: HR_SettingsTemplate_HellUpper
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.9121737
+Effects: WaterFluxMaxLevel-0.1521739-334-117, WaterFluxMinLevel-0.1086956-320-174, WaterFluxFrequency-0.1847826-314-232, 
+PlacedObjects: FairyParticleSettings><1378.303><385.0371><-408~-365.3397~1~7.065217~37.5~0~1.525091~2.828388~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~73.99995~1~0.6521739, LightSource><1141.05><412.9988><0.5543478~Environment~-1257~-457~-1236~-313.3975~0~0~None~0~0, LightSource><1487.148><-7.865051><0.2173913~EffectColor1~778~627~50~86.60254~0~1~None~0~0, LightSource><610.3046><48.94238><0.2282615~EffectColor1~-825~495~50~86.60254~0~1~None~0~0, 
+AmbientSounds: OMNI><SO_WAT-TubWater.ogg><773.2338><498.9493><0.5434783><0.1195652, OMNI><SO_NAT-Burning.ogg><789.6125><574.3347><0.4130435><0.4913043, OMNI><SO_NAT-Stove.ogg><771.8589><313.3323><0.4565217><1.763044, 
+FadePalette: 75, 0.3804348, 0.3913043
+WetTerrain: OFF

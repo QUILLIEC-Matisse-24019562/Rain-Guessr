@@ -1,0 +1,6 @@
+Template: wska_settingstemplate_inside
+Palette: 457
+Effects: BkgOnlyLightning-1-20-20, 
+PlacedObjects: CustomDecal><81.09259><170.5464><8~272~819~270~818~-30~72~189~0~1~0~greybones~0.1664767~1~0.1664767~1~0.1664767~1~0.1664767~1, LightSource><250.3271><316.7953><0.06700931~Environment~18~153~-116.0005~58.60248~1~1~None~0~0, LightSource><487.0103><317.7535><0.06499714~Environment~32~174~50~86.60254~1~1~None~0~0, LightSource><719.5597><314.5305><0.06521739~Environment~34~153~50~86.60254~1~1~None~0~0, LightSource><482.5193><310.1514><0.1074046~Environment~16~94~-439.0023~-210.3829~1~0~None~0~0, RippleTree><548.3773><326.283><0~43.75~0.3804348~0.6059783~right~spiralCoils|10, 
+AmbientSounds: OMNI><am_ind-warehouse01.ogg><506.451><504.6137><0><1, OMNI><AM_IND-Warehouse01.ogg><552.8983><143.5759><0><1, SPOT><RWTW_SK_RainHeavy.wav><721.8843><263.7039><0.5><1><1135.179><258.7039><-35.35534><-35.35534><0><0.716844, 
+FadePalette: 458, 0.7934783

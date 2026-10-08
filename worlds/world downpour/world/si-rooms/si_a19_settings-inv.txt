@@ -1,0 +1,3 @@
+Template: SI_SettingsTemplate_Inside
+PlacedObjects: Corruption><479.8113><279.8165><17~141, Corruption><309.3445><70.92627><0~100, Corruption><665.877><73.84549><0~100, Corruption><866.249><141.45><0~100, CorruptionTube><832.9495><115.9435><-91~254, CorruptionTube><744.2151><268.8031><102~187, CorruptionTube><852.7964><397.4445><-114~204, CorruptionTube><739.1039><489.6709><109~151, Corruption><714.6281><577.3414><0~100, 
+FadePalette: 31, 0.5

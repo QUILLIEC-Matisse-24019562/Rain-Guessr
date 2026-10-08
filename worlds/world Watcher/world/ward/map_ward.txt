@@ -1,0 +1,193 @@
+WARD_E25: -454.4761><175.3561><206.2693><88.6116><1><Station Annex><48><35
+WARD_E28: -467.4781><-50.64432><208.2693><-167.3895><0><Station Annex><48><35
+WARD_E34: -454.4761><60.35568><212.2693><-42.38935><1><Station Annex><48><35
+WARD_R01: -606.4771><60.35568><79.26976><-38.38895><1><Station Annex><48><35
+WARD_R02: -837.4771><34.35588><-300.7307><-278.3885><1><Station Annex><48><121
+WARD_R03: -651.4771><173.3561><-35.73024><32.61186><1><Station Annex><48><35
+WARD_R04: -700.4761><-80.64632><-45.73064><-209.3895><0><Station Annex><48><35
+WARD_R05: -994.4761><-121.1463><-667.7308><-459.3896><1><Station Annex><48><78
+WARD_R06: -606.4771><40.35558><82.26976><-174.3895><0><Station Annex><48><35
+WARD_R07: -1148.48><-171.6459><-783.7288><-467.3896><1><Station Annex><48><35
+WARD_R08: -220.4351><-165.9699><-117.1097><-447.8316><2><Station Annex><48><35
+WARD_R09: 5.564423><-200.9709><-1.109448><-488.8316><2><Station Annex><100><35
+WARD_R10: 47.5642><-1223.974><82.89054><-1494.833><2><Station Annex><48><35
+WARD_R11: 46.56411><-374.4698><79.89054><-707.8315><2><Station Annex><48><74
+WARD_R12: -447.4352><-151.9709><-334.1087><-435.8316><2><Station Annex><100><35
+WARD_R13: 41.56422><-885.9709><78.89054><-1148.833><2><Station Annex><48><35
+WARD_R14: 46.56501><-661.4689><79.89054><-1014.833><2><Station Annex><48><112
+WARD_R15: -102.4351><-655.9698><-31.10945><-915.8315><2><Station Annex><48><35
+WARD_R16: 387.5639><-140.9709><326.8913><-431.8316><2><Station Annex><48><35
+WARD_R17: 43.56441><-1057.474><79.89054><-1360.833><2><Station Annex><48><74
+WARD_R18: -409.4341><-121.9709><-278.1087><-567.8315><1><Station Annex><48><35
+WARD_R19: -762.4351><-172.9709><-552.1088><-449.8316><2><Station Annex><100><35
+WARD_R20: 87.56399><-998.9692><197.8903><-1188.833><1><Station Annex><48><35
+WARD_R21: -377.4361><-227.9709><-253.1087><-696.8315><1><><48><35
+WARD_R22: 238.5639><-161.9709><213.8903><-444.8316><2><Station Annex><48><35
+WARD_S19: -98.43539><-1219.974><-40.10944><-1490.833><2><><48><35
+WARD_S23: -673.6741><-173.7069><84.12355><-311.1016><0><><48><35
+WARD_B39: 1112.772><-394.6106><-586.3647><101.0763><0><Cold Storage><48><35
+WARD_B40: 1109.536><-267.2874><-587.3647><239.0765><0><Cold Storage><48><35
+WARD_B41: 728.8998><-265.4375><-705.3647><260.0763><0><Cold Storage><48><35
+WARD_D20: 519.7195><-500.968><-1093.365><3.075848><0><Cold Storage><48><35
+WARD_D27: 739.1769><-472.1153><-960.3647><5.075849><0><Cold Storage><100><35
+WARD_D28: 965.7095><-480.6711><-717.3647><-16.92415><0><Cold Storage><48><35
+WARD_D36: 1113.154><-515.5229><-584.3647><-32.92354><0><Cold Storage><48><35
+WARD_E01: 168.0899><50.14608><637.6353><68.07622><0><Cold Storage><100><35
+WARD_E02: 192.0899><-66.85394><778.6353><-61.92423><0><Cold Storage><48><35
+WARD_E03: 24.09001><-171.8539><-1210.365><265.0763><0><Cold Storage><48><35
+WARD_E04: 274.2146><-302.5211><-1091.365><254.0765><0><Cold Storage><152><35
+WARD_E05: 476.3628><-26.96535><-877.3628><434.0763><1><Cold Storage><48><78
+WARD_E06: 644.8071><196.9615><-811.3647><670.0723><1><Cold Storage><100><35
+WARD_E07: 728.6652><-80.17139><-701.3647><419.0763><0><Cold Storage><48><78
+WARD_E09: 942.5109><378.2941><1257.635><401.0763><0><Cold Storage><48><35
+WARD_E10: 788.8071><353.0596><1138.635><401.0763><1><Cold Storage><48><35
+WARD_E11: 561.5974><390.2941><923.6353><393.0763><0><Cold Storage><100><35
+WARD_E12: 702.338><547.7885><1114.635><537.0723><1><Cold Storage><100><35
+WARD_E13: -161.9101><83.14606><408.6373><103.0763><0><Cold Storage><100><35
+WARD_E14: -101.9101><-39.85392><482.6373><-87.92419><0><Cold Storage><48><35
+WARD_E15: 276.0899><38.14608><-997.3647><546.0723><1><Cold Storage><48><35
+WARD_E16: 345.0899><236.1461><-36.36285><239.0765><1><Cold Storage><48><35
+WARD_E17: 423.0899><539.1461><924.6353><536.0723><1><Cold Storage><48><35
+WARD_E18: 267.0899><476.1461><792.6332><428.0763><1><Cold Storage><48><78
+WARD_E19: 264.0899><668.1461><790.6332><681.0723><0><Cold Storage><48><35
+WARD_E20: 72.09002><473.1461><612.6353><561.0723><1><Cold Storage><48><78
+WARD_E21: 75.09002><242.1461><614.6353><264.0763><1><Cold Storage><100><35
+WARD_E22: -119.9101><431.1461><650.6353><400.0763><2><Cold Storage><48><35
+WARD_E23: -338.9101><404.1461><476.6373><399.0763><2><Cold Storage><48><35
+WARD_E24: -359.9101><539.1461><457.6373><627.0723><2><Cold Storage><48><35
+WARD_E26: -503.1511><490.2971><109.6358><388.0763><0><Cold Storage><100><154
+WARD_E27: -242.9101><239.1461><326.6353><407.0763><1><Cold Storage><48><35
+WARD_E29: -467.1481><519.799><-1.363648><586.0723><1><Cold Storage><48><35
+WARD_E30: -421.1481><778.7982><216.6353><793.0723><0><Cold Storage><48><35
+WARD_E31: -505.1491><778.7982><106.6358><802.0723><1><Cold Storage><48><35
+WARD_E32: -503.1491><887.8><110.6358><944.0723><0><Cold Storage><100><35
+WARD_E33: -503.9101><1094.146><161.6353><1077.077><0><Cold Storage><48><78
+WARD_S07: -440.9101><176.1461><325.6353><545.0723><0><><48><35
+WARD_S09: 294.0899><620.1461><245.6583><480.5744><2><><48><35
+WARD_S13: -134.9101><-198.8539><-1330.365><249.0765><0><><48><35
+OffScreenDen_WARD: 64.09002><628.1461><54.48536><4.806448><1><><0><0
+Connection: WARD_E25,WARD_E26,35,23,79,4,1,3
+Connection: WARD_E25,WARD_E34,18,6,18,29,3,1
+Connection: WARD_E28,WARD_E34,19,13,15,4,1,3
+Connection: WARD_E34,WARD_R01,4,25,39,25,2,0
+Connection: WARD_E34,WARD_R06,4,14,41,21,2,0
+Connection: WARD_R01,WARD_R03,19,29,33,4,1,3
+Connection: WARD_R02,WARD_R03,40,99,4,10,0,2
+Connection: WARD_R02,WARD_R05,7,22,40,52,2,0
+Connection: WARD_R02,WARD_R04,42,22,4,17,0,2
+Connection: WARD_R04,WARD_R06,43,21,12,5,1,3
+Connection: WARD_R04,WARD_S23,32,9,23,17,3,1
+Connection: WARD_R05,WARD_R19,41,21,8,17,0,2
+Connection: WARD_R05,WARD_R07,5,19,40,15,2,0
+Connection: WARD_R08,WARD_R12,4,25,93,19,2,0
+Connection: WARD_R08,WARD_R09,42,7,6,18,0,2
+Connection: WARD_R09,WARD_R22,86,18,4,5,0,2
+Connection: WARD_R09,WARD_R11,64,12,24,68,3,1
+Connection: WARD_R10,WARD_R17,23,30,24,8,1,3
+Connection: WARD_R10,WARD_S19,8,19,30,17,2,0
+Connection: WARD_R11,WARD_R14,24,5,24,105,3,1
+Connection: WARD_R12,WARD_R18,35,27,6,17,0,2
+Connection: WARD_R12,WARD_R19,7,17,95,24,2,0
+Connection: WARD_R13,WARD_R14,25,30,23,5,1,3
+Connection: WARD_R13,WARD_R20,38,10,23,29,3,1
+Connection: WARD_R13,WARD_R17,25,4,24,66,3,1
+Connection: WARD_R14,WARD_R15,7,57,39,17,2,0
+Connection: WARD_R16,WARD_R22,9,17,35,24,2,0
+Connection: WARD_R18,WARD_R21,34,14,23,25,3,1
+Connection: WARD_B39,WARD_B40,23,29,23,4,1,3
+Connection: WARD_B39,WARD_D36,17,4,17,8,3,1
+Connection: WARD_B40,WARD_B41,3,12,34,11,2,0
+Connection: WARD_B41,WARD_E07,2,29,2,4,1,3
+Connection: WARD_D20,WARD_E04,9,27,143,4,1,3
+Connection: WARD_D20,WARD_D27,42,17,5,7,0,2
+Connection: WARD_D27,WARD_D28,91,15,8,18,0,2
+Connection: WARD_D28,WARD_D36,39,18,4,29,0,2
+Connection: WARD_E01,WARD_E13,7,27,88,15,2,0
+Connection: WARD_E01,WARD_E02,80,4,44,29,3,1
+Connection: WARD_E02,WARD_E03,5,9,40,29,2,1
+Connection: WARD_E03,WARD_S13,3,9,31,17,2,0
+Connection: WARD_E03,WARD_E04,43,4,11,28,3,1
+Connection: WARD_E04,WARD_E05,143,25,23,28,1,3
+Connection: WARD_E05,WARD_E06,41,61,11,5,1,3
+Connection: WARD_E05,WARD_E15,6,56,37,13,2,0
+Connection: WARD_E06,WARD_E10,94,30,20,5,1,3
+Connection: WARD_E06,WARD_E16,4,30,42,17,2,0
+Connection: WARD_E06,WARD_E07,93,7,39,69,3,1
+Connection: WARD_E09,WARD_E10,10,8,43,16,2,0
+Connection: WARD_E10,WARD_E12,20,29,74,5,1,3
+Connection: WARD_E10,WARD_E11,4,16,89,4,2,0
+Connection: WARD_E11,WARD_E12,79,30,32,4,1,3
+Connection: WARD_E11,WARD_E18,6,26,41,19,2,0
+Connection: WARD_E12,WARD_E17,12,12,44,15,2,0
+Connection: WARD_E13,WARD_E27,9,27,13,4,1,3
+Connection: WARD_E13,WARD_E14,69,7,23,29,3,1
+Connection: WARD_E16,WARD_E21,4,17,93,15,2,0
+Connection: WARD_E17,WARD_E18,3,15,33,57,2,0
+Connection: WARD_E18,WARD_E19,25,73,28,3,1,3
+Connection: WARD_E18,WARD_E20,14,57,44,58,2,0
+Connection: WARD_E18,WARD_E22,6,19,44,11,2,0
+Connection: WARD_E18,WARD_E21,22,9,76,25,3,1
+Connection: WARD_E19,WARD_S09,34,22,24,22,3,1
+Connection: WARD_E20,WARD_E24,3,58,38,27,2,0
+Connection: WARD_E20,WARD_E21,14,5,38,21,3,1
+Connection: WARD_E21,WARD_E27,5,22,42,23,2,0
+Connection: WARD_E22,WARD_E24,4,29,42,4,2,0
+Connection: WARD_E22,WARD_E23,3,10,41,9,2,0
+Connection: WARD_E23,WARD_E24,11,27,18,9,1,3
+Connection: WARD_E24,WARD_E26,9,23,83,128,1,3
+Connection: WARD_E26,WARD_E31,37,142,12,6,1,3
+Connection: WARD_E26,WARD_E30,76,145,24,4,1,3
+Connection: WARD_E26,WARD_E29,40,84,8,15,0,2
+Connection: WARD_E26,WARD_E27,95,15,5,23,0,2
+Connection: WARD_E27,WARD_S07,4,11,34,17,2,0
+Connection: WARD_E30,WARD_E32,40,28,92,8,1,3
+Connection: WARD_E31,WARD_E32,12,28,39,7,1,3
+Connection: WARD_E32,WARD_E33,49,14,22,5,1,3
+
+SpawnMigrationStream: stream1,-925^-160,45^-1234,-914^-160,91^-1121,None,2,70,30,WARD_R10
+SpawnMigrationStreamMidpoint: stream1,0,-749^-161^209.5931^66^152
+SpawnMigrationStreamMidpoint: stream1,1,-484^-135^190.5811^219^156
+SpawnMigrationStreamMidpoint: stream1,2,-247^-129^179.4459^83^91
+SpawnMigrationStreamMidpoint: stream1,3,21^-192^178.9175^315^103
+SpawnMigrationStreamMidpoint: stream1,4,46^-402^238.6066^72^75
+SpawnMigrationStreamMidpoint: stream1,5,32^-593^-42.9352^94^56
+SpawnMigrationStreamMidpoint: stream1,6,40^-770^-63.99156^83^147
+SpawnMigrationStreamMidpoint: stream1,7,23^-1047^-51.52576^174^106
+
+SpawnMigrationStream: stream2,-793^240,-919^-160,-796^169,-1049^-173,None,1,70,30,WARD_R10
+SpawnMigrationStreamMidpoint: stream2,0,-836^22^-89.48724^80^132
+SpawnMigrationStreamMidpoint: stream2,1,-895^-78^15.49482^56^114
+
+SpawnMigrationStream: stream3,230^740,-507^1138,241^702,-584^1080,None,012,70,30,WARD_E33
+SpawnMigrationStreamMidpoint: stream3,0,233^542^1.1632^53^62
+SpawnMigrationStreamMidpoint: stream3,1,-63^541^-12.4322^153^91
+SpawnMigrationStreamMidpoint: stream3,2,-351^553^21.60535^83^151
+SpawnMigrationStreamMidpoint: stream3,3,-416^787^127.6255^65^27
+SpawnMigrationStreamMidpoint: stream3,4,-456^884^0.6387863^85^63
+
+SpawnMigrationStream: stream4,646^-156,770^560,723^-151,767^505,None,012,70,30,WARD_E12
+SpawnMigrationStreamMidpoint: stream4,0,763^-41^95.73166^92^69
+SpawnMigrationStreamMidpoint: stream4,1,775^131^62.9292^31^86
+SpawnMigrationStreamMidpoint: stream4,2,616^204^89.97398^67^38
+SpawnMigrationStreamMidpoint: stream4,3,755^226^143.2315^46^39
+SpawnMigrationStreamMidpoint: stream4,4,758^340^17.84661^49^112
+SpawnMigrationStreamMidpoint: stream4,5,640^485^87.45325^60^80
+
+SpawnMigrationStream: stream5,-673^871,116^78,-550^940,-115^114,None,012,70,30,WARD_E01
+SpawnMigrationStreamMidpoint: stream5,0,-525^783^-81.92923^90^132
+SpawnMigrationStreamMidpoint: stream5,1,-598^499^244.5926^71^61
+SpawnMigrationStreamMidpoint: stream5,2,-511^330^176.8738^225^222
+SpawnMigrationStreamMidpoint: stream5,3,-282^263^202.6165^75^67
+SpawnMigrationStreamMidpoint: stream5,4,-249^98^203.6023^71^114
+
+SpawnMigrationStream: stream6,163^123,708^-263,162^118,597^-332,None,0,70,30,WARD_B41
+SpawnMigrationStreamMidpoint: stream6,0,224^27^203.0522^79^8
+SpawnMigrationStreamMidpoint: stream6,1,192^-71^16.83078^73^65
+SpawnMigrationStreamMidpoint: stream6,2,55^-172^-88.93916^48^46
+SpawnMigrationStreamMidpoint: stream6,3,114^-305^182.6895^71^71
+SpawnMigrationStreamMidpoint: stream6,4,388^-311^168.831^43^153
+SpawnMigrationStreamMidpoint: stream6,5,490^-478^222.1851^58^77
+SpawnMigrationStreamMidpoint: stream6,6,789^-470^217.0647^55^67
+SpawnMigrationStreamMidpoint: stream6,7,1113^-503^199.4418^98^46
+SpawnMigrationStreamMidpoint: stream6,8,1119^-405^101.7852^41^36
+SpawnMigrationStreamMidpoint: stream6,9,1081^-281^9.474632^136^111

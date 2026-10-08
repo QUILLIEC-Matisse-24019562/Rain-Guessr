@@ -1,0 +1,4 @@
+Template: wska_settingstemplate_inside
+Grime: 0.1309599
+PlacedObjects: CustomDecal><230.7887><325.0667><6.969269~100~391.4494~210~453.1771~-44~-312.6208~-29~0~1~0~greybones~0.1450763~1~0.1450763~1~0.1450763~1~0.1450763~1, ShelterSpawnPoint><523.3857><340.2678><, 
+FadePalette: 458, 0.6817748

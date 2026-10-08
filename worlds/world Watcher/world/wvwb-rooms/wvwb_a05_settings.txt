@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04788044
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1672469
+Grime: 0
+Palette: 453
+TerrainDepth: 5
+TerrainPalette: test_soot
+Effects: Fog-0.1022065-20-20, ModifyEffectColorA-0.1672471,0.2119633,0.2491294-30-88.9455, Flies-0.2415791-277.0425-59.89989, RockFlea-0.2415791-276.7848-136.5339, 
+PlacedObjects: SandGrubHole><420.998><200.4235><, SandGrubHole><221.5897><200.6673><, SandGrubHole><480.6165><207.5044><, SandGrubHole><549.9493><207.9721><, SandGrubNetwork><85.41827><187.168><-200.8824~219.5506~2~3~0.5~1~1, CustomDecal><152.1676><141.5399><1.709625~514.1268~682.8235~524.3782~671.7109~1.708572~-382.1039~41.00557~0~1~1~rustb3~0.2584209~1~0.2584209~1~0.2584209~1~0.2584209~1, TerrainHandle><87.74411><201.5833><-40~0~40~0~20, TerrainHandle><692.864><204.9707><-40~0~40~0~20, MudPit><155.2806><177.0205><617.1515~42.81424~258.6233, Pomegranate><464.7618><370.3943><17.32051~-10~7~10~112.1439~-12.81424, 
+AmbientSounds: OMNI><MSC-LowGroans.ogg><90.55676><527.5305><0.2026712><0.3979098, OMNI><RWTW_AmbEmpty.ogg><296.0511><517.4208><0.5><1, 
+FadePalette: 460, 0.4552838

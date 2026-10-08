@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+Clouds: 0.05434782
+Grime: 0
+Palette: 83
+EffectColorA: 10
+EffectColorB: 10
+PlacedObjects: CustomDecal><280.5862><246.6147><134~312~464~158~394~-110~-474~-46.99998~0~1~0~greybones~0.1086956~1~0.1086956~1~0.1086956~1~0.1086956~1, KarmaFlower><516.0696><286.9138><320~-105~1~1, LightSource><492.3077><256.4449><1~Environment~0~100~363~131.6025~0~0~None~0~0, 
+AmbientSounds: OMNI><RWTW_AR_BuzzyMachine.ogg><335.8012><22.22784><0.2065217><1, OMNI><RWTW_AR_GearWorks.ogg><142.0207><-2.301086><0.1413043><1, SPOT><RWTW_AR_WindyCliff.ogg><743.813><306.4398><0.07608695><1><673.813><182.4398><-41.35535><4.644653><0><0.08913057, 
+FadePalette: 148, 0.1086956

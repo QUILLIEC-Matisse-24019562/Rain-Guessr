@@ -1,0 +1,7 @@
+Template: NONE
+Grime: 0
+Palette: 80
+EffectColorA: 4
+Effects: DarkenLights-0.5014738-35.12619-89.8054, 
+AmbientSounds: OMNI><SO_IND-HVAC.ogg><9.604187><160.8631><0.1521739><1, OMNI><SO_IND-WeirdVent.ogg><767.9401><495.1877><0.1086956><1, 
+FadePalette: 454, 0.9021739

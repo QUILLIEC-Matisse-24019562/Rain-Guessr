@@ -1,0 +1,4 @@
+Template: WSKD_SettingsTemplate_Inside
+PlacedObjects: LightSource><578.7285><351.4489><0.6739131~EffectColor1~64~121~50~86.60254~1~0~None~0~0, LightSource><579.4429><348.8026><0.07608695~EffectColor1~9~200~-573.937~-312.3975~1~1~None~0~0, CustomDecal><180.696><241.9603><-12~294~617~252~672~-28~-397~12.99998~0~1~0~greybones~0.1413043~1~0.1413043~1~0.1413043~1~0.1413043~1, LanternOnStick><394.3727><363.9079><-46~-98, ShelterSpawnPoint><434.2297><286.5726><, 
+AmbientSounds: SPOT><so_sfx-coldnight.ogg><728.1152><489.0865><0.173913><0.9413043><567.1152><354.0865><-44.35535><-58.35535><0><0.1652175, 
+FadePalette: 457, 0

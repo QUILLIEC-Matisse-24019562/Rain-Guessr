@@ -1,0 +1,8 @@
+Template: VS_SettingsTemplate_Sewer
+Clouds: 0.8260869
+Grime: 0
+Palette: 35
+EffectColorA: 10
+EffectColorB: 2
+Effects: Fog-0.09782609-20-20, 
+FadePalette: 10, 0.5869565, 0.5434783

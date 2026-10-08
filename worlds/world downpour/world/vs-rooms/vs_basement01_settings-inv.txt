@@ -1,0 +1,20 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1086956
+Grime: 0.1304348
+BkgDroneNoThreatVolume: 1
+RandomItemDensity: 0.3804348
+Palette: 3
+Effects: LightBurn-0.173913-20-20, WaterDepth-0.1086956-19-79, SilenceWater-0.8260869-279-20, 
+PlacedObjects: CustomDecal><454.6809><2.335403><-61~673~459~695~521~-19~-729~-286~0.1521739~1~0~DEV MURAL 1~1~0~1~0~1~0~1~0, CustomDecal><161.5696><-37.56255><45~588~454~524~485~41~-451~-279~0.4347826~1~0~DEV MURAL 2~1~0~1~0~1~0~1~0, CustomDecal><21.3472><42.12105><-35~459~254~450~252~-1~-291~-378~0.4565217~1~0~DEV MURAL 3~1~0~1~0~1~0~1~0, CustomDecal><78.33691><377.3658><-12~311~244~323~246~-7~-352~-636~0.2282609~1~0~DEV MURAL 4~1~0~1~0~1~0~1~0, LightSource><759.3857><128.6031><1~Environment~-351~252~50~86.60254~1~0~None~0~0, DevToken><174.0669><191.9385><23~-72~0~0~0~~White|Yellow|Red|Rivulet|Artificer|Saint|Spear|Gourmand~0~0~0~1, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><687.1096><609.5826><0.3586957><1><744.1096><544.5826><-159.3553><-225.3553><0><0.6652175, SPOT><AM_IND-12thFloor.ogg><685.5922><498.3225><0.2065217><1><130.5922><-4.677475><-340.3553><-187.3553><0><0.6760871, OMNI><AM_SUB-BlankState.ogg><861.6995><646.9856><0.02173913><0.1, 
+FadePalette: 5, 0.4347826
+WetTerrain: OFF

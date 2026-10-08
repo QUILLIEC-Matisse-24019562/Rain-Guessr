@@ -1,0 +1,9 @@
+Template: NONE
+Clouds: 0.06521739
+BkgDroneVolume: 0.2769565
+Palette: 39
+EffectColorA: 21
+EffectColorB: 21
+FadePalette: 36, 0, 0
+Palette: 39
+Effects: WaterDepth-0-289-22, LethalWater-1-302-85, 

@@ -1,0 +1,13 @@
+Template: NONE
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04507615
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0
+Grime: 0
+Palette: 455
+AmbientSounds: OMNI><RWTW_AR_WindyCliff.ogg><407.6892><72.81485><0.1086956><0.7065217, OMNI><RWTW_AR_RearDen.ogg><221.8008><75.23242><0.08695652><0.8043478, OMNI><am_env-citytone.ogg><261.2271><191.6987><0.1521739><1, 
+FadePalette: 14, 0.3251281
+WetTerrain: OFF

@@ -1,0 +1,6 @@
+
+Grime: 0
+Palette: 10
+Effects: DarkenLights-0.8051804-46.54413-27.40765, 
+AmbientSounds: OMNI><SO_NAT-WindTunnel.ogg><210.1315><24.64655><0.1086956><1, OMNI><waterGurgleLOOP1.wav><418.6733><29.62618><0.2047676><1, 
+FadePalette: 33, 1

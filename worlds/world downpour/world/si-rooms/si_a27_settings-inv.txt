@@ -1,0 +1,10 @@
+Template: SI_SettingsTemplate_Inside
+Clouds: 0.1086956
+Grime: 0.2391304
+Palette: 33
+EffectColorA: 20
+EffectColorB: 20
+Effects: Flies-0-23-89, FireFlies-1-322-40, CorruptionSpores-1-310-107, ExtraLoudThunder-1-590-49, BrokenZeroG-1-30-30, 
+PlacedObjects: Corruption><256.0592><413.0254><32~175, CorruptionTube><740.6511><311.6189><-214~82, Corruption><673.7264><590.0514><41~128, Corruption><383.9979><100.6094><25~73, Corruption><759.3223><267.092><-118~42, CorruptionTube><524.3649><352.8525><237~179, CorruptionTube><754.7783><444.552><-231~205, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><799.2922><307.9455><0.3369565><1><498.2922><471.9455><-173.3553><33.64465><0><0.4586958, SPOT><AM_IND-Utility02.ogg><806.6412><165.6417><0.4456522><1><445.6412><163.6417><-277.3553><76.64465><0><0.4695654, 
+FadePalette: 31, 0.5

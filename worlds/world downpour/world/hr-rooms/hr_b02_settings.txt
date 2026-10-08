@@ -1,0 +1,13 @@
+Template: HR_SettingsTemplate_HellNew
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 19
+Effects: FairyParticles-0.1630435-663-413, HeatWave-1-70-70, 
+PlacedObjects: LightSource><257.5847><1078.16><1~EffectColor1~-122~-62~50~86.60254~1~0~None~0~0, LightSource><571.5195><1183.695><1~Environment~236~-37~50~86.60254~1~0~Fade~0.8478261~0, LightSource><981.7202><1156.259><1~EffectColor1~18~70~50~86.60254~1~0~None~0~0, FairyParticleSettings><916.0815><126.5045><-551.0266~-470.3188~1~7.065217~37.5~0~1~2.35436~60~180~40~100~0~19.56522~0~23.47826~0.1086956~0.1413043~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, LightSource><759.5096><315.9183><1~EffectColor2~1039~669~50~86.60254~0~0~None~0~0, DangleFruit><563.4861><762.6665><0~0~2~3, DangleFruit><733.5034><929.0914><0~0~2~3, DangleFruit><672.3855><882.45><0~0~2~3, DangleFruit><702.0229><847.1722><0~0~2~3, 
+AmbientSounds: OMNI><AM_WIN-HowlingWnd.ogg><749.7743><547.9485><0.4347826><0.5304348, 
+FadePalette: 39, 0.1521739, 0.1413043
+WetTerrain: OFF

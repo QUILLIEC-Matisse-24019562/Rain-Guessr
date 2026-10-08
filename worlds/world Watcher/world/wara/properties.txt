@@ -1,0 +1,38 @@
+safariStartRoom: WARA_S23
+globalCreatureFlags: Ignorecycle
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+batsPerActiveSwarmRoom: 5
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0
+softLightRegion: true
+mapSkyLayers: 2
+hideTimer: true
+proceduralMusicBank: rwtw10
+Subregion: Shattered Terrace
+
+
+
+
+
+Room_Attr: Default: LowSquad-Forbidden,MidSquad-Forbidden,HighSquad-Forbidden,
+Room_Attr: WARA_P01: LowSquad-Like,
+Room_Attr: WARA_P02: LowSquad-Like,
+Room_Attr: WARA_P03: LowSquad-Like,
+Room_Attr: WARA_P04: LowSquad-Like,
+Room_Attr: WARA_P06: LowSquad-Like,
+Room_Attr: WARA_P07: LowSquad-Like,
+Room_Attr: WARA_P08: LowSquad-Like,
+Room_Attr: WARA_P14: MidSquad-Like,
+Room_Attr: WARA_P16: MidSquad-Like,
+Room_Attr: WARA_P17: MidSquad-Like,
+Room_Attr: WARA_P18: HighSquad-Like,
+Room_Attr: WARA_P19: LowSquad-Like,
+Room_Attr: WARA_P20: LowSquad-Like,
+Room_Attr: WARA_P21: MidSquad-Like,
+Room_Attr: WARA_P22: MidSquad-Like,
+Room_Attr: WARA_P23: HighSquad-Stay,

@@ -1,0 +1,11 @@
+CeilingDrips: 0.7173913
+WaveSpeed: 0.6521739
+WaveLength: 1
+WaveAmplitude: 0.2934783
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+WaterReflectionAlpha: 1
+Palette: 13
+PlacedObjects: SuperStructureFuses><1275.111><514.5837><69~154, SuperStructureFuses><455.9264><198.0639><67~74, WallMycelia><868.4502><51.99815><0~100, WallMycelia><1774.052><166.7897><-159~37, WallMycelia><1409.156><347.6254><0~100, WallMycelia><2566.537><-2.053436><0~100, WallMycelia><2419.69><36.68887><0~100, CoralStem><1441.906><21.37497><83~297, WallMycelia><2716.566><193.6727><-52~78, 
+FadePalette: 22, 0.7934783, 0.7934783, 0.7934783

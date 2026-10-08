@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 0.2065217
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 1
+SecondWaveAmplitude: 1
+Clouds: 0.05434782
+Grime: 0
+WaterReflectionAlpha: 1
+Palette: 80
+EffectColorA: 10
+EffectColorB: 10
+Effects: Fog-1-20-20, WaterDepth-0.1630435-45-100, 
+PlacedObjects: CustomDecal><172.5586><821.5579><151~682~523~678~681~-2~-597~401~0~1~1~BlueSmoker~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, WaterNut><428.8008><1025.732><-549~-82~6~8, WaterNut><318.0614><1024.94><-436~-1~2~4, WaterNut><565.5671><1031.331><-689~-165~8~10, BubbleGrass><340.6022><1327.922><-331~115~2~4, CustomDecal><209.439><819.0653><-7~699~511~718~559~-14~-648~69~0~1~0~GreyBones~0.05434782~1~0.05434782~1~0.05434782~1~0.05434782~1, CustomDecal><224.5516><31.02548><-2~766~579~763~573~-4~-362~-287~0~1~0~BlueSmoker~0.1195652~1~0.1195652~1~0.1195652~1~0.1195652~1, CustomDecal><225.6791><34.81299><6~753~587~757~604~3~-414~-293~0~1~0~GreyBones~0.05434782~1~0.05434782~1~0.05434782~1~0.05434782~1, LightSource><484.848><1111.326><0.02173913~EffectColor1~506~-161~-648~160.6025~0~1~None~0~0, CustomDecal><576.3954><1004.58><-18~198~171~232~212~34~343.0001~137~0~1~0~BubbleWeed~0.4673913~0~0.4673913~0~0.4673913~0~0.4673913~0, LightSource><484.5142><885.8005><0.1086956~EffectColor1~-155~281~318~478.6025~0~0~None~0~0, LightSource><517.0635><169.4396><0.1521739~EffectColor1~-710~513~-673~119.6025~0~0~None~0~0, LightSource><236.9393><456.4406><0.1521739~EffectColor1~379~68~-415~128.6025~0~0~None~0~0, LightSource><249.8608><66.85645><0.1521739~EffectColor1~-333~269~-483~396.6025~0~0~None~0~0, LightSource><431.0886><322.8207><0.1521739~EffectColor1~131~216~-574~84.60254~0~0~None~0~0, LightSource><374.9697><618.1977><0.1521739~EffectColor1~-390~-3~50~86.60254~0~0~None~0~0, LightSource><581.9214><583.1839><0.1521739~EffectColor1~407~-99~50~86.60254~0~0~None~0~0, BubbleGrass><379.5505><1331.014><-372~33~1~3, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><15.10388><463.8866><0.1521739><1, OMNI><SO_NAT-WindTunnel.ogg><0.1990356><354.2306><0.08695652><1, 
+FadePalette: 33, 0.8043478, 0.8043478

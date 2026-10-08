@@ -1,0 +1,4 @@
+Clouds: 0.1579557
+PlacedObjects: CustomDecal><122.8384><91.52747><15.38669~526.9411~704.194~534.6296~714.4518~-3.417152~-241.0588~91.40823~0~1~1~rustymetal~0.2026717~1~0.2026717~1~0.2044132~1~0~1, FluxWaterfall><340><640><4~0.9088261~D~0~0, FluxWaterfall><520><640><4~0.8995348~D~0~0, FluxDrain><520><120><4~0.5~D~0~0, FluxDrain><340><120><4~0.5~D~0~0, WaterCycleTop><408.88><182.9772><, WaterCycleBottom><413.7375><21.4875><, RippleTree><343.4215><352.0527><-35.04752~43.61734~0.2044127~0.5~right~spiralCoils|3.159107, RippleStalk><408.387><241.5341><20.51563~2.611755~left~spiralCoils|2.229953~droopy|0.05574898~sinWidth|12.82227~sinDist|34.37858~sinOffset|50.17415, NoRippleSproutZone><667.7111><110.1017><3.41925~244.1735~109.2403~238.1936~167.3679~0, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><512.7706><623.8169><0.286296><1, 
+FadePalette: 453, 0.8048784

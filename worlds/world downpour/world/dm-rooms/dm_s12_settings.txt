@@ -1,0 +1,3 @@
+Template: LM_SettingsTemplate_Leg
+PlacedObjects: BrokenShelterWaterLevel><508.3452><355.8212><, 
+FadePalette: 17, 0.9030435

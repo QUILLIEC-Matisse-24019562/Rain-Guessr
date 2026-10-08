@@ -1,0 +1,11 @@
+Template: NONE
+Clouds: 0.8586956
+Grime: 0
+Palette: 80
+EffectColorA: 1
+EffectColorB: 16
+Effects: Fog-1-20-20, Contrast-0.0326087-292-25, DarkenLights-0.5014738-35.12619-89.8054, 
+PlacedObjects: CustomDecal><182.0402><121.9459><-142~361~476~575~761~-14~-598~-463~0~1~0~xcoldstoragelogo~0.1086956~1~0.1086956~1~0.1086956~1~0.1086956~1, CustomDecal><471.4366><181.264><0~116~84~44~151~-11~-854~-521~0.3478261~1~0~deepblacksquare~0.5~0~0.5~0~0.5~0~0.5~0, ReliableSpear><682.5117><152.1996><, WallMycelia><575.1972><282.0334><-3~63, WallMycelia><204.8049><298.9562><13~85, DeadHazer><707.8329><145.932><0~0~2~4, PassiveCorruption><561.2835><76.6281><-7~121~-703.7275~-265.4411~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1, PassiveCorruption><352.473><114.1743><0~100~-438.9038~-320.3813~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1, RippleSpawnEgg><376.9644><309.9746><, RippleSpawnEgg><561.6531><308.4354><, 
+AmbientSounds: OMNI><SO_IND-HVAC.ogg><122.8846><13.41336><0.1521739><1, OMNI><SO_IND-WeirdVent.ogg><307.8697><15.08975><0.1521739><1, OMNI><SO_SFX-LakeBottom.ogg><500.0838><14.8887><0.3043478><1, OMNI><SO_SFX-GlassGhost.ogg><687.8111><16.68427><0.08695652><1.9, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_128 - Research<eA>vol<eB>0.2021737<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0.3043478<eA>rooms<eB>10<eA>rest<eB>10<eA>fadeIn<eB>143.4783<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>52<tA>panPos<tB>200.4077<tB>435.8226<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>622.4077<tB>504.8226<tA>handlePos<tB>-171.3553<tB>0.6446533, Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_128 - Research<eA>vol<eB>0.1043483<eA>prio<eB>0.3043474<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>26.08657<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>0<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>155<tA>panPos<tB>1008.168<tB>418.5677<tA>fireChance<tB>0.3043478<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>634.1678<tB>387.5677<tA>handlePos<tB>3.644653<tB>-96.35535, 
+FadePalette: 454, 0.8043478

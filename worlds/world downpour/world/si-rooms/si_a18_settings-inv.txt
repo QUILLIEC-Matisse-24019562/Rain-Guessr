@@ -1,0 +1,10 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: FloodAndRain
+Clouds: 0.1956522
+Grime: 0.1521739
+Palette: 33
+EffectColorA: 20
+EffectColorB: 20
+Effects: SkyAndLightBloom-0.1195652-20-20, 
+PlacedObjects: Mushroom><505.8296><145.4335><-461~383~2~3, Mushroom><486.8595><133.6674><-675~345~2~3, Mushroom><523.9319><138.8331><-152~369~2~3, Corruption><404.8904><63.16727><2~118, CorruptionTube><113.3633><230.0852><187~161, CorruptionTube><444.5615><389.4403><204~-119, CorruptionTube><840.1807><189.6876><-215~201, Corruption><779.1766><392.1563><35~126, Corruption><382.2452><86.19994><14~159, BlueToken><620.0529><394.6569><21~-73~-391.7043~-83.77731~1~Centiwing~~0~0~0, 
+FadePalette: 31, 0.5

@@ -1,0 +1,12 @@
+Template: NONE
+CeilingDrips: 0.7065217
+Clouds: 0.8804348
+Grime: 0.04347826
+BkgDroneVolume: 0
+BkgDroneNoThreatVolume: 0
+Palette: 61
+EffectColorA: 2
+EffectColorB: 2
+Effects: Flies-0.1304348-20-20, SkyBloom-1-13-101, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><763.0035><427.5283><0.1521739><1.9, OMNI><SO_WAT-MoreDrips.ogg><770.2197><358.249><0.1086956><1, SPOT><SO_IND-HVAC.ogg><792.4802><133.7371><0.1630435><1><463.4802><117.7371><-48.35535><-14.35535><0><0.2956523, SPOT><SO_IND-Generator.ogg><859.309><551.3138><0.1847826><1><614.309><582.3138><-58.35535><-53.35535><0><0.3500001, OMNI><AM_IND-Utility01.ogg><600.4591><359.2633><0.2282609><1, 
+FadePalette: 4, 0.4021739

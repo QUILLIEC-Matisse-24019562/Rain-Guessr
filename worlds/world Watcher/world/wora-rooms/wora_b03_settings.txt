@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.6521739
+RumbleIntensity: 0.1086956
+Clouds: 0.1847826
+Grime: 0.07608695
+BkgDroneVolume: 0
+Palette: 69
+PlacedObjects: FloatingDebris><481.6665><1118.932><-525~-181~1361558680~15~27~0.7482914~2.260869~14~-87|85~284|-176~2.09|0.81~0.07|0~0|0~Stardust~0.5~0.01v0.29v0v0|-0.8599999v0v0v0~0, CustomDecal><94.91815><747.017><11~815~805~793~756~-147~750.0001~225~0~1~0~rustb2~0.5~0.75~0.5~0.75~0.5~0.75~0.5~0.75, RottenDangleFruit><107.2639><1362.301><0~0~2~3, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><765.483><504.0507><0.1521739><1, OMNI><RWTW_RotAmb_VanillaRot.ogg><774.6125><425.3547><0.1521739><1, SPOT><RWTW_DustStorm_Gusting.ogg><525.9179><347.1824><0.1847826><0.8434783><469.9179><1417.182><44.64465><-236.3553><0><0.3826088, SPOT><RWTW_FG_FilterSystem.ogg><647.0873><225.1163><0.1956522><1><28.08728><375.1163><24.64465><-98.35535><0><0.2086958, 
+FadePalette: 22, 0.2282609, 0.2391304

@@ -1,0 +1,12 @@
+Template: NONE
+RainIntensity: 1
+RumbleIntensity: 1
+Clouds: 0.5986716
+Grime: 0
+Palette: 81
+EffectColorA: 5
+EffectColorB: 10
+Effects: Fog-1-20-20, Wasp-1-294-25, DarkenLights-0.5014738-35.12619-89.8054, 
+PlacedObjects: CustomDecal><233.4758><171.284><-20~146~128.6699~142.4175~182~13~-470.8266~-486.7535~0~0.15802~0~WhiteTag4~0.5~0~0.5~0~0.5~0~0.5~0, CustomDecal><138.0758><135.4351><-151~450~816~514~832~-123~-508~-479~0~1~0~xColdStorageLogo~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, CustomDecal><273.8478><334.8127><0.1261902~167.6275~175.8571~169.6142~174.3915~-0.5306702~-32.90225~-645.0565~0~0~0~labrat~1~0~1~0~1~0~1~0, DynamicWarpTarget><639.6302><424.1602><-822.4667~44.99655~3~false~false, LightSource><397.0256><355.8989><1~EffectColor1~-103.0931~7.728851~401.4279~125.9032~0~0~Flash~1~0, LightSource><375.6787><417.9914><1~EffectColor1~258.0176~84.05188~50~86.60254~1~0~None~0~0, RippleSpawnEgg><651.503><164.404><, RippleSpawnEgg><771.6674><162.2579><, 
+AmbientSounds: OMNI><SO_IND-HVAC.ogg><116.2><2.5019><0.2065217><1, SPOT><SO_IND-WeirdVent.ogg><758.0742><485.6857><0.2065217><1><-14.92578><135.6857><-182.3553><-185.3553><0><1, 
+FadePalette: 454, 0.8043478

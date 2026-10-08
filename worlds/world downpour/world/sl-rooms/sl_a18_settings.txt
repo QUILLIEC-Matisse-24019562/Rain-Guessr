@@ -1,0 +1,8 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: None
+Clouds: 1
+Grime: 0
+BkgDroneVolume: 0.326087
+PlacedObjects: SuperStructureFuses><438.105><-49.4202><91~61, 
+AmbientSounds: OMNI><SO_SFX-Drowning.ogg><833.8794><646.1595><0.4565217><1, SPOT><AM_IND-SuperStructure.ogg><62.71497><501.3031><0.3586957><0.9021739><479.715><-4.696899><-160.3553><-62.35534><0><0.252174, 
+FadePalette: 12, 0.3043478

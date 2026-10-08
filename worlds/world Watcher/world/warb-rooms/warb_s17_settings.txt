@@ -1,0 +1,7 @@
+
+Grime: 0
+Palette: 80
+Effects: DarkenLights-0.5014738-35.12619-89.8054, 
+PlacedObjects: ShelterSpawnPoint><457.8273><313.601><, 
+AmbientSounds: SPOT><waterGurgleLOOP1.wav><731.9187><550.1074><0.25><1><209.9187><344.1074><-165.3553><-3.355347><0><0.2086958, OMNI><SO_NAT-WindTunnel.ogg><329.8884><26.39435><0.06521739><1, 
+FadePalette: 82, 0.9021739

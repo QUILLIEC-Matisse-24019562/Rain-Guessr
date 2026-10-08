@@ -1,0 +1,5 @@
+Template: NONE
+Grime: 0
+Palette: 81
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><518.0278><73.77354><0.10412><1, 
+FadePalette: 10, 0.858859

@@ -1,0 +1,11 @@
+Template: HR_SettingsTemplate_HellNew
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 18
+PlacedObjects: FairyParticleSettings><282.4495><171.485><5~8.660254~1~7.065217~37.5~0~1~2.354363~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, LightFixture><971.5801><565.8944><HolyFire~-215.6795~-213~75, LightFixture><1511.194><665.0499><HolyFire~17.32051~-10~97, LightFixture><2010.696><582.7922><HolyFire~17.32051~-10~21, LightSource><971.5478><565.8058><0.4891304~EffectColor2~-264~340~128~-262.3975~0~0~None~0~0, LightSource><1510.059><663.4395><0.3804348~EffectColor2~-174~298~-128~-362.3975~0~0~None~0~0, LightSource><2011.896><583.6137><0.7391304~EffectColor2~-120~142~50~86.60254~0~0~None~0~0, LightSource><117.6353><1463.664><1~EffectColor2~995~-463~50~86.60254~0~0~Fade~0.6630435~0, LightFixture><1272.569><842.6877><HolyFire~17.32051~-10~67, LightSource><1275.7><840.7561><0.4782609~EffectColor2~-434~147~-47~-398.3975~0~0~None~0~0, LightSource><1298.401><1360.881><0.5~EffectColor2~1171~-642~50~86.60254~0~0~Fade~0.8586956~0, 
+FadePalette: 75, 0.2173913, 0.2173913, 0.2065217, 0.1956522, 0.1847826, 0.1956522
+WetTerrain: OFF

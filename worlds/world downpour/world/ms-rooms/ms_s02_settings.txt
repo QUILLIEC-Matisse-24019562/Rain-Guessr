@@ -1,0 +1,2 @@
+Palette: 30
+Effects: PixelShift-0.5-32-65, AboveCloudsView-1-254-45, Fog-0-218-141, 

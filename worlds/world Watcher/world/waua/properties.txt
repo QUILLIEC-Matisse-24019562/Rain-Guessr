@@ -1,0 +1,37 @@
+globalCreatureFlags: Ignorecycle
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+batsPerActiveSwarmRoom: 6
+overseersSpawnChance: 0.0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0
+waterColorOverride: 0.6, 0.6, 0.46
+hideTimer: true
+{PostBathScene,!ToysEnding}mapName: waua2
+Room_Attr: WAUA_B01: SmallMoth-Forbidden,
+Room_Attr: WAUA_C01: SmallMoth-Forbidden,
+Room_Attr: WAUA_C02: SmallMoth-Forbidden,
+Room_Attr: WAUA_D01: SmallMoth-Forbidden,
+Room_Attr: WAUA_D02: SmallMoth-Like,
+Room_Attr: WAUA_E01: SmallMoth-Forbidden,
+Room_Attr: WAUA_E02: SmallMoth-Forbidden,
+Room_Attr: WAUA_E03: SmallMoth-Forbidden,
+Room_Attr: WAUA_A01B: SmallMoth-Forbidden,
+Room_Attr: WAUA_A11B: SmallMoth-Forbidden,
+Room_Attr: WAUA_B02B: SmallMoth-Forbidden,
+Room_Attr: WAUA_B04B: SmallMoth-Like,
+Room_Attr: WAUA_B07B: SmallMoth-Forbidden,
+Room_Attr: WAUA_C01B: SmallMoth-Like,
+Room_Attr: WAUA_D01B: SmallMoth-Forbidden,
+Room_Attr: WAUA_D02B: SmallMoth-Like,
+Room_Attr: WAUA_E02B: SmallMoth-Forbidden,
+Room_Attr: WAUA_H01B: SmallMoth-Forbidden,
+Room_Attr: WAUA_SHOP: SmallMoth-Forbidden,
+Room_Attr: WAUA_TOYS: SmallMoth-Forbidden,Rat-Forbidden,
+Room_Attr: WAUA_G01B: BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WAUA_E01B: BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WAUA_B03B: BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WAUA_BATH: BigMoth-Forbidden,SmallMoth-Forbidden,

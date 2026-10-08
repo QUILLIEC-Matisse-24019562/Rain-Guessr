@@ -1,0 +1,10 @@
+kelpColor: 0.3,0,1.0
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0.0
+Subregion: Infested Wastes
+Room Setting Templates: Rot
+Room_Attr: WGWR_C01: RotLoach-Stay,
+Room_Attr: WGWR_C02: RotLoach-Stay,
+Room_Attr: WGWR_D01: RotLoach-Stay,

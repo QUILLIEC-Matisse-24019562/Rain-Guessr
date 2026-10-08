@@ -1,0 +1,5 @@
+Template: wpga_settingstemplate_inside
+DangerType: FloodAndRain
+PlacedObjects: CustomDecal><280.4344><132.9315><0.9956055~449~550.7467~379~552.7379~-24~-254.8755~23.00002~0~1~0~greybones~0.1104143~1~0.1104143~1~0.1104143~1~0.1104143~1, 
+AmbientSounds: SPOT><SO_IND-MechHum01.ogg><135.263><487.5508><0.1861672><0.7662485><528.6451><155.5508><-59.24994><-45.35535><0><0.1865745, 
+FadePalette: 471, 0.4004077

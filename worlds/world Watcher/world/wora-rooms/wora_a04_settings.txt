@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.82076
+Grime: 0.3695652
+Palette: 50
+Effects: SkyBloom-0-20-20, 
+PlacedObjects: CustomDecal><20.57434><34.81433><-5~291~885~312~886~-19~-147~311~0~1~1~dirtywaterline~0.6956522~1~0.8478261~1~0~1~0~1, CustomDecal><77.17767><107.5635><-56~620~904~586~788~-73~-18~-76~0~1~1~runningwhite~0.1847826~1~0.1847826~1~0.1847826~1~0.1847826~1, RottenDangleFruit><413.3799><650.41><-37~-294~2~3, RottenDangleFruit><460.5104><604.8003><16~-249~2~3, RottenDangleFruit><502.662><664.6172><31~-176~2~3, FloatingDebris><459.9444><493.9141><272~-96~76583772~8~30~0.25~0.5~6~-81~68~0.94~0~-1.36~Rot Islands~1~0v0v0v0~0, PrinceFilter><469.9862><501.3561><-2~66~0~0~3~1~0, 
+AmbientSounds: OMNI><RWTW_RotAmb_VanillaRot.ogg><766.9552><539.0844><0.138309><0.7746382, OMNI><RWTW_DustStorm_Deep.ogg><775.4118><462.0797><0.1383083><0.7746382, 
+FadePalette: 10, 0.5425364
+WetTerrain: OFF

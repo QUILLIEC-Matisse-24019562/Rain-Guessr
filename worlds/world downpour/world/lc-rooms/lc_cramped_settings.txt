@@ -1,0 +1,13 @@
+DangerType: None
+RainIntensity: 1
+RumbleIntensity: 1
+Clouds: 0
+Grime: 0
+BkgDroneVolume: 0
+Palette: 30
+EffectColorA: 13
+EffectColorB: 3
+Effects: RoofTopView-0-268-2, DayNight-0.7934783-17-50, 
+PlacedObjects: LightSource><558.5859><219.6144><0.1956522~Environment~-98~184~-303~263.6025~1~0~None~0~0, LightSource><667.0565><219.8004><0.1956522~Environment~-40~207~-112~178.6025~1~0~None~0~0, LightSource><831.1201><215.1521><0.1956522~Environment~-14~216~50~86.60254~1~0~None~0~0, LightSource><921.3116><623.5671><0.2282609~Environment~-332~-54~-86~-266.3975~1~0~None~0~0, DayNightSettings><607.4165><636.6107><5~8.660254~35~10, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><699.3284><655.6027><0.3369565><1, OMNI><AM_ENV-LightWind.ogg><875.3513><655.8275><0.3478261><1, 
+FadePalette: 42, 0.09782609

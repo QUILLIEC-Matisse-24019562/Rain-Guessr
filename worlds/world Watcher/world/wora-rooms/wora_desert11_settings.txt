@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RumbleIntensity: 0.1086956
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0.04828316
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1195652
+Grime: 0
+BkgDroneVolume: 0
+Palette: 69
+Effects: SurfaceSandstorm-0.3695652-20-20, Outer Rim View-1-23-93, 
+PlacedObjects: FloatingDebris><19.1488><289.8275><146.4607~120.9513~577493846~0~14~1.620298~1.771739~11~-25|365~264|44~2.699588|0.900824~0|-0.6606738~0|0~Stardust~0.5~0.12v1.73v0v0|-0.33v1.63v0v0~0, FloatingDebris><141.824><945.4049><416~12~216949500~0~14~0.25~1.804347~20~-135|64.04492~136|9.906342~4.08|2.364232~0|-0.85~-0.47|0.31~Stardust~0.5~0.09v1.14v0v0|-0.4299999v0.89v0v0~0, FloatingDebris><107.2858><1615.447><-251~14~1028895452~0~15~0.9351495~1.445652~11~-126|173~360|128~2.25|1.78~0|-0.7~-0.58|-0.09999999~Stardust~0.5~0.09999999v1.77v0v0|-0.4899999v0.66v0v0~0, FloatingDebris><836.8364><1702.93><34~-266~852993360~12~30~2.023451~2.054595~22~-409|267~246|-1435~3.63|2.1~0|-0.01~0|0.06~Stardust~0.5~0.3525848v1.38v0v0|-0.283147v2.15v0v0~0, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><787.9265><505.936><0.2065217><0.5695652, OMNI><RWTW_DustStorm_Gusting.ogg><795.1443><429.8302><0.4130435><1, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>BM_RWTW_TAG_09<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>1007.716<tB>430.6281<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 35, 0, 0.1956522, 0.3586957

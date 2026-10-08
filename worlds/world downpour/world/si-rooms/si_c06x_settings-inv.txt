@@ -1,0 +1,7 @@
+Palette: 3
+EffectColorA: 11
+EffectColorB: 12
+Effects: SkyDandelions-0.2826087-20-20, BrokenZeroG-1-19-83, RoomWrap-1-285-82, 
+PlacedObjects: DandelionPatch><2717.348><171.8256><0~100, DandelionPatch><1683.444><595.5502><0~100, SeedCob><1411.926><302.3141><0~0~7~10, DeadSeedCob><2006.837><321.4299><, DeadSeedCob><1383.645><325.0795><, DeadSeedCob><1461.936><234.3239><, DandelionPatch><424.0726><505.9364><23~153, DeadSeedCob><197.8718><351.4035><, DeadSeedCob><303.1803><269.3366><, Corruption><1715.96><454.6668><-111~146, Corruption><1476.342><102.5123><40~151, Corruption><424.2209><379.2436><-4~114, Corruption><876.9364><559.8573><-58~127, Corruption><2097.08><139.6373><70~110, Corruption><2626.124><543.3452><1~145, Corruption><2208.261><553.8671><82~49, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><845.3395><507.8693><0.25><1, 
+FadePalette: 33, 0.7717391, 0.7717391, 0.7717391

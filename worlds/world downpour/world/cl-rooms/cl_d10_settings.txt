@@ -1,0 +1,14 @@
+Template: CL_SettingsTemplate_DarkSun
+CeilingDrips: 0
+WaveSpeed: 0.2920296
+WaveLength: 0.6460148
+WaveAmplitude: 0.04999999
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorA: 15
+EffectColorB: 21
+Effects: LightBurn-0.06521739-30-30, Coldness-1-31-92, Dustpuffs-1-290-34, 
+PlacedObjects: LightSource><142.314><2023.823><0.1630435~Environment~1275~-737~28~-233.3975~1~1~None~0~0, SnowSource><301.6566><492.5732><Radial~495~-287~50~86.60254~0.3695652~1, SnowSource><-66.94196><846.556><Radial~841~368~50~86.60254~0.7717391~1, SnowSource><309.6855><1477.425><Radial~477~-453~328~-310.3975~0.4891304~1, SnowSource><265.6221><2122.154><Radial~535~-468~50~86.60254~0.9347826~1, SnowSource><881.188><341.8184><Radial~38~14~50~86.60254~0.6956522~1, SnowSource><896.9359><236.9395><Radial~38~55~147~-97.39746~0.4673913~1, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><831.9007><610.6185><0.3478261><1><-30.0993><2089.618><904.6447><-418.3553><0><1, OMNI><AM_ENV-NatWind.ogg><833.5852><532.3867><0.25><1, OMNI><AM_ENV-CityTone.ogg><653.0519><645.2773><0.2282609><1, SPOT><AM_WIN-SubWnd.ogg><830.0123><416.0504><0.3695652><1><1541.012><259.0504><-533.3553><120.6447><0><1, SPOT><SO_WAT-MoreDrips.ogg><656.4936><529.3001><0.5><1><1607.494><297.3001><-470.3553><71.64465><0><0.5130436, 
+FadePalette: 0, 0.7391304, 0.6956522, 0.6739131, 0.4891304
+WetTerrain: OFF

@@ -1,0 +1,109 @@
+WVWA_A01: -464.9207><-152.0478><-300.8727><-88.62524><1><Verdant Waterways><48><35
+WVWA_B01: -218.9203><-152.0478><-196.4532><-86.53847><1><Verdant Waterways><106><35
+WVWA_A02: -187.9203><-32.04747><-80.45341><43.4614><1><Verdant Waterways><48><38
+WVWA_F01: 168.0961><-97.04754><58.40147><-71.53847><1><Verdant Waterways><152><79
+WVWA_B02: 583.3212><-40.92185><405.5468><34.46144><1><Verdant Waterways><100><35
+WVWA_B03: 574.4662><-165.3191><400.5468><-96.53846><1><Verdant Waterways><100><35
+WVWA_B04: 498.7569><-303.5847><347.5468><-255.5384><0><Verdant Waterways><100><35
+WVWA_D01: 16.09593><-260.8762><-79.45341><-227.5384><0><Verdant Waterways><204><35
+WVWA_B05: -443.6299><-260.1676><-297.4532><-226.5384><0><Verdant Waterways><100><35
+WVWA_A04: -661.8077><-269.4593><-416.4532><-252.5384><0><Verdant Waterways><48><35
+WVWA_A03: -671.0494><-44.77611><-421.4532><-98.53846><0><Verdant Waterways><54><35
+WVWA_H01: -840.6463><-45.21327><-542.4534><-373.5387><0><Verdant Waterways><48><265
+WVWA_A05: -1004.483><70.3097><-666.4533><-44.53857><0><Verdant Waterways><52><35
+WVWA_A06: -999.3385><-160.2479><-663.4533><-199.5384><0><Verdant Waterways><48><35
+WVWA_C01: 615.3689><266.0162><495.498><205.0125><1><Verdant Waterways><48><115
+WVWA_B06: -427.7809><-43.23383><-304.6121><47.82441><0><Verdant Waterways><99><35
+WVWA_C02: -520.3732><194.2564><-311.4506><169.9869><0><Verdant Waterways><48><115
+WVWA_A07: -351.7638><-155.3693><-150.6971><-356.6308><0><Verdant Waterways><48><35
+WVWA_A08: -521.2897><422.1259><-352.4344><452.3746><0><Verdant Waterways><48><35
+WVWA_S01: -846.5274><-510.7267><-420.6488><-381.4478><0><><48><35
+WVWA_B07: -617.7077><186.6646><-530.0656><324.1896><1><Verdant Waterways><99><35
+WVWA_F02: -222.992><242.9511><-190.5082><242.2173><1><Verdant Waterways><155><75
+WVWA_B08: 372.1801><270.6815><255.6699><328.4626><1><Verdant Waterways><99><35
+WVWA_A09: 116.4953><332.4828><140.6252><326.149><1><Verdant Waterways><48><35
+WVWA_B09: 572.241><-474.3963><456.7031><-464.8141><0><Verdant Waterways><48><75
+WVWA_A10: 712.1597><-529.0702><570.394><-463.9598><0><Verdant Waterways><48><35
+WVWA_B10: 936.7056><-529.0702><689.2137><-463.1055><0><Verdant Waterways><99><35
+WVWA_B11: 1162.629><-474.9549><907.162><-465.9735><0><Verdant Waterways><48><75
+WVWA_C03: 1462.399><-415.1551><1022.562><-384.8167><0><Verdant Waterways><150><35
+WVWA_E01: 2073.321><-415.1551><1343.12><-383.9623><0><Verdant Waterways><252><35
+WVWA_S02: 1094.097><-415.715><789.9966><-355.8537><0><><48><35
+WVWA_S03: 724.6879><390.0132><630.092><447.3588><1><><48><35
+WVWA_E02: 371.3763><492.5271><261.6653><460.1729><1><Verdant Waterways><100><112
+WVWA_H02: 66.48122><725.6579><-247.6808><734.8249><2><Verdant Waterways><405><35
+WVWA_A11: -641.5072><725.8704><-358.7096><734.3611><2><Verdant Waterways><48><35
+WVWA_F03: -970.884><668.6332><-676.7022><654.9128><2><Verdant Waterways><151><75
+WVWA_A12: -641.4145><815.4605><-357.8289><873.8816><2><><48><35
+OffScreenDen_WVWA: -865.9205><142.9526><-1208.453><-337.5387><1><><0><0
+Connection: WVWA_A01,WVWA_B01,43,25,11,23,1,1
+Connection: WVWA_A01,WVWA_A03,8,26,45,8,0,2
+Connection: WVWA_B01,WVWA_A02,55,28,13,3,0,3
+Connection: WVWA_B01,WVWA_F01,97,8,1,12,0,2
+Connection: WVWA_A02,WVWA_B06,18,22,79,28,3,3
+Connection: WVWA_A02,WVWA_F01,35,3,11,56,3,3
+Connection: WVWA_F01,WVWA_B02,106,56,19,8,3,3
+Connection: WVWA_F01,WVWA_B03,150,29,1,29,0,2
+Connection: WVWA_B02,WVWA_C01,78,26,41,11,3,3
+Connection: WVWA_B02,WVWA_B03,80,8,83,26,3,3
+Connection: WVWA_B03,WVWA_B04,51,13,76,30,3,1
+Connection: WVWA_B04,WVWA_D01,13,23,196,9,2,0
+Connection: WVWA_B04,WVWA_B09,76,7,25,69,3,1
+Connection: WVWA_D01,WVWA_A07,9,24,41,24,2,0
+Connection: WVWA_D01,WVWA_B05,7,9,92,9,2,0
+Connection: WVWA_B05,WVWA_A04,6,9,40,13,2,0
+Connection: WVWA_A04,WVWA_H01,6,28,40,67,1,1
+Connection: WVWA_A03,WVWA_H01,9,28,44,143,2,0
+Connection: WVWA_H01,WVWA_B07,40,200,6,9,3,3
+Connection: WVWA_H01,WVWA_A05,9,163,45,10,3,3
+Connection: WVWA_H01,WVWA_A06,9,102,43,11,3,0
+Connection: WVWA_H01,WVWA_S01,36,9,38,25,3,1
+Connection: WVWA_C01,WVWA_E02,7,105,93,29,2,0
+Connection: WVWA_C01,WVWA_S03,40,105,19,24,0,2
+Connection: WVWA_B06,WVWA_C02,21,27,27,8,0,0
+Connection: WVWA_B06,WVWA_A07,71,4,20,28,3,2
+Connection: WVWA_C02,WVWA_A08,23,106,23,26,1,3
+Connection: WVWA_A08,WVWA_B07,8,7,30,29,2,0
+Connection: WVWA_B07,WVWA_F02,90,9,7,10,3,3
+Connection: WVWA_F02,WVWA_A09,146,58,6,27,3,2
+Connection: WVWA_B08,WVWA_E02,92,28,95,6,0,3
+Connection: WVWA_B08,WVWA_A09,6,22,42,27,2,0
+Connection: WVWA_B09,WVWA_A10,39,9,5,7,0,2
+Connection: WVWA_A10,WVWA_B10,44,18,5,18,0,2
+Connection: WVWA_B10,WVWA_B11,93,18,6,20,0,2
+Connection: WVWA_B11,WVWA_C03,42,53,5,13,0,2
+Connection: WVWA_B11,WVWA_S02,5,51,13,11,2,0
+Connection: WVWA_C03,WVWA_E01,144,11,8,11,0,2
+Connection: WVWA_E02,WVWA_H02,74,103,328,9,1,3
+Connection: WVWA_H02,WVWA_A11,5,14,44,14,2,0
+Connection: WVWA_A11,WVWA_A12,36,24,41,16,1,0
+Connection: WVWA_A11,WVWA_F03,3,14,145,53,2,0
+
+SpawnMigrationStream: stream1,129^44,-1152^749,203^13,-1021^800,None,012,70,30,WVWA_F03
+SpawnMigrationStreamMidpoint: stream1,0,272^-36^195.5521^50^126
+SpawnMigrationStreamMidpoint: stream1,1,547^-36^173.3522^59^98
+SpawnMigrationStreamMidpoint: stream1,2,617^233^71.94757^118^105
+SpawnMigrationStreamMidpoint: stream1,3,680^348^96.06212^46^139
+SpawnMigrationStreamMidpoint: stream1,4,344^405^-3.554314^154^45
+SpawnMigrationStreamMidpoint: stream1,5,373^490^198.718^64^117
+SpawnMigrationStreamMidpoint: stream1,6,508^524^75.37344^57^132
+SpawnMigrationStreamMidpoint: stream1,7,331^761^-6.92601^196^125
+SpawnMigrationStreamMidpoint: stream1,8,-111^756^-0.7055817^150^187
+SpawnMigrationStreamMidpoint: stream1,9,-479^770^-14.46782^17^177
+SpawnMigrationStreamMidpoint: stream1,10,-833^766^-6.428337^143^184
+
+SpawnMigrationStream: stream2,85^-211,-840^295,49^-283,-859^173,None,0,70,30,WVWA_H01
+SpawnMigrationStreamMidpoint: stream2,0,-220^-216^-2.816826^229^131
+SpawnMigrationStreamMidpoint: stream2,1,-514^-225^7.097389^64^111
+SpawnMigrationStreamMidpoint: stream2,2,-739^-260^-16.52421^89^101
+SpawnMigrationStreamMidpoint: stream2,3,-840^-30^104.5568^146^137
+
+SpawnMigrationStream: stream3,-8^27,2405^-420,136^-27,2321^-357,None,012,70,30,WVWA_E01
+SpawnMigrationStreamMidpoint: stream3,0,53^-157^200.4643^102^79
+SpawnMigrationStreamMidpoint: stream3,1,511^-161^179.2026^140^69
+SpawnMigrationStreamMidpoint: stream3,2,631^-292^258.6524^50^100
+SpawnMigrationStreamMidpoint: stream3,3,676^-512^168.3411^115^46
+SpawnMigrationStreamMidpoint: stream3,4,1003^-498^192.1693^154^36
+SpawnMigrationStreamMidpoint: stream3,5,1226^-436^105.5381^92^29
+SpawnMigrationStreamMidpoint: stream3,6,1394^-374^187.2121^91^170
+SpawnMigrationStreamMidpoint: stream3,7,2008^-398^173.1603^128^256

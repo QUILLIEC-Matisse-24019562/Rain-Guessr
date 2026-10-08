@@ -1,0 +1,12 @@
+kelpColor: 0.3,0,1.0
+corruptionEffectColor: 0.185,0.055,0.416
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0.0
+Subregion: Unfortunate Evolution
+Room Setting Templates: Calcified

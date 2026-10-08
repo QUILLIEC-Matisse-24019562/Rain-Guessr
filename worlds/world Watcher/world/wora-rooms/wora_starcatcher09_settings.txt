@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04166141
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.3060462
+Palette: 50
+EffectColorA: 5
+PlacedObjects: LightSource><1246.479><1629.718><0.7774207~Environment~867.7244~-222.3269~-199.5667~-582.3536~1~0~None~0~0, CustomDecal><132.6982><841.4875><-125.4233~830.4682~1010.111~767.7936~399.6321~-253.2568~0~0~0~1~0~rust2~0.5~1~0.5~1~0.5~1~0.5~1, LightSource><570.5744><457.3745><0.8747997~Environment~-703.9063~53.95331~50~86.60254~1~0~None~0~0, CustomDecal><-2.941956><74.17166><-183.0156~788.2588~598.0058~847.0962~417.5497~-382.4433~0~0~0~1~0~rust1~0.5~1~0.5~1~0.5~1~0.5~1, ReliableSpear><1243.89><1325.908><, ReliableSpear><1014.853><1335.089><, ReliableSpear><1679.983><1340.095><, ReliableSpear><1599.373><1338.94><, ReliableSpear><1541.843><1333.896><, RottenSeedCob><1605.823><1439.63><0~0~2~3, RottenSeedCob><1656.019><1513.968><0~0~2~3, ReliableSpear><256.6663><1233.206><, ReliableSpear><431.9427><1339.355><, 
+AmbientSounds: OMNI><RWTW_RotAmb_VanillaRot.ogg><764.8175><537.3036><0.1243983><0.7746382, OMNI><RWTW_DustStorm_Deep.ogg><783.2786><457.5217><0.1383096><0.7245584, SPOT><RWTW_Amb_StrangeWind.ogg><763.4407><301.2791><0.2635093><0.574318><1692.53><1340.001><-450.02><-384.5428><0><0.6703584, 
+FadePalette: 10, 0.4868917, 0.4590695, 0.5008031

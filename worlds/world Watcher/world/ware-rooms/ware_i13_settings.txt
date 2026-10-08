@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0.05434782
+Grime: 0
+Palette: 81
+EffectColorA: 10
+EffectColorB: 16
+Effects: Fog-1-20-20, BrokenZeroG-0.2065217-285-22, 
+PlacedObjects: LightSource><490.3331><348.974><0.02173913~EffectColor2~-1366~772~160~-405.3975~0~1~None~0~0, LightSource><493.3664><352.2661><0.01121189~EffectColor2~-1355~773~420~-407.3975~1~0~None~0~0, CustomDecal><254.6083><295.5818><-17~135~462~123~456~3~-671.923~-634.0752~0~1~0~GhostSplash~0.2062229~1~0.2062229~1~0.2062229~1~0.2062229~1, ReliableSpear><400.7666><329.5681><, Mushroom><633.1451><341.8753><0~0~2~3, UniqueDataPearl><552.4441><347.0294><0~0~0~0~AUDIO_VOICEWIND2~0, 
+AmbientSounds: OMNI><SO_SFX-Kepler.ogg><722.8183><446.688><0.08695652><1, OMNI><AM_SUB-BlankState.ogg><754.4373><267.1799><0.3043478><1, 
+FadePalette: 33, 0.6086956

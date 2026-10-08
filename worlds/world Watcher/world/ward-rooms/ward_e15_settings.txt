@@ -1,0 +1,8 @@
+Template: NONE
+Clouds: 0.8586956
+Grime: 0
+Palette: 81
+Effects: Fog-1-20-20, Moth-1-305-20, DarkenLights-0.5014738-35.12619-89.8054, 
+PlacedObjects: CustomDecal><191.9445><165.0466><-74~145~334~256~642~-16~-603~-506~0~1~0~xColdStorageLogo~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, ReliableSpear><231.8838><250.2716><, KarmaFlower><416.1029><236.5165><-497~248~6~10, ReliableSpear><257.6691><253.4703><, ReliableSpear><307.088><251.8827><, ReliableSpear><492.4378><254.9312><, WallMycelia><217.7977><319.5558><-2~62, WallMycelia><452.5916><208.8721><-5~40, LanternOnStick><621.9318><570.6376><-4.938416~-315.4462, LanternOnStick><607.1234><571.8752><-1.234619~-315.4461, 
+AmbientSounds: OMNI><SO_IND-HVAC.ogg><222.7975><15.05574><0.2065217><1, OMNI><SO_IND-WeirdVent.ogg><425.7573><19.94986><0.2065217><1, 
+FadePalette: 454, 0.9021739

@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+Clouds: 0.1579557
+Grime: 0.1004652
+RandomItemSpearChance: 0
+Palette: 101
+Effects: SkyAndLightBloom-0.09291508-20-20, 
+PlacedObjects: CustomDecal><56.20837><40.94678><58.98245~514.9812~785.4017~526.941~818.7397~-5.125687~0~0~0~1~1~rustymetal(var)~0.6393728~1~0~1~0.7044134~1~0~1, LightSource><629.767><162.5928><0.3495948~Environment~-281.2353~8.591766~50~86.60254~0~0~None~0~0, LightSource><493.8752><333.5375><0.1173069~Environment~-350.4756~76.08011~50~86.60254~0~1~None~0~0, AdjustableFan><457.7422><522.6586><5~8.660254~0~0~0.7043477~0.1086956, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><721.8721><638.618><0.3513356><1, OMNI><AM_ENV-CityTone.ogg><513.1295><635.5277><0.3420443><1, SPOT><SO_IND-WinFan.ogg><729.824><219.9518><0.2955873><1><450.7452><527.3534><-166.9974><-24.24963><0><0.2022061, 

@@ -1,0 +1,5 @@
+Template: wmpa_settingstemplate_tidelands
+Clouds: 0.1240669
+Effects: Ripple Settings-0-977.1389-434.9299-Watcher-WBLA-wbla_b08-0-2.2-99-1, ModifyEffectColorB-0,0.1562141,0.5-292.4293-155.5795, 
+PlacedObjects: WarpPoint><290.7771><368.9468><0~0~Watcher~Watcher~WBLA~wbla_b08~710~410~e73a87f7-5221-4b41-bc95-e76e0ba22d9a~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~false~false~false~false~false~0~-1~false~-1~false~-1~false, CosmeticRipple><611.2131><549.7117><0~0~56.43176~-284.4761~611.2131~549.7117~290.0193~0.8716604~0.5168411~False~0.5~True~0.3902433~False~-1~0~False, CosmeticRipple><348.9644><619.7253><-458.1827~-131.5596~77.80231~-230.6564~348.9644~619.7253~243.4247~0.7601619~0.6190482~False~0.5~False~0.3159112~False~-1~0~False, 
+FadePalette: 10, 0.6575639, 0.6575639

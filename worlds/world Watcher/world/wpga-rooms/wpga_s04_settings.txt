@@ -1,0 +1,4 @@
+Template: wpga_settingstemplate_inside
+PlacedObjects: ShelterSpawnPoint><442.6543><325.4251><, CustomDecal><305.9565><276.684><-4.978027~183~320.7614~149~359.5901~-10~393.265~-193~0~1~0~blackrust1~0.3831562~1~0.3831562~1~0.3831562~1~0.3831562~1, 
+AmbientSounds: OMNI><SO_IND-HVAC.ogg><732.2476><398.923><0.2078108><0.9220819, 
+FadePalette: 471, 0.7467058

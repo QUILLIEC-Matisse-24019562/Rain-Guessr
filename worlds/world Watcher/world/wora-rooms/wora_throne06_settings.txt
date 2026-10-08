@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04676946
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2173913
+Grime: 0.2717391
+Palette: 78
+EffectColorA: 15
+EffectColorB: 16
+Effects: SkyBloom-0.4456522-20-20, Sentient Rot Spores-0.6847826-36-100, 
+PlacedObjects: LightSource><1513.815><322.0616><1~White~366~-164~296~-66.39749~0~0~None~0~0, Corruption><1155.791><102.1119><31~166, Corruption><1929.26><592.8529><30~109, Corruption><1641.861><35.44955><-2~116, Corruption><1369.796><644.8526><112~-50, CorruptionTube><1214.488><328.8539><571~218, CorruptionTube><1684.439><111.9269><-462~281, CorruptionTube><1794.679><434.4611><-560~152, Corruption><1789.754><459.3472><0~100, LightSource><2970.323><332.9735><0.326087~EffectColor2~-774~88~-170~74.60254~0~0~None~0~0, LightSource><1504.325><340.2448><0.6086956~EffectColor1~413~-256~50~86.60254~0~0~None~0~0, CorruptionDarkness><1968.551><584.5643><-325~73, CorruptionDarkness><1065.691><3.938751><227~-9, CorruptionDarkness><2424.437><207.6813><-187~49, Corruption><2409.571><559.2095><159~-8, Corruption><2808.764><593.8935><126~6, CorruptionTube><2785.725><612.4235><-347~2, CorruptionTube><2903.766><168.3577><-168~458, CorruptionTube><2377.663><539.5536><-95~-318, Corruption><2470.574><250.0156><0~100, PassiveCorruption><480.2241><345.8688><-117~166~-466~-67~7~15~0.8~0.3~0.55~0.05~0.15~0.04782602~0.2~Default~Dot~Passive~2~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, CorruptionDarkness><3073.032><338.3768><-180~-101, GooDrips><2408.369><540.2><0~100~0~0~0.5, GooDrips><2816.176><548.9787><0~100~0~0~0.5, RotPlateTree><2500.078><261.6843><106~185, PrinceFilter><2523.95><277.4921><-4~44~-129~-208~2~1~0, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><872.4707><582.2512><0.2065217><0.6282609, OMNI><SO_WAT-MoreDrips.ogg><873.9591><510.3185><0.3369565><0.5695652, OMNI><SO_SFX-Heartbeat1.ogg><874.1795><434.7079><0.2065219><0.530435, OMNI><SO_SFX-Drowning.ogg><874.6936><360.1658><0.2065217><1, OMNI><RWTW_RotAmb_Deep.ogg><875.2232><287.1742><0.1195653><1, OMNI><RWTW_RotAmb_UnfortEvo.ogg><873.6385><216.0504><0.08695652><1, SPOT><RWTW_RotAmb_VanillaRot.ogg><679.3121><181.3206><0.2065217><1><1496.312><392.3206><472.6447><-217.3553><0><1, SPOT><SO_IND-NoiseMech.ogg><684.8129><298.5685><0.1956522><1><2214.813><389.5685><24.64465><-92.35535><0><0.2086958, SPOT><RWTW_RotAmb_Swarm.ogg><488.368><404.0501><0.326087><1><1443.368><286.0501><-85.35535><-212.3553><0><0.2630436, SPOT><AM_WIN-HowlingWnd.ogg><189.6913><396.9602><0.4303167><0.5233665><1567.154><511.5422><-140.4933><-289.024><0><0.239366, 
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>NO SONG<eA>prio<eB>1<eA>type<eB>AllSongs<eA>fadeOut<eB>200<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>955.1757<tB>395.2338<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>383.1757<tB>213.2338<tA>handlePos<tB>-322.3553<tB>-80.35535, 
+FadePalette: 10, 0.6630435, 0.5652174, 0.7282609
+WetTerrain: OFF

@@ -1,0 +1,9 @@
+Template: NONE
+Grime: 0
+Palette: 81
+EffectColorA: 20
+EffectColorB: 18
+Effects: Hue-0.352889-116.8278-116.2582, 
+PlacedObjects: LightSource><492.6655><351.1074><0.03419893~EffectColor2~-1389.194~-734.4278~370.6709~-443.1025~1~1~None~0~0, FlameJet><316.7199><317.5621><-476.4102~-105.0471~316.7199~317.5621~429.4599~-4.801849~0.2075474~1~0.4133258~0~1~0.3808965~None~None~Always~1~1~1~1~False~0.2066627, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><449.6503><61.70226><0.1521739><1, 
+FadePalette: 83, 0.8543631

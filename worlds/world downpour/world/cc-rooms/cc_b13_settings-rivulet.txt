@@ -1,0 +1,3 @@
+Effects: LightRain-0.2065217-30-30, Desaturation-0.5-40-40, Darkness-0.05434782-53-75, 
+PlacedObjects: InsectGroup><453.7271><1445.199><0~100~0~0~Wasp~0.3369565, 
+FadePalette: 27, 0.6086956, 0.5

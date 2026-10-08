@@ -1,0 +1,16 @@
+Template: HR_SettingsTemplate_HellNew
+DangerType: Flood
+CeilingDrips: 0
+RainIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.999999E-05
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+WaterReflectionAlpha: 0
+EffectColorB: 13
+Effects: Bloom-0.4021739-58-0, FireFlies-1-45-64, HeatWave-0.2826087-574-77, Fog-0.2934783-64-119, LethalWater-1-581-139, LightBurn-0.2282609-316-70, SkyAndLightBloom-0-320-188, Desaturation-0-282-311, FairyParticles-0.1521739-324-135, 
+PlacedObjects: LightSource><156.1784><89.15961><0.6847826~EffectColor2~62~289~50~86.60254~0~0~None~0~0, LightSource><741.5734><89.84393><0.2282609~EffectColor2~-855~618~50~86.60254~0~1~None~0~0, LightSource><736.817><94.43842><1~EffectColor2~-124~110~-294~84.60254~0~1~None~0~0, FairyParticleSettings><489.6968><377.0355><-248~-693.3397~1~7.065217~37.5~0~1~2.35436~60~180~40~100~0~19.56522~0~23.47826~0.1086956~0.1413043~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, LightSource><159.1083><96.33191><0.4130435~EffectColor2~958~613~-205~367.6025~0~0~None~0~0, DevToken><748.8171><387.8311><-16~-62~0~0~0~~~0~0~0~1, DangleFruit><129.9272><411.0637><0~0~2~3, 
+AmbientSounds: OMNI><SO_NAT-Fire.ogg><735.6736><447.3493><0.5><1.45, OMNI><SO_SFX-UnderWaterSub.ogg><755.0446><337.195><0.7282609><0.6086956, 
+FadePalette: 75, 0.09782609
+WetTerrain: OFF

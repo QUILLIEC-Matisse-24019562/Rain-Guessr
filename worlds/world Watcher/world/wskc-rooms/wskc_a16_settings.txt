@@ -1,0 +1,9 @@
+Template: wskc_settingstemplate_inside
+WaveSpeed: 0.4891304
+WaveLength: 1
+SecondWaveLength: 0.1666668
+Effects: SilenceWater-0.5978261-232-246, BkgOnlyLightning-1-20-20, 
+PlacedObjects: CustomDecal><31.20786><27.30449><-105~738~2036~708~2166~-42~-74~-294~0~1~0~greybones~0.2717391~1~0.2717391~1~0.2717391~1~0.2717391~1, LillyPuck><594.0909><208.8788><-181~-160~2~3, LillyPuck><719.1318><209.1613><138.0001~35.00002~2~3, LillyPuck><1297.357><198.8312><0~0~2~3, LillyPuck><1401.449><205.9783><0~0~2~3, LillyPuck><1512.132><208.1615><0~0~2~3, LightSource><217.3999><568.8676><0.1847826~EffectColor1~128~-178~-313~-206.3975~1~0~None~0~0, LightSource><1792.134><586.837><0.173913~EffectColor1~132~-222~85~-59.39746~1~0~None~0~0, LightSource><1480.122><453.4083><0.08695652~Environment~-337~3~50~86.60254~1~1~None~0~0, LightSource><549.4476><472.0305><0.07608695~Environment~355~54~122.6793~-474.3975~1~1~None~0~0, GoldToken><668.4578><507.0749><-14.93408~85~-366.3836~-85~0~WSKC~~0, DeadTokenStalk><586.2112><528.2886><14.93414~84, DeadTokenStalk><711.9344><512.2426><-16.92535~94, 
+AmbientSounds: SPOT><so_ind-generator.ogg><300.8693><441.1514><0.2608696><0.6282609><1016.869><365.1514><-66.35535><-156.3553><0><0.2847827, SPOT><RWTW_SK_RainHeavy.wav><753.6754><131.9404><0.4350685><1><2069.545><280.9404><-35.35534><-35.35534><0><0.2731502, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_132 - Pitter Patter<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>149.3412<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>912.085<tB>399.049<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1020.283<tB>361.049<tA>handlePos<tB>-195.6482<tB>-237.3553, 
+FadePalette: 458, 0.3478261, 0.3478261

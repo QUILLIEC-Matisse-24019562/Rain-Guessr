@@ -1,0 +1,11 @@
+Template: NONE
+Clouds: 0
+Grime: 0
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+Palette: 81
+EffectColorB: 18
+Effects: Hue-0.352889-45.06134-107.7146, 
+PlacedObjects: LightSource><460.4041><353.8208><0.02188044~EffectColor2~-1353~-769~-180.678~-313.8089~0~1~None~0~0, CustomDecal><-192.3126><-50.43024><1~763~1350~762~1348~0~-209~-282~0~1~0~DirtyWaterLine~0.3043478~1~0.3043478~1~0.3043478~1~0.3043478~1, 
+AmbientSounds: OMNI><AM_IND-Fabrik01.ogg><356.445><28.69229><0.5><0.3543478, OMNI><AM_ENV-SubTerr.ogg><541.511><32.69971><0.1521739><1, OMNI><Deep Weird Wind.wav><728.5717><34.93671><0.05434782><1.9, 
+FadePalette: 83, 0.9021739

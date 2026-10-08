@@ -1,0 +1,25 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.3586957
+RumbleIntensity: 0.1086956
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04507615
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.09782609
+Grime: 0
+Palette: 69
+EffectColorA: 8
+EffectColorB: 8
+TerrainLight: 0.4456522
+TerrainStainAmount: 0.6086956
+TerrainStainHeight: 0.6739131
+TerrainWaves: 0.2065217
+TerrainGrain: 0.7847821
+TerrainDepth: 2.33695
+TerrainPalette: outerrim
+PlacedObjects: CustomDecal><128.5457><-307.5707><-51~721~984~689~889~-53~0~0~0~1~0~rustb2~0.5217391~0.7173913~0.5217391~0.7173913~0.5217391~0.7173913~0.5217391~0.7173913, TerrainHandle><779.7428><37.42502><-40~0~63~-7~197, TerrainHandle><593.5902><-2.504822><-77~2~134~-5~149, TerrainHandle><370.5501><48.86774><-82~-17~40~0~168, CosmeticSlimeMold><980.1348><63.71167><-9~79, SlimeMold><952.5305><89.92746><0~0~2~3, SlimeMold><915.3442><56.30157><0~0~2~3, GooDrips><313.7362><272.9255><2~90~0~0~0.5, LightSource><314.1349><85.97736><0.173913~EffectColor1~-173~56~50~86.60254~0~0~None~0~0, RippleSpawnEgg><622.1332><182.9124><, RippleSpawnEgg><409.4354><186.075><, RippleSpawnEgg><841.7607><188.1997><, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><763.4386><476.8084><0.1521739><1, OMNI><RWTW_RotAmb_VanillaRot.ogg><757.949><388.1453><0.1521739><1, 
+FadePalette: 22, 0.3478261

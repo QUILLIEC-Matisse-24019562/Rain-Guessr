@@ -1,0 +1,5 @@
+Template: warc_settingstemplate_cistern
+Palette: 98
+PlacedObjects: CustomDecal><254.8965><255.4657><-9.876862~184.4494~373.962~164.0783~362.2332~6.790375~-372.2349~-169.7588~0~1~0~xrootscreen~0.5034724~1~0.5034724~1~0.5034724~1~0.5034724~1, 
+AmbientSounds: SPOT><waterGurgleLOOP1.wav><765.8851><329.486><0.4060622><1><189.4156><337.3646><-10.04587><-230.4237><0><0.1, 
+FadePalette: 10, 0.7054321

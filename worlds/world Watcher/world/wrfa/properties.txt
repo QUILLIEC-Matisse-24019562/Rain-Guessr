@@ -1,0 +1,24 @@
+kelpColor: 0.04,0.33,0.26
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+Subregion: Coral Caves
+Subregion: Deep Reef
+rippleSpiderThreshold: 15
+playerGuideOverseerSpawnChance: 0
+proceduralMusicBank: wrfa
+pupSpawnChance: 0.10
+Room_Attr: WRFA_F05: Vulture-Avoid,KingVulture-Avoid,
+Room_Attr: WRFA_E04: Scavenger-Like,ScavengerElite-Like,
+Room_Attr: WRFA_D06: Angler-Forbidden,
+Room_Attr: WRFA_F06: Angler-Stay,
+Room_Attr: WRFA_I01: Angler-Forbidden,
+Room_Attr: WRFA_A20: Angler-Forbidden,
+Room_Attr: WRFA_B09: Angler-Forbidden,
+Room_Attr: WRFA_B10: Angler-Forbidden,
+Room_Attr: WRFA_D08: Angler-Forbidden,
+Room_Attr: WRFA_SK04: Vulture-Avoid,

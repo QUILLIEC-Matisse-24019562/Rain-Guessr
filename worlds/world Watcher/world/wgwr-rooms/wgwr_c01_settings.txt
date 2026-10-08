@@ -1,0 +1,4 @@
+Grime: 0.1645232
+EffectColorB: 16
+Effects: ModifyEffectColorB-0,0.216436,0.2641164-1048.507-326, 
+PlacedObjects: Rattler><755.4409><295.5612><, Rattler><2001.43><153.2046><, Rattler><2371.406><241.6976><, NoSpearStickZone><3281.198><497.5293><2.986816~158, NoSpearStickZone><272.8671><558.8248><111.5081~114, RottenDangleFruit><723.4412><155.5253><0~0~2~3, RottenDangleFruit><1375.123><246.575><24~83~2~3, RottenDangleFruit><1688.278><85.08133><0~0~2~3, KarmaFlowerPatch><1482.617><41.05014><22~207~0.6277548~0~0~0.25~0.5, KarmaFlowerPatch><2828.801><29.34494><-52~197~0.4634708~0~0~0.25~0.5, PrinceFilter><1454.525><43.07658><-13~59~0~0~3~1~1, PrinceFilter><2809.18><16.55797><-30~42~0~0~3~1~1, 

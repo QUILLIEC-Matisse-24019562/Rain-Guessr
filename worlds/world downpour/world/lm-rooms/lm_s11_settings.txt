@@ -1,0 +1,11 @@
+Template: LM_SettingsTemplate_Sewer
+DangerType: Flood
+CeilingDrips: 0.6847826
+Clouds: 1
+Grime: 0
+BkgDroneVolume: 0
+Palette: 35
+EffectColorA: 12
+PlacedObjects: BrokenShelterWaterLevel><634.7582><470.8002><, 
+AmbientSounds: OMNI><AM_RAIN-Rumbles.ogg><811.4434><485.3082><0.2173913><1, 
+FadePalette: 10, 0.6630435

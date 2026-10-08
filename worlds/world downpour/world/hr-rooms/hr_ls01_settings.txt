@@ -1,0 +1,15 @@
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0
+SecondWaveAmplitude: 1
+Clouds: 0.7608696
+Grime: 0.06521739
+WaterReflectionAlpha: 0
+Palette: 39
+EffectColorA: 18
+EffectColorB: 15
+Effects: WaterFluxMaxLevel-0.07608695-464-603, LightRain-1-0-0, LightBurn-0.2391304-211-104, FairyParticles-1-0-0, SkyAndLightBloom-0-436-376, HeatWave-1-458-506, VoidMelt-0-670-545, Hue-1-692-419, Contrast-0.02173913-616-229, 
+PlacedObjects: LightSource><382.5736><386.564><0~EffectColor1~756~-304~50~86.60254~1~0~None~0~0, FairyParticleSettings><1344.222><355.9481><-192~-404.3398~1~7.065217~37.5~0~1~2.35436~60~180~40~100~0~19.56522~0~23.47826~0.1086956~0.1413043~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, LightSource><2066.879><400.841><1~EffectColor1~-104~-34~-756~-26.39752~0~0~None~0~0, LightSource><372.4937><284.8001><0.5217391~EffectColor1~-431~199~50~86.60254~1~0~None~0~0, SpotLight><2109.353><-46.63559><-136~765~440~315~377~7, LightSource><2374.697><420.0353><0.5978261~EffectColor1~-303~147~50~86.60254~0~0~None~0~0, LightSource><1999.947><556.943><1~EffectColor1~-166~-17~50~86.60254~0~0~None~1~0, LightSource><2302.609><559.6841><1~EffectColor1~-118~83~50~86.60254~0~0~None~1~0, LightSource><2149.474><368.0517><1~EffectColor1~-681~236~50~86.60254~0~0~None~0~0, LightBeam><1777.376><5.344696><208~717~347~715~40~0~0~0~0.08478247~0~0~0~None~0~0, LightBeam><2155.107><90.89023><117~674~248~652~40~0~-101~143~0.08478314~0~0~0~None~0~0, LightSource><2219.563><53.11337><1~Environment~333~48~50~86.60254~0~0~None~0~0, LightSource><1833.345><558.5742><1~EffectColor1~-216~44~50~86.60254~0~0~None~0~0, 
+AmbientSounds: DIR><SO_NAT-Stove.ogg><568.6891><428.8151><0.5978261><0.6478261><-180><0, 
+FadePalette: 31, 0, 0

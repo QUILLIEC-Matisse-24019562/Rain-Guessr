@@ -1,0 +1,7 @@
+Template: wtda_settingstemplate_tomb
+DangerType: None
+Clouds: 0
+Effects: LightBurn-0.4653383-40.95169-99, 
+PlacedObjects: LightSource><464.2614><386.6721><0.1883631~Environment~-8.96051~53~50~86.60254~1~1~None~0~0, CustomDecal><245.898><214.5262><8.960449~263~446.2079~232~429.2826~0~0~0~0~1~0~yellowrust~0.3160288~1~0.3160288~1~0.3160288~1~0.3160288~1, ShelterSpawnPoint><472.3003><213.0105><, 
+AmbientSounds: OMNI><AM_SUB-BlankState.ogg><749.0427><260.125><0.1537018><1, 
+FadePalette: 337, 0.5519129

@@ -1,0 +1,7 @@
+Template: NONE
+DangerType: Flood
+Palette: 210
+EffectColorA: 13
+EffectColorB: 2
+PlacedObjects: LightSource><453.8003><340.2395><0.05434782~EffectColor1~-123~144~-654~-3.397461~0~1~None~0~0, LightSource><195.1913><480.1915><0.04347858~EffectColor1~233~-28~-371~0.6025391~0~1~None~0~0, LightSource><418.8362><427.3647><0.1956522~EffectColor2~-88~155~50~86.60254~0~0~None~0~0, LightSource><137.0414><397.3044><0.2717391~EffectColor2~277~-34~-165~-213.3975~0~0~None~0~0, GlowWeed><347.0664><181.8294><-544~-92~2~3, GlowWeed><685.0049><161.3053><-126~226~2~3, GlowWeed><618.4497><85.76122><-691~-106~2~3, LightFixture><641.7502><277.1551><GlowWeedLight~104.512~174.525~57, LightFixture><209.8153><117.3379><GlowWeedLight~17.32051~-10~84, LightFixture><1032.363><133.4623><GlowWeedLight~-298.1075~26.73416~94, 
+AmbientSounds: OMNI><SO_WAT-OpenFlow.ogg><38.1499><522.3824><0.2065217><1, OMNI><SO_SFX-Drowning.ogg><40.00146><432.05><0.2065217><1, OMNI><AM_WIN-SubWnd.ogg><41.88043><352.9103><0.2826087><1, 

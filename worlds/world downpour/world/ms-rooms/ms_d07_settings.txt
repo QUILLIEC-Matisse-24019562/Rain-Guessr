@@ -1,0 +1,4 @@
+Clouds: 1
+BkgDroneVolume: 0.2769565
+PlacedObjects: SuperStructureFuses><916.6569><330.8759><107~52, SuperStructureFuses><1613.603><337.8285><118~60, SuperStructureFuses><2317.446><337.2082><110~53, SuperStructureFuses><3018.517><331.9492><115~57, SuperStructureFuses><3875.802><155.026><202~489, 
+FadePalette: 33, 0.6086956, 0.6086956, 0.6086956, 0.6086956

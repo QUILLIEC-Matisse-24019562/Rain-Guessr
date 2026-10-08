@@ -1,0 +1,14 @@
+Template: HR_SettingsTemplate_End
+DangerType: None
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorA: 1
+Effects: VoidMelt-0-289-14, Darkness-0-554-130, HeatWave-0.4891304-690-251, Contrast-0.09782609-552-55, Hue-0-808-127, Brightness-0.0326087-811-57, FireFlies-0.1086956-272-128, 
+PlacedObjects: LightSource><492.7998><390.3063><0.1521739~Environment~-631~98~-69~129.6025~1~0~Fade~0.5~0, CellDistortion><479.566><376.8285><-999~-639~-122~-294.3975~0.4021739~0.1521739~0.1086956~0.04347826, 
+FadePalette: 36, 0.2934783
+RoomSpecificScriptActive: ON
+WetTerrain: OFF

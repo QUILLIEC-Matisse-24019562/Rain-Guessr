@@ -1,0 +1,7 @@
+Clouds: 0
+Grime: 0
+Palette: 80
+EffectColorB: 21
+Effects: DarkenLights-0.8051803-20-20, 
+AmbientSounds: SPOT><waterGurgleLOOP1.wav><743.1337><553.6012><0.4021739><1><468.1337><51.6012><-113.3553><-20.35534><0><0.1, OMNI><SO_NAT-WindTunnel.ogg><147.7044><10.30527><0.1521739><1, 
+FadePalette: 33, 0.9021739

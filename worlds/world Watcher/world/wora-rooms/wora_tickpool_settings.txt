@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: Sandstorm
+WaveAmplitude: 0.0326087
+SecondWaveAmplitude: 1
+Clouds: 0.1630435
+Grime: 0.4347826
+WaterReflectionAlpha: 1
+Palette: 47
+Effects: SilenceWater-1-20-20, DirtyWater-1-39-81, 
+PlacedObjects: CustomDecal><82.66498><8.43103><-48~300~1157~314~1086~-24~752~261~0~1~1~dirtywaterline~1~1~1~1~0~1~0~1, CustomDecal><51.80365><-30.80733><-106~737~1403~837~1186~-57~-103~91.00002~0~1~1~rust2~0.4673913~1~0.4673913~1~0.4673913~1~0.4673913~1, CustomDecal><333.3589><268.6417><-4~121~133~93~108~-44~264~93~0.2934783~1~0~junkgraffiti3~0.5760869~0.1195652~0.5760869~0.1195652~0.5760869~0.1195652~0.5760869~0.1195652, LightFixture><526.968><642.6974><RedLight~-132.6795~-222~92, 
+FadePalette: 4, 0.2282609

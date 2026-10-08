@@ -1,0 +1,7 @@
+Template: NONE
+DangerType: Flood
+Grime: 0.3048782
+Palette: 209
+EffectColorA: 2
+PlacedObjects: LightSource><864.5405><489.2788><0.4796753~Environment~-245.3328~-112.7164~-625.3066~-53.49982~1~0~None~0~0, RippleSpawnEgg><777.2878><471.1309><, RippleSpawnEgg><688.5145><475.5275><, RippleSpawnEgg><527.7121><472.0429><, 
+AmbientSounds: SPOT><SO_IND-Turbine.ogg><726.8897><311.0185><0.5><1><700.8372><40.67363><231.348><-42.18959><0><0.3508712, OMNI><SO_WAT-OpenFlow.ogg><746.8568><475.3932><0.1570853><1, SPOT><AM_WIN-NiceWnd.ogg><467.6995><549.7543><0.3513363><1><978.4728><528.86><-158.4493><-81.48657><0><0.1836236, 

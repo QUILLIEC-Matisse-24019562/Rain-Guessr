@@ -1,0 +1,5 @@
+Template: MS_SettingsTemplate_Vents
+RumbleIntensity: 0.8695652
+Effects: LightBurn-0.173913-281-12, Darkness-0.6630435-286-68, BrokenZeroG-0.6086956-278-127, ElectricDeath-0.2282609-24-14, 
+PlacedObjects: LightSource><477.1354><1180.103><0.1630435~Environment~476~-316~49~-151.3975~1~0~None~0~0, LightFixture><424.148><772.3845><RedLight~17.32051~-10~0, LightFixture><880.1858><945.324><RedLight~17.32051~-10~0, LightFixture><115.1396><431.0833><RedLight~17.32051~-10~54, LightFixture><749.1447><347.42><RedLight~17.32051~-10~0, DangleFruit><607.6023><1387.828><0~0~2~3, DangleFruit><694.3024><1357.969><0~0~2~3, DangleFruit><663.5985><1390.826><0~0~2~3, DangleFruit><305.3261><1315.901><0~0~2~3, DangleFruit><277.6906><1342.939><0~0~2~3, 
+FadePalette: 13, 0.2391304, 0.25

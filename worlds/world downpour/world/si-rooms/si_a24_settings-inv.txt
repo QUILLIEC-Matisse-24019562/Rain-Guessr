@@ -1,0 +1,6 @@
+Clouds: 0.2717391
+BkgDroneVolume: 0.2608696
+EffectColorA: 11
+EffectColorB: 12
+PlacedObjects: SSLightRod><643.944><308.7984><-20.6795~-217~0.1086956~90~211.167~0.5, SSLightRod><151.2419><377.1932><17.32051~-10~0.1349162~0~261.0705~0.5, CorruptionTube><205.6954><117.7821><86~161, CorruptionTube><217.8><194.2492><267~89, Corruption><560.7502><283.4421><29~141, 
+FadePalette: 33, 0.7826087

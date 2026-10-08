@@ -1,0 +1,12 @@
+Template: HR_SettingsTemplate_HellUpper
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.4230433
+PlacedObjects: LightSource><448.1941><-44.95184><0.173913~Environment~1224~752~50~86.60254~0~1~None~0~0, FairyParticleSettings><4.088806><286.5708><-1061~-3.339752~1~7.065217~37.5~0~1~2.09349~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~77.82593~1~0.6521739, DangleFruit><579.754><260.45><0~0~2~3, DangleFruit><808.6436><263.0807><0~0~2~3, DangleFruit><755.6252><364.0937><0~0~2~3, 
+AmbientSounds: SPOT><AM_WIN-HowlingWnd.ogg><743.9489><549.2713><0.4021739><0.4717391><534.9489><-40.7287><-325.3553><307.6447><0><1, SPOT><AM_IND-Utility02.ogg><561.6075><553.8904><0.3478261><1><1047.608><431.8904><-242.3553><-54.35535><0><0.502174, SPOT><AM_SUB-BlankState.ogg><383.5613><500.1838><0.326087><1><-74.43872><499.1838><261.6447><-177.3553><0><0.5130436, 
+FadePalette: 75, 0.4347826
+WetTerrain: OFF

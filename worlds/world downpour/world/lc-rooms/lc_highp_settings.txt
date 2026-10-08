@@ -1,0 +1,4 @@
+Clouds: 0
+Grime: 0.1630435
+Palette: 30
+EffectColorA: 14

@@ -1,0 +1,4 @@
+Template: WPTA_SettingsTemplate_SpireInside
+Grime: 0.1521739
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><739.2808><424.7649><0.2212551><1, 
+FadePalette: 3, 0.4021739

@@ -1,0 +1,16 @@
+Template: wvwa_settingstemplate_pillars
+DangerType: Flood
+WaveSpeed: 0.5120703
+WaveLength: 0.7439649
+WaveAmplitude: 0.04946124
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.1537018
+WaterReflectionAlpha: 1
+Palette: 452
+EffectColorA: 6
+EffectColorB: 7
+Effects: SkyBloom-0.1406837-20-20, Ripple Settings-0-1009-422-White-WARD-ward_e26-0-6.6-32-1, 
+PlacedObjects: LightSource><242.3143><531.3087><0.0909676~Environment~551.7164~-24.96002~50~86.60254~1~1~None~0~0, LightSource><697.5349><546.2587><0.08014446~Environment~412.3925~-338.2458~50~86.60254~1~1~None~0~0, CustomDecal><209.3789><-16.5719><-635.1976~832~1123.221~788~685.1537~1~0~0~0~1~0~blackrust1~0.2402762~1~0.2402762~1~0.2402762~1~0.2402762~1, Geyser><394.5287><13.28946><6.103516E-05~281.9622~0.5, Geyser><581.2645><7.262951><-3.41925~304.1735~0.8623684, 
+FadePalette: 10, 0.04328753

@@ -1,0 +1,149 @@
+ROOMS
+GATE_UW_LC : DISCONNECTED , LC_B04, DISCONNECTED : GATE
+LC_B04 : LC_splitpath, GATE_UW_LC
+LC_splitpath : LC_shelter_above, LC_entrancezone, LC_B04
+LC_shelter_above : LC_splitpath : SHELTER
+LC_entrancezone : LC_splitpath, LC_C12, LC_cramped
+LC_cramped : LC_entrancezone, LC_deepslumsuh
+LC_C12 : LC_C07, LC_C05, LC_entrancezone
+LC_deepslumsuh : LC_C05, LC_cramped, LC_longslum
+LC_C05 : LC_C12, LC_scavtreasury, LC_deepslumsuh
+LC_scavtreasury : LC_C05
+LC_longslum : LC_deepslumsuh, DISCONNECTED, LC_floorpipes : SCAVOUTPOST
+LC_floorpipes : LC_betweenwalls, LC_A04, LC_02A, LC_longslum
+LC_betweenwalls : LC_rooftophop, LC_floorpipes
+LC_A04 : LC_A05, LC_slumtowers, LC_floorpipes
+LC_A05 : LC_A04 : SHELTER
+
+LC_C07 : LC_C10, LC_C12
+LC_C10 : LC_rooftophop, LC_C07 : SCAVOUTPOST
+LC_rooftophop : LC_C10, LC_tallestconnection, LC_sroofs, LC_betweenwalls
+LC_sroofs : LC_rooftophop : SHELTER
+LC_tallestconnection : LC_towerCLIMB, LC_rooftophop
+LC_towerCLIMB : LC_C03, LC_tallestconnection
+
+LC_THECLIMB : LC_capbase, DISCONNECTED, LC_tallbreak
+LC_capbase : LC_highestpoint, LC_THECLIMB
+LC_highestpoint : LC_capbase
+LC_tallbreak : LC_THECLIMB, LC_C03 : SWARMROOM
+LC_C03 : LC_tallbreak, LC_towerCLIMB, LC_tallSlums
+LC_tallSlums : LC_C03, LC_longori, LC_slumtowers
+LC_slumtowers : LC_tallSlums, LC_A04
+LC_longori : LC_tallSlums, LC_gatehouse01, DISCONNECTED, LC_downwards
+LC_gatehouse01 : LC_gatehouse02, LC_longori
+LC_gatehouse02 : LC_gatehouse03, LC_gatehouse01
+LC_gatehouse03 : LC_girderwalk, LC_gatehouse02
+LC_girderwalk : LC_topdoor, LC_S03, LC_gatehouse03
+LC_S03 : LC_girderwalk : SHELTER
+
+LC_downwards : LC_longori, LC_streets
+LC_streets : LC_downwards, LC_fence, LC_S01
+LC_S01 : LC_streets : SHELTER
+LC_fence : LC_streets, LC_crash
+LC_crash : LC_ruin01, LC_fence
+LC_ruin01 : LC_crash, LC_ruin02
+LC_ruin02 : LC_ruin01, LC_ruin03, LC_templegate
+LC_ruin03 : LC_ruin02, LC_mallentrance, LC_SUBWAY02 : SWARMROOM
+LC_templegate : LC_A02, LC_ruin02
+LC_A02 : LC_templegate, LC_templeentrance
+
+LC_02A : LC_floorpipes, LC_stripmallNEW, LC_C08, LC_SUBWAY01
+LC_SUBWAY01 : DISCONNECTED, LC_SUBWAY02, LC_02A
+LC_SUBWAY02 : LC_ruin03, LC_station01, LC_SUBWAY01
+LC_station01 : LC_SUBWAY02, LC_S06, LC_SUBWAY03
+LC_SUBWAY03 : LC_SUBWAY04, LC_station01
+LC_SUBWAY04 : LC_PIPES05, LC_SUBWAY03
+LC_S06 : LC_station01 : SHELTER
+LC_C08 : LC_ShelterTrain1, LC_02A
+LC_ShelterTrain1 : LC_C08 : SHELTER
+LC_stripmallNEW : LC_02A, LC_mallentrance : SCAVOUTPOST
+LC_mallentrance : LC_ruin03, LC_stripmallNEW
+
+LC_templeentrance : LC_templeshaft, LC_A02, LC_S05
+LC_S05 : LC_templeentrance : SHELTER
+LC_templeshaft : LC_junction, LC_corner, LC_templeentrance
+LC_LAB02 : LC_topshaft, LC_junction, LC_corner
+LC_corner : LC_LAB02, LC_templeshaft, LC_PIPES02
+LC_junction : LC_LAB02, LC_LAB01, LC_templeshaft
+LC_LAB01 : LC_toplab, LC_midlab, DISCONNECTED, DISCONNECTED, LC_PIPES01, DISCONNECTED, LC_junction, LC_LAB05
+LC_midlab : LC_LAB03, LC_LAB01, LC_LAB04
+LC_LAB03 : LC_midlab, LC_elevatorentrance
+LC_LAB04 : LC_midlab, LC_LAB06, LC_LAB05
+LC_LAB05 : LC_LAB04, LC_LAB01
+LC_LAB06 : LC_elevatorentrance, LC_LAB04
+
+LC_topdoor : LC_templetoll, LC_girderwalk, LC_topshaft
+LC_topshaft : LC_topdoor, LC_toplab, LC_LAB02
+LC_toplab : LC_topshaft, DISCONNECTED, DISCONNECTED, LC_LAB01
+LC_templetoll : LC_westdome, LC_topdoor : SCAVOUTPOST
+LC_westdome : LC_dome, LC_FINAL, LC_templetoll
+LC_FINAL : LC_westdome : ARENA
+LC_dome : LC_westdome, LC_eastdome
+LC_eastdome : LC_dome, LC_topexit
+LC_topexit : LC_eastdome, LC_tophall, LC_S04
+LC_S04 : LC_topexit : SHELTER
+LC_tophall : LC_elevatorupper, LC_topexit
+LC_elevatorupper : LC_tophall, LC_elevatorcab
+LC_elevatorcab : LC_elevatorupper, LC_elevatorentrance, LC_elevatorlower
+LC_elevatorlower : LC_elevatorcab, LC_PIPES01
+LC_elevatorentrance : LC_LAB03, LC_elevatorcab, LC_LAB06
+
+LC_PIPES01 : LC_LAB01, LC_PIPES03, LC_elevatorlower
+LC_PIPES02 : LC_PIPES03, LC_corner, LC_PIPES04
+LC_PIPES03 : LC_PIPES01, DISCONNECTED, DISCONNECTED, LC_PIPES02, LC_PIPES04
+LC_PIPES04 : LC_PIPES03, LC_PIPES02, LC_PIPES05
+LC_PIPES05 : LC_PIPES04, LC_SUBWAY04
+END ROOMS
+
+CREATURES
+//all
+OFFSCREEN : 0-Vulture-6, 0-KingVulture-1-{Night}, 0-Miros Bird-10-{Ignorecycle}, 0-Scavenger-15-{Ignorecycle}, 0-Elite-4-{Night}
+(Artificer)OFFSCREEN : 0-KingVulture-3-{Ignorecycle}, 0-Scavenger-40, 0-Elite-3-{Ignorecycle}, 0-Elite-12-{Night}
+LC_betweenwalls : 2-TubeWorm-3
+LC_deepslumsuh : 6-Yellow-2, 3-TubeWorm-3, 4-TubeWorm
+LC_longslum : 5-Small Centipede-1-{AlternateForm}, 9-Small Centipede-2-{AlternateForm}, 10-Cyan-{Ignorecycle}, 7-CicadaA-2, 8-CicadaB-3, 7-SpitterSpider-{Night}
+LC_tallSlums : 3-Drop Bug
+LC_C12 : 3-TubeWorm-2, 3-BigSpider-{Night}
+LC_C05 : 4-TubeWorm
+LC_C08 : 3-CicadaA-1, 3-CicadaB-3
+LC_tallestconnection : 4-Centiwing-2, 4-SpitterSpider-{Night}
+LC_towerCLIMB : 2-TubeWorm-2, 3-Small Centipede-3-{AlternateForm}, 4-Centiwing
+LC_fence : 3-TubeWorm-2, 6-Small Centipede-3-{AlternateForm}, 6-Drop Bug, 6-BigSpider-3-{Night}
+LC_slumtowers : 3-Centiwing, 3-Small Centipede-3-{AlternateForm}
+LC_rooftophop : 4-White-{Ignorecycle}, 5-Cyan-{Ignorecycle}, 7-CicadaA-2, 8-CicadaB-3
+LC_floorpipes : 4-White-{Ignorecycle}, 6-TubeWorm-3, 5-Eggbug
+LC_longori : 4-Small Centipede-3-{AlternateForm}, 4-Centiwing, 5-Cyan-{Ignorecycle}, 6-TubeWorm, 7-TubeWorm
+LC_A04 : 3-Yellow-3, 3-BigSpider-2-{Night}
+LC_streets : 4-Small Centipede-2-{AlternateForm}
+LC_ruin01 : 2-Small Centipede-3-{AlternateForm}, 3-SpitterSpider-{Night}
+LC_ruin02 : 10-Yellow-3, 6-Small Centipede-3-{AlternateForm}, 7-TubeWorm, 11-TubeWorm-2
+LC_ruin03 : 8-Yellow-2, 5-TubeWorm
+LC_stripmallNEW : 6-Yellow-4-{Ignorecycle}
+LC_LAB01 : 17-Inspector-{Ignorecycle}
+LC_gatehouse01 : 2-TubeWorm-2, 4-TubeWorm, 5-TubeWorm, 3-Drop Bug-2
+LC_gatehouse02 : 5-Small Centipede-3-{AlternateForm}
+LC_station01 : 3-Small Centipede-3-{AlternateForm}, 5-Spider-18-{Ignorecycle}, 4-TubeWorm, 7-TubeWorm-2, 6-Spider-10-{Ignorecycle}
+LC_PIPES03 : 6-TubeWorm-2
+LC_PIPES01 : 3-Small Centipede-{AlternateForm}, 5-Small Centipede-2-{AlternateForm}, 8-Small Centipede-2-{AlternateForm}
+LC_toplab : 7-Yellow-2
+LC_junction : 6-Spider-8-{Ignorecycle}
+LC_LAB02 : 4-Spider-18-{Ignorecycle}
+LC_templeshaft : 7-Spider-8-{Ignorecycle}
+LC_templeentrance : 3-Spider-20-{Ignorecycle}
+LC_LAB05 : 4-Spider-20-{Ignorecycle}
+LC_LAB04 : 4-Spider-8-{Ignorecycle}
+LC_LAB06 : 4-Miros Bird-3-{Ignorecycle}, 5-Spider-18-{Ignorecycle}
+LC_midlab : 5-White-{Ignorecycle}, 5-Spider-10-{Ignorecycle}
+LC_cramped : 2-Cyan-{Night}
+LC_mallentrance : 3-BigSpider-4-{Night}, 5-TubeWorm-2, 2-Eggbug-{Ignorecycle}
+LC_elevatorentrance : 5-TubeWorm-2
+LC_topexit : 3-TubeWorm, 4-TubeWorm
+LC_crash : 2-Small Centipede-2-{AlternateForm}, 6-SpitterSpider-{Night}, 5-CicadaA-2, 7-CicadaB-3
+LC_downwards : 2-Eggbug-{Ignorecycle}
+END CREATURES
+
+BAT MIGRATION BLOCKAGES
+LC_girderwalk
+LC_B04
+LC_THECLIMB
+END BAT MIGRATION BLOCKAGES

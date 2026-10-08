@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.5
+RumbleIntensity: 0.1086956
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.0490876
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.1630435
+Palette: 69
+Effects: SurfaceSandstorm-0.2173913-20-20, Outer Rim View-1-28.72946-97.24514, 
+PlacedObjects: FloatingDebris><381.1426><579.7937><-487~-263~2063080905~8~15~0.25~0.9239124~6~80|302~107|-136~0.14|0.19~0|-0.81~-0.28|0~Stardust~0.5~0.49v2.72v0v0|0.08v0.72v0v0~0, CustomDecal><557.8906><265.9576><-190~256~155~396~280~112~-411~-251~0.06521739~1~0.8369565~blackrust1~0.5978261~1~0.5978261~1~0.5978261~1~0.5978261~1, LightSource><561.0695><555.7109><0.6195652~Environment~333~-183~-316~-154.3975~1~0~None~0~0, RottenDangleFruit><740.45><488.8735><0~0~2~3, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><773.1971><476.0914><0.1521739><1, SPOT><RWTW_DustStorm_Gusting.ogg><785.9306><316.4374><0.3043478><1><544.7779><557.1844><-22.35535><-143.3553><0><0.2195653, OMNI><RWTW_RotAmb_VanillaRot.ogg><751.3245><549.8106><0.1521739><1, SPOT><RWTW_DustStorm_High.ogg><479.2398><264.5747><0.2391304><1><470.2398><318.5747><-35.35534><-35.35534><0><0.1, 
+FadePalette: 35, 0.2608696

@@ -1,0 +1,6 @@
+Template: WSKA_SettingsTemplate_Inside
+Palette: 457
+Effects: BkgOnlyLightning-1-20-20, 
+PlacedObjects: CustomDecal><82.73328><172.3286><-11~271~455~278~449~-50~-68.46811~-375.1699~0~1~0~greybones~0.1304311~1~0.1304311~1~0.1304311~1~0.1304311~1, LightSource><245.9182><305.6238><0.06520611~Environment~61~137~50~86.60254~1~1~None~0~0, 
+AmbientSounds: OMNI><am_ind-warehouse01.ogg><679.2822><335.3026><0><1, OMNI><AM_IND-Warehouse01.ogg><571.8149><332.5759><0><1, SPOT><RWTW_SK_RainHeavy.wav><721.8721><264.0381><0.337673><0.9220831><-179.0356><244.0381><-35.35534><-35.35534><0><1, 
+FadePalette: 458, 0.8043478

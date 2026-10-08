@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+Clouds: 0.141858
+Grime: 0
+Palette: 453
+Effects: ModifyEffectColorA-0.1607727,0.2162837,0.2446551-58.71213-93.49265, ModifyEffectColorB-0.3026302,0.08388287,0.3013989-323.6407-100.0136, 
+AmbientSounds: OMNI><MSC-LowGroans.ogg><49.95523><515.7587><0.2068263><0.4041953, OMNI><RWTW_AmbEmpty.ogg><33.01505><440.8706><0.4054278><1, 
+FadePalette: 460, 0.501232

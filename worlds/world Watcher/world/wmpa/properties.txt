@@ -1,0 +1,53 @@
+safariStartRoom: WMPA_S02
+batDepleteCyclesMin: 1
+batDepleteCyclesMax: 2
+batDepleteCyclesMaxIfLessThanTwoLeft: 1
+batDepleteCyclesMaxIfLessThanFiveLeft: 2
+batsPerActiveSwarmRoom: 2
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0
+softLightRegion: true
+rippleSpiderThreshold: 18
+fuseSize: 20
+rotPalette: 802
+Room Setting Templates: lowersands, tidelands
+Subregion: Migration Path
+Room_Attr: WMPA_A01: YellowLizard-Like,Vulture-Like,TowerCrab-Forbidden,PeachLizard-Avoid,
+Room_Attr: WMPA_A02: YellowLizard-Like,Vulture-Forbidden,PeachLizard-Avoid,
+Room_Attr: WMPA_A03: YellowLizard-Like,Vulture-Like,DrillCrab-Forbidden,TowerCrab-Forbidden,PeachLizard-Avoid,
+Room_Attr: WMPA_A04: YellowLizard-Like,Vulture-Forbidden,PeachLizard-Avoid,
+Room_Attr: WMPA_A05: YellowLizard-Like,Vulture-Forbidden,PeachLizard-Avoid,
+Room_Attr: WMPA_A06: YellowLizard-Like,Vulture-Like,DrillCrab-Like,TowerCrab-Forbidden,PeachLizard-Avoid,
+Room_Attr: WMPA_A07: YellowLizard-Like,Vulture-Stay,DrillCrab-Forbidden,TowerCrab-Forbidden,PeachLizard-Avoid,
+Room_Attr: WMPA_A08: YellowLizard-Like,Vulture-Like,DrillCrab-Like,TowerCrab-Forbidden,PeachLizard-Avoid,
+Room_Attr: WMPA_A09: TowerCrab-Forbidden,PeachLizard-Avoid,
+Room_Attr: WMPA_B01: WhiteLizard-Like,Vulture-Like,TowerCrab-Forbidden,PeachLizard-Like,
+Room_Attr: WMPA_B02: WhiteLizard-Like,TowerCrab-Forbidden,PeachLizard-Like,
+Room_Attr: WMPA_B03: WhiteLizard-Like,DrillCrab-Avoid,TowerCrab-Forbidden,PeachLizard-Like,
+Room_Attr: WMPA_B04: WhiteLizard-Like,TowerCrab-Forbidden,PeachLizard-Like,
+Room_Attr: WMPA_B05: WhiteLizard-Like,Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DrillCrab-Forbidden,TowerCrab-Forbidden,PeachLizard-Like,
+Room_Attr: WMPA_B06: WhiteLizard-Like,PeachLizard-Like,
+Room_Attr: WMPA_B07: WhiteLizard-Like,PeachLizard-Like,
+Room_Attr: WMPA_B08: Snail-Avoid,Vulture-Forbidden,PeachLizard-Like,
+Room_Attr: WMPA_C01: Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DrillCrab-Stay,TowerCrab-Stay,PeachLizard-Like,
+Room_Attr: WMPA_C02: Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DrillCrab-Stay,TowerCrab-Stay,PeachLizard-Like,
+Room_Attr: WMPA_C03: Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,TowerCrab-Forbidden,PeachLizard-Like,
+Room_Attr: WMPA_C04: Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WMPA_C06: Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,TowerCrab-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WMPA_C07: Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WMPA_D01: Snail-Like,Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DrillCrab-Forbidden,TowerCrab-Forbidden,Barnacle-Avoid,PeachLizard-Like,
+Room_Attr: WMPA_D02: Snail-Like,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,Barnacle-Like,PeachLizard-Like,
+Room_Attr: WMPA_D03: Snail-Like,Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,TowerCrab-Forbidden,Barnacle-Like,PeachLizard-Like,
+Room_Attr: WMPA_D04: Snail-Like,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,Barnacle-Like,PeachLizard-Like,
+Room_Attr: WMPA_D05: Snail-Like,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,Barnacle-Like,PeachLizard-Like,
+Room_Attr: WMPA_D06: Snail-Like,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,Barnacle-Like,PeachLizard-Like,
+Room_Attr: WMPA_D07: Snail-Forbidden,Vulture-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WMPA_D08: Snail-Like,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,Barnacle-Like,PeachLizard-Like,
+Room_Attr: WMPA_D09: Snail-Avoid,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WMPA_S01: PeachLizard-Forbidden,
+Room_Attr: WMPA_S02: YellowLizard-Forbidden,PeachLizard-Forbidden,
+Room_Attr: WMPA_S03: PeachLizard-Forbidden,
+Room_Attr: WMPA_S04: PeachLizard-Forbidden,
+Room_Attr: WMPA_S05: Snail-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DrillCrab-Forbidden,TowerCrab-Forbidden,PeachLizard-Forbidden,

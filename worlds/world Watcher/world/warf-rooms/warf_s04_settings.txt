@@ -1,0 +1,8 @@
+Clouds: 0
+Grime: 0
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+WaterReflectionAlpha: 0
+Palette: 81
+PlacedObjects: CustomDecal><435.9694><145.0523><0~107~109~100~129~7~393~-106~0.1847826~1~0~BlackRust1~1~1~1~1~1~1~1~1, 
+FadePalette: 83, 0.9239131

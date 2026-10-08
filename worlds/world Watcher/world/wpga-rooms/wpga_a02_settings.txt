@@ -1,0 +1,5 @@
+Template: wpga_settingstemplate_inside
+Effects: LightBurn-0.2272583-30-30, 
+PlacedObjects: DangleFruit><525.9941><408.1108><186.1786~77~2~3, DangleFruit><494.8925><449.3213><-671.0396~-145~2~3, DataPearl><418.8633><565.4956><106.53~-2~0~0~Misc~0, CustomDecal><392.9507><145.7138><-32.85504~537~276.9546~425~324.7438~-2~-169.2534~-482~0~1~0~greybones~0.1104146~1~0.1104146~1~0.1104146~1~0.1104146~1, WarpPoint><511.2567><332.1613><0~0~NULL~NULL~NULL~NULL~NULL~NULL~137aed56-1be4-45d3-b2ef-0eae7ad9a653~WatcherOnly~0~6~8~4~8~4~4~4~7~150~150~-1~0~0~true~true~false~false~false~0~-1~false, 
+AmbientSounds: OMNI><SO_WAT-DripTap.ogg><711.3362><534.5961><0.2186326><1, SPOT><SO_SFX-DeepLake.ogg><279.1424><256.6169><0.1861672><1><507.2537><330.6169><-62.23676><-89.35535><0><0.1865742, 
+FadePalette: 471, 0.6709529

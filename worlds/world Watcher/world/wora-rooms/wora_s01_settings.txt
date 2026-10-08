@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: Sandstorm
+Clouds: 0.6739131
+Grime: 0
+BkgDroneVolume: 0
+Palette: 69
+TerrainLight: 0.1298616
+TerrainWaves: 0
+TerrainEdgeRadius: 118.4379
+TerrainGrain: 0
+TerrainPalette: test_soot
+PlacedObjects: CustomDecal><269.1208><102.1779><110.5125~490~284.9194~582~355.6078~-67~-382.3133~59.00002~0~0.1667197~0~rust1~0.4242474~1~0.2943852~1~0.4999997~1~0.2619199~1, CustomDecal><278.0633><33.47189><-35.84186~607~470.1024~628~398.4186~0~752.6796~-312~0.303011~1~0~rustb2~0.3160281~1~0.3160281~1~0.3160281~1~0.3160281~1, ShelterSpawnPoint><466.2261><209.5163><, 
+AmbientSounds: SPOT><SO_IND-MechHum01.ogg><420.1967><106.5748><0.251098><0.3961425><366.9302><276.5748><-35.35534><-35.35534><0><0.2082188, OMNI><RWTW_DustStorm_Deep.ogg><806.1277><538.1539><0.1847826><0.8630434, 
+FadePalette: 35, 0.4338276

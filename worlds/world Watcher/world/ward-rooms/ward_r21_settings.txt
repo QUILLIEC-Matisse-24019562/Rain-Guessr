@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0
+Grime: 0
+Palette: 80
+EffectColorA: 10
+EffectColorB: 3
+Effects: Fog-0.1086956-20-20, DarkenLights-0.5014738-35.12619-89.8054, 
+PlacedObjects: CustomDecal><423.8869><335.8351><-4~163~105~162~111~0~-844~-675~0.2934783~0.326087~0~TireMouth~1~0~0~0~1~1~0~1, LanternOnStick><453.6873><33.93988><0~564, LanternOnStick><486.8796><721.9023><0~-326, Corruption><471.5931><346.124><-9~63, LightSource><473.5019><431.6141><0.01086957~EffectColor2~132~-130~-393~-163.3975~1~1~None~0~0, 
+AmbientSounds: OMNI><SO_IND-HVAC.ogg><740.7103><175.554><0.1304348><1, OMNI><SO_SFX-GlassGhost.ogg><714.2343><51.19937><0.06521739><1.743478, OMNI><SO_SFX-LakeBottom.ogg><770.9417><431.5572><0.2282609><1, OMNI><SO_IND-WeirdVent.ogg><466.9373><322.1798><0.1304348><1, 
+FadePalette: 454, 0.9008024

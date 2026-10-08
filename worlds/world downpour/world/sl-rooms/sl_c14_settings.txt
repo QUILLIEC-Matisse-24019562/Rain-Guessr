@@ -1,0 +1,4 @@
+Template: SL_SettingsTemplate_Sewer
+Clouds: 1
+PlacedObjects: LightFixture><108.9332><574.4197><RedSubmersible~17.32051~-10~2, LightFixture><786.6558><603.6763><RedSubmersible~17.3205~-10~52, GlowWeed><433.0148><547.8005><0~0~2~3, GlowWeed><502.1563><310.1248><-519~92~2~3, GlowWeed><505.3757><843.3433><0~0~2~3, GlowWeed><559.6578><983.6228><0~0~2~3, GlowWeed><580.3867><398.396><0~0~2~3, Filter><465.5392><442.1961><-206~163~-492~-162~Artificer|Saint|Spear, Filter><507.6404><920.8326><-32~178~91~201~Rivulet|Artificer|Saint|Spear, ExitSymbolHidden><864.3243><388.3455><, Filter><862.6415><394.1087><5~52~-118~90~Rivulet, 
+FadePalette: 10, 0.3478261, 0.6195652, 0.8804348

@@ -1,0 +1,12 @@
+Template: HR_SettingsTemplate_End
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Effects: VoidMelt-0.1304348-267-16, SSMusic-0.1847826-18-20, GreenSparks-0.05434782-266-125, 
+PlacedObjects: LightSource><-121.8599><325.3572><0.04347826~Environment~735~-418~50~86.60254~0~0~None~0~0, LightFixture><711.3608><458.3564><RedLight~-87.6795~118~57, LightFixture><499.6793><124.5886><RedLight~17.32051~-10~65, LightSource><474.3577><498.3906><0.1630435~Environment~647~-543~-325~38.60254~0~0~None~0~0, WallMycelia><165.6686><242.3925><15~168, WallMycelia><484.6018><550.6722><-98~175, WallMycelia><725.4583><465.6956><0~100, CellDistortion><434.9373><368.6799><1279~759~133~-384.3975~1~0.1195652~0.07608695~0.07608695, 
+FadePalette: 25, 0.3043478
+WetTerrain: OFF

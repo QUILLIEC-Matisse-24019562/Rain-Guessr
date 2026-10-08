@@ -1,0 +1,21 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.4565217
+RumbleIntensity: 0.1086956
+Clouds: 0.1630435
+Grime: 0
+Palette: 69
+TerrainLight: 0.08638332
+TerrainStainAmount: 1
+TerrainStainBrightness: 1
+TerrainStainHeight: 0
+TerrainWaves: 0.7826087
+TerrainEdgeRadius: 42.35097
+TerrainGooHeight: 0.08695652
+TerrainGrain: 1
+TerrainDepth: 1.195646
+TerrainPalette: outerrim
+PlacedObjects: CustomDecal><273.5967><50.9416><-147.3499~576~681.1932~544~880.2929~-45~618.2722~53.99998~0~1~0~rustb3~0.445891~1~0.5~1~0.5432872~1~0~1, CustomDecal><120.8002><-6.677414><-165.2796~684~481.0541~754~499.9707~-120~-326.9327~282~0~1~0~rust1~0.1212364~1~0.3052073~1~0.391782~1~0.7727419~1, DynamicWarpTarget><397.9248><429.1529><224~-116~5~false~true, BlackSpot><274.9841><86.32437><-501~-43~-496~257~-150~127, BlackSpot><679.8367><98.24039><138~72~488~123~554~-69, MudPit><238.5295><74.32281><447~29~158, GooDrips><407.0659><555.7031><141~66~-355~-40~0.8369565, TerrainHandle><323.3032><68.33963><-40~0~40~0~95, TerrainHandle><460.36><62.45801><-41~-19~47~-16~239, TerrainHandle><686.1919><18.81863><-132~3~40~0~201, FloatingDebris><479.3089><371.8287><178~67~1567048455~15~30~0.25~0.5~6~-26~311~0.5~0.09~-1.12~Rot Islands~0.8586956~0v0v0v0~0, PrinceFilter><498.1716><378.6945><-2~61~0~0~2~1, 
+AmbientSounds: OMNI><RWTW_RotAmb_VanillaRot.ogg><781.1769><545.6888><0.1304348><1, OMNI><RWTW_DustStorm_Deep.ogg><779.9467><473.9113><0.2065217><1, SPOT><waterGurgleLOOP2.wav><715.8131><296.9463><0.3695652><0.4521739><469.8131><107.9463><-186.3553><59.64465><0><0.3500001, OMNI><SO_WAT-MoreDrips.ogg><786.3042><402.9156><0.4891304><0.5108696, 
+FadePalette: 22, 0.3246546

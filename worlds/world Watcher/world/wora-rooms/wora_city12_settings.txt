@@ -1,0 +1,26 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.3586957
+RumbleIntensity: 0.1086956
+Clouds: 0.8369565
+Grime: 0
+Palette: 69
+EffectColorA: 8
+EffectColorB: 16
+TerrainLight: 0.1304348
+TerrainStainAmount: 1
+TerrainStainBrightness: 0
+TerrainStainHeight: 0.9565217
+TerrainWaves: 1
+TerrainEdgeRadius: 7.826034
+TerrainGooHeight: 0.05434782
+TerrainGrain: 1
+TerrainDepth: 1.358689
+TerrainSkyFade: 0
+TerrainPalette: outerrim
+Effects: SandPuffs-1-20-20, 
+PlacedObjects: CustomDecal><13.61368><412.188><-51.77161~-444~760.8199~-450~715.022~22~-375.3441~-273~0~1~0~rust2~0.3376727~1~0.3376727~1~0.3376727~1~0.3376727~1, CustomDecal><0.8541718><30.57491><0.9956207~743~774.7585~729~778.7408~8~0~0~0~1~0~rustb3~0.3268509~1~0.3268509~1~0.3268509~1~0.3268509~1, FloatingDebris><507.78><410.5728><258~-120~1761243290~7~30~0.25~0.9565231~50~-218|-21~170|-256~2.02|2.04~0|0~0|0~Stardust~0.5~-0.71v0.14v0v0|-1.03v0v0v0~0, TerrainHandle><559.3007><63.64191><-31~-11~9~-33~47, TerrainHandle><131.4795><49.82394><0~-32~40~0~30, TerrainHandle><359.3376><82.49179><-40~-10~42~-15~140, TerrainRubble><381.9246><100.9726><-60~175, FloatingDebris><326.2746><275.173><380~198~1421268779~5~20~0.25~0.5~6~40~90~0.5~0~-4.62~Rot Islands~1~0v0v0v0~0, PrinceFilter><326.9455><288.0882><-3~52~0~0~2~1~0, 
+AmbientSounds: OMNI><RWTW_RotAmb_VanillaRot.ogg><770.6066><564.0143><0.1521739><1, OMNI><RWTW_DustStorm_Deep.ogg><774.1913><490.8168><0.1521739><0.6086956, SPOT><SO_SFX-Pi.ogg><741.669><172.482><0.3043478><1><371.669><322.482><-89.35535><-57.35535><0><0.2847827, 
+FadePalette: 22, 0.3249887
+TerrainFadePalette: test_dirt_dark, 0.02173913

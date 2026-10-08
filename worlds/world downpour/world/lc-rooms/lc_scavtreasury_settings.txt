@@ -1,0 +1,7 @@
+DangerType: None
+Grime: 0
+BkgDroneVolume: 0
+Palette: 28
+Effects: Dustpuffs-1-306-61, Flies-0.2717391-317-132, LightBurn-0.02173913-20-20, DayNight-0.8043478-595-112, RoofTopView-0-24-80, PixelShift-0.5-30-30, 
+PlacedObjects: ScavengerTreasury><758.2332><326.4493><429~110, DayNightSettings><250.1542><676.8773><5~8.660254~35~10, DeadTokenStalk><1050.122><878.6534><35~-28, DeadTokenStalk><1072.327><763.6847><27~27, BlueToken><1026.05><797.0122><53~27~-275~36~1~ElectricSpear~Red|Rivulet|Saint|Spear|Gourmand~0~0~0~0, HangingPearls><475.6455><679.9205><, HangingPearls><505.6966><682.9427><, 
+FadePalette: 42, 0.02173913

@@ -1,0 +1,10 @@
+DangerType: Rain
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 1
+Grime: 0.2717391
+Palette: 8
+Effects: HeatWave-0.326087-294-19, 
+PlacedObjects: BrokenShelterWaterLevel><437.801><337.7297><, 
+AmbientSounds: SPOT><AM_ENV-LushNight.ogg><822.8156><459.3274><0.3478261><1><835.8156><412.3274><-175.3553><-104.3553><0><0.3717393, 
+FadePalette: 11, 0.4565217

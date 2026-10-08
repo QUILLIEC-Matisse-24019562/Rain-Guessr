@@ -1,0 +1,5 @@
+Palette: 10
+EffectColorA: 15
+EffectColorB: 16
+Effects: Sentient Rot Spores-0.6134601-20-20, 
+PlacedObjects: LightSource><661.0711><465.6184><0.2471171~EffectColor2~-257.8206~-123.01~-713.2004~-131.2809~0~0~None~0~0, LightSource><659.4854><480.3314><0.3586555~Environment~-105.1805~-129.4184~-655.4792~-288.9259~0~0~None~0~0, Corruption><659.8239><524.21><91.07098~82.0567, CorruptionTube><705.9714><498.0685><87.22284~-108.9117, CorruptionTube><608.8251><481.6066><-29.50183~-164.0234, GooDrips><670.6092><490.084><0~100~137.1924~-20.49847~0.5, CorruptionDarkness><672.8127><519.1077><135.9102~-46.05161, ShelterSpawnPoint><657.1807><351.2028><, 

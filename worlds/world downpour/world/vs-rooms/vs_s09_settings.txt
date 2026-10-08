@@ -1,0 +1,2 @@
+PlacedObjects: BrokenShelterWaterLevel><267.9417><224.3087><, 
+FadePalette: 3, 0.3913043

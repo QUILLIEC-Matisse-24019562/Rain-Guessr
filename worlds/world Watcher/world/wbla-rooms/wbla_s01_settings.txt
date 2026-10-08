@@ -1,0 +1,3 @@
+Palette: 99
+AmbientSounds: OMNI><AM_IND-Utility01.ogg><765.6138><477.9974><0.3885179><1, 
+FadePalette: 8, 0.2009306

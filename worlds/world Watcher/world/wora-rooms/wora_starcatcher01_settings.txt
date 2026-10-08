@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RumbleIntensity: 0.1086956
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04507615
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1521739
+Grime: 0
+Palette: 69
+EffectColorB: 16
+Effects: SurfaceSandstorm-0.2391304-20-20, Outer Rim View-1-32-80, 
+PlacedObjects: FloatingDebris><-52.09357><1689.448><50~50~954978862~0~30~1.11578~1.375671~25~49.27054|786~432|-20~3.64|2.79~-0.87|-0.52~-0.45|0~Stardust~0.5~-0.3384979v0.5462921v0v0|-0.7623278v1.12v0v0~0, FloatingDebris><413.05><1178.624><-197~-581~1459756557~11~16~1.651442~1.994015~14~129|349|631.8428|422|-339~-75|-282|-494.8764|-831|-940~1.21|0.96|0.75|0.55|1.282172~0.74|3.01|-2.33|-1.02|0.25~0|0|0|0|0~Stardust~1~0v0.875506v0v0|0v1.440337v0v0|0.2005615v1.083933v0v0|0.02528076v0.7428088v0v0|-0.2751684v1.010337v0v0~0, FloatingDebris><-24.30759><1063.679><50~50~233844848~22~30~0.3425744~0.3425744~17~-117.7416|579.6292~231.9064|-855.3819~4.223558|3.604195~0|0~-2.771798|-0.61~Stardust~0.5~0.3825842v0.7967415v0v0|0.4138202v0.9962921v0v0~0, CustomDecal><115.4474><178.3426><39~465~674~456~633~-94~738~-69.00002~0~1~0~rustb1~0.4456524~1~0.4456524~1~0.4456524~1~0.4456524~1, CustomDecal><360.4942><540.075><-45~877~379~730~360~-10~-512~-101~0~1~0~rustb2~0.4021739~0.6086956~0.4021739~0.6086956~0.4021739~0.6086956~0.4021739~0.6086956, FloatingDebris><207.6808><339.452><195~-274~783340957~10~29~0.25~0.5~6~102~-29~0.7~0.19~-0.87~Rot Islands~0.5~0v0v0v0~0, PrinceFilter><206.9185><358.8048><-10~65~0~0~2~1~0, FloatingDebris><970.5745><141.6935><-153~270~479078724~5~23~0.3369578~0.5978274~3~-156~-54~1.52~0~-1.24~Rot Islands~0.2173913~0v0v0v0~0, PrinceFilter><937.2041><153.896><-9~62~0~0~2~1~0, RottenSeedCob><444.431><459.835><0~0~2~3, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><750.4411><476.3161><0.1521739><1, OMNI><RWTW_DustStorm_Gusting.ogg><753.9527><388.1807><0.423913><1, OMNI><RWTW_RotAmb_VanillaRot.ogg><760.9398><545.3157><0.1383096><0.7746394, SPOT><RWTW_DustStorm_High.ogg><761.2><260.6235><0.2826087><1><287.2><2012.624><67.64465><-314.3553><0><0.4913045, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_114 - Machine Riser<eA>vol<eB>0.4956522<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>283.1211<tB>271.55<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>767.1211<tB>361.55<tA>handlePos<tB>-367.3553<tB>-99.35535, RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>BM_RWTW_TAG_09<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>726.5151<tB>315.6072<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 35, 0.3804348, 0.2717391, 0.2717391

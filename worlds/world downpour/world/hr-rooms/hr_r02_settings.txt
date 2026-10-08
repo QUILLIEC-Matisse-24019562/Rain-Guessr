@@ -1,0 +1,13 @@
+Template: HR_SettingsTemplate_HellUpper
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8469563
+Effects: InvertedWater-0-48-116, WaterFluxMinLevel-0.7826087-346-115, WaterFluxMaxLevel-0.6521739-347-168, WaterDepth-0-348-226, WaterFluxFrequency-0.1521739-345-278, Fog-1-20-20, FireFlies-0-697-438, 
+PlacedObjects: FairyParticleSettings><-146.8843><-32.33682><106~-299.3398~1~7.065217~37.5~0~1~2.09349~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~77.82593~1~0.6521739, LightBeam><-123.3433><149.9269><-341~528~7129~504~7296~-229~4251~-85.00002~0.1826086~0~0~0~None~0~0, LightBeam><-114.3433><216.9269><-341~528~7129~504~7296~-229~4302~57.99997~0.1934781~0~0~0~Fade~0.4456522~0, DangleFruit><6808.191><194.1912><0~0~2~3, DangleFruit><6846.332><132.1824><0~0~2~3, 
+AmbientSounds: OMNI><AM_WIN-HowlingWnd.ogg><723.0932><507.8231><0.5760869><0.5695652, OMNI><AM_WAT-Shoreline.ogg><730.6066><583.8606><0.5760869><0.3934783, 
+FadePalette: 75, 0.4130435, 0.3913043, 0.3804348, 0.3913043, 0.4021739, 0.4130435, 0.4130435
+WetTerrain: OFF

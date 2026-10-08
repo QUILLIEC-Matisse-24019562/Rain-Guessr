@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: Rain
+Clouds: 0.3586957
+Grime: 0
+BkgDroneVolume: 0
+Palette: 8
+EffectColorA: 20
+EffectColorB: 20
+PlacedObjects: NoSpearStickZone><479.6824><242.1882><-259~110, 
+FadePalette: 13, 0.1304348

@@ -1,0 +1,21 @@
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+rippleSpiderThreshold: 18
+softLightRegion: true
+playerGuideOverseerSpawnChance: 0.0
+proceduralMusicBank: wska
+Subregion: Stormy Coast
+Room Setting Templates: Outside, Inside
+Room_Attr: WSKC_A04: PinkLizard-Like,
+Room_Attr: WSKC_A06: BlueLizard-Like,CicadaB-Like,
+Room_Attr: WSKC_A07: PinkLizard-Like,
+Room_Attr: WSKC_A09: Salamander-Like,Snail-Like,
+Room_Attr: WSKC_A10: Salamander-Like,
+Room_Attr: WSKC_A11: CicadaB-Like,
+Room_Attr: WSKC_A14: Salamander-Like,
+Room_Attr: WSKC_A16: Salamander-Like,Snail-Like,
+Room_Attr: WSKC_A17: PinkLizard-Like,
+Room_Attr: WSKC_A23: CicadaB-Like,
+Room_Attr: WSKC_A30: CicadaB-Avoid,
+Room_Attr: WSKC_A25: CicadaB-Like,

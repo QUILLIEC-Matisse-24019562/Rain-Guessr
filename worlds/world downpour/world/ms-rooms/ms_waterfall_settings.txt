@@ -1,0 +1,16 @@
+Template: MS_SettingsTemplate_Sewers
+DangerType: Blizzard
+WaveSpeed: 0.5156149
+WaveLength: 0.9921926
+WaveAmplitude: 3.971398E-12
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Grime: 0.1195652
+Palette: 37
+EffectColorA: 11
+EffectColorB: 6
+Effects: Contrast-0-30-30, 
+PlacedObjects: SnowSource><634.6838><338.8113><Radial~3~261~50~86.60254~0.75~0.2173913, DeathFallFocus><648.1311><116.901><, SteamPipe><430.3063><647.9502><139~-15, SteamPipe><465.5801><426.4332><92~29, SteamPipe><787.4026><230.1292><-53~18, SteamPipe><836.6693><624.8934><-85~52, LightFixture><184.9067><284.1258><RedLight~17.32051~-10~57, LightFixture><896.5892><684.381><RedLight~17.32051~-10~0, 
+AmbientSounds: OMNI><SO_WAT-Splashes.ogg><580.2098><207.6959><0.4782609><0.6478261, OMNI><SO_WAT-OpenFlow.ogg><759.8083><220.1929><0.4456522><0.726087, 
+FadePalette: 51, 0.6847826

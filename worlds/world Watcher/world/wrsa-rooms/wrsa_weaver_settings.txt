@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+RandomItemDensity: 0
+Palette: 6
+Effects: Bloom-0.4891304-20-20, 
+PlacedObjects: WeaverSpot><318.9946><648.6989><0~-460, 
+AmbientSounds: OMNI><AM_WIN-NiceWnd.ogg><148.886><50.97833><0.3043477><1, 
+RoomSpecificScriptActive: ON

@@ -1,0 +1,103 @@
+WSKB_C01: -205.5125><-46.1223><-183.9727><-48.20508><1><Sunbaked Alley><100><35
+WSKB_S06: -97.57825><61.87786><39.73792><75.79477><1><><48><35
+WSKB_C16: -271.8928><95.83704><-180.5979><81.23177><2><Sunbaked Alley><48><35
+WSKB_C03: -405.4255><194.8778><-309.9154><116.7948><2><Sunbaked Alley><48><35
+WSKB_C04: -429.4255><-62.1223><-309.9154><-61.20509><1><Sunbaked Alley><48><35
+WSKB_C05: -575.3082><111.9934><-422.4913><-49.78218><1><Sunbaked Alley><48><115
+WSKB_C06: -882.9257><235.9933><-546.4913><113.2178><1><Sunbaked Alley><48><35
+WSKB_C07: -1067.406><322.845><-665.0192><209.7901><2><Sunbaked Alley><48><35
+WSKB_C08: -970.054><114.8453><-651.0236><75.78997><1><Sunbaked Alley><48><35
+WSKB_C09: -882.3134><-33.15489><-649.9664><-44.20998><1><Sunbaked Alley><100><35
+WSKB_C10: -442.8186><-330.1067><-298.8624><-240.6196><0><Sunbaked Alley><48><35
+WSKB_C11: -623.6649><-354.1067><-424.7656><-210.6195><0><Sunbaked Alley><48><35
+WSKB_C12: -792.4276><-292.1067><-544.7303><-206.6196><0><Sunbaked Alley><48><35
+WSKB_C13: -1051.752><-358.1548><-773.9666><-214.2099><0><Sunbaked Alley><100><35
+WSKB_C17: -1282.547><-127.1548><-927.1102><-161.6194><1><Sunbaked Alley><48><77
+WSKB_C15: -1611.108><-36.85604><-1220.814><-37.96857><1><Sunbaked Alley><100><36
+WSKB_N01: 192.5297><-67.44086><53.97841><-67.76818><1><Sunbaked Alley><156><37
+WSKB_N02: 623.1152><-86.44096><396.4678><-78.76812><1><Sunbaked Alley><52><35
+WSKB_N03: 1036.775><-136.4409><696.1458><-155.7681><1><Sunbaked Alley><104><75
+WSKB_N04: 1418.638><-165.1551><970.0322><-107.3396><1><Sunbaked Alley><103><37
+WSKB_C18: 1785.513><-155.1629><1228.188><-163.7682><1><Sunbaked Alley><49><35
+WSKB_S0N: 1642.621><-97.15516><1223.912><-15.33964><1><><48><35
+WSKB_N07: -394.2449><428.845><-328.2402><286.6602><2><Sunbaked Alley><52><40
+WSKB_N08: -29.36939><501.845><-166.9517><410.6602><2><Sunbaked Alley><99><39
+WSKB_N05: -96.58765><140.8449><-79.33825><209.6604><2><Sunbaked Alley><48><35
+WSKB_N06: 168.7274><209.845><47.10402><229.6603><2><Sunbaked Alley><103><36
+WSKB_N09: 364.6185><505.4006><217.8322><401.4012><2><Sunbaked Alley><48><35
+WSKB_N10: 712.5685><204.4006><307.4371><226.4011><2><Sunbaked Alley><205><37
+WSKB_N11: 1142.373><196.1592><763.4598><199.5046><2><Sunbaked Alley><52><38
+WSKB_N12: 1358.903><168.1592><944.6607><83.50459><2><Sunbaked Alley><52><36
+WSKB_N13: 1555.013><182.6753><1091.592><111.2465><2><Sunbaked Alley><50><37
+WSKB_N14: -254.5179><-349.3248><-160.8819><-305.7535><0><Sunbaked Alley><52><35
+WSKB_N15: 187.0191><-335.3248><13.34959><-376.7535><0><Sunbaked Alley><205><37
+WSKB_N16: 783.459><-135.2365><530.7435><-245.0476><0><Sunbaked Alley><52><76
+WSKB_N17: 719.7809><-305.7222><509.7788><-373.3333><0><Sunbaked Alley><50><35
+OffScreenDen_WSKB: -1324.773><-203.1549><-189.3655><333.3805><1><><0><0
+Connection: WSKB_C01,WSKB_C16,20,31,9,4,1,3
+Connection: WSKB_C01,WSKB_S06,70,31,14,16,1,2
+Connection: WSKB_C01,WSKB_C04,9,16,42,22,2,0
+Connection: WSKB_C01,WSKB_N01,90,14,6,23,0,2
+Connection: WSKB_C16,WSKB_C03,19,29,42,16,1,0
+Connection: WSKB_C16,WSKB_N05,44,21,1,9,0,2
+Connection: WSKB_C03,WSKB_N07,33,30,48,17,0,0
+Connection: WSKB_C03,WSKB_C05,5,18,43,90,2,0
+Connection: WSKB_C04,WSKB_C05,6,22,42,8,2,0
+Connection: WSKB_C04,WSKB_C10,24,3,33,29,3,1
+Connection: WSKB_C05,WSKB_C06,4,88,42,14,2,0
+Connection: WSKB_C05,WSKB_C09,5,12,94,17,2,0
+Connection: WSKB_C06,WSKB_C07,7,24,41,11,2,3
+Connection: WSKB_C06,WSKB_C08,5,14,12,27,2,2
+Connection: WSKB_C08,WSKB_C09,37,5,36,30,3,1
+Connection: WSKB_C09,WSKB_C17,5,10,43,62,2,0
+Connection: WSKB_C10,WSKB_C11,5,8,42,16,2,0
+Connection: WSKB_C10,WSKB_N14,42,8,5,9,0,2
+Connection: WSKB_C11,WSKB_C12,5,18,37,16,2,0
+Connection: WSKB_C12,WSKB_C13,10,16,94,19,2,0
+Connection: WSKB_C13,WSKB_C17,17,32,42,23,1,0
+Connection: WSKB_C17,WSKB_C15,5,62,94,13,2,0
+Connection: WSKB_N01,WSKB_N02,150,7,5,13,0,2
+Connection: WSKB_N02,WSKB_N03,43,14,5,50,3,2
+Connection: WSKB_N03,WSKB_N12,98,71,15,3,0,2
+Connection: WSKB_N03,WSKB_N04,98,28,6,13,0,2
+Connection: WSKB_N03,WSKB_N16,5,14,46,14,2,0
+Connection: WSKB_N04,WSKB_S0N,92,29,10,16,0,2
+Connection: WSKB_N04,WSKB_C18,95,12,3,9,0,2
+Connection: WSKB_N07,WSKB_N08,41,29,11,9,0,3
+Connection: WSKB_N08,WSKB_N06,83,21,9,31,3,2
+Connection: WSKB_N05,WSKB_N06,43,27,5,10,0,2
+Connection: WSKB_N06,WSKB_N09,97,32,13,5,0,3
+Connection: WSKB_N06,WSKB_N10,97,12,7,14,0,2
+Connection: WSKB_N10,WSKB_N11,197,18,3,21,0,2
+Connection: WSKB_N10,WSKB_N16,146,28,36,67,0,0
+Connection: WSKB_N11,WSKB_N12,47,23,6,22,3,2
+Connection: WSKB_N12,WSKB_N13,44,22,7,17,0,2
+Connection: WSKB_N14,WSKB_N15,46,11,5,9,0,2
+Connection: WSKB_N15,WSKB_N17,200,27,7,14,0,2
+Connection: WSKB_N16,WSKB_N17,12,6,32,18,3,1
+
+SpawnMigrationStream: stream1,-1733^32,-612^203,-1714^-53,-586^204,stream2,012,70,30,wskb_c07
+SpawnMigrationStreamMidpoint: stream1,0,-1547^-37^197.7271^88^149
+SpawnMigrationStreamMidpoint: stream1,1,-1006^-70^176.6725^148^196
+SpawnMigrationStreamMidpoint: stream1,2,-612^-21^202.2014^167^54
+SpawnMigrationStreamMidpoint: stream1,3,-580^95^101.9355^68^54
+
+SpawnMigrationStream: stream2,394^585,-1079^314,367^530,-974^337,None,012,70,30,WSKB_C07
+SpawnMigrationStreamMidpoint: stream2,0,140^468^3.314209^121^108
+SpawnMigrationStreamMidpoint: stream2,1,-233^490^-29.23466^144^12
+SpawnMigrationStreamMidpoint: stream2,2,-251^481^-6.77169^0^354
+SpawnMigrationStreamMidpoint: stream2,3,-507^211^20.67835^321^107
+SpawnMigrationStreamMidpoint: stream2,4,-962^294^44.09084^211^23
+
+SpawnMigrationStream: stream3,-268^-249,1185^-141,-303^-351,1102^-129,stream4,012,70,30,WSKB_C18
+SpawnMigrationStreamMidpoint: stream3,0,161^-338^180.9514^199^355
+SpawnMigrationStreamMidpoint: stream3,1,541^-297^182.8881^121^126
+SpawnMigrationStreamMidpoint: stream3,2,720^-280^138.4676^29^38
+SpawnMigrationStreamMidpoint: stream3,3,797^-203^177.8285^75^47
+SpawnMigrationStreamMidpoint: stream3,4,886^-185^197.2817^44^137
+
+SpawnMigrationStream: stream4,1114^323,1808^-185,1093^138,1797^-175,stream14,012,70,30,WSKB_C18
+SpawnMigrationStreamMidpoint: stream4,0,1309^81^90^187^0
+SpawnMigrationStreamMidpoint: stream4,1,1250^36^-16.9791^21^149
+SpawnMigrationStreamMidpoint: stream4,2,1208^-142^200.4645^174^142
+SpawnMigrationStreamMidpoint: stream4,3,1683^-162^170.4307^102^101

@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0
+Clouds: 0.1086956
+Grime: 0
+Palette: 83
+EffectColorA: 10
+EffectColorB: 21
+PlacedObjects: CustomDecal><296.1844><234.189><-25~359~583~322~311~-215~-526~-120~0~1~0~greybones~0.1086956~1~0.1086956~1~0.1086956~1~0.1086956~1, LightSource><500.8065><262.0507><0.04347826~White~12~149~304~-121.3975~0~0~None~0~0, RippleSpawnEgg><571.6829><394.1578><, 
+AmbientSounds: SPOT><RWTW_AR_Heater.ogg><734.1665><428.6108><0.1086956><1><655.1665><284.6108><-35.35534><-35.35534><0><0.1217393, OMNI><RWTW_AR_BuzzyMachine.ogg><258.0578><27.44147><0.1847826><1, OMNI><RWTW_AR_GearWorks.ogg><456.1064><22.11072><0.1413043><1, 
+FadePalette: 148, 0.1521739

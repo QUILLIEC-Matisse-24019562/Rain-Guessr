@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Sandstorm
+CeilingDrips: 0
+RainIntensity: 0.6086956
+RumbleIntensity: 0.1086956
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04764494
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Grime: 0.1304348
+Palette: 69
+PlacedObjects: FloatingDebris><695.6277><-21.52887><50~50~1656433680~15~30~1.277726~1.424764~15~-247|-95~594|111~1.21|2.091535~-0.6388068|0~-0.21|0~Stardust~0.5~0.208764v0.3731457v0v0|-0.32v0.02v0v0~0, CustomDecal><161.4303><61.43755><-8~783~881~837~810~-172~-208~33.00002~0~1~0~rustb3~0.5~1~0.5~1~0.5~1~0.5~1, RottenDangleFruit><925.9038><519.4971><0~0~2~3, RottenDangleFruit><910.0503><564.8842><0~0~2~3, CosmeticRipple><578.2097><706.9672><-373.3892~-312.3727~316.5057~-453.0015~578.2097~706.9672~552.6176~0.4721776~0.03838314~False~0.588253~False~0~True~-1~0~False, UniqueDataPearl><915.2209><130.4479><0~0~0~0~WORA~0, 
+AmbientSounds: OMNI><RWTW_DustStorm_Deep.ogg><776.8312><474.8078><0.1521739><1, SPOT><RWTW_DustStorm_Gusting.ogg><297.1672><359.943><0.3043478><1><16.16718><390.943><70.64465><-75.35535><0><0.2739132, SPOT><RWTW_DustStorm_Gusting.ogg><789.245><567.675><0.3152174><1><1029.245><643.675><-52.35535><-72.35535><0><0.2086958, SPOT><Noise Wind.wav><793.1208><179.0344><0.2065217><0.6673913><550.1208><49.03436><-74.35535><214.6447><0><0.3608697, SPOT><RWTW_DaemonSpace_01.ogg><465.1967><531.6927><0.04347826><1><578.1967><669.6927><-102.3553><-98.35535><0><0.3717393, 
+FadePalette: 22, 0.25

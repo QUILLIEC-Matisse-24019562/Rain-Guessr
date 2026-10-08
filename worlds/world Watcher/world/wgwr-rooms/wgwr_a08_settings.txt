@@ -1,0 +1,3 @@
+BkgDroneVolume: 0.2769565
+PlacedObjects: DynamicWarpTarget><573.9492><149.5181><29~-70~0~false~true, PassiveCorruption><483.0297><18.57419><-193~218~-44~61~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1~0~1, PassiveCorruption><825.3693><82.05008><-30~153~0~0~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1~0~1, RottenDangleFruit><362.823><175.9431><0~0~2~3, RottenDangleFruit><731.4437><183.9378><81~73~2~3, KarmaFlowerPatch><567.6072><37.8008><1~256~0.3827227~0~0~0.25~0.5, PrinceFilter><579.7682><29.58087><-18~40~0~0~3~1~1, 
+FadePalette: 10, 0.1839709

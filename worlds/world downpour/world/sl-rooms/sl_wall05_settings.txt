@@ -1,0 +1,6 @@
+Template: SL_SettingsTemplate_Sewer
+BkgDroneVolume: 0
+Palette: 45
+EffectColorA: 12
+AmbientSounds: OMNI><MSC-WetConduits.ogg><787.6705><457.1835><0.2826087><1, OMNI><AM_IND-SuperStructure.ogg><790.9429><531.1972><0.1521739><1, 
+FadePalette: 31, 0.4673913, 0.2826087, 0.1413043

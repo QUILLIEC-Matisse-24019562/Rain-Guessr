@@ -1,0 +1,3 @@
+Effects: LightRain-0.2065217-281-13, Desaturation-0.5-274-75, Darkness-0.05434782-244-139, 
+PlacedObjects: NoSpearStickZone><0.984375><1554.551><-40~45, NoSpearStickZone><923.697><1273.284><0~100, 
+FadePalette: 27, 0.5543478, 0.5543478

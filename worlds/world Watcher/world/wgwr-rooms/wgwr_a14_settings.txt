@@ -1,0 +1,2 @@
+PlacedObjects: Corruption><511.8245><295.765><-10~177, 
+FadePalette: 10, 0.3462985

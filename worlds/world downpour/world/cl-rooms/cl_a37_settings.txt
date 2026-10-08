@@ -1,0 +1,16 @@
+Template: CL_SettingsTemplate_DarkSun
+CeilingDrips: 0
+RainIntensity: 0.8043478
+RumbleIntensity: 0
+WaveSpeed: 0.4764085
+WaveLength: 0.9882042
+WaveAmplitude: 1.126882E-09
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.5217391
+EffectColorB: 21
+Effects: SilenceWater-0.4891304-16-76, Dustpuffs-1-273-25, Coldness-1-282-85, WaterDepth-0.06521739-18-131, 
+PlacedObjects: LightSource><579.1535><210.8248><0.09782602~Environment~-746~451~273~-211.3974~1~1~None~0~0, LightBeam><569.7761><317.3017><-184~382~-86~393~38~144~-667~-180~0.4652174~0~0~1~Fade~0.5978261~0, LightBeam><420.5502><210.4905><-292~509~-146~512~66~151~-512~92~0.4217392~0~0~1~Fade~0.6630435~0, LightSource><242.3024><675.031><0.195652~Environment~337~-160~93.99997~-677.3975~1~0~None~0~0, SnowSource><453.4391><178.815><Radial~-62~293~138~-183.3975~0.4673917~1, SteamPipe><770.3021><267.0293><-27~-27, SteamPipe><773.6761><273.9052><-62~13, LocalBlizzard><466.6906><673.3106><45~-178~115~-149.3975~0.7826087~1~0.6739131, LocalBlizzard><214.4271><674.0637><91~-186~-235~-202.3975~0.7934783~0.8586956~0.6521739, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><852.2994><642.8062><0.2717391><1, OMNI><MSC-Subtundra.ogg><853.6959><566.21><0.3586957><1, SPOT><AM_WIN-HowlingWnd.ogg><862.4717><449.948><0.4782609><0.4913043><355.4717><670.948><161.6447><-193.3553><0><0.2304349, 
+FadePalette: 0, 0.2826087
+WetTerrain: OFF

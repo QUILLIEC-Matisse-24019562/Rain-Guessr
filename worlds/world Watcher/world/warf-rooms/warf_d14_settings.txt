@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0.1086956
+Grime: 0
+Palette: 81
+EffectColorA: 10
+EffectColorB: 13
+Effects: Fog-1-20-20, Flies-0.3043478-299-18, 
+PlacedObjects: LightFixture><551.8054><321.7959><HolyFire~6.320496~-151~74, LightSource><554.907><323.3229><0.1086956~EffectColor2~188~177~50~86.60254~0~1~None~0~0, LightSource><552.1833><324.0799><0.25~EffectColor2~-47~-12~40~187.6025~0~0~None~0~0, InsectGroup><553.4669><322.1972><-4~72~-197~226~StandardFly~0.3043478, LightSource><435.3016><81.47456><0.1195652~Environment~66~173~-502~146.6025~0~0~None~0~0, CustomDecal><219.5707><-5.911377><53~721~422~651~580~-55~-364~323~0~1~0~GreyBones~0.1956522~1~0.1956522~1~0.1956522~1~0.1956522~1, LightSource><284.389><478.3938><0.08695652~Environment~-15~211~-34~-250.3975~1~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><119.3478><453.5756><0.2065217><1, OMNI><SO_NAT-Fire.ogg><113.5505><366.9863><0.1521739><1, OMNI><SO_SFX-Morse.ogg><98.1882><221.3175><0.05434782><1.9, SPOT><RWTW_AR_Heater.ogg><750.4923><506.3001><0.1195652><0.6478261><614.4923><194.3002><-54.35535><-47.35535><0><0.1217393, 
+FadePalette: 83, 0.8586956

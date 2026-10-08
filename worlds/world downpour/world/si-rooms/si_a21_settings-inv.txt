@@ -1,0 +1,10 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: FloodAndRain
+Clouds: 1
+RandomItemDensity: 0
+EffectColorA: 11
+EffectColorB: 12
+Effects: SkyAndLightBloom-0.1956522-20-20, BrokenZeroG-1-31-82, 
+PlacedObjects: TradeOutpost><483.7994><274.5562><0~100, LanternOnStick><627.3951><334.8623><-19~-94, LanternOnStick><688.3928><373.9189><34~-160, CustomDecal><323.5605><172.564><-24~121~464~79~468~-4~-364~101~0~0.0326087~0~Scav Wedges~1~0.6304348~1~0.6304348~0~0.6304348~0~0.6304348, CustomDecal><773.4235><267.6848><2~85~71~102~76~-1~-232~-358~0~1~0~ScavMark UpSign~0.7173913~0.3043478~0.326087~0.3043478~0~0.3043478~0.1847826~0.3043478, Corruption><696.5808><454.3567><81~127, WallMycelia><431.5278><390.1981><143~138, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><772.0511><463.7289><0.3913043><1><567.0511><351.7289><-223.3553><11.64465><0><0.6652175, OMNI><SO_NAT-Fire.ogg><766.3691><320.3488><0.5><1, 
+FadePalette: 31, 0.7391304

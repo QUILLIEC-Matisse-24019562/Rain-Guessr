@@ -1,0 +1,5 @@
+BkgDroneVolume: 0.2469565
+Palette: 466
+PlacedObjects: PassiveCorruption><603.2379><351.3349><-113~194~0~0~7~15~0.8~0.3~0.55~0.05~0.15~0.2~0.2~Default~Dot~Passive~2~0~1, 
+AmbientSounds: OMNI><AM_IND-Warehouse01.ogg><198.1626><386.7245><0.3265165><0.4147625, SPOT><SO_IND-MechHum01.ogg><553.9206><117.5903><0.2717391><0.279267><482.8796><84.5903><-61.30701><-63.35535><0><0.3606786, 
+FadePalette: 10, 0.152699

@@ -1,0 +1,8 @@
+Template: NONE
+Grime: 0.04347826
+Palette: 58
+EffectColorA: 15
+EffectColorB: 12
+Effects: HeatWave-0.3804348-20-20, VoidSpawn-0.3913043-35-83, FireFlies-0.8586956-305-27, 
+PlacedObjects: LightSource><689.3103><304.6866><1~EffectColor1~-99~215~50~86.60254~0~0~None~0~0, LightSource><695.2798><300.1978><0.08695652~EffectColor1~420~-73~99~-113.3975~0~1~None~0~0, LightSource><685.531><742.9353><0.2282828~Environment~-327~-328~-473.9999~-487.3942~1~0~None~0~0, 
+FadePalette: 59, 0.6304348

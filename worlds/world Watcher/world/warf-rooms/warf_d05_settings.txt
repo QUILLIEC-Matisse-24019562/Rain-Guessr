@@ -1,0 +1,14 @@
+Template: NONE
+RainIntensity: 1
+RumbleIntensity: 1
+Clouds: 0.4021739
+Grime: 1
+RandomItemDensity: 0.4565217
+RandomItemSpearChance: 0
+Palette: 81
+EffectColorA: 10
+EffectColorB: 13
+Effects: Fog-1-20-20, Flies-0.3043478-279-21, 
+PlacedObjects: LightSource><1442.557><25.6981><0.07608695~Environment~160~379~464~-37.39749~1~0~None~0~0, LightSource><989.8364><624.865><0.1086956~Environment~743~318~-1178~-75.39758~1~0~None~0~0, SeedCob><1660.435><398.4237><-213~178~10~12, DeadSeedCob><1622.428><358.9367><, LightSource><1795.867><202.3994><0.1086956~Environment~210~549~111~-140.3975~1~0~None~0~0, LightSource><327.0509><128.2313><0.1086956~Environment~-38~308~-515~354.6026~1~0~None~0~0, CustomDecal><41.51813><29.80081><16~724~1178~727~1339~-66~-207~96~0~1~0~greybones~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, CustomDecal><935.9575><-43.55457><-72~773~1240~770~1022~3~128~219~0~1~0~greybones~0.1521739~1~0.1521739~1~0.1521739~1~0.1521739~1, RippleSpawnEgg><763.3987><466.1339><, RippleSpawnEgg><912.1252><464.8438><, RippleSpawnEgg><1039.339><496.8208><, RippleTree><947.5956><286.7181><2.5~73.75~0.2588289~0.3373227~right~spiralCoils|2.853261, RippleStalk><796.3056><243.5533><6.25~37.5~left, RippleStalk><990.2179><205.6108><1.25~35~right, RippleStalk><839.9266><171.5503><0~46.25~right, RippleEggDestination><891.6087><463.4313><-217.0727~68.02802~0~0~warf_b14~0, RippleEggDestination><898.8946><477.5409><-200.2454~78.12445~0~0~warf_d06~0, 
+AmbientSounds: OMNI><SO_NAT-Fire.ogg><304.0421><40.44553><0.2065217><1, OMNI><SO_SFX-Morse.ogg><115.9286><38.15994><0.04347826><1.9, OMNI><AM_ENV-SubTerr.ogg><492.308><42.694><0.2065217><1, SPOT><Basic Mech.ogg><-101.0815><599.8577><0.3043478><1><452.9185><371.8577><-35.35534><-35.35534><0><0.1, SPOT><RWTW_AR_Heater.ogg><755.7417><426.8002><0.1195652><1><1550.741><317.8145><-18.35535><-27.35535><0><0.2086958, 
+FadePalette: 83, 0.8043478, 0.8043478

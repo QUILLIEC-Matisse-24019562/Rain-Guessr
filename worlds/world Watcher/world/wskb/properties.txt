@@ -1,0 +1,40 @@
+safariStartRoom: WSKB_S06
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0.0
+rippleSpiderThreshold: 18
+proceduralMusicBank: rwtw12
+Subregion: Sunbaked Alley
+Room Setting Templates: Outside, Inside
+Room_Attr: WSKB_C01: GreenLizard-Forbidden,CicadaA-Avoid,Centiwing-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_C16: GreenLizard-Avoid,CicadaA-Avoid,Centiwing-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_C03: CicadaA-Avoid,Centiwing-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_C04: CicadaA-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_C05: CyanLizard-Like,
+Room_Attr: WSKB_C06: CicadaA-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_C07: CicadaA-Like,
+Room_Attr: WSKB_C08: CicadaA-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_C10: CicadaA-Forbidden,Centipede-Avoid,Scavenger-Avoid,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,
+Room_Attr: WSKB_C11: CicadaA-Forbidden,Centipede-Forbidden,Scavenger-Avoid,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,
+Room_Attr: WSKB_C12: CicadaA-Forbidden,Centipede-Avoid,Scavenger-Avoid,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,
+Room_Attr: WSKB_C13: CicadaA-Forbidden,Centipede-Avoid,Scavenger-Avoid,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,
+Room_Attr: WSKB_C17: CicadaA-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,
+Room_Attr: WSKB_C15: SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N01: GreenLizard-Like,CicadaA-Like,Centiwing-Like,SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N02: YellowLizard-Forbidden,CicadaA-Avoid,Centiwing-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_N03: GreenLizard-Like,BlueLizard-Like,YellowLizard-Forbidden,WhiteLizard-Like,CyanLizard-Like,CicadaA-Like,RedCentipede-Like,Centiwing-Stay,SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N04: YellowLizard-Forbidden,CicadaA-Avoid,Centiwing-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_C18: SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N08: BlueLizard-Like,YellowLizard-Forbidden,WhiteLizard-Like,CyanLizard-Like,CicadaA-Like,Centiwing-Like,SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N05: YellowLizard-Forbidden,CicadaA-Avoid,Centiwing-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_N06: BlueLizard-Like,YellowLizard-Avoid,WhiteLizard-Like,CyanLizard-Like,CicadaA-Like,Centiwing-Stay,SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N09: CicadaA-Like,SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N10: YellowLizard-Stay,CicadaA-Avoid,Centiwing-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_N11: YellowLizard-Like,CicadaA-Like,Centiwing-Like,SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N12: YellowLizard-Avoid,CicadaA-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_N13: CicadaA-Like,CicadaB-Stay,Centiwing-Like,SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N14: CicadaA-Forbidden,Centipede-Forbidden,Scavenger-Avoid,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,
+Room_Attr: WSKB_N15: CicadaA-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,
+Room_Attr: WSKB_N16: YellowLizard-Forbidden,CyanLizard-Like,CicadaA-Like,Centiwing-Like,SmallNeedleWorm-Like,BigNeedleWorm-Like,
+Room_Attr: WSKB_N17: CicadaA-Avoid,SmallNeedleWorm-Avoid,BigNeedleWorm-Avoid,

@@ -1,0 +1,5 @@
+Clouds: 0
+Palette: 19
+EffectColorA: 15
+EffectColorB: 9
+FadePalette: 28, 0.6195652, 0.6195652, 0.6195652, 0.6195652

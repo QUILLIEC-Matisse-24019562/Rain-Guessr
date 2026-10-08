@@ -1,0 +1,74 @@
+safariStartRoom: WARD_S13
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+batsPerActiveSwarmRoom: 6
+overseersSpawnChance: 0
+overseersMin: 0
+overseersMax: 0
+playerGuideOverseerSpawnChance: 0
+rippleSpiderThreshold: 12
+proceduralMusicBank: wara
+Subregion: Cold Storage
+Subregion: Station Annex
+Room_Attr: WARD_E25: Vulture-Forbidden,
+Room_Attr: WARD_E28: Vulture-Forbidden,BigMoth-Avoid,SmallMoth-Avoid,
+Room_Attr: WARD_E34: Vulture-Forbidden,BigMoth-Avoid,SmallMoth-Avoid,
+Room_Attr: WARD_R01: Vulture-Forbidden,BigMoth-Avoid,SmallMoth-Avoid,
+Room_Attr: WARD_R02: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R03: Vulture-Forbidden,BigMoth-Avoid,SmallMoth-Avoid,
+Room_Attr: WARD_R04: Vulture-Forbidden,BigMoth-Avoid,SmallMoth-Avoid,
+Room_Attr: WARD_R05: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R06: Vulture-Forbidden,BigMoth-Avoid,SmallMoth-Avoid,
+Room_Attr: WARD_R07: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R08: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R09: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R10: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R11: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R12: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R13: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R14: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R15: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R16: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R17: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R18: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R19: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_R20: Vulture-Forbidden,
+Room_Attr: WARD_R21: PinkLizard-Forbidden,GreenLizard-Forbidden,BlueLizard-Forbidden,YellowLizard-Forbidden,WhiteLizard-Forbidden,RedLizard-Forbidden,BlackLizard-Forbidden,Salamander-Forbidden,CyanLizard-Forbidden,Leech-Forbidden,SeaLeech-Forbidden,Snail-Forbidden,Vulture-Forbidden,LanternMouse-Forbidden,CicadaA-Forbidden,CicadaB-Forbidden,Spider-Forbidden,JetFish-Forbidden,BigEel-Forbidden,Deer-Forbidden,TubeWorm-Forbidden,DaddyLongLegs-Forbidden,BrotherLongLegs-Forbidden,TentaclePlant-Forbidden,PoleMimic-Forbidden,MirosBird-Forbidden,Centipede-Forbidden,RedCentipede-Forbidden,Centiwing-Forbidden,SmallCentipede-Forbidden,Scavenger-Forbidden,Overseer-Forbidden,EggBug-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,SmallNeedleWorm-Forbidden,BigNeedleWorm-Forbidden,DropBug-Forbidden,KingVulture-Forbidden,Hazer-Forbidden,
+Room_Attr: WARD_R22: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_B39: Vulture-Forbidden,BigMoth-Like,SmallMoth-Like,
+Room_Attr: WARD_B40: Vulture-Forbidden,BigMoth-Like,SmallMoth-Like,
+Room_Attr: WARD_B41: Vulture-Forbidden,
+Room_Attr: WARD_D20: Vulture-Forbidden,
+Room_Attr: WARD_D27: Vulture-Forbidden,
+Room_Attr: WARD_D28: Vulture-Forbidden,
+Room_Attr: WARD_D36: Vulture-Forbidden,BigMoth-Like,SmallMoth-Like,
+Room_Attr: WARD_E01: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_E02: Vulture-Forbidden,
+Room_Attr: WARD_E03: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_E04: Vulture-Forbidden,
+Room_Attr: WARD_E05: Vulture-Forbidden,
+Room_Attr: WARD_E06: Vulture-Forbidden,
+Room_Attr: WARD_E07: Vulture-Forbidden,
+Room_Attr: WARD_E10: Vulture-Forbidden,
+Room_Attr: WARD_E11: BigMoth-Like,SmallMoth-Like,
+Room_Attr: WARD_E12: Vulture-Forbidden,
+Room_Attr: WARD_E13: Vulture-Forbidden,
+Room_Attr: WARD_E14: Vulture-Forbidden,
+Room_Attr: WARD_E15: Vulture-Forbidden,
+Room_Attr: WARD_E16: Vulture-Forbidden,
+Room_Attr: WARD_E17: Vulture-Forbidden,
+Room_Attr: WARD_E18: Vulture-Forbidden,
+Room_Attr: WARD_E20: Vulture-Forbidden,
+Room_Attr: WARD_E21: Vulture-Forbidden,
+Room_Attr: WARD_E22: Vulture-Forbidden,BigMoth-Forbidden,SmallMoth-Forbidden,
+Room_Attr: WARD_E23: Vulture-Forbidden,
+Room_Attr: WARD_E24: Vulture-Forbidden,
+Room_Attr: WARD_E26: BigMoth-Like,SmallMoth-Like,
+Room_Attr: WARD_E27: Vulture-Forbidden,
+Room_Attr: WARD_E29: Vulture-Forbidden,
+Room_Attr: WARD_E30: Vulture-Forbidden,BigMoth-Like,SmallMoth-Like,
+Room_Attr: WARD_E31: Vulture-Forbidden,BigMoth-Stay,SmallMoth-Stay,
+Room_Attr: WARD_E32: Vulture-Forbidden,BigMoth-Like,SmallMoth-Like,
+Room_Attr: WARD_E33: Vulture-Forbidden,BigMoth-Like,SmallMoth-Like,

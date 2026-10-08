@@ -1,0 +1,9 @@
+DangerType: Thunder
+Clouds: 0.3478261
+Grime: 0.07608695
+BkgDroneVolume: 0
+Palette: 8
+Effects: Lightning-0.7173913-20-20, GreenSparks-0.2608696-26-81, ExtraLoudThunder-0.5543478-23-140, ElectricDeath-0.6086956-280-20, 
+PlacedObjects: LightSource><706.1772><409.689><0.4456522~Environment~0~100~-310.0068~-277.3873~1~0~None~0~0, LightSource><265.6462><438.8635><0.423913~Environment~0~100~-186~-307.3975~1~0~None~0~0, LightSource><34.43958><567.5637><0.6195652~Environment~0~100~-191.3117~-304.0516~1~0~None~0~0, WallMycelia><215.0143><491.5952><83~224, SlimeMold><525.8706><558.6179><-119.9991~-334.0012~2~3, SlimeMold><557.8382><565.1176><-152.3326~-251.1381~2~3, SlimeMold><603.4036><565.6716><-125.8896~-161.616~2~3, SlimeMold><638.3674><561.201><-106.0039~-322.0044~2~3, LightFixture><541.3196><558.3222><SlimeMoldLight~-331.733~-537.0025~60, LightFixture><661.1402><557.4615><SlimeMoldLight~2.319641~-476.9979~5, CosmeticSlimeMold><599.4517><511.0287><8~119, 
+AmbientSounds: SPOT><SO_IND-HeatDuct.ogg><743.1381><215.6447><0.3478261><1><531.7203><277.3117><-306.3553><-13.35535><0><0.5347828, SPOT><SO_IND-Humm.ogg><73.7442><501.4499><0.326087><1><816.6767><629.0858><-73.35535><-21.35535><0><0.1869565, 
+FadePalette: 13, 0

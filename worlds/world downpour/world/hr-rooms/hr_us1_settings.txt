@@ -1,0 +1,11 @@
+Template: HR_SettingsTemplate_HellNew
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: WaterFluxMaxLevel-0-40-40, DarkenLights-0.4565217-695-610, 
+PlacedObjects: FairyParticleSettings><226.5564><256.4497><431~-544.3397~1~7.065217~37.5~0~1~2.354363~60~180~40~100~0~19.56522~0~23.47826~0~0.09782609~1~1~0.4347826~0.5217391~0.7065217~0.2717391~9.51087~Leaf~SIN_IO~SIN_IO~8.78259~1~0.6521739, LanternOnStick><182.0956><-19.62289><-19~257, LanternOnStick><411.7><378.497><16~93, LanternOnStick><635.8729><-51.34219><35~244, LightFixture><426.0773><477.1844><HolyFire~92.3205~48~67, LightFixture><162.1055><247.8883><HolyFire~17.32051~-10~20, LightFixture><671.6331><204.6493><HolyFire~17.32051~-10~95, 
+FadePalette: 75, 0.1956522
+WetTerrain: OFF
