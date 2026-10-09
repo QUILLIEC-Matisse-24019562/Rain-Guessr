@@ -4,15 +4,27 @@ convert_rooms.py : extrait la géométrie des rooms Rain World depuis les fichie
 bruts du jeu (vanilla, Downpour, Watcher).
 
 Usage :
-    python convert_rooms.py <dossier_worlds> <dossier_sortie>
+    python convert_rooms.py <dossier_worlds> <dossier_sortie> [--fixes fixes.json]
+    (sans --fixes, un fichier 'fixes.json' dans le dossier courant est utilisé s'il existe)
+    python convert_rooms.py <dossier_worlds> <dossier_sortie> --show vanilla/su_b04
 
-    <dossier_worlds> contient les dossiers 'world', 'world downpour', 'world Watcher'
-    (chacun avec un sous-dossier 'world' contenant les <region>-rooms).
+    <dossier_worlds> contient les dossiers 'world', 'world downpour', 'world Watcher'.
 
 Sortie :
-    <sortie>/<jeu>/<REGION>/<room>.json   géométrie vectorielle de la room
-    <sortie>/<jeu>/index.json             room -> région (+ 'overrides' si elle remplace une room vanilla)
-    <sortie>/report.json                  rooms douteuses, avec la raison
+    <sortie>/<jeu>/<REGION>.json   géométrie de toutes les rooms de la région
+    <sortie>/<jeu>/index.json      room -> région (+ 'overrides' si elle remplace une room vanilla)
+    <sortie>/report.txt            LISIBLE : chaque room douteuse, avec coordonnées et extrait
+    <sortie>/report.json           même chose, pour un programme
+
+Corriger une room : on n'édite jamais les JSON de région (ils sont régénérés).
+On écrit la correction dans fixes.json, puis on relance le script :
+
+    {
+      "vanilla/su_b04": {
+        "tiles": {"29,19": 0, "31,19": 0},      # x,y -> terrain (0 air,1 solide,2 pente,3 sol,4 raccourci)
+        "reviewed": "pentes flottantes, on laisse"   # (facultatif) marque l'avertissement comme vérifié
+      }
+    }
 """
 import json, os, sys
 from collections import defaultdict
@@ -36,21 +48,27 @@ def decode_tile(tok):
 
 
 # ── 2. Lecture + validation d'une room ────────────────────────────────────
-def read_room(path):
-    """Retourne (room, problèmes). room = None si la room est inutilisable."""
+def problem(kind, message, cells=None):
+    return {"type": kind, "message": message, "cells": cells or []}
+
+
+def read_room(path, override=None):
+    """Retourne (room, problèmes). room = None si la room est inutilisable.
+    override : {(x, y): terrain} issu de fixes.json."""
+    override = override or {}
     problems = []
     with open(path, errors="replace") as f:
         raw = f.read().replace("\r", "").split("\n")
     lines = [l for l in raw if l.strip()]
     if len(lines) < 5:
-        return None, ["fichier incomplet (moins de 5 lignes)"]
+        return None, [problem("fichier_incomplet", "moins de 5 lignes")]
     name = lines[0].strip()
     try:
         w, h = (int(v) for v in lines[1].split("|")[0].split("*"))
     except ValueError:
-        return None, ["IGNOREE : pas une room (settings, world_xx, gates...)"]
-    # Fichier brut du jeu : les tuiles sont à la ligne 12 (les lignes 6 à 9 sont
-    # vides, donc on compte sur le fichier non filtré). Version réduite : dernière ligne.
+        return None, [problem("ignoree", "IGNOREE : pas une room (settings, world_xx...)")]
+    header = (w, h)
+    # Fichier brut du jeu : tuiles à la ligne 12 (lignes 6 à 9 vides). Version réduite : dernière ligne.
     tile_line = raw[11] if len(raw) >= 12 else lines[-1]
     toks = tile_line.split("|")
     if toks and toks[-1] == "":
@@ -58,38 +76,47 @@ def read_room(path):
 
     n, expected = len(toks), w * h
     if n <= 1:
-        return None, ["IGNOREE : pas de géométrie (fichier de passerelle/stub)"]
+        return None, [problem("ignoree", "IGNOREE : pas de géométrie (stub)")]
     if n > expected:
-        # Tuiles en trop à la fin : on garde les premières, mais on le signale
-        problems.append(f"{n - expected} tuile(s) en trop ({n} pour {w}x{h}={expected}), ignorées")
+        problems.append(problem("tuiles_en_trop",
+            f"{n - expected} tuile(s) en trop à la fin du fichier ({n} tuiles pour {w}x{h}={expected}) : ignorées"))
     elif n < expected:
-        problems.append(f"{n} tuiles pour {w}x{h}={expected}")
-        # Une seule dimension du header est fausse : on la déduit des données
+        msg = f"{n} tuiles dans le fichier pour {w}x{h}={expected} attendues ({expected - n} manquantes)"
         guess = []
         if n % h == 0:
             guess.append((n // h, h))
         if n % w == 0:
             guess.append((w, n // w))
         if not guess:
-            return None, problems + ["taille impossible à déduire"]
+            return None, [problem("tuiles_manquantes", msg + " ; taille impossible à déduire")]
         w, h = guess[0]
-        problems.append(f"taille déduite des données : {w}x{h}"
-                        + (" (AMBIGU : l'autre option est %dx%d)" % guess[1] if len(guess) > 1 else ""))
+        msg += f" ; taille déduite {w}x{h}"
+        if len(guess) > 1:
+            msg += f" (AMBIGU : l'autre option est {guess[1][0]}x{guess[1][1]})"
+        problems.append(problem("tuiles_manquantes", msg))
         expected = w * h
-    toks = toks[:expected]  # tuiles en trop en fin de ligne : ignorées
+    toks = toks[:expected]
 
     tiles = [[None] * w for _ in range(h)]
-    bad = 0
+    bad_cells = []
     for x in range(w):  # les données sont rangées colonne par colonne
         for y in range(h):
+            tok = toks[x * h + y]
             try:
-                tiles[y][x] = decode_tile(toks[x * h + y])
+                t = decode_tile(tok)
             except ValueError:
-                tiles[y][x] = (AIR, False, False)
-                bad += 1
-    if bad:
-        problems.append(f"{bad} tuile(s) illisible(s) (flux de données décalé ?)")
-    return {"name": name, "w": w, "h": h, "tiles": tiles}, problems
+                t = (AIR, False, False)
+                if (x, y) not in override:
+                    bad_cells.append({"x": x, "y": y, "token": tok})
+            if (x, y) in override:
+                t = (override[(x, y)], t[1], t[2])
+            tiles[y][x] = t
+    if bad_cells:
+        problems.append(problem("tuile_illisible",
+            f"{len(bad_cells)} tuile(s) illisible(s), remplacée(s) par de l'air", bad_cells))
+    room = {"name": name, "w": w, "h": h, "tiles": tiles, "header": header,
+            "n_tiles": n, "bad": {(c["x"], c["y"]) for c in bad_cells}}
+    return room, problems
 
 
 # ── 3. Pentes : même logique que le jeu (Room.IdentifySlope) ──────────────
@@ -247,6 +274,38 @@ def selfcheck(room, data):
 
 
 # ── 6. Programme principal ────────────────────────────────────────────────
+SYM = {AIR: ".", SOLID: "#", SLOPE: "/", FLOOR: "=", SHORTCUT: "S"}
+
+
+def snippet(room, x, y, r=4):
+    """Petit extrait ASCII autour d'une case ('@' = la case, '?' = tuile illisible)."""
+    out = []
+    for yy in range(y - r, y + r + 1):
+        row = ""
+        for xx in range(x - r, x + r + 1):
+            if not (0 <= xx < room["w"] and 0 <= yy < room["h"]):
+                row += " "
+            elif (xx, yy) == (x, y):
+                row += "@"
+            elif (xx, yy) in room["bad"]:
+                row += "?"
+            else:
+                row += SYM[room["tiles"][yy][xx][0]]
+        out.append(row)
+    return out
+
+
+def show_room(room):
+    """Affiche toute la room en ASCII avec une règle de coordonnées."""
+    w = room["w"]
+    print("     " + "".join(str((x // 10) % 10) if x % 10 == 0 else " " for x in range(w)))
+    print("     " + "".join(str(x % 10) for x in range(w)))
+    for y in range(room["h"]):
+        print(f"{y:4d} " + "".join("?" if (x, y) in room["bad"] else SYM[room["tiles"][y][x][0]]
+                                    for x in range(w)))
+    print("légende : . air   # solide   / pente   = sol traversable   S raccourci   ? illisible")
+
+
 def collect(tree):
     """Toutes les rooms d'un dossier : {nom: (chemin, région)}.
     Une room = un fichier dont la ligne 2 ressemble à '54*35|-1|0'."""
@@ -275,41 +334,139 @@ def game_name(folder):
     return "downpour" if "downpour" in n else "watcher" if "watcher" in n else "vanilla"
 
 
+def load_fixes(path):
+    """fixes.json -> {'jeu/room': {'tiles': {(x,y): terrain}, 'reviewed': str}}"""
+    if not path:
+        return {}
+    import re
+    text = open(path, encoding="utf-8").read()
+    text = re.sub(r"(?m)\s+#.*$", "", text)  # commentaires '# ...' tolérés en fin de ligne
+    out = {}
+    for key, v in json.loads(text).items():
+        tiles = {}
+        for xy, t in v.get("tiles", {}).items():
+            x, y = (int(n) for n in xy.split(","))
+            tiles[(x, y)] = int(t)
+        out[key.lower()] = {"tiles": tiles, "reviewed": v.get("reviewed")}
+    return out
+
+
+def format_report(entries, src):
+    lines = []
+    order = {"ECHEC": 0, "A VERIFIER": 1, "VERIFIE": 2}
+    for key, e in sorted(entries.items(), key=lambda kv: (order[kv[1]["status"]], kv[0])):
+        lines.append(f"[{e['status']}] {key}   (région {e['region']})")
+        lines.append(f"    fichier : {e['source']}")
+        lines.append(f"    en-tête : {e['header'][0]}x{e['header'][1]}   tuiles dans le fichier : {e['n_tiles']}"
+                     f"   taille utilisée : {e['size'][0]}x{e['size'][1]}")
+        if e.get("reviewed"):
+            lines.append(f"    vérifié : {e['reviewed']}")
+        fix_cells = []
+        for p in e["problems"]:
+            lines.append(f"    - {p['type']} : {p['message']}")
+            for c in p["cells"][:6]:
+                extra = f"  token {c['token']!r}" if c.get("token") else ""
+                if "voisins_solides" in c:
+                    extra += "  murs : " + ", ".join(f"{k}={'oui' if v else 'non'}"
+                                                      for k, v in c["voisins_solides"].items())
+                lines.append(f"        case x={c['x']}, y={c['y']}{extra}")
+                for row in c.get("context", []):
+                    lines.append("            " + row)
+                fix_cells.append(f'"{c["x"]},{c["y"]}": 0')
+            if len(p["cells"]) > 6:
+                lines.append(f"        ... et {len(p['cells']) - 6} autre(s) (voir report.json)")
+        if fix_cells:
+            lines.append(f'    pour corriger (fixes.json) : "{key}": {{"tiles": {{{", ".join(fix_cells)}}}}}'
+                         "   # 0 air, 1 solide, 2 pente, 3 sol, 4 raccourci")
+        lines.append(f"    pour voir la room : python convert_rooms.py {src} <sortie> --show {key}")
+        lines.append("")
+    return "\n".join(lines)
+
+
 def main():
-    src, dst = sys.argv[1], sys.argv[2]
-    report, trees = {}, {}
+    args = sys.argv[1:]
+    opt = lambda name: args[args.index(name) + 1] if name in args else None
+    src, dst = args[0], args[1]
+    # --fixes <fichier>, sinon 'fixes.json' dans le dossier courant s'il existe
+    fixes_path = opt("--fixes") or ("fixes.json" if os.path.exists("fixes.json") else None)
+    fixes = load_fixes(fixes_path)
+    if fixes_path:
+        print(f"corrections : {fixes_path} ({len(fixes)} room(s))")
+    show = opt("--show")
+    trees = {}
     for entry in sorted(os.scandir(src), key=lambda e: e.name):
         if entry.is_dir():
             trees[game_name(entry.name)] = collect(entry.path)
+
+    if show:
+        game, key = show.lower().split("/")
+        path, _ = trees[game][key]
+        room, problems = read_room(path, {k: v for k, v in fixes.get(show.lower(), {}).get("tiles", {}).items()})
+        print(f"{show}  {room['w']}x{room['h']}  ({path})")
+        show_room(room)
+        return
+
+    report, counts = {}, {}
     for game, rooms in trees.items():
-        index, done = {}, 0
+        index, done, bundles = {}, 0, {}
         for key, (path, region) in rooms.items():
-            room, problems = read_room(path)
+            fx = fixes.get(f"{game}/{key}", {})
+            room, problems = read_room(path, fx.get("tiles"))
+            rel = os.path.relpath(path, src)
             if room is None:
-                if not problems[0].startswith("IGNOREE"):
-                    report[f"{game}/{key}"] = {"status": "ECHEC", "problems": problems}
+                if problems[0]["type"] != "ignoree":
+                    report[f"{game}/{key}"] = {"status": "ECHEC", "region": region.upper(), "source": rel,
+                                               "header": [0, 0], "n_tiles": 0, "size": [0, 0],
+                                               "problems": problems}
                 continue
             data = extract(room)
             if data["broken_slopes"]:
-                problems.append(f"{len(data['broken_slopes'])} pente(s) sans orientation")
+                cells = []
+                for x, y in data["broken_slopes"]:
+                    solid = lambda dx, dy: terrain_at(room["tiles"], room["w"], room["h"], x + dx, y + dy) == SOLID
+                    nb = {k: solid(dx, dy) for k, (dx, dy) in
+                          {"gauche": (-1, 0), "droite": (1, 0), "haut": (0, -1), "bas": (0, 1)}.items()}
+                    cells.append({"x": x, "y": y, "context": snippet(room, x, y),
+                                  "token": None, "voisins_solides": nb})
+                problems.append(problem("pente_sans_orientation",
+                    f"{len(cells)} pente(s) que le jeu ne peut pas orienter (il faut un mur à gauche OU à droite, "
+                    "ET un mur au-dessus OU en dessous) : rien n'est dessiné", cells))
+            for p in problems:  # extrait pour les tuiles illisibles aussi
+                for c in p["cells"]:
+                    c.setdefault("context", snippet(room, c["x"], c["y"]))
             if not selfcheck(room, data):
-                problems.append("contours incohérents avec la grille (aire différente)")
+                problems.append(problem("aire_incoherente", "l'aire des contours ne correspond pas à la grille"))
             if problems:
-                report[f"{game}/{key}"] = {"status": "A VERIFIER", "problems": problems}
+                report[f"{game}/{key}"] = {
+                    "status": "VERIFIE" if fx.get("reviewed") else "A VERIFIER",
+                    "region": region.upper(), "source": rel, "reviewed": fx.get("reviewed"),
+                    "header": list(room["header"]), "n_tiles": room["n_tiles"],
+                    "size": [room["w"], room["h"]], "problems": problems}
             reg = region.upper()
-            os.makedirs(os.path.join(dst, game, reg), exist_ok=True)
-            with open(os.path.join(dst, game, reg, key + ".json"), "w") as out:
-                json.dump(data, out, separators=(",", ":"))
+            bundles.setdefault(reg, {})[key] = data
             index[key] = {"region": reg}
             if game != "vanilla" and key in trees.get("vanilla", {}):
                 index[key]["overrides"] = True
             done += 1
+        os.makedirs(os.path.join(dst, game), exist_ok=True)
+        for reg, content in bundles.items():
+            with open(os.path.join(dst, game, reg + ".json"), "w") as out:
+                json.dump(content, out, separators=(",", ":"))
         with open(os.path.join(dst, game, "index.json"), "w") as out:
             json.dump(index, out, indent=0)
+        counts[game] = done
         print(f"{game:9s}: {done} rooms converties")
+
+    summary = {"rooms": counts}
+    for st in ("ECHEC", "A VERIFIER", "VERIFIE"):
+        summary[st] = sum(1 for e in report.values() if e["status"] == st)
     with open(os.path.join(dst, "report.json"), "w") as out:
-        json.dump(report, out, indent=1, ensure_ascii=False)
-    print(f"{len(report)} signalée(s) -> {dst}/report.json")
+        json.dump({"summary": summary, "rooms": report}, out, indent=1, ensure_ascii=False)
+    with open(os.path.join(dst, "report.txt"), "w", encoding="utf-8") as out:
+        out.write(f"Résumé : {summary['ECHEC']} échec(s), {summary['A VERIFIER']} à vérifier, "
+                  f"{summary['VERIFIE']} vérifiée(s)\n\n" + format_report(report, src))
+    print(f"{summary['ECHEC']} échec(s), {summary['A VERIFIER']} à vérifier, "
+          f"{summary['VERIFIE']} vérifiée(s) -> {dst}/report.txt")
 
 
 if __name__ == "__main__":

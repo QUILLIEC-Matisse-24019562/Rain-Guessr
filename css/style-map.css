@@ -100,6 +100,21 @@ html, body {
   opacity: 0.1;
 }
 
+.room-geo {
+  transition: opacity 0.2s ease;
+}
+
+.room-group:hover .room-geo,
+.room-group.hovered .room-geo {
+  opacity: 0.85;
+  filter: brightness(1.2);
+}
+
+.room-group.selected .room-geo {
+  opacity: 0.95;
+  filter: brightness(1.4) drop-shadow(0 0 8px #f0f);
+}
+
 .room-group:hover .room-image {
   opacity: 0.85;
   filter: brightness(1.2);
@@ -211,5 +226,3 @@ html, body {
   r: 8;
   opacity: 0.8;
 }
-
-

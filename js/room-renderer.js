@@ -17,6 +17,13 @@ const RoomRenderer = {
     'H': '#ff6600',
   },
 
+  // Géométrie vectorielle (produite par convert_rooms.py)
+  GEOMETRY_BASE: '../json/geometry',
+  // Jeux utilisés, par ordre de priorité. Plus tard : ['downpour', 'vanilla']
+  // (une room Downpour remplace la room vanilla du même nom).
+  GEOMETRY_SETS: ['vanilla'],
+  geometry: {}, // { jeu: { REGION: { nom_de_room: géométrie } } }
+
   // Cache for loaded rooms
   roomsCache: {},
   regionPositions: {},
@@ -41,6 +48,7 @@ const RoomRenderer = {
         this.allRooms = precompiled.rooms;
         console.log(`Precompiled data loaded: ${precompiled.totalRooms} rooms`);
         console.log(`Regions available: ${Object.keys(this.allRooms).join(', ')}`);
+        await this.loadGeometry();
         return true;
       } else {
         console.log('Precompiled data is incomplete or empty');
@@ -51,11 +59,101 @@ const RoomRenderer = {
       this.usePrecompiled = false;
       await this.loadRegionPositions();
       await this.loadAllRoomMetadata();
+      await this.loadGeometry();
       return true;
     } catch (error) {
       console.error('Failed to initialize Room Renderer:', error);
       return false;
     }
+  },
+
+  /**
+   * Charge les fichiers de géométrie : un fichier par région et par jeu.
+   * Un fichier absent n'est pas une erreur (la room garde son cadre vert).
+   */
+  async loadGeometry() {
+    const regions = Object.keys(this.allRooms);
+    const jobs = [];
+    for (const set of this.GEOMETRY_SETS) {
+      this.geometry[set] = {};
+      for (const region of regions) {
+        jobs.push(
+          fetch(`${this.GEOMETRY_BASE}/${set}/${region.toUpperCase()}.json`)
+            .then(r => (r.ok ? r.json() : null))
+            .then(data => { if (data) this.geometry[set][region.toUpperCase()] = data; })
+            .catch(() => {})
+        );
+      }
+    }
+    await Promise.all(jobs);
+    const n = Object.values(this.geometry)
+      .flatMap(byRegion => Object.values(byRegion))
+      .reduce((sum, rooms) => sum + Object.keys(rooms).length, 0);
+    console.log(`Geometry loaded: ${n} rooms`);
+  },
+
+  /**
+   * Géométrie d'une room, ou null. Clé = nom complet en minuscules (ex: "cc_a02").
+   */
+  getGeometry(roomData) {
+    const key = (roomData.fullName || `${roomData.regionCode}_${roomData.name}`).toLowerCase();
+    for (const set of this.GEOMETRY_SETS) {
+      const byRegion = this.geometry[set] || {};
+      // la région du fichier n'est pas toujours le préfixe du nom : on cherche partout
+      const own = byRegion[(roomData.regionCode || '').toUpperCase()];
+      if (own && own[key]) return own[key];
+      for (const rooms of Object.values(byRegion)) if (rooms[key]) return rooms[key];
+    }
+    return null;
+  },
+
+  /**
+   * Construit le dessin SVG d'une room à partir de sa géométrie.
+   * Les coordonnées du JSON sont en tuiles ; on les multiplie par TILE_SIZE.
+   */
+  buildGeometryGroup(geo, worldX, worldY) {
+    const NS = 'http://www.w3.org/2000/svg';
+    const T = this.TILE_SIZE;
+    const make = (tag, attrs) => {
+      const el = document.createElementNS(NS, tag);
+      for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
+      return el;
+    };
+    const g = make('g', { class: 'room-geo', transform: `translate(${worldX} ${worldY})` });
+
+    // Contour de la room (discret, utile pour voir les limites)
+    g.appendChild(make('rect', {
+      class: 'geo-bounds', x: 0, y: 0, width: geo.w * T, height: geo.h * T,
+      fill: 'none', stroke: '#0f0', 'stroke-opacity': '0.35', 'stroke-width': 1
+    }));
+
+    // Murs : un seul <path>, 'evenodd' pour que les trous restent vides
+    if (geo.solid.length) {
+      const d = geo.solid
+        .map(poly => 'M' + poly.map(([x, y]) => `${x * T} ${y * T}`).join('L') + 'Z')
+        .join('');
+      g.appendChild(make('path', { class: 'geo-solid', d, 'fill-rule': 'evenodd', fill: '#555' }));
+    }
+
+    // Segments (sols traversables, poteaux) : un seul <path> par type
+    const lines = (segs, cls, stroke, width) => {
+      if (!segs.length) return;
+      const d = segs.map(([x1, y1, x2, y2]) => `M${x1 * T} ${y1 * T}L${x2 * T} ${y2 * T}`).join('');
+      g.appendChild(make('path', {
+        class: cls, d, fill: 'none', stroke, 'stroke-width': width, 'stroke-linecap': 'butt'
+      }));
+    };
+    lines(geo.floors, 'geo-floor', '#d8b43c', 3);
+    lines(geo.poles_v, 'geo-pole', '#78c8ff', 2);
+    lines(geo.poles_h, 'geo-pole', '#78c8ff', 2);
+
+    // Entrées de raccourcis
+    if (geo.shortcuts.length) {
+      const d = geo.shortcuts
+        .map(([x, y]) => `M${x * T + 3} ${y * T + 3}h${T - 6}v${T - 6}h${6 - T}Z`).join('');
+      g.appendChild(make('path', { class: 'geo-shortcut', d, fill: '#ff50c8' }));
+    }
+    return g;
   },
 
   /**
@@ -318,12 +416,26 @@ const RoomRenderer = {
       worldY = (regionPos.y + roomData.position.y) * this.TILE_SIZE;
     }
 
-    // Render to canvas
-    const canvas = this.renderRoomToCanvas(roomData);
-    if (!canvas) return null;
-
-    // Convert canvas to data URL
-    const dataUrl = canvas.toDataURL('image/png');
+    // Géométrie vectorielle si disponible, sinon l'ancien cadre vert (canvas)
+    const geo = this.getGeometry(roomData);
+    let pxW, pxH, drawing;
+    if (geo) {
+      pxW = geo.w * this.TILE_SIZE;
+      pxH = geo.h * this.TILE_SIZE;
+      drawing = this.buildGeometryGroup(geo, worldX, worldY);
+    } else {
+      const canvas = this.renderRoomToCanvas(roomData);
+      if (!canvas) return null;
+      pxW = canvas.width;
+      pxH = canvas.height;
+      drawing = document.createElementNS('http://www.w3.org/2000/svg', 'image');
+      drawing.setAttribute('x', worldX.toString());
+      drawing.setAttribute('y', worldY.toString());
+      drawing.setAttribute('width', pxW.toString());
+      drawing.setAttribute('height', pxH.toString());
+      drawing.setAttribute('href', canvas.toDataURL('image/png'));
+      drawing.setAttribute('class', 'room-image');
+    }
 
     // Create a group for this room
     const roomGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
@@ -332,33 +444,24 @@ const RoomRenderer = {
     roomGroup.setAttribute('data-region', roomData.regionCode);
     roomGroup.setAttribute('data-pos-x', worldX);
     roomGroup.setAttribute('data-pos-y', worldY);
-    roomGroup.setAttribute('data-width', canvas.width);
-    roomGroup.setAttribute('data-height', canvas.height);
-
-    // Create image element
-    const image = document.createElementNS('http://www.w3.org/2000/svg', 'image');
-    image.setAttribute('x', worldX.toString());
-    image.setAttribute('y', worldY.toString());
-    image.setAttribute('width', canvas.width.toString());
-    image.setAttribute('height', canvas.height.toString());
-    image.setAttribute('href', dataUrl);
-    image.setAttribute('class', 'room-image');
-    roomGroup.appendChild(image);
+    roomGroup.setAttribute('data-width', pxW);
+    roomGroup.setAttribute('data-height', pxH);
+    roomGroup.appendChild(drawing);
 
     // Add invisible rect for hit detection
     const hitRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
     hitRect.setAttribute('x', worldX.toString());
     hitRect.setAttribute('y', worldY.toString());
-    hitRect.setAttribute('width', canvas.width.toString());
-    hitRect.setAttribute('height', canvas.height.toString());
+    hitRect.setAttribute('width', pxW.toString());
+    hitRect.setAttribute('height', pxH.toString());
     hitRect.setAttribute('fill', 'transparent');
     hitRect.setAttribute('class', 'room-hit-area');
     roomGroup.appendChild(hitRect);
 
     // Add room label
     const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    label.setAttribute('x', (worldX + canvas.width / 2).toString());
-    label.setAttribute('y', (worldY + canvas.height / 2).toString());
+    label.setAttribute('x', (worldX + pxW / 2).toString());
+    label.setAttribute('y', (worldY + pxH / 2).toString());
     label.setAttribute('text-anchor', 'middle');
     label.setAttribute('dy', '0.3em');
     label.setAttribute('fill', '#0f0');
@@ -475,4 +578,3 @@ const RoomRenderer = {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = RoomRenderer;
 }
-
