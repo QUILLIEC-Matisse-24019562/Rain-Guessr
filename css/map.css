@@ -129,6 +129,25 @@ html, body {
     width: 100%;
 }
 
+#btn-mode {
+    pointer-events: all;
+    cursor: pointer;
+    padding: 5px 12px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.25);
+    color: rgba(255,255,255,0.6);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#btn-mode.hard {
+    border-color: #ff4444;
+    color: #ff4444;
+}
+
 #btn-validate:disabled {
     cursor: not-allowed;
 }

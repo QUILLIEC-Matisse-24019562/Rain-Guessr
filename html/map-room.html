@@ -33,6 +33,7 @@
             <span id="selection-label">ROOM :</span>
             <span id="selected-room-name">—</span>
         </div>
+        <button id="btn-mode" onclick="toggleMode()" title="Normal : extraits visibles. Difficile : extraits totalement aléatoires (peuvent être noirs)">MODE : NORMAL</button>
         <button id="btn-validate" disabled onclick="onValidate()">VALIDER</button>
     </div>
 
@@ -80,6 +81,24 @@
                 await newRound();
             }
         }
+
+        // ── Mode : NORMAL (extraits visibles) / DIFFICILE (extraits 100 % aléatoires) ──
+        function updateModeButton() {
+            const btn  = document.getElementById("btn-mode");
+            const hard = window.gameMode === "hard";
+            btn.textContent = hard ? "MODE : DIFFICILE" : "MODE : NORMAL";
+            btn.classList.toggle("hard", hard);
+        }
+
+        async function toggleMode() {
+            setGameMode(window.gameMode === "hard" ? "normal" : "hard");
+            updateModeButton();
+            // Le changement s'applique tout de suite : nouvelle manche dans le nouveau mode
+            if (window.gameActive) await newRound();
+        }
+
+        // game.js (defer) a déjà lu le mode sauvegardé quand DOMContentLoaded se déclenche
+        window.addEventListener("DOMContentLoaded", updateModeButton);
 
         async function newRound() {
             // Reset UI state for a fresh round
