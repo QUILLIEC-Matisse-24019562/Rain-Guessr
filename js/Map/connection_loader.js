@@ -55,7 +55,7 @@ async function loadConnections(region, regionPosCache) {
 
             if (roomB.startsWith('gate_')) continue;
 
-            const [tileX, tileY] = posStr.split('x').map(Number);
+            const [tileX, tileY] = posStr.toLowerCase().split('x').map(Number); // accepte aussi "22X197"
 
             // Swap X/Y: coordinate system is rotated 90°CW + vflip vs map space
             const mapTileX = tileY;

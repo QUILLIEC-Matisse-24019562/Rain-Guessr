@@ -9,7 +9,7 @@ let gl;
 let canvas;
 let shaderProgram;
 let positionAttribute;
-let uTranslate, uScale, uViewport;
+let uTranslate, uScale, uViewport, uColor;
 
 const allSegments      = []; // all WebGL geometry buffers
 const storedConnections = []; // all connection data for redraw
@@ -68,8 +68,10 @@ function initRender() {
         }
     `;
     const fragmentShaderSource = `
+        precision mediump float;
+        uniform vec4 u_color;
         void main() {
-            gl_FragColor = vec4(1, 0, 0, 1);
+            gl_FragColor = u_color;
         }
     `;
 
@@ -97,6 +99,7 @@ function initRender() {
     uTranslate = gl.getUniformLocation(shaderProgram, "u_translate");
     uScale     = gl.getUniformLocation(shaderProgram, "u_scale");
     uViewport  = gl.getUniformLocation(shaderProgram, "u_viewport");
+    uColor     = gl.getUniformLocation(shaderProgram, "u_color");
     gl.enableVertexAttribArray(positionAttribute);
     gl.viewport(0, 0, canvas.width, canvas.height);
 
@@ -111,18 +114,27 @@ function setRenderTransform(mapOffsetX, mapOffsetY, scale) {
     gl.uniform2f(uViewport,  canvas.width, canvas.height);
 }
 
-function renderRoom(segments) {
+// segments : [{x1,y1,x2,y2}] en coordonnées carte (tuiles, y vers le haut)
+// color    : [r,g,b,a] (0..1) — rouge par défaut comme avant
+function renderRoom(segments, color = [1, 0, 0, 1]) {
     if (!shaderProgram) { console.error("renderRoom called before initRender"); return; }
 
-    const flatVertices = new Float32Array(
-        segments.flatMap(s => [s.x1, s.y1, s.x2, s.y2])
-    );
+    const flatVertices = new Float32Array(segments.length * 4);
+    for (let i = 0; i < segments.length; i++) {
+        const s = segments[i];
+        flatVertices[i * 4]     = s.x1;
+        flatVertices[i * 4 + 1] = s.y1;
+        flatVertices[i * 4 + 2] = s.x2;
+        flatVertices[i * 4 + 3] = s.y2;
+    }
 
     const buf = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, buf);
     gl.bufferData(gl.ARRAY_BUFFER, flatVertices, gl.STATIC_DRAW);
-    allSegments.push({ buf, count: flatVertices.length / 2 });
+    allSegments.push({ buf, count: flatVertices.length / 2, color });
 
+    gl.useProgram(shaderProgram);
+    gl.uniform4fv(uColor, color);
     gl.vertexAttribPointer(positionAttribute, 2, gl.FLOAT, false, 0, 0);
     gl.drawArrays(gl.LINES, 0, flatVertices.length / 2);
 }
@@ -131,14 +143,15 @@ function redraw() {
     if (!gl || !shaderProgram) return;
     gl.clear(gl.COLOR_BUFFER_BIT);
     gl.useProgram(shaderProgram);
-    for (const { buf, count } of allSegments) {
+    for (const { buf, count, color } of allSegments) {
+        gl.uniform4fv(uColor, color);
         gl.bindBuffer(gl.ARRAY_BUFFER, buf);
         gl.vertexAttribPointer(positionAttribute, 2, gl.FLOAT, false, 0, 0);
         gl.drawArrays(gl.LINES, 0, count);
     }
     redrawConnections();
-    // Redraw persistent selection highlight on top
-    if (window.selectedRoom) renderSelectionHighlight(window.selectedRoom);
+    // Redraw persistent overlays (selection + located room) on top
+    refreshOverlay();
 }
 
 // ---------------------------------------------------------------------------
@@ -181,6 +194,23 @@ function drawRoomRect(ctx, roomKey, color, lineWidth, labelColor) {
     }
 }
 
+// ── Located room (cyan, set from the console with locateRoom(), see room_locate.js) ──
+window.locatedRoom = null;
+
+function drawLocated(ctx) {
+    if (window.locatedRoom) drawRoomRect(ctx, window.locatedRoom, "#00e5ff", 3, "#00e5ff");
+}
+
+// Clears the overlay and redraws every persistent highlight
+function refreshOverlay() {
+    const overlay = document.getElementById("canvas-overlay");
+    if (!overlay) return;
+    const ctx = overlay.getContext("2d");
+    ctx.clearRect(0, 0, overlay.width, overlay.height);
+    if (window.selectedRoom) drawRoomRect(ctx, window.selectedRoom, "#ff8800", 2.5, "#ff8800");
+    drawLocated(ctx);
+}
+
 // ── Hover highlight (green, temporary) ──────────────────────────────────────
 function renderBoundaryHighlight(roomKey) {
     const overlay = document.getElementById("canvas-overlay");
@@ -194,6 +224,7 @@ function renderBoundaryHighlight(roomKey) {
     if (window.selectedRoom && window.selectedRoom !== roomKey) {
         drawRoomRect(ctx, window.selectedRoom, "#ff8800", 2.5, "#ff8800");
     }
+    drawLocated(ctx);
 }
 
 function clearHighlight() {
@@ -206,6 +237,7 @@ function clearHighlight() {
     if (window.selectedRoom) {
         drawRoomRect(ctx, window.selectedRoom, "#ff8800", 2.5, "#ff8800");
     }
+    drawLocated(ctx);
 }
 
 // ── Selection highlight (orange, persistent) ─────────────────────────────────
@@ -215,13 +247,16 @@ function renderSelectionHighlight(roomKey) {
     const ctx = overlay.getContext("2d");
     ctx.clearRect(0, 0, overlay.width, overlay.height);
     drawRoomRect(ctx, roomKey, "#ff8800", 2.5, "#ff8800");
+    drawLocated(ctx);
 }
 
 function clearSelection() {
     window.selectedRoom = null;
     const overlay = document.getElementById("canvas-overlay");
     if (!overlay) return;
-    overlay.getContext("2d").clearRect(0, 0, overlay.width, overlay.height);
+    const ctx = overlay.getContext("2d");
+    ctx.clearRect(0, 0, overlay.width, overlay.height);
+    drawLocated(ctx);
 }
 
 // ── Connections ───────────────────────────────────────────────────────────────
